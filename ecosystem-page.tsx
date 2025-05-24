@@ -682,7 +682,7 @@ export default function EcosystemPage() {
   }
 
   return (
-    <div className="min-h-screen bg-green text-black">
+    <div className="min-h-screen bg-black text-white">
       {/* Header */}
       <header className="border-b border-gray-800 px-6 py-4">
         <div className="mx-auto max-w-7xl flex items-center justify-between">
