@@ -838,13 +838,7 @@ export default function EcosystemPage() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white"
-     style={{
-      backgroundImage: "url(https://pbs.twimg.com/media/Gra9NJ1X0AAGSzY?format=jpg&name=4096x4096)",
-      backgroundSize: "85%",
-      backgroundPosition: "center",
-      backgroundRepeat: "repeat",
-      }}>
+    <div className="min-h-screen bg-black text-white">
       {/* Header */}
       <header className="border-b border-gray-800 px-6 py-4">
         <div className="mx-auto max-w-7xl flex items-center justify-between">
