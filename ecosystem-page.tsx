@@ -841,7 +841,7 @@ export default function EcosystemPage() {
     <div className="min-h-screen bg-black text-white"
      style={{
       backgroundImage: "url(https://pbs.twimg.com/media/Gra9NJ1X0AAGSzY?format=jpg&name=4096x4096)",
-      backgroundSize: "72%",
+      backgroundSize: "85%",
       backgroundPosition: "center",
       backgroundRepeat: "repeat",
       }}>
