@@ -124,7 +124,7 @@ const projects = [
     name: "LiquidLaunch",
     description:
       "Create tokens and agents effortlessly, trade for profits seamlessly, all without writing a single line of code!",
-    category: "DEX",
+    category: "Launchpad",
     status: "Live",
     website: "https://liquidlaunch.app/",
     tags: ["Launchpad", "DEX Aggregator"],
@@ -217,7 +217,7 @@ const projects = [
     id: 32,
     name: "Jumper Exchange",
     description: "Crypto's Everything Exchange",
-    category: "Bridge",
+    category: "DEX",
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["DEX", "Bridge"],
@@ -859,7 +859,6 @@ export default function EcosystemPage() {
         return "bg-gray-500/20 text-gray-400 border-gray-500/30"
     }
   }
-
   return (
     <div className="min-h-screen bg-black text-white">
       <video
