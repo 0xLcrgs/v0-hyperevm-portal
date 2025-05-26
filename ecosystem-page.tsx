@@ -34,25 +34,46 @@ const projects = [
   },
   {
     id: 3,
-    name: "Harmonix Finance",
-    description:
-      "Harmonix Finance is a DeFi platform that transforms sophisticated hedge fund strategies into accessible and easy-to-use automated vaults, allowing users to optimize returns through various curated investment strategies.",
-    category: "Yield",
-    status: "Live",
-    website: "https://app.harmonix.fi/?ref=Bv2S47vd",
-    tags: ["Yield", "Vaults"],
-    logo: "https://pbs.twimg.com/profile_images/1795360456686837760/dAl7G6dh_400x400.png",
-  },
-  {
-    id: 4,
     name: "Felix",
     description:
       "Felix is a suite of on-chain borrowing and lending products running on Hyperliquid L1. Our goal is to let anyone unlock liquidity or earn yield in a secure, risk-adjusted, and friction-free way.",
     category: "Lending",
     status: "Live",
     website: "https://usefelix.xyz?ref=18935567",
-    tags: ["Lending", "Borrowing"],
+    tags: ["Lending", "Borrowing", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
+  },
+  {
+    id: 7,
+    name: "HyperLend",
+    description:
+      "HyperLend is a high-performance lending protocol on Hyperliquid EVM, built for capital efficiency. It offers real-time leverage, dynamic rates, and deep liquidity",
+    category: "Lending",
+    status: "Live",
+    website: "https://app.hyperlend.finance/?ref=0XLCRGS",
+    tags: ["Lending", "Borrowing"],
+    logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
+  },
+  {
+    id: 9,
+    name: "HypurrFi",
+    description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
+    category: "Lending",
+    status: "Live",
+    website: "https://app.hypurr.fi/",
+    tags: ["Lending", "Borrowing", "CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
+  },
+  {
+    id: 4,
+    name: "Harmonix Finance",
+    description:
+      "Harmonix Finance is a DeFi platform that transforms sophisticated hedge fund strategies into accessible and easy-to-use automated vaults, allowing users to optimize returns through various curated investment strategies.",
+    category: "Yield",
+    status: "Live",
+    website: "https://app.harmonix.fi/?ref=Bv2S47vd",
+    tags: ["Yield", "Vaults", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1795360456686837760/dAl7G6dh_400x400.png",
   },
   {
     id: 5,
@@ -62,7 +83,7 @@ const projects = [
     category: "Yield",
     status: "Live",
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
-    tags: ["Yield", "Scaling"],
+    tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
   },
   {
@@ -73,94 +94,8 @@ const projects = [
     category: "Yield",
     status: "Live",
     website: "https://app.upshift.finance/r/dEc4C8A42A98",
-    tags: ["Yield", "Institutional"],
+    tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1853600042952663040/AwOMmTi1_400x400.jpg",
-  },
-  {
-    id: 7,
-    name: "HyperLend",
-    description:
-      "HyperLend is a high-performance lending protocol on Hyperliquid EVM, built for capital efficiency. It offers real-time leverage, dynamic rates, and deep liquidity",
-    category: "Lending",
-    status: "Live",
-    website: "https://app.hyperlend.finance/?ref=0XLCRGS",
-    tags: ["Lending", "Leverage"],
-    logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
-  },
-  {
-    id: 8,
-    name: "Hyperpie",
-    description:
-      "Hyperpie is an integrated DeFi ecosystem built on Hypercore, composed of a Liquid Staking platform, a meme launchpad, and a meme DEX.",
-    category: "LST",
-    status: "Live",
-    website: "https://www.hyperliquid.magpiexyz.io/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
-    tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1896957468963450884/5pbFwUx8_400x400.jpg",
-  },
-  {
-    id: 9,
-    name: "HypurrFi",
-    description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
-    category: "Lending",
-    status: "Live",
-    website: "https://app.hypurr.fi/",
-    tags: ["Lending", "Leverage"],
-    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
-  },
-  {
-    id: 10,
-    name: "Laminar",
-    description:
-      "Laminar is a liquidity engine and aggregator connecting disparate liquidity on both HyperEVM and HyperCore to provide simple, optimally priced swaps.",
-    category: "DEX",
-    status: "Live",
-    website: "https://laminar.xyz/",
-    tags: ["DEX", "Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
-  },
-  {
-    id: 11,
-    name: "Hyperstable",
-    description:
-      "Hyperstable is a crypto-backed, over-collateralized and decentralized stablecoin that's designed to trade at one US Dollar. Built on HyperEVM.",
-    category: "Lending",
-    status: "Live",
-    website: "https://app.hyperstable.xyz/r/0xLcrgs",
-    tags: ["Lending", "Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
-  },
-  {
-    id: 12,
-    name: "HyperYield",
-    description: "Lend, Borrow, Earn at Hyper Speed on HyperLiquid L1",
-    category: "Lending",
-    status: "Live",
-    website: "https://app.hyperyield.com/",
-    tags: ["Lending", "Borrowing"],
-    logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
-  },
-  {
-    id: 13,
-    name: "Keiko Finance",
-    description:
-      "Keiko is a permissionless borrowing protocol with dynamic interest rates and liquidation ratios on Hyperliquid",
-    category: "Lending",
-    status: "Live",
-    website: "https://app.keikofinance.com/#",
-    tags: ["Lending", "Dynamic Rates"],
-    logo: "https://pbs.twimg.com/profile_images/1857058088391454720/NtVLHJ1C_400x400.jpg",
-  },
-  {
-    id: 14,
-    name: "Timeswap",
-    description:
-      "Timeswap is the first oracleless lending/borrowing protocol. Timeswap enables the creation of money markets for ANY ERC-20 tokens",
-    category: "Lending",
-    status: "Live",
-    website: "https://app.timeswap.io/markets",
-    tags: ["Lending"],
-    logo: "https://pbs.twimg.com/profile_images/1879076220106678272/ZkkhrcyV_400x400.jpg",
   },
   {
     id: 15,
@@ -174,36 +109,69 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1882460229184471040/eIGqevUG_400x400.jpg",
   },
   {
+    id: 8,
+    name: "Hyperpie",
+    description:
+      "Hyperpie is an integrated DeFi ecosystem built on Hypercore, composed of a Liquid Staking platform, a meme launchpad, and a meme DEX.",
+    category: "LST",
+    status: "Live",
+    website: "https://www.hyperliquid.magpiexyz.io/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
+    tags: ["LST"],
+    logo: "https://pbs.twimg.com/profile_images/1896957468963450884/5pbFwUx8_400x400.jpg",
+  },
+  {
     id: 16,
     name: "LiquidLaunch",
     description:
       "Create tokens and agents effortlessly, trade for profits seamlessly, all without writing a single line of code!",
-    category: "Launchpad",
+    category: "DEX",
     status: "Live",
     website: "https://liquidlaunch.app/",
-    tags: ["Launchpad", "DEX"],
+    tags: ["Launchpad", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1877771333280444416/fxGPn3G4_400x400.png",
   },
   {
-    id: 17,
-    name: "Octis",
+    id: 10,
+    name: "Laminar",
     description:
-      "Octis Divers is the first revenue-sharing NFT on Hyperliquid. Holders earn a share of revenue from the on-chain game 808FLIP, which charges a 4% fee per game.",
-    category: "Other",
+      "Laminar is a liquidity engine and aggregator connecting disparate liquidity on both HyperEVM and HyperCore to provide simple, optimally priced swaps.",
+    category: "DEX",
     status: "Live",
-    website: "https://octis.ai/flip?r=000002HM",
-    tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1880178279199698946/m3cs6Ds3_400x400.jpg",
+    website: "https://laminar.xyz/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
   },
   {
-    id: 18,
-    name: "Okto",
-    description: "Hyperliquid Core and HyperEVM integrated mobile wallet",
-    category: "Wallet",
+    id: 11,
+    name: "Hyperstable",
+    description:
+      "Hyperstable is a crypto-backed, over-collateralized and decentralized stablecoin that's designed to trade at one US Dollar. Built on HyperEVM.",
+    category: "Lending",
     status: "Live",
-    website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
-    tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
+    website: "https://app.hyperstable.xyz/r/0xLcrgs",
+    tags: ["Lending", "CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
+  },
+  {
+    id: 13,
+    name: "Keiko Finance",
+    description:
+      "Keiko is a permissionless borrowing protocol with dynamic interest rates and liquidation ratios on Hyperliquid",
+    category: "Lending",
+    status: "Live",
+    website: "https://app.keikofinance.com/#",
+    tags: ["Lending", "CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1857058088391454720/NtVLHJ1C_400x400.jpg",
+  },
+  {
+    id: 12,
+    name: "HyperYield",
+    description: "Lend, Borrow, Earn at Hyper Speed on HyperLiquid L1",
+    category: "Lending",
+    status: "Live",
+    website: "https://app.hyperyield.com/",
+    tags: ["Lending", "Borrowing"],
+    logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
   },
   {
     id: 19,
@@ -246,6 +214,114 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1890184998445047808/qgsh4B97_400x400.jpg",
   },
   {
+    id: 32,
+    name: "Jumper Exchange",
+    description: "Crypto's Everything Exchange",
+    category: "Bridge",
+    status: "Live",
+    website: "https://jumper.exchange/",
+    tags: ["DEX", "Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1889316674383282176/ulV41xZ7_400x400.jpg",
+  },
+  {
+    id: 33,
+    name: "The Hyperliquid Bridge",
+    description:
+      "The Hyperliquid Bridge is a dedicated bridge frontend for transferring your assets into HyperEVM and HyperCore from 120+ other blockchains",
+    category: "Bridge",
+    status: "Live",
+    website: "https://www.thehyperliquidbridge.xyz/transfer",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1779646801605242880/FrFssPAQ_400x400.jpg",
+  },
+  {
+    id: 70,
+    name: "Relay",
+    description:
+      "Instant, low-cost swapping, bridging and cross-chain execution on 80+ chains & counting. Built by Reservoir",
+    category: "Bridge",
+    status: "Live",
+    website: "https://relay.link/bridge",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1753515078316355584/uT6CssGo_400x400.jpg",
+  },
+  {
+    id: 34,
+    name: "Dextrabot",
+    description:
+      "Discover profitable traders, analyze their performance, and automatically copy their strategies with customizable risk settings.",
+    category: "Bot",
+    status: "Live",
+    website: "https://app.dextrabot.com/referral/0XLCRGS",
+    tags: ["Bot", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1858644852365275136/EpQL8Nkb_400x400.jpg",
+  },
+  {
+    id: 35,
+    name: "D2 Finance",
+    description:
+      "D2 Finance is tokenizing real risk-adjusted returns / derivatives trades with a proven track record on-chain.",
+    category: "Yield",
+    status: "Live",
+    website: "https://d2.finance/",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1765931135308115968/f_4LkxDr_400x400.jpg",
+  },
+  {
+    id: 36,
+    name: "Hyperdrive",
+    description:
+      "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
+    category: "Lending",
+    status: "Coming Soon",
+    website: "https://hyperdrive.fi/",
+    tags: ["Lending", "Borrowing"],
+    logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
+  },
+  {
+    id: 37,
+    name: "Kinetiq",
+    description: "Powering Liquid Staking on Hyperliquid.",
+    category: "LST",
+    status: "Coming Soon",
+    website: "https://kinetiq.xyz/",
+    tags: ["LST"],
+    logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
+  },
+  {
+    id: 38,
+    name: "Liminal",
+    description:
+      "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
+    category: "Yield",
+    status: "Beta",
+    website: "https://liminal.money/",
+    tags: ["Yield", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1894761111565533184/M0eLKU1u_400x400.jpg",
+  },
+  {
+    id: 39,
+    name: "Valantis",
+    description:
+      "An AMM designed specifically for LSTs, built around stHYPE. Never depegs, integrated natively with staking contracts, and assets earn extra yield on Hyperlend.",
+    category: "LST",
+    status: "Live",
+    website: "https://www.valantis.xyz/",
+    tags: ["LST", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
+  },
+  {
+    id: 40,
+    name: "Across Protocol",
+    description:
+      "Across is an interoperability protocol powered by intents. It is the only cross-chain intents protocol in production today, enabling the fastest and lowest-cost way to transfer value without security tradeoffs vs. traditional bridges.",
+    category: "Bridge",
+    status: "Live",
+    website: "https://app.across.to/bridge",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1886903904874512384/wnRMhfef_400x400.jpg",
+  },
+  {
     id: 23,
     name: "Hyperliquid Names",
     description: "Your digital identity in the fast lane of DeFi.",
@@ -284,8 +360,82 @@ const projects = [
     category: "Yield",
     status: "Live",
     website: "https://app.napier.finance/",
-    tags: ["Yield"],
+    tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1665336093611290625/uUmS2hoy_400x400.jpg",
+  },
+  {
+    id: 14,
+    name: "Timeswap",
+    description:
+      "Timeswap is the first oracleless lending/borrowing protocol. Timeswap enables the creation of money markets for ANY ERC-20 tokens",
+    category: "Lending",
+    status: "Live",
+    website: "https://app.timeswap.io/markets",
+    tags: ["Lending"],
+    logo: "https://pbs.twimg.com/profile_images/1879076220106678272/ZkkhrcyV_400x400.jpg",
+  },
+  {
+    id: 18,
+    name: "Okto",
+    description: "Hyperliquid Core and HyperEVM integrated mobile wallet",
+    category: "Wallet",
+    status: "Live",
+    website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
+  },
+  {
+    id: 53,
+    name: "Purrsec",
+    description: "Parsec's HyperEVM exclusive Block Explorer",
+    category: "Tools",
+    status: "Live",
+    website: "https://purrsec.com/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1407856708261646338/ODpD974X_400x400.jpg",
+  },
+  {
+    id: 54,
+    name: "HypurrScan",
+    description: "Explorer for Hyperliquid Core",
+    category: "Tools",
+    status: "Live",
+    website: "https://hypurrscan.io/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1859964342466207744/lPYHxw87_400x400.jpg",
+  },
+  {
+    id: 49,
+    name: "pvp.trade",
+    description:
+      "pvp.trade is a Telegram bot you can add to your trading groups. Once added, you and your group members can track each others' positions and place trades in real-time. Share alpha, copy, or countertrade your friends, all in the comfort of your existing Telegram group.",
+    category: "Bot",
+    status: "Live",
+    website: "https://pvp.trade/join/tb3b3s",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1811823687273754624/Qf6hsnsI_400x400.jpg",
+  },
+  {
+    id: 50,
+    name: "HypurrFun",
+    description:
+      "Launch and trade memecoins on Hyperliquid with a few clicks, directly from Telegram. Snipe new launches, access whale chats, and compete with other cabals.",
+    category: "Bot",
+    status: "Live",
+    website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
+  },
+  {
+    id: 17,
+    name: "Octis",
+    description:
+      "Octis Divers is the first revenue-sharing NFT on Hyperliquid. Holders earn a share of revenue from the on-chain game 808FLIP, which charges a 4% fee per game.",
+    category: "NFT",
+    status: "Live",
+    website: "https://octis.ai/flip?r=000002HM",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1880178279199698946/m3cs6Ds3_400x400.jpg",
   },
   {
     id: 27,
@@ -308,166 +458,6 @@ const projects = [
     website: "https://app.sentiment.xyz?refCode=dcb722ec69",
     tags: ["Lending"],
     logo: "https://pbs.twimg.com/profile_images/1777846348735537152/7-y3mdE0_400x400.jpg",
-  },
-  {
-    id: 29,
-    name: "Supurr",
-    description: "Trade supurr short-dated options",
-    category: "DEX",
-    status: "Live",
-    website: "https://trade.supurr.app/#/ref/0xlcrgs/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1884280601793929218/mcI9hEhQ_400x400.jpg",
-  },
-  {
-    id: 30,
-    name: "SuperHype",
-    description: "HyperEVM token launchpad and AMM DEX",
-    category: "Launchpad",
-    status: "Live",
-    website: "https://www.superhype.app/",
-    tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1892409289467138048/PrC-uVqt_400x400.jpg",
-  },
-  {
-    id: 31,
-    name: "Sunder Finance",
-    description:
-      "Sunder Finance is a groundbreaking decentralized finance (DeFi) platform designed to redefine what's possible on the Hyperliquid.",
-    category: "DEX",
-    status: "Live",
-    website: "https://www.sunder.finance/swap",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1879801454795575296/xM9D_mFK_400x400.jpg",
-  },
-  {
-    id: 32,
-    name: "Jumper Exchange",
-    description: "Crypto's Everything Exchange",
-    category: "Bridge",
-    status: "Live",
-    website: "https://jumper.exchange/",
-    tags: ["DEX", "Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1889316674383282176/ulV41xZ7_400x400.jpg",
-  },
-  {
-    id: 33,
-    name: "The Hyperliquid Bridge",
-    description:
-      "The Hyperliquid Bridge is a dedicated bridge frontend for transferring your assets into HyperEVM and HyperCore from 120+ other blockchains",
-    category: "Bridge",
-    status: "Live",
-    website: "https://www.thehyperliquidbridge.xyz/transfer",
-    tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1779646801605242880/FrFssPAQ_400x400.jpg",
-  },
-  {
-    id: 34,
-    name: "Dextrabot",
-    description:
-      "Discover profitable traders, analyze their performance, and automatically copy their strategies with customizable risk settings.",
-    category: "Bot",
-    status: "Live",
-    website: "https://app.dextrabot.com/referral/0XLCRGS",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1858644852365275136/EpQL8Nkb_400x400.jpg",
-  },
-  {
-    id: 35,
-    name: "D2 Finance",
-    description:
-      "D2 Finance is tokenizing real risk-adjusted returns / derivatives trades with a proven track record on-chain.",
-    category: "Yield",
-    status: "Live",
-    website: "https://d2.finance/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1765931135308115968/f_4LkxDr_400x400.jpg",
-  },
-  {
-    id: 36,
-    name: "Hyperdrive",
-    description:
-      "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
-    category: "Lending",
-    status: "Coming Soon",
-    website: "https://hyperdrive.fi/",
-    tags: ["Lending"],
-    logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
-  },
-  {
-    id: 37,
-    name: "Kinetiq",
-    description: "Powering Liquid Staking on Hyperliquid.",
-    category: "LST",
-    status: "Coming Soon",
-    website: "https://kinetiq.xyz/",
-    tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
-  },
-  {
-    id: 38,
-    name: "Liminal",
-    description:
-      "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
-    category: "Yield",
-    status: "Beta",
-    website: "https://liminal.money/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1894761111565533184/M0eLKU1u_400x400.jpg",
-  },
-  {
-    id: 39,
-    name: "Valantis",
-    description:
-      "An AMM designed specifically for LSTs, built around stHYPE. Never depegs, integrated natively with staking contracts, and assets earn extra yield on Hyperlend.",
-    category: "LST",
-    status: "Live",
-    website: "https://www.valantis.xyz/",
-    tags: ["LST", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
-  },
-  {
-    id: 40,
-    name: "Across Protocol",
-    description:
-      "Across is an interoperability protocol powered by intents. It is the only cross-chain intents protocol in production today, enabling the fastest and lowest-cost way to transfer value without security tradeoffs vs. traditional bridges.",
-    category: "Bridge",
-    status: "Live",
-    website: "https://app.across.to/bridge",
-    tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1886903904874512384/wnRMhfef_400x400.jpg",
-  },
-  {
-    id: 41,
-    name: "Nitro",
-    description: "Bridge from over 35 chains in a single step, including non-EVM chains like Sui and Solana.",
-    category: "Bridge",
-    status: "Live",
-    website: "https://routernitro.com/swap",
-    tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1881323127872839680/f7AkYiQe_400x400.jpg",
-  },
-  {
-    id: 42,
-    name: "Slate Wallet Tracker",
-    description:
-      "Slate's Hyperliquid Wallet Tracker is a Telegram-based tool that delivers real-time updates on any Hyperliquid wallet's activity",
-    category: "Bot",
-    status: "Live",
-    website: "https://link3.to/W0DF72YJ",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1874690032839147520/diW788eQ_400x400.png",
-  },
-  {
-    id: 43,
-    name: "HypeRPC",
-    description:
-      "HypeRPC provides optimized RPC infrastructure for Hyperliquid. It is the first dedicated RPC provider built for speed, scale, and reliability.",
-    category: "Tools",
-    status: "Live",
-    website: "https://hyperpc.app/",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1907624650961461248/wyBCK8fK_400x400.jpg",
   },
   {
     id: 44,
@@ -499,7 +489,7 @@ const projects = [
     category: "Tools",
     status: "Live",
     website: "https://hyperdash.info/",
-    tags: ["Tools"],
+    tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1856411250848088064/mG5ufCD6_400x400.jpg",
   },
   {
@@ -509,101 +499,60 @@ const projects = [
     category: "Tools",
     status: "Live",
     website: "https://www.hyperfolio.xyz/",
-    tags: ["Tools"],
+    tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1845820890321448962/_UP3jBsi_400x400.jpg",
   },
   {
-    id: 48,
-    name: "HyperEVM Sniper Bot by SuperSonic",
+    id: 71,
+    name: "Glider",
     description:
-      "Trade tokens on HyperEVM with the fastest trading bot. HyperSwap DEX V2/V3 & LiquidLaunch are supported.",
-    category: "Bot",
-    status: "Live",
-    website: "https://t.me/HyperEVMSniperBot?start=6E3A77",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/media/Gru7DOrXsAAWdGu?format=jpg&name=small",
+      "Glider is a software-as-a-service platform that enables users to build, test, and execute non-custodial trading portfolios on-chain. Our platform is designed to empower traders with advanced tools and capabilities for cryptocurrency trading.",
+    category: "Trading Interface",
+    status: "Beta",
+    website: "https://glider.fi/",
+    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
   {
-    id: 49,
-    name: "pvp.trade",
+    id: 29,
+    name: "Supurr",
+    description: "Trade supurr short-dated options",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://trade.supurr.app/#/ref/0xlcrgs/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1884280601793929218/mcI9hEhQ_400x400.jpg",
+  },
+  {
+    id: 30,
+    name: "SuperHype",
+    description: "HyperEVM token launchpad and AMM DEX",
+    category: "Launchpad",
+    status: "Live",
+    website: "https://www.superhype.app/",
+    tags: ["Launchpad", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1892409289467138048/PrC-uVqt_400x400.jpg",
+  },
+  {
+    id: 31,
+    name: "Sunder Finance",
     description:
-      "pvp.trade is a Telegram bot you can add to your trading groups. Once added, you and your group members can track each others' positions and place trades in real-time. Share alpha, copy, or countertrade your friends, all in the comfort of your existing Telegram group.",
-    category: "Bot",
-    status: "Live",
-    website: "https://pvp.trade/join/tb3b3s",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1811823687273754624/Qf6hsnsI_400x400.jpg",
-  },
-  {
-    id: 50,
-    name: "HypurrFun",
-    description:
-      "Launch and trade memecoins on Hyperliquid with a few clicks, directly from Telegram. Snipe new launches, access whale chats, and compete with other cabals.",
-    category: "Bot",
-    status: "Live",
-    website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
-  },
-  {
-    id: 51,
-    name: "HyperTracker",
-    description: "Real-time analysis of Hyperliquid wallets by Perp Equity",
-    category: "Tools",
-    status: "Live",
-    website: "https://app.coinmarketman.com/hypertracker",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1921840039191076864/MQL-3EMg_400x400.jpg",
-  },
-  {
-    id: 52,
-    name: "ASXN",
-    description: "ASXN master list of Hyperliquid Dashboards",
-    category: "Tools",
-    status: "Live",
-    website: "https://data.asxn.xyz/",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1669029465362505756/CXGvN0w0_400x400.jpg",
-  },
-  {
-    id: 53,
-    name: "Purrsec",
-    description: "Parsec's HyperEVM exclusive Block Explorer",
-    category: "Tools",
-    status: "Live",
-    website: "https://purrsec.com/",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1407856708261646338/ODpD974X_400x400.jpg",
-  },
-  {
-    id: 54,
-    name: "HypurrScan",
-    description: "Explorer for Hyperliquid Core",
-    category: "Tools",
-    status: "Live",
-    website: "https://hypurrscan.io/",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1859964342466207744/lPYHxw87_400x400.jpg",
-  },
-  {
-    id: 55,
-    name: "Cathena",
-    description: "Cathena aims to be the Ethena of Hyperliquid, generating delta neutral yield on USDC.",
-    category: "Yield",
-    status: "Live",
-    website: "https://cathena.rndm.io/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1887119185219620864/1GHem2Q9_400x400.jpg",
-  },
-  {
-    id: 56,
-    name: "EzPairs",
-    description: "A pair trading platform that allows users to trade custom weighted pairs with x3 leverage.",
+      "Sunder Finance is a groundbreaking decentralized finance (DeFi) platform designed to redefine what's possible on the Hyperliquid.",
     category: "DEX",
     status: "Live",
-    website: "https://www.ezpairs.xyz/trade",
+    website: "https://www.sunder.finance/swap",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1890102511245168640/7ocIdtLE_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1879801454795575296/xM9D_mFK_400x400.jpg",
+  },
+  {
+    id: 41,
+    name: "Nitro",
+    description: "Bridge from over 35 chains in a single step, including non-EVM chains like Sui and Solana.",
+    category: "Bridge",
+    status: "Live",
+    website: "https://routernitro.com/swap",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1881323127872839680/f7AkYiQe_400x400.jpg",
   },
   {
     id: 57,
@@ -624,8 +573,81 @@ const projects = [
     category: "DEX",
     status: "Live",
     website: "https://dapp.gluex.xyz/",
-    tags: ["DEX"],
+    tags: ["DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1906594758635483136/qEPWWGkA_400x400.jpg",
+  },
+  {
+    id: 42,
+    name: "Slate Wallet Tracker",
+    description:
+      "Slate's Hyperliquid Wallet Tracker is a Telegram-based tool that delivers real-time updates on any Hyperliquid wallet's activity",
+    category: "Bot",
+    status: "Live",
+    website: "https://link3.to/W0DF72YJ",
+    tags: ["Bot", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1874690032839147520/diW788eQ_400x400.png",
+  },
+  {
+    id: 43,
+    name: "HypeRPC",
+    description:
+      "HypeRPC provides optimized RPC infrastructure for Hyperliquid. It is the first dedicated RPC provider built for speed, scale, and reliability.",
+    category: "Tools",
+    status: "Live",
+    website: "https://hyperpc.app/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1907624650961461248/wyBCK8fK_400x400.jpg",
+  },
+  {
+    id: 48,
+    name: "HyperEVM Sniper Bot by SuperSonic",
+    description:
+      "Trade tokens on HyperEVM with the fastest trading bot. HyperSwap DEX V2/V3 & LiquidLaunch are supported.",
+    category: "Bot",
+    status: "Live",
+    website: "https://t.me/HyperEVMSniperBot?start=6E3A77",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/media/Gru7DOrXsAAWdGu?format=jpg&name=small",
+  },
+  {
+    id: 51,
+    name: "HyperTracker",
+    description: "Real-time analysis of Hyperliquid wallets by Perp Equity",
+    category: "Tools",
+    status: "Live",
+    website: "https://app.coinmarketman.com/hypertracker",
+    tags: ["Tools", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1921840039191076864/MQL-3EMg_400x400.jpg",
+  },
+  {
+    id: 52,
+    name: "ASXN",
+    description: "ASXN master list of Hyperliquid Dashboards",
+    category: "Tools",
+    status: "Live",
+    website: "https://data.asxn.xyz/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1669029465362505756/CXGvN0w0_400x400.jpg",
+  },
+  {
+    id: 55,
+    name: "Cathena",
+    description: "Cathena aims to be the Ethena of Hyperliquid, generating delta neutral yield on USDC.",
+    category: "Yield",
+    status: "Live",
+    website: "https://cathena.rndm.io/",
+    tags: ["Yield", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1887119185219620864/1GHem2Q9_400x400.jpg",
+  },
+  {
+    id: 56,
+    name: "EzPairs",
+    description: "A pair trading platform that allows users to trade custom weighted pairs with x3 leverage.",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://www.ezpairs.xyz/trade",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1890102511245168640/7ocIdtLE_400x400.jpg",
   },
   {
     id: 59,
@@ -643,20 +665,20 @@ const projects = [
     name: "HyperPNL",
     description:
       "Fully decentralized prop trading platform on top of HyperEVM designed to address the limitations and trust issues associated with centralized proprietary trading firms.",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Coming Soon",
     website: "https://hyperpnl.com/",
-    tags: ["DEX"],
+    tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1903102046204841984/aF3OnjeP_400x400.jpg",
   },
   {
     id: 61,
     name: "Hyperdelta",
     description: "A next-generation options exchange, launching 2025 on Hyperliquid.",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Coming Soon",
     website: "https://hyperdelta.com/",
-    tags: ["DEX"],
+    tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1923426269376450560/9YGLDDAY_400x400.jpg",
   },
   {
@@ -674,10 +696,10 @@ const projects = [
     name: "Insilico Terminal",
     description:
       "Trader-friendly professional grade order, position and execution management system. Advanced capabilities for all. First Terminal on HyperLiquid. Free to use.",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Live",
     website: "https://insilicoterminal.com/#/",
-    tags: ["DEX"],
+    tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1798271540565315584/esokUp7H_400x400.jpg",
   },
   {
@@ -685,10 +707,10 @@ const projects = [
     name: "Katōshi",
     description:
       "Katōshi is a robust automated trading platform that empowers traders to create and deploy sophisticated trading bots on Hyperliquid.  Through seamless integrations with TradingView and a professional-grade API, Katoshi will become the go-to destination for users wanting to quickly and efficiently deploy their automated trading strategies on Hyperliquid.  The platform combines enterprise-level security features with an intuitive interface, making algorithmic trading accessible to both retail and institutional traders on Hyperliquid.",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Live",
     website: "https://katoshi.ai/",
-    tags: ["DEX", "Bot"],
+    tags: ["Trading Interface", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
   },
   {
@@ -699,17 +721,17 @@ const projects = [
     category: "Lending",
     status: "Coming Soon",
     website: "https://lambda.finance/",
-    tags: ["Lending"],
+    tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1709109269604511744/vXoBoSl1_400x400.jpg",
   },
   {
     id: 66,
     name: "Chainpro",
     description: "Advanced onchain trading terminal across multiple ecosystems",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Live",
     website: "https://chainpro.xyz/#0xlcrgs",
-    tags: ["DEX"],
+    tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1894915308495704064/JKryzZve_400x400.jpg",
   },
   {
@@ -717,20 +739,20 @@ const projects = [
     name: "Fractrade",
     description:
       "Fractrade is a platform for creating and managing AI trading agents to enhance your trading on Hyperliquid. Our agents offer features like risk management, copy trading, sniping, whale monitoring, backtesting, and more. You can connect your Hyperliquid account and use individual agents for tasks like improving risk management while trading manually, or combine multiple agents to build fully automated strategies—such as detecting chart patterns and executing trades. Agents run via the Hyperliquid API on your own account or within Hyperliquid vaults, allowing you to earn a share of the profits.",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Live",
     website: "http://alpha.fractrade.xyz/accounts/signup?invite_code=UI58BY",
-    tags: ["DEX", "Bot"],
+    tags: ["Trading Interface", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1879105001366196224/QhBDglZB_400x400.jpg",
   },
   {
     id: 68,
     name: "Altitude",
     description: "The next-gen trading experience is here. Get access to our full range blockchain infrastructure.",
-    category: "DEX",
+    category: "Trading Interface",
     status: "Coming Soon",
     website: "https://reachaltitude.xyz/waitlist",
-    tags: ["DEX"],
+    tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1916798556809437184/CBPWnZgk_400x400.jpg",
   },
   {
@@ -741,7 +763,7 @@ const projects = [
     category: "Bot",
     status: "Live",
     website: "https://trysuper.co/",
-    tags: ["Bot"],
+    tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1913916356874952704/RrNrTN0H_400x400.jpg",
   },
 ]
@@ -781,6 +803,7 @@ const categories = [
   "Wallet",
   "NFT",
   "Tools",
+  "Trading Interface",
   "Bot",
   "Other",
 ]
@@ -839,154 +862,167 @@ export default function EcosystemPage() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Header */}
-      <header className="border-b border-gray-800 px-6 py-4">
-        <div className="mx-auto max-w-7xl flex items-center justify-between">
-          <div className="flex items-center space-x-8">
-            <Link href="/" className="flex items-center space-x-2">
-              <div
-                className="w-12 h-12 bg-white rounded-full flex items-center justify-center"
-                style={{
-                  backgroundImage: "url(https://pbs.twimg.com/profile_images/1646991609416806408/vKLEZxhh_400x400.png)",
-                  backgroundSize: "95%",
-                  backgroundPosition: "center",
-                  backgroundRepeat: "no-repeat",
-                }}
-              ></div>
-              <span className="text-xl font-semibold">HyperEVM Portal</span>
-            </Link>
+      <video
+        preload="auto"
+        loop
+        className="fixed top-0 left-0 w-full h-full object-cover z-0"
+        src="https://video.twimg.com/amplify_video/1927005004382023680/vid/avc1/1280x720/nSPI-O-2ZZ69rCqB.mp4?tag=14"
+        autoPlay
+        muted
+      ></video>
+      <div className="relative z-10">
+        {/* Header */}
+        <header className="border-b border-gray-800 px-6 py-4">
+          <div className="mx-auto max-w-7xl flex items-center justify-between">
+            <div className="flex items-center space-x-8">
+              <Link href="/" className="flex items-center space-x-2">
+                <div
+                  className="w-12 h-12 bg-green-950 rounded-full flex items-center justify-center"
+                  style={{
+                    backgroundImage: "url(https://hyperfoundation.org/landing/blob_green.gif)",
+                    backgroundSize: "95%",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                ></div>
+                <span className="text-xl font-semibold">HyperEVM Portal</span>
+              </Link>
+            </div>
+            <div className="flex items-center space-x-3">
+              <Button className="bg-green-600 hover:bg-green-700 text-white">
+                <Link href="https://app.hyperliquid.xyz/join/0XLCRGS">Join Hyperliquid</Link>
+              </Button>
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
+              </Button>
+            </div>
           </div>
-          <div className="flex items-center space-x-3">
-            <Button className="bg-green-600 hover:bg-green-700 text-white">
-              <Link href="https://app.hyperliquid.xyz/join/0XLCRGS">Join Hyperliquid</Link>
-            </Button>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-              <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
-            </Button>
-          </div>
-        </div>
-      </header>
+        </header>
 
-      {/* Main Content */}
-      <main className="mx-auto max-w-7xl px-6 py-12">
-        {/* Hero Section */}
-        <div className="mb-12">
-          <h1 className="text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
-          <p className="text-gray-400 text-lg max-w-3xl">
-            Explore the growing ecosystem of projects building on HyperEVM. Learn about each project, their features,
-            and how to get involved.
-          </p>
-        </div>
-
-        {/* Search and Filters */}
-        <div className="mb-8 space-y-4">
-          <div className="relative max-w-md">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-            <Input
-              placeholder="Search projects..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 bg-gray-900 border-gray-700 text-white placeholder-gray-400"
-            />
+        {/* Main Content */}
+        <main className="mx-auto max-w-7xl px-6 py-12">
+          {/* Hero Section */}
+          <div className="mb-12">
+            <h1 className="text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
+            <p className="text-gray-400 text-lg max-w-3xl">
+              Explore the growing ecosystem of projects building on HyperEVM. Learn about each project, their features,
+              and how to get involved.
+            </p>
           </div>
 
-          <Tabs value={selectedCategory} onValueChange={setSelectedCategory}>
-            <TabsList className="bg-gray-900 border-gray-700">
-              {categories.map((category) => (
-                <TabsTrigger
-                  key={category}
-                  value={category}
-                  className="data-[state=active]:bg-white data-[state=active]:text-black"
+          {/* Search and Filters */}
+          <div className="mb-8 space-y-4">
+            <div className="relative max-w-md">
+              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+              <Input
+                placeholder="Search projects..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-10 bg-gray-900 border-gray-700 text-white placeholder-gray-400"
+              />
+            </div>
+
+            <Tabs value={selectedCategory} onValueChange={setSelectedCategory}>
+              <TabsList className="bg-gray-900 border-gray-700">
+                {categories.map((category) => (
+                  <TabsTrigger
+                    key={category}
+                    value={category}
+                    className="data-[state=active]:bg-white data-[state=active]:text-black"
+                  >
+                    {category} (
+                    {category === "All"
+                      ? projectData.length
+                      : projectData.filter((p) => p.category === category).length}
+                    )
+                  </TabsTrigger>
+                ))}
+              </TabsList>
+            </Tabs>
+          </div>
+
+          {/* Loading State */}
+          {loading && (
+            <div className="text-center py-12">
+              <div className="text-gray-400 text-lg">Loading TVL data...</div>
+            </div>
+          )}
+
+          {/* Projects Grid */}
+          {!loading && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredProjects.map((project) => (
+                <Card
+                  key={project.id}
+                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col"
                 >
-                  {category} (
-                  {category === "All" ? projectData.length : projectData.filter((p) => p.category === category).length})
-                </TabsTrigger>
-              ))}
-            </TabsList>
-          </Tabs>
-        </div>
-
-        {/* Loading State */}
-        {loading && (
-          <div className="text-center py-12">
-            <div className="text-gray-400 text-lg">Loading TVL data...</div>
-          </div>
-        )}
-
-        {/* Projects Grid */}
-        {!loading && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredProjects.map((project) => (
-              <Card
-                key={project.id}
-                className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col"
-              >
-                <CardHeader className="flex-1">
-                  <div className="flex items-start justify-between">
-                    <div className="flex items-start space-x-3">
-                      <div
-                        className="w-10 h-10 rounded-full bg-gray-800 flex-shrink-0"
-                        style={{
-                          backgroundImage: `url(${project.logo})`,
-                          backgroundSize: "cover",
-                          backgroundPosition: "center",
-                          backgroundRepeat: "no-repeat",
-                        }}
-                      ></div>
+                  <CardHeader className="flex-1">
+                    <div className="flex items-start justify-between">
+                      <div className="flex items-start space-x-3">
+                        <div
+                          className="w-10 h-10 rounded-full bg-gray-800 flex-shrink-0"
+                          style={{
+                            backgroundImage: `url(${project.logo})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                          }}
+                        ></div>
+                        <div>
+                          <CardTitle className="text-white text-xl">{project.name}</CardTitle>
+                          <CardDescription className="text-gray-400 mt-2">{project.description}</CardDescription>
+                        </div>
+                      </div>
+                      <Badge className={getStatusColor(project.status)}>{project.status}</Badge>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4 mt-auto">
+                    {/* Stats */}
+                    <div className="text-sm">
                       <div>
-                        <CardTitle className="text-white text-xl">{project.name}</CardTitle>
-                        <CardDescription className="text-gray-400 mt-2">{project.description}</CardDescription>
+                        <span className="text-gray-400">TVL:</span>
+                        <span className="text-white ml-2 font-medium">{project.tvl}</span>
                       </div>
                     </div>
-                    <Badge className={getStatusColor(project.status)}>{project.status}</Badge>
-                  </div>
-                </CardHeader>
-                <CardContent className="space-y-4 mt-auto">
-                  {/* Stats */}
-                  <div className="text-sm">
-                    <div>
-                      <span className="text-gray-400">TVL:</span>
-                      <span className="text-white ml-2 font-medium">{project.tvl}</span>
+
+                    {/* Tags */}
+                    <div className="flex flex-wrap gap-2">
+                      {project.tags.map((tag) => (
+                        <Badge key={tag} variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
+                          {tag}
+                        </Badge>
+                      ))}
                     </div>
-                  </div>
 
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag) => (
-                      <Badge key={tag} variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div>
+                    {/* Links */}
+                    <div className="flex items-center space-x-3 pt-2">
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="border-gray-600 text-black-300 hover:bg-gray-800"
+                        asChild
+                      >
+                        <Link href={project.website} target="_blank" rel="noopener noreferrer">
+                          <Globe className="w-4 h-4 mr-2" />
+                          Website
+                        </Link>
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          )}
 
-                  {/* Links */}
-                  <div className="flex items-center space-x-3 pt-2">
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="border-gray-600 text-black-300 hover:bg-gray-800"
-                      asChild
-                    >
-                      <Link href={project.website} target="_blank" rel="noopener noreferrer">
-                        <Globe className="w-4 h-4 mr-2" />
-                        Website
-                      </Link>
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        )}
-
-        {/* Empty State */}
-        {!loading && filteredProjects.length === 0 && (
-          <div className="text-center py-12">
-            <div className="text-gray-400 text-lg mb-4">No projects found</div>
-            <p className="text-gray-500">Try adjusting your search or filter criteria</p>
-          </div>
-        )}
-      </main>
+          {/* Empty State */}
+          {!loading && filteredProjects.length === 0 && (
+            <div className="text-center py-12">
+              <div className="text-gray-400 text-lg mb-4">No projects found</div>
+              <p className="text-gray-500">Try adjusting your search or filter criteria</p>
+            </div>
+          )}
+        </main>
+      </div>
     </div>
   )
 }
