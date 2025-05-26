@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useRouter, useSearchParams } from "next/navigation"
 import axios from "axios"
 import { Globe, Search } from "lucide-react"
 import Link from "next/link"
@@ -809,10 +810,53 @@ const categories = [
 ]
 
 export default function EcosystemPage() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
+
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
   const [projectData, setProjectData] = useState(projects)
   const [loading, setLoading] = useState(true)
+
+  // Initialize state from URL params
+  useEffect(() => {
+    const urlSearch = searchParams.get("search")
+    const urlCategory = searchParams.get("category")
+
+    if (urlSearch) {
+      setSearchQuery(urlSearch)
+    }
+    if (urlCategory && categories.includes(urlCategory)) {
+      setSelectedCategory(urlCategory)
+    }
+  }, [searchParams])
+
+  // Update URL when search or category changes
+  const updateURL = (newSearch: string, newCategory: string) => {
+    const params = new URLSearchParams()
+
+    if (newSearch) {
+      params.set("search", newSearch)
+    }
+    if (newCategory && newCategory !== "All") {
+      params.set("category", newCategory)
+    }
+
+    const queryString = params.toString()
+    const newURL = queryString ? `/?${queryString}` : "/"
+
+    router.push(newURL, { scroll: false })
+  }
+
+  const handleSearchChange = (value: string) => {
+    setSearchQuery(value)
+    updateURL(value, selectedCategory)
+  }
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category)
+    updateURL(searchQuery, category)
+  }
 
   useEffect(() => {
     const fetchTVL = async () => {
@@ -859,6 +903,7 @@ export default function EcosystemPage() {
         return "bg-gray-500/20 text-gray-400 border-gray-500/30"
     }
   }
+
   return (
     <div className="min-h-screen bg-black text-white">
       <video
@@ -916,12 +961,12 @@ export default function EcosystemPage() {
               <Input
                 placeholder="Search projects..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 className="pl-10 bg-gray-900 border-gray-700 text-white placeholder-gray-400"
               />
             </div>
 
-            <Tabs value={selectedCategory} onValueChange={setSelectedCategory}>
+            <Tabs value={selectedCategory} onValueChange={handleCategoryChange}>
               <TabsList className="bg-gray-900 border-gray-700">
                 {categories.map((category) => (
                   <TabsTrigger
