@@ -215,7 +215,7 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1890184998445047808/qgsh4B97_400x400.jpg",
   },
   {
-    id: 22,
+    id: 72,
     name: "HyperWarp",
     description: "HyperWarp is a marketplace to unlock liquidity for vote-escrowed NFTs (veNFTs). Starting with veKitten",
     category: "NFT",
@@ -523,6 +523,50 @@ const projects = [
     website: "https://glider.fi/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
+  },
+  {
+    id: 74,
+    name: "HL Fund",
+    description:
+      "Decentralized hub designed to accelerate the growth of the Hyperliquid ecosystem. Reputation, Education, Decentralized Directories, DAOs, Collabs. Investments",
+    category: "Other",
+    status: "Live",
+    website: "https://hl.fund/",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1880969975482961921/GAC7jyiw_400x400.jpg",
+  },
+  {
+    id: 73,
+    name: "Vegas HL",
+    description:
+      "The next-gen crypto poker experience. Built on HyperEVM to revolutionize on-chain gambling.",
+    category: "Other",
+    status: "Live",
+    website: "https://vegas.fun?r=0XLCRGS",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
+  },
+  {
+    id: 75,
+    name: "Project X",
+    description:
+      "Project build by @Lamboland_ and @BOBBYBIGYIELD. Not much is known yet about it (pay attention on this one)",
+    category: "Other",
+    status: "Coming Soon",
+    website: "https://x.com/prjx_hl",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
+  },
+  {
+    id: 76,
+    name: "HyperPath",
+    description:
+      "Not much is known yet about it (i'll update a soon as possible)",
+    category: "Other",
+    status: "Coming Soon",
+    website: "https://x.com/hyper_path",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1925648003777298432/5Vl2A71i_400x400.jpg",
   },
   {
     id: 29,
