@@ -175,6 +175,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
   },
   {
+    id: 95,
+    name: "Hypio",
+    description: "Wealthy Hypio Babies are a cultural virus born from the Remiliasphere aiming to be one of the most recognizable and distinctive NFT project brands and community in the Hyperliquid eco. We aim to educate our holders about the HL eco and convert many current members of the HL to be a part of our hivemind.",
+    category: "NFT",
+    status: "Live",
+    website: "https://hypio.baby/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1876004126938537984/qpRkjcAX_400x400.jpg",
+  },
+  {
     id: 19,
     name: "DeBridge",
     description: "Multichain bridge",
@@ -322,6 +332,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
   },
   {
+    id: 96,
+    name: "Neko.hl",
+    description:
+      "Neko is the first DeFAI Swarm on Hyperliquid, an AI-driven network optimizing DeFi strategies. Users can trade, launch tokens, and access AI-powered yield strategies through a seamless interface, automating complex on-chain processes for efficiency and accessibility. By integrating with HyperEVM and Hyperliquid, Neko enhances liquidity, boosts capital efficiency, and drives on-chain adoption through AI automation and social integration.",
+    category: "Trading Interface",
+    status: "Coming Soon",
+    website: "https://www.neko.fun/",
+    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1880643122683916288/xtRa6Q64_400x400.png",
+  },
+  {
     id: 40,
     name: "Across Protocol",
     description:
@@ -331,6 +352,17 @@ const projects = [
     website: "https://app.across.to/bridge",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1886903904874512384/wnRMhfef_400x400.jpg",
+  },
+  {
+    id: 77,
+    name: "HeadtoHead.hl",
+    description:
+      "Head to Head is a social wagering platform where people can put their money where their mouth is } {",
+    category: "Other",
+    status: "Live",
+    website: "https://www.headtohead.app/",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1892511802451226624/LquxgBd__400x400.jpg",
   },
   {
     id: 23,
@@ -364,6 +396,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1892277863430168576/TIbtpNHW_400x400.jpg",
   },
   {
+    id: 89,
+    name: "Rabby Wallet",
+    description:
+      "The game-changing wallet for Ethereum and all EVM chains.",
+    category: "Wallet",
+    status: "Live",
+    website: "https://rabby.io/points?code=0XLCRGS",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
+  },
+  {
     id: 26,
     name: "Napier",
     description:
@@ -394,6 +437,17 @@ const projects = [
     website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
+  },
+  {
+    id: 78,
+    name: "Hedgewater Associates",
+    description:
+      "Hedgewater is an on-chain AI investment fund focused on Hyperliquid ecosystem.",
+    category: "Yield",
+    status: "Live",
+    website: "https://www.hedgewater.xyz/",
+    tags: ["Yield", "AI"],
+    logo: "https://pbs.twimg.com/profile_images/1878484437786054657/uZz41GWQ_400x400.jpg",
   },
   {
     id: 53,
@@ -449,6 +503,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1880178279199698946/m3cs6Ds3_400x400.jpg",
   },
   {
+    id: 79,
+    name: "HypeFlows",
+    description:
+      "HypeFlows is the best place to track Hyperliquid's trading stats against Centralized Exchanges.",
+    category: "Tools",
+    status: "Live",
+    website: "https://hypeflows.com/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1901381580310081536/RxTaKf3v_400x400.jpg",
+  },
+  {
     id: 27,
     name: "Silhouette",
     description:
@@ -458,6 +523,17 @@ const projects = [
     website: "https://silhouette.exchange/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1868973700516601857/jktAc9SE_400x400.jpg",
+  },
+  {
+    id: 80,
+    name: "HyperFly",
+    description:
+      "HyperFly is the home of DeFAI on Hyperliquid",
+    category: "Other",
+    status: "Live",
+    website: "https://hyperfly.sh/",
+    tags: ["Other", "AI"],
+    logo: "https://pbs.twimg.com/profile_images/1881002725946650624/5jRUF5t8_400x400.jpg",
   },
   {
     id: 28,
@@ -493,6 +569,28 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1886811418269188097/G-Ax7k-Q_400x400.png",
   },
   {
+    id: 87,
+    name: "Lootbase",
+    description:
+      "A mobile Hyperliquid client to trade perps and spot tokens.",
+    category: "Wallet",
+    status: "Live",
+    website: "https://share.lootbase.com/0xLcrgs",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1889744234451795968/zW1CoCnq_400x400.jpg",
+  },
+  {
+    id: 81,
+    name: "Hyperlauncher",
+    description:
+      "Your Agentic Copilot, launching ideas into products in minutes",
+    category: "Launchpad",
+    status: "Beta",
+    website: "https://hyperlauncher.ai/",
+    tags: ["Launchpad", "AI"],
+    logo: "https://pbs.twimg.com/profile_images/1867118056343842819/pRt9hqp4_400x400.jpg",
+  },
+  {
     id: 46,
     name: "HyperDash",
     description:
@@ -525,6 +623,27 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
   {
+    id: 86,
+    name: "Kryptos",
+    description:
+      "Kryptos is pioneering the future of Web3 finance by establishing a standardised financial data protocol layer that seamlessly connects diverse blockchain platforms. As the definitive Open Banking standard for Web3, Kryptos equips developers, businesses, and end-users with the tools necessary to share and utilise data effortlessly. Supporting over 5000 platforms, including major CEXs, DeFi protocols, and blockchain networks, Kryptos enhances interoperability, compliance, and accessibility in Web3 with its APIs and products such as real-time financial analytics, compliance-ready tax reporting, and personalised portfolio management.",
+    category: "Tools",
+    status: "Live",
+    website: "https://kryptos.io?via=niteip1995",
+    tags: ["Tools", "Taxes"],
+    logo: "https://pbs.twimg.com/profile_images/1897644409237512192/yJQptpdA_400x400.jpg",
+  },
+  {
+    id: 94,
+    name: "Vapor",
+    description: "Vapor makes it easy to create, launch, and manage AI agents. Users are able to create agents without ever needing to write a line of code. Vapor is built on Eliza the opensource agent tooling created by ai16zDAO. When the Hyperliquid EVM launches, users will be able to deploy ERC20 tokens to attach to their agents as well.",
+    category: "Launchpad",
+    status: "Live",
+    website: "https://www.vaporware.fun/",
+    tags: ["Launchpad", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1867073156072046592/dQQ6ZsRj_400x400.jpg",
+  },
+  {
     id: 74,
     name: "HL Fund",
     description:
@@ -534,6 +653,17 @@ const projects = [
     website: "https://hl.fund/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1880969975482961921/GAC7jyiw_400x400.jpg",
+  },
+  {
+    id: 88,
+    name: "Nest",
+    description:
+      "Sophisticated mobile trading app for professional traders. Now supports HL perps, and live sentiment & whale tracking.",
+    category: "Wallet",
+    status: "Live",
+    website: "https://nestwallet.xyz/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1917627579902599168/9_VsxZ89_400x400.jpg",
   },
   {
     id: 73,
@@ -695,6 +825,36 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1887119185219620864/1GHem2Q9_400x400.jpg",
   },
   {
+    id: 91,
+    name: "Rage Trade",
+    description: "Rage Trade is a multi-chain perp aggregator that transforms on-chain trading by combining the convenience of centralized exchanges with the transparency of decentralized platforms.",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://www.app.rage.trade/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1518891395636944897/gLh94IR3_400x400.png",
+  },
+  {
+    id: 90,
+    name: "Pear Protocol",
+    description: "Pear Protocol is an array of engineering solutions aimed to address the inherent inefficiencies and complexities when pair-trading cryptocurrencies. By enabling leveraged long and short positions within a single on-chain transaction, the protocol significantly improves the process of pair-trading execution, with a superior front-end for risk management.",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://pear.garden/trade?referral=0xLcrgs",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1615784760328192001/kFS3qLV5_400x400.jpg",
+  },
+  {
+    id: 92,
+    name: "Vooi",
+    description: "Backed by Binance Labs, VOOI is an emerging Derivatives Marketplace powered by Chain Abstraction that provides CEX-like trading experience for professional and retail traders",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://app.vooi.io/r/3DW6DRN",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1897274648959610880/WzzIafIX_400x400.png",
+  },
+  {
     id: 56,
     name: "EzPairs",
     description: "A pair trading platform that allows users to trade custom weighted pairs with x3 leverage.",
@@ -703,6 +863,16 @@ const projects = [
     website: "https://www.ezpairs.xyz/trade",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1890102511245168640/7ocIdtLE_400x400.jpg",
+  },
+  {
+    id: 93,
+    name: "Vortx HL",
+    description: "Trade spot, perps & prediction markets on Discord, Twitter & more with AI agents. Built on Hyperliquid. Zero fees during beta.",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://www.vortx.gg/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1889417046401708032/34ziuAPb_400x400.jpg",
   },
   {
     id: 59,
@@ -725,6 +895,17 @@ const projects = [
     website: "https://hyperpnl.com/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1903102046204841984/aF3OnjeP_400x400.jpg",
+  },
+  {
+    id: 84,
+    name: "Hyperterminal",
+    description:
+      "Your all-in-one analytics powerhouse designed to revolutionize your Hyperliquid trading with real-time market insights.",
+    category: "Trading Interface",
+    status: "Beta",
+    website: "https://hyperterminal.xyz/",
+    tags: ["Trading Interface", "Tools", "Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1856449296540762112/RWZ62v7c_400x400.jpg",
   },
   {
     id: 61,
@@ -809,6 +990,37 @@ const projects = [
     website: "https://reachaltitude.xyz/waitlist",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1916798556809437184/CBPWnZgk_400x400.jpg",
+  },
+  {
+    id: 85,
+    name: "Hypervisor",
+    description:
+      "Hyperliquid focused data analytics/trading platform with fully customizable dashboards",
+    category: "Trading Interface",
+    status: "Beta",
+    website: "https://hypervisor.gg/",
+    tags: ["Trading Interface", "Tools", "Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1832829990951383040/oNYLW-Og_400x400.jpg",
+  },
+  {
+    id: 82,
+    name: "HyperScanner",
+    description: "Supercharge your Hyperliquid trading with advanced analytics and data insights",
+    category: "Tools",
+    status: "Live",
+    website: "https://www.hyperscanner.app/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1825505561657380864/qtMwmkIj_400x400.jpg",
+  },
+  {
+    id: 83,
+    name: "Hyperstats.hl",
+    description: "An independent source of Hyperliquid trading statistics",
+    category: "Tools",
+    status: "Live",
+    website: "https://hyperstats.xyz/",
+    tags: ["Tools", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1853646017620844544/yKjedEz2_400x400.jpg",
   },
   {
     id: 69,
