@@ -215,6 +215,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1890184998445047808/qgsh4B97_400x400.jpg",
   },
   {
+    id: 22,
+    name: "HyperWarp",
+    description: "HyperWarp is a marketplace to unlock liquidity for vote-escrowed NFTs (veNFTs). Starting with veKitten",
+    category: "NFT",
+    status: "Coming Soon",
+    website: "https://www.hyperwarp.fi/",
+    tags: ["NFT", "veNFT"],
+    logo: "https://pbs.twimg.com/profile_images/1912684430440755200/tA0LNV_E_400x400.jpg",
+  },
+  {
     id: 32,
     name: "Jumper Exchange",
     description: "Crypto's Everything Exchange",
@@ -274,7 +284,7 @@ const projects = [
     description:
       "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
     category: "Lending",
-    status: "Coming Soon",
+    status: "Live",
     website: "https://hyperdrive.fi/",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
