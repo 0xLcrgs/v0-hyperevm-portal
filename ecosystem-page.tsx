@@ -332,6 +332,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
   },
   {
+    id: 110,
+    name: "simpfor.fun",
+    description:
+      "Smart copy trading, grow your wealth on autopilot! powered by SOON.",
+    category: "Bot",
+    status: "Live",
+    website: "https://simpfor.fun/login?referralCode=GT3SH4",
+    tags: ["Bot", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1824061692843802624/ypS4GORQ_400x400.png",
+  },
+  {
     id: 96,
     name: "Neko.hl",
     description:
@@ -341,6 +352,17 @@ const projects = [
     website: "https://www.neko.fun/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1880643122683916288/xtRa6Q64_400x400.png",
+  },
+  {
+    id: 108,
+    name: "Curve Finance",
+    description:
+      'Creating deep on-chain liquidity using advanced bonding curves',
+    category: "DEX",
+    status: "Live",
+    website: "https://www.curve.finance/dex/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1220560374346461185/W1sQNVWo_400x400.jpg",
   },
   {
     id: 40,
@@ -774,6 +796,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1879801454795575296/xM9D_mFK_400x400.jpg",
   },
   {
+    id: 101,
+    name: "Rysk Finance",
+    description:
+      "Rysk V12 introduces a new way to earn high, sustainable yield on ETH, BTC, and any volatile asset in DeFi. DeFi's biggest gap has been obvious: scalable, efficient returns on its core assets. These assets are held by everyone, yet their yields remain low and unsustainable. Rysk fixes this by reimagining covered calls, a proven strategy from traditional finance, and making it work for DeFi.",
+    category: "Trading Interface",
+    status: "Coming Soon",
+    website: "https://app.rysk.finance/",
+    tags: ["Trading Interface", "Options"],
+    logo: "https://pbs.twimg.com/profile_images/1556700928748781569/bLjEj9yu_400x400.jpg",
+  },
+  {
     id: 41,
     name: "Nitro",
     description: "Bridge from over 35 chains in a single step, including non-EVM chains like Sui and Solana.",
@@ -826,6 +859,83 @@ const projects = [
     website: "https://hyperpc.app/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907624650961461248/wyBCK8fK_400x400.jpg",
+  },
+  {
+    id: 102,
+    name: "Derps",
+    description:
+      'Derps is a fun, easy-to-use mobile app for on-chain perpetuals (no KYC, zero gas fees) powered by HyperLiquid, MoonPay & dexorgexchange',
+    category: "Wallet",
+    status: "Live",
+    website: "https://dex.org/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1921876531015471104/_4trkTZO_400x400.jpg",
+  },
+  {
+    id: 103,
+    name: "BasedApp",
+    description:
+      'Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.',
+    category: "Wallet",
+    status: "Live",
+    website: "https://app.basedapp.io?access=UCLV9HOL",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1656905347813232640/DqkrVg1t_400x400.jpg",
+  },
+  {
+    id: 104,
+    name: "Pocket Pro",
+    description:
+      'Pocket Pro is the first cross-platform Hyperliquid trading product that helps people trade more profitably with friends. Trade on X: open perps trades directly on X to get followers and copy traders. Referrals: get 20% of the fees of anyone who joins from your trades on X or through your ref link. One Click Copy Trade: share your ref link or trade on X to get copy (or counter) traders - they pay you 20% of their PNL',
+    category: "Wallet",
+    status: "Coming Soon",
+    website: "https://www.pocketprotector.xyz/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1910382854195789824/G-dAUWhC_400x400.jpg",
+  },
+  {
+    id: 105,
+    name: "thefarm.fun",
+    description:
+      'The 1st GenAI AI Agent game built on Hyperliquid. Think on-chain creature generation, powered by our GenAI model (Cryptokitties 2.0) + Stardew Valley (simulation game) + Pokemon Go (battle/esports), all by human via AI.',
+    category: "Launchpad",
+    status: "Live",
+    website: "https://www.thefarm.fun/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1864910599198773250/HWsMlIpH_400x400.png",
+  },
+  {
+    id: 106,
+    name: "LiquidLoot",
+    description:
+      'Marketplace for NFTs on HyperliquidX I Launchpad coming soon I Lend&borrow coming soon',
+    category: "NFT",
+    status: "Coming Soon",
+    website: "https://x.com/LootLiquid",
+    tags: ["NFT", "Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1894164622602539008/IovQ374W_400x400.jpg",
+  },
+  {
+    id: 107,
+    name: "Harbor Finance",
+    description:
+      'Harbor Finance is a high-performance, gamified DeFi ecosystem that seamlessly merges NFT-based asset structures, sustainable passive income strategies, and immersive financial gameplay. Our mission: to make automated earning not just simple, but genuinely enjoyable. Engineer intricate Yield Items. Harvest $FISH. Collect ongoing incentives. Rise through the ranks as a master-class Fishercat.',
+    category: "NFT",
+    status: "Live",
+    website: "https://harborfinance.app/?ref=48f2-ua5xd",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1905963590282260480/eHil_7qj_400x400.jpg",
+  },
+  {
+    id: 109,
+    name: "Fan App",
+    description:
+      'Fan App is an exclusive content platform where creators can monetize access dynamically',
+    category: "Other",
+    status: "Live",
+    website: "https://fan.fun/",
+    tags: ["Other", "SocialFi"],
+    logo: "https://pbs.twimg.com/profile_images/1884115595081433088/K918mGuG_400x400.png",
   },
   {
     id: 48,
