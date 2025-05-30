@@ -61,7 +61,7 @@ const projects = [
     description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
     category: "Lending",
     status: "Live",
-    website: "https://app.hypurr.fi/",
+    website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Borrowing", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
   },
@@ -365,6 +365,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1220560374346461185/W1sQNVWo_400x400.jpg",
   },
   {
+    id: 112,
+    name: "Bloom",
+    description:
+      "Most advanced cross-chain trading automation SOL | BSC | BASE | HYPEREVM",
+    category: "Bot",
+    status: "Live",
+    website: "https://t.me/BloomHyperLiquid_bot?start=ref_E67VP3BK8D",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1853964541261983748/oSitKQIe_400x400.jpg",
+  },
+  {
     id: 40,
     name: "Across Protocol",
     description:
@@ -427,6 +438,16 @@ const projects = [
     website: "https://rabby.io/points?code=0XLCRGS",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
+  },
+  {
+    id: 111,
+    name: "DeBank",
+    description: "The Real User Based Web3 Community.",
+    category: "Tools",
+    status: "Live",
+    website: "https://debank.com/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1414880725921267716/YzVitob7_400x400.jpg",
   },
   {
     id: 26,
