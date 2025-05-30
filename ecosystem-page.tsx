@@ -256,6 +256,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1779646801605242880/FrFssPAQ_400x400.jpg",
   },
   {
+    id: 113,
+    name: "Stargate",
+    description:
+      "Stargate is a composable cross-chain liquidity transport protocol enabling seamless asset transfers between blockchains. This documentation details its technical architecture, core primitives and integration guidelines for developers.",
+    category: "Bridge",
+    status: "Live",
+    website: "https://stargate.finance/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1928147506699145217/n7-KQGNJ_400x400.png",
+  },
+  {
     id: 70,
     name: "Relay",
     description:
