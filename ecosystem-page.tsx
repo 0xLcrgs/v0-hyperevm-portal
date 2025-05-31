@@ -721,6 +721,27 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
   {
+    id: 115,
+    name: "HyperSignals",
+    description:
+      "Delivering trading edge via hyperliquid orderbook patterns, smart money moves & offchain sentiment analysis.",
+    category: "Trading Interface",
+    status: "Beta",
+    website: "https://hypersignals.ai/",
+    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1924849892314255361/a_SduLa2_400x400.png",
+  },
+  {
+    id: 114,
+    name: "Hybra Finance",
+    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
+    category: "DEX",
+    status: "Live",
+    website: "https://www.hybra.finance/",
+    tags: ["DEX", "ve(3,3)"],
+    logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
+  },
+  {
     id: 86,
     name: "Kryptos",
     description:
