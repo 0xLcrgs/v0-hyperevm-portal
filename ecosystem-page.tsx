@@ -557,6 +557,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1850925548471480320/L-vU3YZs_400x400.png",
   },
   {
+    id: 116,
+    name: "Definitive",
+    description:
+      "Definitive is the future of onchain trade execution. We deliver a CeFi-like experience on DeFi rails via a fully non-custodial platform & API that is live across Solana, Base and other major EVM chains. With Definitive, anyone - from a retail user, to a whale, to a liquid fund, or even an AI agent - can trade any asset on any chain with the same institutional-grade execution found in CeFi. Some features include:",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://app.definitive.fi/r/UJSTNJ7Q",
+    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1848873373511917568/p0-qFbVa_400x400.jpg",
+  },
+  {
     id: 100,
     name: "Cielo",
     description:
