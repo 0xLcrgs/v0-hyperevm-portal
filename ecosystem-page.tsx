@@ -365,6 +365,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1880643122683916288/xtRa6Q64_400x400.png",
   },
   {
+    id: 117,
+    name: "HyperZap",
+    description:
+      "Discover new & trending launches, buy HyperEVM tokens, and execute trades on Hyperliquid through our simple Telegram bot.",
+    category: "Bot",
+    status: "Beta",
+    website: "https://www.hyperzap.io/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1914165629155721216/yFV5Fp4V_400x400.jpg",
+  },
+  {
     id: 108,
     name: "Curve Finance",
     description:
