@@ -1250,6 +1250,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
   },
   {
+    id: 125,
+    name: "Hyperrich",
+    description: "Non-custodial. Launch and trade in your browser. Lightning-fast execution.",
+    category: "Launchpad",
+    status: "Live",
+    website: "https://hyperrich.fun/trade",
+    tags: ["Launchpad", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1881871203935371264/qJbWYEFl_400x400.jpg",
+  },
+  {
     id: 65,
     name: "Lambda Finance",
     description:
