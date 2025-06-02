@@ -205,6 +205,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
   },
   {
+    id: 119,
+    name: "Garden",
+    description: "Trustless peer-to-peer bitcoin bridge",
+    category: "Bridge",
+    status: "Live",
+    website: "https://garden.finance/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1884485129906839554/4CaD8YXg_400x400.jpg",
+  },
+  {
     id: 21,
     name: "Drip.Trade",
     description: "Leading native NFT exchange on HyperLiquid.",
