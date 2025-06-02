@@ -1044,6 +1044,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1669029465362505756/CXGvN0w0_400x400.jpg",
   },
   {
+    id: 118,
+    name: "PrimeFi",
+    description:
+      "Omnichain decentralized lending and borrowing protocol built on LayerZero to bring liquidity to Hyperliquid and other EVMs.",
+    category: "Lending",
+    status: "Coming Soon",
+    website: "https://primenumbers.xyz/",
+    tags: ["Lending", "Borrowing"],
+    logo: "https://pbs.twimg.com/profile_images/1849722059154239488/TU9dzmb__400x400.jpg",
+  },
+  {
     id: 55,
     name: "Cathena",
     description: "Cathena aims to be the Ethena of Hyperliquid, generating delta neutral yield on USDC.",
