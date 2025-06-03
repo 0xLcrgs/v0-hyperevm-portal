@@ -994,6 +994,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1906594758635483136/qEPWWGkA_400x400.jpg",
   },
   {
+    id: 133,
+    name: "EISEN",
+    description:
+      "Eisen is a DEX aggregator with a fast Ce-DeFi engine for safer, profitable trading.",
+    category: "DEX",
+    status: "Live",
+    website: "https://app.eisenfinance.com/",
+    tags: ["DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1861248882824593408/h5CrU_s__400x400.jpg",
+  },
+  {
     id: 42,
     name: "Slate Wallet Tracker",
     description:
@@ -1246,6 +1257,17 @@ const projects = [
     website: "https://hyperhyper.fi/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1895494249648377856/xHC87ple_400x400.jpg",
+  },
+  {
+    id: 132,
+    name: "Arkis",
+    description:
+      "Arkis is a digital asset prime brokerage, offering a leverage protocol that enables undercollateralized lending for capital providers and asset managers.",
+    category: "Yield",
+    status: "Live",
+    website: "https://arkis.xyz/",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
   },
   {
     id: 63,
