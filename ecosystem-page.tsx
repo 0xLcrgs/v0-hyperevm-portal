@@ -1250,6 +1250,28 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
   },
   {
+    id: 129,
+    name: "Gem Wallet",
+    description:
+      "Gem Wallet is a user-friendly crypto wallet that offers convenience and top-notch security for beginners like you",
+    category: "Wallet",
+    status: "Live",
+    website: "https://gemwallet.com/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1659483462758178823/KN0WzQl6_400x400.jpg",
+  },
+  {
+    id: 128,
+    name: "TopDog",
+    description:
+      "TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
+    category: "Bot",
+    status: "Live",
+    website: "https://topdog.gg/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
+  },
+  {
     id: 125,
     name: "Hyperrich",
     description: "Non-custodial. Launch and trade in your browser. Lightning-fast execution.",
