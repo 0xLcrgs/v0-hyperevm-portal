@@ -818,7 +818,7 @@ const projects = [
     description: "Get Liquid. - no info yet",
     category: "Trading Interface",
     status: "Coming Soon",
-    website: "https://tryliquid.xyz/",
+    website: "https://tryliquid.xyz?ref_id=3E4RTJC9P",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1914394533242028033/f-745FsF_400x400.jpg",
   },
