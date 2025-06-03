@@ -1333,6 +1333,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1853646017620844544/yKjedEz2_400x400.jpg",
   },
   {
+    id: 126,
+    name: "Quick Intel",
+    description: "Quick Intel is a suite of cryptocurrency security tools designed to provide real-time assessment of project contracts and provide users with immediate feedback on potential malicious code within a token's contract.",
+    category: "Tools",
+    status: "Live",
+    website: "https://quickintel.io/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1882651870201520128/_6yWXw-N_400x400.jpg",
+  },
+  {
     id: 69,
     name: "SuperX",
     description:
@@ -1342,6 +1352,17 @@ const projects = [
     website: "https://trysuper.co/",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1913916356874952704/RrNrTN0H_400x400.jpg",
+  },
+  {
+    id: 127,
+    name: "Tator the Trader",
+    description:
+      "Manage digital assets and transfers - all through simple chat messages. No complicated wallets or technical knowledge needed!",
+    category: "Bot",
+    status: "Live",
+    website: "https://tatortrader.quickintel.io/",
+    tags: ["Bot", "AI"],
+    logo: "https://pbs.twimg.com/profile_images/1905002465117843456/yQmiCqaT_400x400.jpg",
   },
 ]
 
