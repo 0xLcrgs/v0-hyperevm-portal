@@ -1474,6 +1474,17 @@ const defiLlamaSlugs = {
   "Harmonix Finance": "harmonix-finance",
   Unit: "unit",
   DeBridge: "debridge",
+  Theo: "theo-network",
+  "Curve Finance": "curve-finance",
+  "Hybra Finance": "hybra",
+  Symbiosis: "symbiosis",
+  Garden: "garden",
+  Stargate: "stargate-finance",
+  "Across Protocol": "across",
+  Napier: "napier",
+  "Vfat.io": "vfat.io",
+  Arkis: "arkis",
+  "Fan App": "fan.fun",
 }
 
 const categories = [
