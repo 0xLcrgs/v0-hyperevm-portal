@@ -898,6 +898,28 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
   },
   {
+    id: 134,
+    name: "Mizu",
+    description:
+      "Mizu Labs is a unified liquidity layer that reduces infrastructure efforts for builders and focuses on consumer-based dApps.",
+    category: "Yield",
+    status: "Live",
+    website: "https://mizulabs.xyz/dapp/vault",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1854237810686828547/ZhV6sDwY_400x400.jpg",
+  },
+  {
+    id: 135,
+    name: "Theo",
+    description:
+      "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
+    category: "Yield",
+    status: "Live",
+    website: "https://app.theo.xyz/referrals/0xLcrgs",
+    tags: ["Yield", "Vaults", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
+  },
+  {
     id: 75,
     name: "Project X",
     description:
