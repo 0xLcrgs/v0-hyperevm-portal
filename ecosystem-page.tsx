@@ -1282,6 +1282,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1928058397363945472/30SHmK1e_400x400.jpg",
   },
   {
+    id: 137,
+    name: "Gliquid",
+    description:
+      "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
+    category: "DEX",
+    status: "Live",
+    website: "https://www.gliquid.xyz/swap",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1928414866554974208/FpTxpjHe_400x400.jpg",
+  },
+  {
     id: 62,
     name: "Hyperhyper",
     description: "The hyper-speculation application",
