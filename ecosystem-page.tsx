@@ -297,6 +297,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1928147506699145217/n7-KQGNJ_400x400.png",
   },
   {
+    id: 140,
+    name: "Catbal",
+    description: "Catbal's premiere soulbound NFT collection is a love letter to Catbal contributors, a curated list of power users and/or bozos, a nostalgic snapshot of a specific time in the history of Hyperliquid.",
+    category: "NFT",
+    status: "Live",
+    website: "https://pawtrait.catbal.io/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1850834359114215425/DVGw_xNc_400x400.jpg",
+  },
+  {
     id: 70,
     name: "Relay",
     description:
@@ -815,11 +825,11 @@ const projects = [
   {
     id: 124,
     name: "Liquid",
-    description: "Get Liquid. - no info yet",
-    category: "Trading Interface",
+    description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
+    category: "Wallet",
     status: "Coming Soon",
     website: "https://tryliquid.xyz?ref_id=3E4RTJC9P",
-    tags: ["Trading Interface"],
+    tags: ["Trading Interface", "Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1914394533242028033/f-745FsF_400x400.jpg",
   },
   {
@@ -950,6 +960,28 @@ const projects = [
     website: "https://trade.supurr.app/#/ref/0xlcrgs/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1884280601793929218/mcI9hEhQ_400x400.jpg",
+  },
+  {
+    id: 138,
+    name: "dotHYPE",
+    description:
+      "Building the identity layer for HyperEVM. Your name. Your presence. Your signal across the chain.",
+    category: "Other",
+    status: "Coming Soon",
+    website: "https://x.com/d0tHYPE",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1930144205541912579/trTH-qij_400x400.jpg",
+  },
+  {
+    id: 139,
+    name: "Farcaster",
+    description:
+      "Farcaster is a sufficiently decentralized social network built on Ethereum.It is a public social network similar to X and Reddit. Users can create profiles, post casts and follow others. They own their accounts and relationships with other users and are free to move between different apps.",
+    category: "Other",
+    status: "Live",
+    website: "https://farcaster.xyz/",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1546487688601096192/QoG0ZVgH_400x400.jpg",
   },
   {
     id: 30,
