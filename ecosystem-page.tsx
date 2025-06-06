@@ -211,7 +211,7 @@ const projects = [
     category: "Bridge",
     status: "Live",
     website: "https://hybridge.xyz/",
-    tags: ["Bridge"],
+    tags: ["Bridge", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
   },
   {
@@ -1479,7 +1479,7 @@ const projects = [
     description: "The next-gen trading experience is here. Get access to our full range blockchain infrastructure.",
     category: "Trading Interface",
     status: "Coming Soon",
-    website: "https://reachaltitude.xyz/waitlist",
+    website: "https://www.reachaltitude.xyz/waitlist?ref=JAZZ2H7VV4",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1916798556809437184/CBPWnZgk_400x400.jpg",
   },
