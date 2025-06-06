@@ -297,6 +297,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1928147506699145217/n7-KQGNJ_400x400.png",
   },
   {
+    id: 141,
+    name: "Mayan",
+    description:
+      "Mayan is a cross-chain swap auction protocol designed to deliver optimal swap rates via a transparent, competitive bidding mechanism. To date, the Mayan team has implemented the protocol on SVM (Solana), EVM and Sui-Move, with additional implementations rolling out soon.",
+    category: "Bridge",
+    status: "Live",
+    website: "https://swap.mayan.finance/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1891499635597856769/5BMo_JQJ_400x400.jpg",
+  },
+  {
     id: 140,
     name: "Catbal",
     description: "Catbal's premiere soulbound NFT collection is a love letter to Catbal contributors, a curated list of power users and/or bozos, a nostalgic snapshot of a specific time in the history of Hyperliquid.",
@@ -305,6 +316,16 @@ const projects = [
     website: "https://pawtrait.catbal.io/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1850834359114215425/DVGw_xNc_400x400.jpg",
+  },
+  {
+    id: 142,
+    name: "Purrtardio",
+    description: "Purrtardio is a meme-driven, community-fueled experiment. We're not liable for your financial moves, your cat's sass, or blockchain chaos. Dive in with a grin and zero expectations. This applies to the whole whitepaper—welcome to the purrty!",
+    category: "NFT",
+    status: "Live",
+    website: "https://drip.trade/collections/purrtardio",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1902406438070448129/HiiYKhfx_400x400.jpg",
   },
   {
     id: 70,
@@ -1238,6 +1259,17 @@ const projects = [
     website: "https://app.vooi.io/r/3DW6DRN",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1897274648959610880/WzzIafIX_400x400.png",
+  },
+  {
+    id: 143,
+    name: "Perpflow",
+    description:
+      "Perpflow is a management dashboard that helps you create and monitor delta-neutral positions to earn yield through perpetual futures funding rates. It automates the creation of balanced positions that can generate returns regardless of market direction.",
+    category: "Yield",
+    status: "Live",
+    website: "https://perpflow.xyz/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1873732821753249792/tJbXJ3fz_400x400.jpg",
   },
   {
     id: 56,
