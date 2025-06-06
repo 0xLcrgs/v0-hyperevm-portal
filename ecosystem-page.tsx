@@ -1261,6 +1261,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1897274648959610880/WzzIafIX_400x400.png",
   },
   {
+    id: 144,
+    name: "Polaris",
+    description: "Trade all tokens, across all chains — with Polaris, the Token Portal. Now live in beta.",
+    category: "Trading Interface",
+    status: "Live",
+    website: "https://polaris.app/",
+    tags: ["Trading Interface", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1909962811804946432/gW76pWsD_400x400.jpg",
+  },
+  {
     id: 143,
     name: "Perpflow",
     description:
