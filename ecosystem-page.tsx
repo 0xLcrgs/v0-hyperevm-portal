@@ -170,7 +170,7 @@ const projects = [
     description: "Lend, Borrow, Earn at Hyper Speed on HyperLiquid L1",
     category: "Lending",
     status: "Live",
-    website: "https://app.hyperyield.com/",
+    website: "https://app.hyperyield.com/?invite=UlTQLGpKXhcq",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
   },
