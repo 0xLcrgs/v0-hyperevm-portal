@@ -929,6 +929,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
   },
   {
+    id: 145,
+    name: "Beefy",
+    description:
+      "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.",
+    category: "Yield",
+    status: "Live",
+    website: "https://app.beefy.com/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1910288827312222208/9lDmAhjF_400x400.jpg",
+  },
+  {
     id: 134,
     name: "Mizu",
     description:
