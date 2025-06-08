@@ -17,7 +17,7 @@ const projects = [
     id: 1,
     name: "HyperSwap",
     description: "First HyperEVM native AMM DEX and Liquidity Hub",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://app.hyperswap.exchange/#/swap?referral=0xLcrgs",
     tags: ["DEX", "AMM"],
@@ -27,7 +27,7 @@ const projects = [
     id: 2,
     name: "KittenSwap",
     description: "Kittenswap is a community owned DEX on HyperEVM with ve(3,3) mechanics!",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://app.kittenswap.finance/points?referrer=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["DEX", "ve(3,3)"],
@@ -38,7 +38,7 @@ const projects = [
     name: "Felix",
     description:
       "Felix is a suite of on-chain borrowing and lending products running on Hyperliquid L1. Our goal is to let anyone unlock liquidity or earn yield in a secure, risk-adjusted, and friction-free way.",
-    category: "Lending",
+    categories: ["Lending", "CDP"],
     status: "Live",
     website: "https://usefelix.xyz?ref=18935567",
     tags: ["Lending", "Borrowing", "CDP"],
@@ -49,7 +49,7 @@ const projects = [
     name: "HyperLend",
     description:
       "HyperLend is a high-performance lending protocol on Hyperliquid EVM, built for capital efficiency. It offers real-time leverage, dynamic rates, and deep liquidity",
-    category: "Lending",
+    categories: ["Lending"],
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
     tags: ["Lending", "Borrowing"],
@@ -59,7 +59,7 @@ const projects = [
     id: 9,
     name: "HypurrFi",
     description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
-    category: "Lending",
+    categories: ["Lending", "CDP"],
     status: "Live",
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Borrowing", "CDP"],
@@ -70,7 +70,7 @@ const projects = [
     name: "Harmonix Finance",
     description:
       "Harmonix Finance is a DeFi platform that transforms sophisticated hedge fund strategies into accessible and easy-to-use automated vaults, allowing users to optimize returns through various curated investment strategies.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.harmonix.fi/?ref=Bv2S47vd",
     tags: ["Yield", "Vaults", "Delta-neutral"],
@@ -81,7 +81,7 @@ const projects = [
     name: "Hyperbeat",
     description:
       "Hyperbeat is a Hyperliquid native protocol that exists to scale HyperliquidX, HyperEVM (the people's L1) and the broader Hyperliquid Ecosystem.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
     tags: ["Yield", "Vaults"],
@@ -92,7 +92,7 @@ const projects = [
     name: "Upshift",
     description:
       "Upshift is the first institutional DeFi yield platform. Access capital-efficient yield strategies used by DeFi funds.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.upshift.finance/r/dEc4C8A42A98",
     tags: ["Yield", "Vaults"],
@@ -103,7 +103,7 @@ const projects = [
     name: "Looped Hype",
     description:
       "Looped Hype (LHYPE) is an automated looping protocol that maximizes yield on staked HYPE and other yield bearing tokens. Users simply deposit HYPE to get LHYPE, then behind the scenes the protocol uses an automated looping strategy to generate additional yield, on top of any network rewards earned from staking",
-    category: "LST",
+    categories: ["LST", "Yield"],
     status: "Live",
     website: "https://loopedhype.com/",
     tags: ["LST"],
@@ -114,7 +114,7 @@ const projects = [
     name: "Hyperpie",
     description:
       "Hyperpie is an integrated DeFi ecosystem built on Hypercore, composed of a Liquid Staking platform, a meme launchpad, and a meme DEX.",
-    category: "LST",
+    categories: ["LST"],
     status: "Live",
     website: "https://www.hyperliquid.magpiexyz.io/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["LST"],
@@ -125,7 +125,7 @@ const projects = [
     name: "LiquidLaunch",
     description:
       "Create tokens and agents effortlessly, trade for profits seamlessly, all without writing a single line of code!",
-    category: "Launchpad",
+    categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://liquidlaunch.app/",
     tags: ["Launchpad", "DEX Aggregator"],
@@ -136,7 +136,7 @@ const projects = [
     name: "Laminar",
     description:
       "Laminar is a liquidity engine and aggregator connecting disparate liquidity on both HyperEVM and HyperCore to provide simple, optimally priced swaps.",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://laminar.xyz/",
     tags: ["DEX"],
@@ -147,7 +147,7 @@ const projects = [
     name: "Hyperstable",
     description:
       "Hyperstable is a crypto-backed, over-collateralized and decentralized stablecoin that's designed to trade at one US Dollar. Built on HyperEVM.",
-    category: "Lending",
+    categories: ["Lending", "CDP"],
     status: "Live",
     website: "https://app.hyperstable.xyz/r/0xLcrgs",
     tags: ["Lending", "CDP"],
@@ -158,7 +158,7 @@ const projects = [
     name: "Keiko Finance",
     description:
       "Keiko is a permissionless borrowing protocol with dynamic interest rates and liquidation ratios on Hyperliquid",
-    category: "Lending",
+    categories: ["Lending", "CDP"],
     status: "Live",
     website: "https://app.keikofinance.com/#",
     tags: ["Lending", "CDP"],
@@ -168,7 +168,7 @@ const projects = [
     id: 12,
     name: "HyperYield",
     description: "Lend, Borrow, Earn at Hyper Speed on HyperLiquid L1",
-    category: "Lending",
+    categories: ["Lending"],
     status: "Live",
     website: "https://app.hyperyield.com/?invite=UlTQLGpKXhcq",
     tags: ["Lending", "Borrowing"],
@@ -177,8 +177,9 @@ const projects = [
   {
     id: 95,
     name: "Hypio",
-    description: "Wealthy Hypio Babies are a cultural virus born from the Remiliasphere aiming to be one of the most recognizable and distinctive NFT project brands and community in the Hyperliquid eco. We aim to educate our holders about the HL eco and convert many current members of the HL to be a part of our hivemind.",
-    category: "NFT",
+    description:
+      "Wealthy Hypio Babies are a cultural virus born from the Remiliasphere aiming to be one of the most recognizable and distinctive NFT project brands and community in the Hyperliquid eco. We aim to educate our holders about the HL eco and convert many current members of the HL to be a part of our hivemind.",
+    categories: ["NFT"],
     status: "Live",
     website: "https://drip.trade/collections/hypio",
     tags: ["NFT"],
@@ -188,7 +189,7 @@ const projects = [
     id: 19,
     name: "DeBridge",
     description: "Multichain bridge",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://app.debridge.finance/r/31599",
     tags: ["Bridge"],
@@ -198,7 +199,7 @@ const projects = [
     id: 130,
     name: "Symbiosis",
     description: "A cross-chain engine and liquidity protocol.",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://app.symbiosis.finance/swap?chainIn=Ethereum&tokenIn=ETH",
     tags: ["Bridge"],
@@ -208,17 +209,17 @@ const projects = [
     id: 20,
     name: "HyBridge",
     description: "Your Hyperliquid Bridge. Fast, Seamless, and Ready to Connect Across EVM & SOL Chains.",
-    category: "Bridge",
+    categories: ["Bridge", "DEX"],
     status: "Live",
     website: "https://hybridge.xyz/",
-    tags: ["Bridge", "DEX"],
+    tags: ["Bridge", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
   },
   {
     id: 131,
     name: "Hypers",
     description: "Hypers by Drip.Trade, only on Hyperliquid",
-    category: "NFT",
+    categories: ["NFT"],
     status: "Live",
     website: "https://drip.trade/collections/hypers",
     tags: ["NFT"],
@@ -228,7 +229,7 @@ const projects = [
     id: 119,
     name: "Garden",
     description: "Trustless peer-to-peer bitcoin bridge",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://garden.finance/",
     tags: ["Bridge"],
@@ -238,7 +239,7 @@ const projects = [
     id: 21,
     name: "Drip.Trade",
     description: "Leading native NFT exchange on HyperLiquid.",
-    category: "NFT",
+    categories: ["NFT"],
     status: "Live",
     website: "https://drip.trade/",
     tags: ["NFT"],
@@ -248,7 +249,7 @@ const projects = [
     id: 22,
     name: "Unit",
     description: "Unit is the asset tokenization layer on Hyperliquid, enabling seamless deposits and withdrawals.",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://app.hyperunit.xyz/",
     tags: ["Bridge"],
@@ -257,8 +258,9 @@ const projects = [
   {
     id: 72,
     name: "HyperWarp",
-    description: "HyperWarp is a marketplace to unlock liquidity for vote-escrowed NFTs (veNFTs). Starting with veKitten",
-    category: "NFT",
+    description:
+      "HyperWarp is a marketplace to unlock liquidity for vote-escrowed NFTs (veNFTs). Starting with veKitten",
+    categories: ["NFT"],
     status: "Coming Soon",
     website: "https://www.hyperwarp.fi/",
     tags: ["NFT", "veNFT"],
@@ -268,7 +270,7 @@ const projects = [
     id: 32,
     name: "Jumper Exchange",
     description: "Crypto's Everything Exchange",
-    category: "Bridge",
+    categories: ["Bridge", "DEX"],
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
@@ -279,7 +281,7 @@ const projects = [
     name: "The Hyperliquid Bridge",
     description:
       "The Hyperliquid Bridge is a dedicated bridge frontend for transferring your assets into HyperEVM and HyperCore from 120+ other blockchains",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://www.thehyperliquidbridge.xyz/transfer",
     tags: ["Bridge"],
@@ -290,7 +292,7 @@ const projects = [
     name: "Stargate",
     description:
       "Stargate is a composable cross-chain liquidity transport protocol enabling seamless asset transfers between blockchains. This documentation details its technical architecture, core primitives and integration guidelines for developers.",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://stargate.finance/",
     tags: ["Bridge"],
@@ -301,7 +303,7 @@ const projects = [
     name: "Mayan",
     description:
       "Mayan is a cross-chain swap auction protocol designed to deliver optimal swap rates via a transparent, competitive bidding mechanism. To date, the Mayan team has implemented the protocol on SVM (Solana), EVM and Sui-Move, with additional implementations rolling out soon.",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://swap.mayan.finance/",
     tags: ["Bridge"],
@@ -310,8 +312,9 @@ const projects = [
   {
     id: 140,
     name: "Catbal",
-    description: "Catbal's premiere soulbound NFT collection is a love letter to Catbal contributors, a curated list of power users and/or bozos, a nostalgic snapshot of a specific time in the history of Hyperliquid.",
-    category: "NFT",
+    description:
+      "Catbal's premiere soulbound NFT collection is a love letter to Catbal contributors, a curated list of power users and/or bozos, a nostalgic snapshot of a specific time in the history of Hyperliquid.",
+    categories: ["NFT"],
     status: "Live",
     website: "https://pawtrait.catbal.io/",
     tags: ["NFT"],
@@ -320,8 +323,9 @@ const projects = [
   {
     id: 142,
     name: "Purrtardio",
-    description: "Purrtardio is a meme-driven, community-fueled experiment. We're not liable for your financial moves, your cat's sass, or blockchain chaos. Dive in with a grin and zero expectations. This applies to the whole whitepaper—welcome to the purrty!",
-    category: "NFT",
+    description:
+      "Purrtardio is a meme-driven, community-fueled experiment. We're not liable for your financial moves, your cat's sass, or blockchain chaos. Dive in with a grin and zero expectations. This applies to the whole whitepaper—welcome to the purrty!",
+    categories: ["NFT"],
     status: "Live",
     website: "https://drip.trade/collections/purrtardio",
     tags: ["NFT"],
@@ -332,7 +336,7 @@ const projects = [
     name: "Relay",
     description:
       "Instant, low-cost swapping, bridging and cross-chain execution on 80+ chains & counting. Built by Reservoir",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://relay.link/bridge",
     tags: ["Bridge"],
@@ -343,7 +347,7 @@ const projects = [
     name: "Dextrabot",
     description:
       "Discover profitable traders, analyze their performance, and automatically copy their strategies with customizable risk settings.",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Live",
     website: "https://app.dextrabot.com/referral/0XLCRGS",
     tags: ["Bot", "Tracker"],
@@ -354,7 +358,7 @@ const projects = [
     name: "D2 Finance",
     description:
       "D2 Finance is tokenizing real risk-adjusted returns / derivatives trades with a proven track record on-chain.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://d2.finance/",
     tags: ["Yield", "Vaults"],
@@ -365,17 +369,17 @@ const projects = [
     name: "Hyperdrive",
     description:
       "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
-    category: "Lending",
+    categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://app.hyperdrive.fi?ref=133A9FEB",
-    tags: ["Lending", "Borrowing"],
+    tags: ["Lending", "Borrowing", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
   },
   {
     id: 37,
     name: "Kinetiq",
     description: "Powering Liquid Staking on Hyperliquid.",
-    category: "LST",
+    categories: ["LST"],
     status: "Coming Soon",
     website: "https://kinetiq.xyz/",
     tags: ["LST"],
@@ -386,7 +390,7 @@ const projects = [
     name: "Liminal",
     description:
       "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Beta",
     website: "https://liminal.money/",
     tags: ["Yield", "Delta-neutral"],
@@ -397,7 +401,7 @@ const projects = [
     name: "Valantis",
     description:
       "An AMM designed specifically for LSTs, built around stHYPE. Never depegs, integrated natively with staking contracts, and assets earn extra yield on Hyperlend.",
-    category: "LST",
+    categories: ["LST", "DEX"],
     status: "Live",
     website: "https://www.valantis.xyz/",
     tags: ["LST", "DEX Aggregator"],
@@ -406,9 +410,8 @@ const projects = [
   {
     id: 110,
     name: "simpfor.fun",
-    description:
-      "Smart copy trading, grow your wealth on autopilot! powered by SOON.",
-    category: "Bot",
+    description: "Smart copy trading, grow your wealth on autopilot! powered by SOON.",
+    categories: ["Bot"],
     status: "Live",
     website: "https://simpfor.fun/login?referralCode=GT3SH4",
     tags: ["Bot", "Tracker"],
@@ -419,7 +422,7 @@ const projects = [
     name: "Neko.hl",
     description:
       "Neko is the first DeFAI Swarm on Hyperliquid, an AI-driven network optimizing DeFi strategies. Users can trade, launch tokens, and access AI-powered yield strategies through a seamless interface, automating complex on-chain processes for efficiency and accessibility. By integrating with HyperEVM and Hyperliquid, Neko enhances liquidity, boosts capital efficiency, and drives on-chain adoption through AI automation and social integration.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Bot", "Wallet", "Tools"],
     status: "Coming Soon",
     website: "https://www.neko.fun/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
@@ -430,7 +433,7 @@ const projects = [
     name: "HyperZap",
     description:
       "Discover new & trending launches, buy HyperEVM tokens, and execute trades on Hyperliquid through our simple Telegram bot.",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Beta",
     website: "https://www.hyperzap.io/",
     tags: ["Bot"],
@@ -439,9 +442,8 @@ const projects = [
   {
     id: 108,
     name: "Curve Finance",
-    description:
-      'Creating deep on-chain liquidity using advanced bonding curves',
-    category: "DEX",
+    description: "Creating deep on-chain liquidity using advanced bonding curves",
+    categories: ["DEX"],
     status: "Live",
     website: "https://www.curve.finance/dex/",
     tags: ["DEX"],
@@ -450,9 +452,8 @@ const projects = [
   {
     id: 112,
     name: "Bloom",
-    description:
-      "Most advanced cross-chain trading automation SOL | BSC | BASE | HYPEREVM",
-    category: "Bot",
+    description: "Most advanced cross-chain trading automation SOL | BSC | BASE | HYPEREVM",
+    categories: ["Bot"],
     status: "Live",
     website: "https://t.me/BloomHyperLiquid_bot?start=ref_E67VP3BK8D",
     tags: ["Bot"],
@@ -463,7 +464,7 @@ const projects = [
     name: "Across Protocol",
     description:
       "Across is an interoperability protocol powered by intents. It is the only cross-chain intents protocol in production today, enabling the fastest and lowest-cost way to transfer value without security tradeoffs vs. traditional bridges.",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://app.across.to/bridge",
     tags: ["Bridge"],
@@ -472,9 +473,8 @@ const projects = [
   {
     id: 77,
     name: "HeadtoHead.hl",
-    description:
-      "Head to Head is a social wagering platform where people can put their money where their mouth is } {",
-    category: "Other",
+    description: "Head to Head is a social wagering platform where people can put their money where their mouth is",
+    categories: ["Other"],
     status: "Live",
     website: "https://www.headtohead.app/",
     tags: ["Other"],
@@ -484,7 +484,7 @@ const projects = [
     id: 23,
     name: "Hyperliquid Names",
     description: "Your digital identity in the fast lane of DeFi.",
-    category: "Other",
+    categories: ["Other"],
     status: "Live",
     website: "https://hlnames.xyz/",
     tags: ["Other"],
@@ -494,7 +494,7 @@ const projects = [
     id: 24,
     name: "Thunderhead",
     description: "The premiere liquid-staking solution for the Hyperliquid network.",
-    category: "LST",
+    categories: ["LST"],
     status: "Coming Soon",
     website: "https://thunderhead.xyz/",
     tags: ["LST"],
@@ -505,7 +505,7 @@ const projects = [
     name: "HyperFlash",
     description:
       "HyperFlash is a next-generation staking protocol on HyperEVM that combines Liquid Staking Tokens (LSTs) with Maximum Extractable Value (MEV) strategies",
-    category: "LST",
+    categories: ["LST"],
     status: "Coming Soon",
     website: "https://hyperflash.xyz/",
     tags: ["LST"],
@@ -514,9 +514,8 @@ const projects = [
   {
     id: 89,
     name: "Rabby Wallet",
-    description:
-      "The game-changing wallet for Ethereum and all EVM chains.",
-    category: "Wallet",
+    description: "The game-changing wallet for Ethereum and all EVM chains.",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://rabby.io/points?code=0XLCRGS",
     tags: ["Wallet"],
@@ -526,7 +525,7 @@ const projects = [
     id: 111,
     name: "DeBank",
     description: "The Real User Based Web3 Community.",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://debank.com/",
     tags: ["Tools", "Block Explorer", "Tracker"],
@@ -537,7 +536,7 @@ const projects = [
     name: "Napier",
     description:
       "A modular yield tokenization protocol that enables you to own, manage, create any yield products without permissions.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.napier.finance/",
     tags: ["Yield", "Vaults"],
@@ -548,17 +547,17 @@ const projects = [
     name: "Timeswap",
     description:
       "Timeswap is the first oracleless lending/borrowing protocol. Timeswap enables the creation of money markets for ANY ERC-20 tokens",
-    category: "Lending",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.timeswap.io/markets",
-    tags: ["Lending"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1879076220106678272/ZkkhrcyV_400x400.jpg",
   },
   {
     id: 18,
     name: "Okto",
     description: "Hyperliquid Core and HyperEVM integrated mobile wallet",
-    category: "Wallet",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
     tags: ["Wallet"],
@@ -567,9 +566,8 @@ const projects = [
   {
     id: 78,
     name: "Hedgewater Associates",
-    description:
-      "Hedgewater is an on-chain AI investment fund focused on Hyperliquid ecosystem.",
-    category: "Yield",
+    description: "Hedgewater is an on-chain AI investment fund focused on Hyperliquid ecosystem.",
+    categories: ["Yield"],
     status: "Live",
     website: "https://www.hedgewater.xyz/",
     tags: ["Yield", "AI"],
@@ -579,7 +577,7 @@ const projects = [
     id: 53,
     name: "Purrsec",
     description: "Parsec's HyperEVM exclusive Block Explorer",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://purrsec.com/",
     tags: ["Tools", "Block Explorer", "Tracker"],
@@ -589,7 +587,7 @@ const projects = [
     id: 54,
     name: "HypurrScan",
     description: "Explorer for Hyperliquid Core",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://hypurrscan.io/",
     tags: ["Tools", "Block Explorer", "Tracker"],
@@ -600,7 +598,7 @@ const projects = [
     name: "pvp.trade",
     description:
       "pvp.trade is a Telegram bot you can add to your trading groups. Once added, you and your group members can track each others' positions and place trades in real-time. Share alpha, copy, or countertrade your friends, all in the comfort of your existing Telegram group.",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Live",
     website: "https://pvp.trade/join/tb3b3s",
     tags: ["Bot"],
@@ -611,18 +609,17 @@ const projects = [
     name: "HypurrFun",
     description:
       "Launch and trade memecoins on Hyperliquid with a few clicks, directly from Telegram. Snipe new launches, access whale chats, and compete with other cabals.",
-    category: "Bot",
+    categories: ["Bot", "Launchpad"],
     status: "Live",
     website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
-    tags: ["Bot"],
+    tags: ["Bot", "Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
   },
   {
     id: 97,
     name: "Lighthouse.one",
-    description:
-      "All your crypto and fiat assets in one, private portfolio manager.",
-    category: "Trading Interface",
+    description: "All your crypto and fiat assets in one, private portfolio manager.",
+    categories: ["Trading Interface", "Wallet", "Tools"],
     status: "Live",
     website: "https://lighthouse.one/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
@@ -633,7 +630,7 @@ const projects = [
     name: "Definitive",
     description:
       "Definitive is the future of onchain trade execution. We deliver a CeFi-like experience on DeFi rails via a fully non-custodial platform & API that is live across Solana, Base and other major EVM chains. With Definitive, anyone - from a retail user, to a whale, to a liquid fund, or even an AI agent - can trade any asset on any chain with the same institutional-grade execution found in CeFi. Some features include:",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Tools"],
     status: "Live",
     website: "https://app.definitive.fi/r/UJSTNJ7Q",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
@@ -644,7 +641,7 @@ const projects = [
     name: "Cielo",
     description:
       "Wallet Tracking and Discovery App, TG Bot + Onchain Analysis for Solana, Ethereum, Base, Hyperliquid, Sui, Tron + Bitcoin. Track. Trade. Rinse. Repeat.",
-    category: "Bot",
+    categories: ["Bot", "Tools"],
     status: "Live",
     website: "https://app.cielo.finance/",
     tags: ["Bot", "Tracker", "Tools"],
@@ -655,7 +652,7 @@ const projects = [
     name: "Maestro",
     description:
       "The leading DeFi Telegram trading suite.Trade easier on Solana, Ethereum, BSC, Base, Sonic, Tron, Avalanche, Arbitrum and TON",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Live",
     website: "https://t.me/maestro?start=r-xlcrgs",
     tags: ["Bot"],
@@ -666,7 +663,7 @@ const projects = [
     name: "Vfat.io",
     description:
       "Vfat is a multichain yield aggregator - Compare thousands of yield products across DeFi, open positions 1 click and automate them.",
-    category: "Yield",
+    categories: ["Yield", "Tools"],
     status: "Live",
     website: "https://vfat.io/",
     tags: ["Yield", "Tools"],
@@ -677,7 +674,7 @@ const projects = [
     name: "Octis",
     description:
       "Octis Divers is the first revenue-sharing NFT on Hyperliquid. Holders earn a share of revenue from the on-chain game 808FLIP, which charges a 4% fee per game.",
-    category: "NFT",
+    categories: ["NFT"],
     status: "Live",
     website: "https://octis.ai/flip?r=000002HM",
     tags: ["NFT"],
@@ -686,9 +683,8 @@ const projects = [
   {
     id: 79,
     name: "HypeFlows",
-    description:
-      "HypeFlows is the best place to track Hyperliquid's trading stats against Centralized Exchanges.",
-    category: "Tools",
+    description: "HypeFlows is the best place to track Hyperliquid's trading stats against Centralized Exchanges.",
+    categories: ["Tools"],
     status: "Live",
     website: "https://hypeflows.com/",
     tags: ["Tools"],
@@ -699,7 +695,7 @@ const projects = [
     name: "Silhouette",
     description:
       "Silhouette is a decentralised trading platform that offers alternative trading types to the Hyperliquid ecosystem. Using the latest privacy technology, we provide a hidden matching engine to optimize trade executions.",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Coming Soon",
     website: "https://silhouette.exchange/",
     tags: ["DEX"],
@@ -708,9 +704,8 @@ const projects = [
   {
     id: 80,
     name: "HyperFly",
-    description:
-      "HyperFly is the home of DeFAI on Hyperliquid",
-    category: "Other",
+    description: "HyperFly is the home of DeFAI on Hyperliquid",
+    categories: ["Other"],
     status: "Live",
     website: "https://hyperfly.sh/",
     tags: ["Other", "AI"],
@@ -721,7 +716,7 @@ const projects = [
     name: "Sentiment.xyz",
     description:
       "Sentiment is a decentralized onchain lending protocol, that enables users to programmatically lend and borrow digital assets on Ethereum and L2s.",
-    category: "Lending",
+    categories: ["Lending"],
     status: "Live",
     website: "https://app.sentiment.xyz?refCode=dcb722ec69",
     tags: ["Lending"],
@@ -732,7 +727,7 @@ const projects = [
     name: "Mercury",
     description:
       "Mercury is an upcoming mobile application for both iOS and Android, created to make Hyperliquid's platform accessible and user-friendly for everyone.",
-    category: "Wallet",
+    categories: ["Wallet"],
     status: "Coming Soon",
     website: "https://www.mercurytrade.org/",
     tags: ["Wallet"],
@@ -743,7 +738,7 @@ const projects = [
     name: "Dexari",
     description:
       "Dexari is a next-generation crypto platform designed to make decentralized finance (DeFi) accessible and intuitive. Our goal is to empower everyone with full control over their digital assets while delivering the ease of use typically associated with centralized platforms.",
-    category: "Wallet",
+    categories: ["Wallet"],
     status: "Beta",
     website: "https://www.dexari.com/",
     tags: ["Wallet"],
@@ -752,9 +747,8 @@ const projects = [
   {
     id: 87,
     name: "Lootbase",
-    description:
-      "A mobile Hyperliquid client to trade perps and spot tokens.",
-    category: "Wallet",
+    description: "A mobile Hyperliquid client to trade perps and spot tokens.",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://share.lootbase.com/0xLcrgs",
     tags: ["Wallet"],
@@ -763,9 +757,8 @@ const projects = [
   {
     id: 81,
     name: "Hyperlauncher",
-    description:
-      "Your Agentic Copilot, launching ideas into products in minutes",
-    category: "Launchpad",
+    description: "Your Agentic Copilot, launching ideas into products in minutes",
+    categories: ["Launchpad"],
     status: "Beta",
     website: "https://hyperlauncher.ai/",
     tags: ["Launchpad", "AI"],
@@ -776,7 +769,7 @@ const projects = [
     name: "HyperDash",
     description:
       "Hyperdash empowers traders with real-time analytics and insights by tracking the most successful derivatives traders on Hyperliquid.",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://hyperdash.info/",
     tags: ["Tools", "Tracker"],
@@ -786,7 +779,7 @@ const projects = [
     id: 47,
     name: "HyperFolio",
     description: "HyperFolio is a dashboard that helps users track their HyperEVM assets and DeFi positions.",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://www.hyperfolio.xyz/",
     tags: ["Tools", "Tracker"],
@@ -796,7 +789,7 @@ const projects = [
     id: 120,
     name: "Defi App",
     description: "Combining the magic of CeFi and DeFi in the world's first decentralized Superapp ",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://app.defi.app/join/8fYUku",
     tags: ["Trading Interface"],
@@ -806,7 +799,7 @@ const projects = [
     id: 121,
     name: "Axiom",
     description: "The ONLY Trading Platform You'll Ever Need. Memes, Perps, Yield, All-In-One.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://axiom.trade/@0xlcrgs",
     tags: ["Trading Interface"],
@@ -817,7 +810,7 @@ const projects = [
     name: "Glider",
     description:
       "Glider is a software-as-a-service platform that enables users to build, test, and execute non-custodial trading portfolios on-chain. Our platform is designed to empower traders with advanced tools and capabilities for cryptocurrency trading.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Tools"],
     status: "Beta",
     website: "https://glider.fi/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
@@ -826,8 +819,9 @@ const projects = [
   {
     id: 122,
     name: "TokenPocket",
-    description: "Easy and safe to buy, store, send, swap tokens and collect NFTs. Trusted by 30+ millions users from 200+ countries and regions.",
-    category: "Wallet",
+    description:
+      "Easy and safe to buy, store, send, swap tokens and collect NFTs. Trusted by 30+ millions users from 200+ countries and regions.",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://www.tp.xyz/",
     tags: ["Wallet"],
@@ -837,7 +831,7 @@ const projects = [
     id: 123,
     name: "Coinpilot",
     description: "Copy winning traders on Hyperliquid today.",
-    category: "Bot",
+    categories: ["Bot", "Trading Interface"],
     status: "Beta",
     website: "https://www.trycoinpilot.com/",
     tags: ["Bot", "Trading Interface"],
@@ -847,7 +841,7 @@ const projects = [
     id: 124,
     name: "Liquid",
     description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
-    category: "Wallet",
+    categories: ["Wallet", "Trading Interface"],
     status: "Coming Soon",
     website: "https://tryliquid.xyz?ref_id=3E4RTJC9P",
     tags: ["Trading Interface", "Wallet"],
@@ -858,7 +852,7 @@ const projects = [
     name: "HyperSignals",
     description:
       "Delivering trading edge via hyperliquid orderbook patterns, smart money moves & offchain sentiment analysis.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Tools"],
     status: "Beta",
     website: "https://hypersignals.ai/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
@@ -868,7 +862,7 @@ const projects = [
     id: 114,
     name: "Hybra Finance",
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://www.hybra.finance/",
     tags: ["DEX", "ve(3,3)"],
@@ -879,7 +873,7 @@ const projects = [
     name: "Kryptos",
     description:
       "Kryptos is pioneering the future of Web3 finance by establishing a standardised financial data protocol layer that seamlessly connects diverse blockchain platforms. As the definitive Open Banking standard for Web3, Kryptos equips developers, businesses, and end-users with the tools necessary to share and utilise data effortlessly. Supporting over 5000 platforms, including major CEXs, DeFi protocols, and blockchain networks, Kryptos enhances interoperability, compliance, and accessibility in Web3 with its APIs and products such as real-time financial analytics, compliance-ready tax reporting, and personalised portfolio management.",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://kryptos.io?via=niteip1995",
     tags: ["Tools", "Taxes"],
@@ -888,8 +882,9 @@ const projects = [
   {
     id: 94,
     name: "Vapor",
-    description: "Vapor makes it easy to create, launch, and manage AI agents. Users are able to create agents without ever needing to write a line of code. Vapor is built on Eliza the opensource agent tooling created by ai16zDAO. When the Hyperliquid EVM launches, users will be able to deploy ERC20 tokens to attach to their agents as well.",
-    category: "Launchpad",
+    description:
+      "Vapor makes it easy to create, launch, and manage AI agents. Users are able to create agents without ever needing to write a line of code. Vapor is built on Eliza the opensource agent tooling created by ai16zDAO. When the Hyperliquid EVM launches, users will be able to deploy ERC20 tokens to attach to their agents as well.",
+    categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://www.vaporware.fun/",
     tags: ["Launchpad", "DEX"],
@@ -900,7 +895,7 @@ const projects = [
     name: "HL Fund",
     description:
       "Decentralized hub designed to accelerate the growth of the Hyperliquid ecosystem. Reputation, Education, Decentralized Directories, DAOs, Collabs. Investments",
-    category: "Other",
+    categories: ["Other"],
     status: "Live",
     website: "https://hl.fund/",
     tags: ["Other"],
@@ -911,7 +906,7 @@ const projects = [
     name: "Nest",
     description:
       "Sophisticated mobile trading app for professional traders. Now supports HL perps, and live sentiment & whale tracking.",
-    category: "Wallet",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://nestwallet.xyz/",
     tags: ["Wallet"],
@@ -920,9 +915,8 @@ const projects = [
   {
     id: 73,
     name: "Vegas HL",
-    description:
-      "The next-gen crypto poker experience. Built on HyperEVM to revolutionize on-chain gambling.",
-    category: "Other",
+    description: "The next-gen crypto poker experience. Built on HyperEVM to revolutionize on-chain gambling.",
+    categories: ["Other"],
     status: "Live",
     website: "https://vegas.fun?r=0XLCRGS",
     tags: ["Other"],
@@ -933,7 +927,7 @@ const projects = [
     name: "Beefy",
     description:
       "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.beefy.com/",
     tags: ["Yield"],
@@ -944,7 +938,7 @@ const projects = [
     name: "Mizu",
     description:
       "Mizu Labs is a unified liquidity layer that reduces infrastructure efforts for builders and focuses on consumer-based dApps.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://mizulabs.xyz/dapp/vault",
     tags: ["Yield", "Vaults"],
@@ -955,7 +949,7 @@ const projects = [
     name: "Theo",
     description:
       "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.theo.xyz/referrals/0xLcrgs",
     tags: ["Yield", "Vaults", "Delta-neutral"],
@@ -966,7 +960,7 @@ const projects = [
     name: "Project X",
     description:
       "Project build by @Lamboland_ and @BOBBYBIGYIELD. Not much is known yet about it (pay attention on this one)",
-    category: "Other",
+    categories: ["Other"],
     status: "Coming Soon",
     website: "https://x.com/prjx_hl",
     tags: ["Other"],
@@ -975,9 +969,8 @@ const projects = [
   {
     id: 76,
     name: "HyperPath",
-    description:
-      "Not much is known yet about it (i'll update a soon as possible)",
-    category: "Other",
+    description: "Not much is known yet about it (i'll update a soon as possible)",
+    categories: ["Other"],
     status: "Coming Soon",
     website: "https://x.com/hyper_path",
     tags: ["Other"],
@@ -987,7 +980,7 @@ const projects = [
     id: 29,
     name: "Supurr",
     description: "Trade supurr short-dated options",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://trade.supurr.app/#/ref/0xlcrgs/",
     tags: ["Trading Interface"],
@@ -996,9 +989,8 @@ const projects = [
   {
     id: 138,
     name: "dotHYPE",
-    description:
-      "Building the identity layer for HyperEVM. Your name. Your presence. Your signal across the chain.",
-    category: "Other",
+    description: "Building the identity layer for HyperEVM. Your name. Your presence. Your signal across the chain.",
+    categories: ["Other"],
     status: "Coming Soon",
     website: "https://x.com/d0tHYPE",
     tags: ["Other"],
@@ -1009,7 +1001,7 @@ const projects = [
     name: "Farcaster",
     description:
       "Farcaster is a sufficiently decentralized social network built on Ethereum.It is a public social network similar to X and Reddit. Users can create profiles, post casts and follow others. They own their accounts and relationships with other users and are free to move between different apps.",
-    category: "Other",
+    categories: ["Other"],
     status: "Live",
     website: "https://farcaster.xyz/",
     tags: ["Other"],
@@ -1019,7 +1011,7 @@ const projects = [
     id: 30,
     name: "SuperHype",
     description: "HyperEVM token launchpad and AMM DEX",
-    category: "Launchpad",
+    categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://www.superhype.app/",
     tags: ["Launchpad", "DEX"],
@@ -1030,7 +1022,7 @@ const projects = [
     name: "Sunder Finance",
     description:
       "Sunder Finance is a groundbreaking decentralized finance (DeFi) platform designed to redefine what's possible on the Hyperliquid.",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://www.sunder.finance/swap",
     tags: ["DEX"],
@@ -1041,7 +1033,7 @@ const projects = [
     name: "Rysk Finance",
     description:
       "Rysk V12 introduces a new way to earn high, sustainable yield on ETH, BTC, and any volatile asset in DeFi. DeFi's biggest gap has been obvious: scalable, efficient returns on its core assets. These assets are held by everyone, yet their yields remain low and unsustainable. Rysk fixes this by reimagining covered calls, a proven strategy from traditional finance, and making it work for DeFi.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Coming Soon",
     website: "https://app.rysk.finance/",
     tags: ["Trading Interface", "Options"],
@@ -1051,7 +1043,7 @@ const projects = [
     id: 41,
     name: "Nitro",
     description: "Bridge from over 35 chains in a single step, including non-EVM chains like Sui and Solana.",
-    category: "Bridge",
+    categories: ["Bridge"],
     status: "Live",
     website: "https://routernitro.com/swap",
     tags: ["Bridge"],
@@ -1062,7 +1054,7 @@ const projects = [
     name: "Gigabrain",
     description:
       'Gigabrain.gg is an AI-powered market intelligence platform designed for cryptocurrency traders seeking institutional-grade insights. Operating as "The BlackRock of Crypto," Gigabrain processes vast amounts of data from over 3,000 projects to identify high-probability trading opportunities before major market movements.',
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://gigabrain.gg/",
     tags: ["Tools"],
@@ -1073,7 +1065,7 @@ const projects = [
     name: "GlueX Protocol",
     description:
       "GlueX is the first and only native swap router on HyperEVM, designed to simplify DeFi by unifying swaps, lending, and liquidity provisioning into a single, seamless interface. No MEV losses. No upfront fees. Just a smooth, rewarding experience every single time.",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://dapp.gluex.xyz/",
     tags: ["DEX Aggregator"],
@@ -1082,9 +1074,8 @@ const projects = [
   {
     id: 133,
     name: "EISEN",
-    description:
-      "Eisen is a DEX aggregator with a fast Ce-DeFi engine for safer, profitable trading.",
-    category: "DEX",
+    description: "Eisen is a DEX aggregator with a fast Ce-DeFi engine for safer, profitable trading.",
+    categories: ["DEX"],
     status: "Live",
     website: "https://app.eisenfinance.com/",
     tags: ["DEX Aggregator"],
@@ -1095,7 +1086,7 @@ const projects = [
     name: "Slate Wallet Tracker",
     description:
       "Slate's Hyperliquid Wallet Tracker is a Telegram-based tool that delivers real-time updates on any Hyperliquid wallet's activity",
-    category: "Bot",
+    categories: ["Bot", "Tools"],
     status: "Live",
     website: "https://link3.to/W0DF72YJ",
     tags: ["Bot", "Tracker"],
@@ -1106,7 +1097,7 @@ const projects = [
     name: "HypeRPC",
     description:
       "HypeRPC provides optimized RPC infrastructure for Hyperliquid. It is the first dedicated RPC provider built for speed, scale, and reliability.",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://hyperpc.app/",
     tags: ["Tools"],
@@ -1116,8 +1107,8 @@ const projects = [
     id: 102,
     name: "Derps",
     description:
-      'Derps is a fun, easy-to-use mobile app for on-chain perpetuals (no KYC, zero gas fees) powered by HyperLiquid, MoonPay & dexorgexchange',
-    category: "Wallet",
+      "Derps is a fun, easy-to-use mobile app for on-chain perpetuals (no KYC, zero gas fees) powered by HyperLiquid, MoonPay & dexorgexchange",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://dex.org/",
     tags: ["Wallet"],
@@ -1127,8 +1118,8 @@ const projects = [
     id: 103,
     name: "BasedApp",
     description:
-      'Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.',
-    category: "Wallet",
+      "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://app.basedapp.io?access=UCLV9HOL",
     tags: ["Wallet"],
@@ -1138,8 +1129,8 @@ const projects = [
     id: 104,
     name: "Pocket Pro",
     description:
-      'Pocket Pro is the first cross-platform Hyperliquid trading product that helps people trade more profitably with friends. Trade on X: open perps trades directly on X to get followers and copy traders. Referrals: get 20% of the fees of anyone who joins from your trades on X or through your ref link. One Click Copy Trade: share your ref link or trade on X to get copy (or counter) traders - they pay you 20% of their PNL',
-    category: "Wallet",
+      "Pocket Pro is the first cross-platform Hyperliquid trading product that helps people trade more profitably with friends. Trade on X: open perps trades directly on X to get followers and copy traders. Referrals: get 20% of the fees of anyone who joins from your trades on X or through your ref link. One Click Copy Trade: share your ref link or trade on X to get copy (or counter) traders - they pay you 20% of their PNL",
+    categories: ["Wallet"],
     status: "Coming Soon",
     website: "https://www.pocketprotector.xyz/",
     tags: ["Wallet"],
@@ -1149,8 +1140,8 @@ const projects = [
     id: 105,
     name: "thefarm.fun",
     description:
-      'The 1st GenAI AI Agent game built on Hyperliquid. Think on-chain creature generation, powered by our GenAI model (Cryptokitties 2.0) + Stardew Valley (simulation game) + Pokemon Go (battle/esports), all by human via AI.',
-    category: "Launchpad",
+      "The 1st GenAI AI Agent game built on Hyperliquid. Think on-chain creature generation, powered by our GenAI model (Cryptokitties 2.0) + Stardew Valley (simulation game) + Pokemon Go (battle/esports), all by human via AI.",
+    categories: ["Launchpad"],
     status: "Live",
     website: "https://www.thefarm.fun/",
     tags: ["Launchpad"],
@@ -1159,9 +1150,8 @@ const projects = [
   {
     id: 106,
     name: "LiquidLoot",
-    description:
-      'Marketplace for NFTs on HyperliquidX I Launchpad coming soon I Lend&borrow coming soon',
-    category: "NFT",
+    description: "Marketplace for NFTs on HyperliquidX I Launchpad coming soon I Lend&borrow coming soon",
+    categories: ["NFT", "Launchpad"],
     status: "Coming Soon",
     website: "https://x.com/LootLiquid",
     tags: ["NFT", "Launchpad"],
@@ -1171,8 +1161,8 @@ const projects = [
     id: 107,
     name: "Harbor Finance",
     description:
-      'Harbor Finance is a high-performance, gamified DeFi ecosystem that seamlessly merges NFT-based asset structures, sustainable passive income strategies, and immersive financial gameplay. Our mission: to make automated earning not just simple, but genuinely enjoyable. Engineer intricate Yield Items. Harvest $FISH. Collect ongoing incentives. Rise through the ranks as a master-class Fishercat.',
-    category: "NFT",
+      "Harbor Finance is a high-performance, gamified DeFi ecosystem that seamlessly merges NFT-based asset structures, sustainable passive income strategies, and immersive financial gameplay. Our mission: to make automated earning not just simple, but genuinely enjoyable. Engineer intricate Yield Items. Harvest $FISH. Collect ongoing incentives. Rise through the ranks as a master-class Fishercat.",
+    categories: ["NFT"],
     status: "Live",
     website: "https://harborfinance.app/?ref=48f2-ua5xd",
     tags: ["NFT"],
@@ -1181,9 +1171,8 @@ const projects = [
   {
     id: 109,
     name: "Fan App",
-    description:
-      'Fan App is an exclusive content platform where creators can monetize access dynamically',
-    category: "Other",
+    description: "Fan App is an exclusive content platform where creators can monetize access dynamically",
+    categories: ["Other"],
     status: "Live",
     website: "https://fan.fun/",
     tags: ["Other", "SocialFi"],
@@ -1194,7 +1183,7 @@ const projects = [
     name: "HyperEVM Sniper Bot by SuperSonic",
     description:
       "Trade tokens on HyperEVM with the fastest trading bot. HyperSwap DEX V2/V3 & LiquidLaunch are supported.",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Live",
     website: "https://t.me/HyperEVMSniperBot?start=6E3A77",
     tags: ["Bot"],
@@ -1204,7 +1193,7 @@ const projects = [
     id: 51,
     name: "HyperTracker",
     description: "Real-time analysis of Hyperliquid wallets by Perp Equity",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://app.coinmarketman.com/hypertracker",
     tags: ["Tools", "Tracker"],
@@ -1214,7 +1203,7 @@ const projects = [
     id: 52,
     name: "ASXN",
     description: "ASXN master list of Hyperliquid Dashboards",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://data.asxn.xyz/",
     tags: ["Tools"],
@@ -1225,7 +1214,7 @@ const projects = [
     name: "PrimeFi",
     description:
       "Omnichain decentralized lending and borrowing protocol built on LayerZero to bring liquidity to Hyperliquid and other EVMs.",
-    category: "Lending",
+    categories: ["Lending"],
     status: "Coming Soon",
     website: "https://primenumbers.xyz/",
     tags: ["Lending", "Borrowing"],
@@ -1235,7 +1224,7 @@ const projects = [
     id: 55,
     name: "Cathena",
     description: "Cathena aims to be the Ethena of Hyperliquid, generating delta neutral yield on USDC.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://cathena.rndm.io/",
     tags: ["Yield", "Delta-neutral"],
@@ -1244,8 +1233,9 @@ const projects = [
   {
     id: 91,
     name: "Rage Trade",
-    description: "Rage Trade is a multi-chain perp aggregator that transforms on-chain trading by combining the convenience of centralized exchanges with the transparency of decentralized platforms.",
-    category: "Trading Interface",
+    description:
+      "Rage Trade is a multi-chain perp aggregator that transforms on-chain trading by combining the convenience of centralized exchanges with the transparency of decentralized platforms.",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://www.app.rage.trade/",
     tags: ["Trading Interface"],
@@ -1254,8 +1244,9 @@ const projects = [
   {
     id: 90,
     name: "Pear Protocol",
-    description: "Pear Protocol is an array of engineering solutions aimed to address the inherent inefficiencies and complexities when pair-trading cryptocurrencies. By enabling leveraged long and short positions within a single on-chain transaction, the protocol significantly improves the process of pair-trading execution, with a superior front-end for risk management.",
-    category: "Trading Interface",
+    description:
+      "Pear Protocol is an array of engineering solutions aimed to address the inherent inefficiencies and complexities when pair-trading cryptocurrencies. By enabling leveraged long and short positions within a single on-chain transaction, the protocol significantly improves the process of pair-trading execution, with a superior front-end for risk management.",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://pear.garden/trade?referral=0xLcrgs",
     tags: ["Trading Interface"],
@@ -1264,8 +1255,9 @@ const projects = [
   {
     id: 92,
     name: "Vooi",
-    description: "Backed by Binance Labs, VOOI is an emerging Derivatives Marketplace powered by Chain Abstraction that provides CEX-like trading experience for professional and retail traders",
-    category: "Trading Interface",
+    description:
+      "Backed by Binance Labs, VOOI is an emerging Derivatives Marketplace powered by Chain Abstraction that provides CEX-like trading experience for professional and retail traders",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://app.vooi.io/r/3DW6DRN",
     tags: ["Trading Interface"],
@@ -1275,7 +1267,7 @@ const projects = [
     id: 144,
     name: "Polaris",
     description: "Trade all tokens, across all chains — with Polaris, the Token Portal. Now live in beta.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "DEX"],
     status: "Live",
     website: "https://polaris.app/",
     tags: ["Trading Interface", "DEX"],
@@ -1286,7 +1278,7 @@ const projects = [
     name: "Perpflow",
     description:
       "Perpflow is a management dashboard that helps you create and monitor delta-neutral positions to earn yield through perpetual futures funding rates. It automates the creation of balanced positions that can generate returns regardless of market direction.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://perpflow.xyz/",
     tags: ["Yield"],
@@ -1296,7 +1288,7 @@ const projects = [
     id: 56,
     name: "EzPairs",
     description: "A pair trading platform that allows users to trade custom weighted pairs with x3 leverage.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://www.ezpairs.xyz/trade",
     tags: ["Trading Interface"],
@@ -1305,8 +1297,9 @@ const projects = [
   {
     id: 93,
     name: "Vortx HL",
-    description: "Trade spot, perps & prediction markets on Discord, Twitter & more with AI agents. Built on Hyperliquid. Zero fees during beta.",
-    category: "Trading Interface",
+    description:
+      "Trade spot, perps & prediction markets on Discord, Twitter & more with AI agents. Built on Hyperliquid. Zero fees during beta.",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://www.vortx.gg/",
     tags: ["Trading Interface"],
@@ -1317,8 +1310,8 @@ const projects = [
     name: "Hana Network",
     description:
       "Hana is Hyper-casual Binance powered by Hyperliquid, providing mobile exchange including no-kyc on/off ramp, casual trading& farming. Mobile Onboarding + Hyperliquid = Onchain-Binance",
-    category: "Tools",
-    status: "Coming Soon",
+    categories: ["Tools", "DEX", "Bridge"],
+    status: "Beta",
     website: "https://gateway.hana.network/",
     tags: ["Tools", "DEX", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1826923623556562944/LhUmaR37_400x400.jpg",
@@ -1328,7 +1321,7 @@ const projects = [
     name: "HyperPNL",
     description:
       "Fully decentralized prop trading platform on top of HyperEVM designed to address the limitations and trust issues associated with centralized proprietary trading firms.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Coming Soon",
     website: "https://hyperpnl.com/",
     tags: ["Trading Interface"],
@@ -1339,7 +1332,7 @@ const projects = [
     name: "Hyperterminal",
     description:
       "Your all-in-one analytics powerhouse designed to revolutionize your Hyperliquid trading with real-time market insights.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Tools"],
     status: "Beta",
     website: "https://hyperterminal.xyz/",
     tags: ["Trading Interface", "Tools", "Bot"],
@@ -1349,7 +1342,7 @@ const projects = [
     id: 61,
     name: "Hyperdelta",
     description: "A next-generation options exchange, launching 2025 on Hyperliquid.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Coming Soon",
     website: "https://hyperdelta.com/",
     tags: ["Trading Interface"],
@@ -1360,7 +1353,7 @@ const projects = [
     name: "HyperBloom",
     description:
       "Hyperbloom is a Decentralized Exchange (DEX) Aggregator and Yield Optimizer built on HyperEVM that helps users finding the best rates for swaps across Hyperliquid ecosystem together with boosting yield from liquidity pools through autocompounding.",
-    category: "DEX",
+    categories: ["DEX"],
     status: "Live",
     website: "https://hyperbloom.xyz/referral/6430f279-b",
     tags: ["DEX", "DEX Aggregator"],
@@ -1369,9 +1362,8 @@ const projects = [
   {
     id: 137,
     name: "Gliquid",
-    description:
-      "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
-    category: "DEX",
+    description: "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
+    categories: ["DEX"],
     status: "Live",
     website: "https://www.gliquid.xyz/swap",
     tags: ["DEX"],
@@ -1381,7 +1373,7 @@ const projects = [
     id: 62,
     name: "Hyperhyper",
     description: "The hyper-speculation application",
-    category: "Other",
+    categories: ["Other"],
     status: "Coming Soon",
     website: "https://hyperhyper.fi/",
     tags: ["Other"],
@@ -1392,7 +1384,7 @@ const projects = [
     name: "Arkis",
     description:
       "Arkis is a digital asset prime brokerage, offering a leverage protocol that enables undercollateralized lending for capital providers and asset managers.",
-    category: "Yield",
+    categories: ["Yield"],
     status: "Live",
     website: "https://arkis.xyz/",
     tags: ["Yield", "Vaults"],
@@ -1403,7 +1395,7 @@ const projects = [
     name: "Insilico Terminal",
     description:
       "Trader-friendly professional grade order, position and execution management system. Advanced capabilities for all. First Terminal on HyperLiquid. Free to use.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://insilicoterminal.com/#/",
     tags: ["Trading Interface"],
@@ -1414,7 +1406,7 @@ const projects = [
     name: "Katōshi",
     description:
       "Katōshi is a robust automated trading platform that empowers traders to create and deploy sophisticated trading bots on Hyperliquid.  Through seamless integrations with TradingView and a professional-grade API, Katoshi will become the go-to destination for users wanting to quickly and efficiently deploy their automated trading strategies on Hyperliquid.  The platform combines enterprise-level security features with an intuitive interface, making algorithmic trading accessible to both retail and institutional traders on Hyperliquid.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Bot"],
     status: "Live",
     website: "https://katoshi.ai/",
     tags: ["Trading Interface", "Bot"],
@@ -1425,7 +1417,7 @@ const projects = [
     name: "Gem Wallet",
     description:
       "Gem Wallet is a user-friendly crypto wallet that offers convenience and top-notch security for beginners like you",
-    category: "Wallet",
+    categories: ["Wallet"],
     status: "Live",
     website: "https://gemwallet.com/",
     tags: ["Wallet"],
@@ -1436,7 +1428,7 @@ const projects = [
     name: "TopDog",
     description:
       "TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Beta",
     website: "https://topdog.gg/",
     tags: ["Bot"],
@@ -1446,7 +1438,7 @@ const projects = [
     id: 125,
     name: "Hyperrich",
     description: "Non-custodial. Launch and trade in your browser. Lightning-fast execution.",
-    category: "Launchpad",
+    categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://hyperrich.fun/trade",
     tags: ["Launchpad", "DEX"],
@@ -1457,7 +1449,7 @@ const projects = [
     name: "Lambda Finance",
     description:
       "Lambda introduces btcUSD, a permissionless and efficient BTC-backed stablecoin, unlocking Bitcoin liquidity for DeFi applications.",
-    category: "Lending",
+    categories: ["Lending"],
     status: "Coming Soon",
     website: "https://lambda.finance/",
     tags: ["Lending", "CDP"],
@@ -1467,7 +1459,7 @@ const projects = [
     id: 66,
     name: "Chainpro",
     description: "Advanced onchain trading terminal across multiple ecosystems",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://chainpro.xyz/#0xlcrgs",
     tags: ["Trading Interface"],
@@ -1478,7 +1470,7 @@ const projects = [
     name: "Fractrade",
     description:
       "Fractrade is a platform for creating and managing AI trading agents to enhance your trading on Hyperliquid. Our agents offer features like risk management, copy trading, sniping, whale monitoring, backtesting, and more. You can connect your Hyperliquid account and use individual agents for tasks like improving risk management while trading manually, or combine multiple agents to build fully automated strategies—such as detecting chart patterns and executing trades. Agents run via the Hyperliquid API on your own account or within Hyperliquid vaults, allowing you to earn a share of the profits.",
-    category: "Trading Interface",
+    categories: ["Trading Interface", "Bot"],
     status: "Live",
     website: "http://alpha.fractrade.xyz/accounts/signup?invite_code=UI58BY",
     tags: ["Trading Interface", "Bot"],
@@ -1488,7 +1480,7 @@ const projects = [
     id: 68,
     name: "Altitude",
     description: "The next-gen trading experience is here. Get access to our full range blockchain infrastructure.",
-    category: "Trading Interface",
+    categories: ["Trading Interface"],
     status: "Coming Soon",
     website: "https://www.reachaltitude.xyz/waitlist?ref=JAZZ2H7VV4",
     tags: ["Trading Interface"],
@@ -1497,9 +1489,8 @@ const projects = [
   {
     id: 85,
     name: "Hypervisor",
-    description:
-      "Hyperliquid focused data analytics/trading platform with fully customizable dashboards",
-    category: "Trading Interface",
+    description: "Hyperliquid focused data analytics/trading platform with fully customizable dashboards",
+    categories: ["Trading Interface", "Tools"],
     status: "Beta",
     website: "https://hypervisor.gg/",
     tags: ["Trading Interface", "Tools", "Bot"],
@@ -1509,7 +1500,7 @@ const projects = [
     id: 82,
     name: "HyperScanner",
     description: "Supercharge your Hyperliquid trading with advanced analytics and data insights",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://www.hyperscanner.app/",
     tags: ["Tools", "Block Explorer", "Tracker"],
@@ -1519,7 +1510,7 @@ const projects = [
     id: 83,
     name: "Hyperstats.hl",
     description: "An independent source of Hyperliquid trading statistics",
-    category: "Tools",
+    categories: ["Tools"],
     status: "Live",
     website: "https://hyperstats.xyz/",
     tags: ["Tools", "Tracker"],
@@ -1528,8 +1519,9 @@ const projects = [
   {
     id: 126,
     name: "Quick Intel",
-    description: "Quick Intel is a suite of cryptocurrency security tools designed to provide real-time assessment of project contracts and provide users with immediate feedback on potential malicious code within a token's contract.",
-    category: "Tools",
+    description:
+      "Quick Intel is a suite of cryptocurrency security tools designed to provide real-time assessment of project contracts and provide users with immediate feedback on potential malicious code within a token's contract.",
+    categories: ["Tools"],
     status: "Live",
     website: "https://quickintel.io/",
     tags: ["Tools"],
@@ -1540,7 +1532,7 @@ const projects = [
     name: "SuperX",
     description:
       "SuperX is a Telegram copy trading bot built specifically for Hyperliquid. It enables anyone to discover and copy top traders across perps, and soon, spot.",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Live",
     website: "https://trysuper.co/",
     tags: ["Bot", "Tracker"],
@@ -1551,7 +1543,7 @@ const projects = [
     name: "Tator the Trader",
     description:
       "Manage digital assets and transfers - all through simple chat messages. No complicated wallets or technical knowledge needed!",
-    category: "Bot",
+    categories: ["Bot"],
     status: "Live",
     website: "https://tatortrader.quickintel.io/",
     tags: ["Bot", "AI"],
@@ -1600,6 +1592,7 @@ const categories = [
   "Bridge",
   "Lending",
   "Yield",
+  "CDP",
   "LST",
   "Launchpad",
   "Wallet",
@@ -1684,7 +1677,7 @@ export default function EcosystemPage() {
   }, [])
 
   const filteredProjects = projectData.filter((project) => {
-    const matchesCategory = selectedCategory === "All" || project.category === selectedCategory
+    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
     const matchesSearch =
       (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
       (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -1778,7 +1771,7 @@ export default function EcosystemPage() {
                     {category} (
                     {category === "All"
                       ? projectData.length
-                      : projectData.filter((p) => p.category === category).length}
+                      : projectData.filter((p) => p.categories.includes(category)).length}
                     )
                   </TabsTrigger>
                 ))}
