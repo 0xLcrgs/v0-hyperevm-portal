@@ -1749,7 +1749,7 @@ export default function EcosystemPage() {
           </div>
 
           {/* Search and Filters */}
-          <div className="mb-8 space-y-4">
+          <div className="mb-8 space-y-4 flex flex-col items-center">
             <div className="relative max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
               <Input
