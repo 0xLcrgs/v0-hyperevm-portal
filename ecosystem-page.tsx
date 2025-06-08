@@ -267,6 +267,28 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1912684430440755200/tA0LNV_E_400x400.jpg",
   },
   {
+    id: 146,
+    name: "Resolv Labs",
+    description:
+      "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
+    categories: ["CDP"],
+    status: "Live",
+    website: "https://resolv.xyz/",
+    tags: ["CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1726501525843841024/1gDrgTdA_400x400.jpg",
+  },
+  {
+    id: 147,
+    name: "USDhl",
+    description:
+      "USDhl is a treasury-backed stablecoin that will be available on both HyperCore and the HyperEVM. Accordingly, users will be able to trade it against USDC on a spot order book as well as use it across integrated DeFi applications.",
+    categories: ["CDP"],
+    status: "Live",
+    website: "https://x.com/usd_hl",
+    tags: ["CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
+  },
+  {
     id: 32,
     name: "Jumper Exchange",
     description: "Crypto's Everything Exchange",
