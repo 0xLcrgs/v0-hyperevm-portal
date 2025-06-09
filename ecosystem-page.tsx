@@ -222,7 +222,7 @@ const projects = [
     description: "Your Hyperliquid Bridge. Fast, Seamless, and Ready to Connect Across EVM & SOL Chains.",
     categories: ["Bridge", "DEX"],
     status: "Live",
-    website: "https://hybridge.xyz/",
+    website: "https://hybridge.xyz/?refUser=26daeda2",
     tags: ["Bridge", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
   },
