@@ -1234,6 +1234,16 @@ const projects = [
     logo: "https://pbs.twimg.com/media/Gru7DOrXsAAWdGu?format=jpg&name=small",
   },
   {
+    id: 150,
+    name: "PurrSwap",
+    description: "Your ultimate AMM solution, serving volatile and stable pools, fueling the HyperEVM revolution. Born from Abracadabra Money stableswap technology, crafted for DeFi dominance.",
+    categories: ["DEX"],
+    status: "Coming Soon",
+    website: "https://purrswap.finance/",
+    tags: ["DEX", "AMM"],
+    logo: "https://pbs.twimg.com/profile_images/1927398301176942592/J8mEOR0W_400x400.jpg",
+  },
+  {
     id: 51,
     name: "HyperTracker",
     description: "Real-time analysis of Hyperliquid wallets by Perp Equity",
