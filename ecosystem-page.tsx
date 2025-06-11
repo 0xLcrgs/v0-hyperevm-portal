@@ -960,7 +960,7 @@ const projects = [
     status: "Beta",
     website: "https://www.trycoinpilot.com/",
     tags: ["Bot", "Trading Interface"],
-    logo: "https://pbs.twimg.com/profile_images/1927673259719585792/VNwfwvw4_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1930155502790721536/obB_vr3H_400x400.jpg",
     clicks: 0,
   },
   {
