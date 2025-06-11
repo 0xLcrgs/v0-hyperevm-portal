@@ -295,7 +295,7 @@ const projects = [
       "USDhl is a treasury-backed stablecoin that will be available on both HyperCore and the HyperEVM. Accordingly, users will be able to trade it against USDC on a spot order book as well as use it across integrated DeFi applications.",
     categories: ["CDP"],
     status: "Live",
-    website: "https://usefelix.xyz/usdhl",
+    website: "https://usdhl.xyz/",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
   },
