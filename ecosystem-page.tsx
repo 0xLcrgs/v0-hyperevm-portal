@@ -1202,6 +1202,26 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1894164622602539008/IovQ374W_400x400.jpg",
   },
   {
+    id: 156,
+    name: "Liquina",
+    description: "Liquina is more than a character; she is a 'Story' and an 'IP' born of the community. The goal of the 'LQnians' community is clear: to turn Liquina, an IP we fully own, into the greatest legend of all time. Let us write history, together.",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://liquina.ai/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1865646244150005760/zLuVTIRD_400x400.jpg",
+  },
+  {
+    id: 157,
+    name: "GLO",
+    description: "just glo it.",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://www.glohl.com/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1930865280206475264/1DW5GUeJ_400x400.jpg",
+  },
+  {
     id: 107,
     name: "Harbor Finance",
     description:
