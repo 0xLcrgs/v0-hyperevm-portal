@@ -22,6 +22,7 @@ const projects = [
     website: "https://app.hyperswap.exchange/#/swap?referral=0xLcrgs",
     tags: ["DEX", "AMM"],
     logo: "https://pbs.twimg.com/profile_images/1818300103825719296/mE6pjX1x_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 2,
@@ -32,6 +33,7 @@ const projects = [
     website: "https://app.kittenswap.finance/points?referrer=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1896932742190821376/xaZ_TDuY_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ const projects = [
     website: "https://usefelix.xyz?ref=18935567",
     tags: ["Lending", "Borrowing", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 7,
@@ -54,6 +57,7 @@ const projects = [
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 9,
@@ -64,6 +68,7 @@ const projects = [
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Borrowing", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
+    clicks: 0,
   },
   {
     id: 4,
@@ -75,6 +80,7 @@ const projects = [
     website: "https://app.harmonix.fi/?ref=Bv2S47vd",
     tags: ["Yield", "Vaults", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1795360456686837760/dAl7G6dh_400x400.png",
+    clicks: 0,
   },
   {
     id: 5,
@@ -86,6 +92,7 @@ const projects = [
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 6,
@@ -97,6 +104,7 @@ const projects = [
     website: "https://app.upshift.finance/r/dEc4C8A42A98",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1853600042952663040/AwOMmTi1_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 15,
@@ -108,6 +116,7 @@ const projects = [
     website: "https://loopedhype.com/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1882460229184471040/eIGqevUG_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 8,
@@ -119,6 +128,7 @@ const projects = [
     website: "https://www.hyperliquid.magpiexyz.io/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1896957468963450884/5pbFwUx8_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 16,
@@ -130,6 +140,7 @@ const projects = [
     website: "https://liquidlaunch.app/",
     tags: ["Launchpad", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 10,
@@ -141,6 +152,7 @@ const projects = [
     website: "https://laminar.xyz/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 11,
@@ -152,6 +164,7 @@ const projects = [
     website: "https://app.hyperstable.xyz/r/0xLcrgs",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
+    clicks: 0,
   },
   {
     id: 13,
@@ -163,6 +176,7 @@ const projects = [
     website: "https://app.keikofinance.com/#",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1857058088391454720/NtVLHJ1C_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 12,
@@ -173,6 +187,7 @@ const projects = [
     website: "https://app.hyperyield.com/?invite=UlTQLGpKXhcq",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 95,
@@ -184,6 +199,7 @@ const projects = [
     website: "https://drip.trade/collections/hypio",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1876004126938537984/qpRkjcAX_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 149,
@@ -195,6 +211,7 @@ const projects = [
     website: "https://piponhl.xyz/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1855964438337077248/IbcL6SH7_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 19,
@@ -205,6 +222,7 @@ const projects = [
     website: "https://app.debridge.finance/r/31599",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1894665537466040320/5vQrjq6M_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 130,
@@ -215,6 +233,7 @@ const projects = [
     website: "https://app.symbiosis.finance/swap?chainIn=Ethereum&tokenIn=ETH",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1882650528951541760/zdaKCf4K_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 20,
@@ -225,6 +244,7 @@ const projects = [
     website: "https://hybridge.xyz/?refUser=26daeda2",
     tags: ["Bridge", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
+    clicks: 0,
   },
   {
     id: 131,
@@ -235,6 +255,7 @@ const projects = [
     website: "https://drip.trade/collections/hypers",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1887077871975559168/ZTykoTWW_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 119,
@@ -245,6 +266,7 @@ const projects = [
     website: "https://garden.finance/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1884485129906839554/4CaD8YXg_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 21,
@@ -255,6 +277,7 @@ const projects = [
     website: "https://drip.trade/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1925250244477952000/4Ju6lXOA_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 22,
@@ -265,6 +288,7 @@ const projects = [
     website: "https://app.hyperunit.xyz/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1890184998445047808/qgsh4B97_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 72,
@@ -276,6 +300,7 @@ const projects = [
     website: "https://www.hyperwarp.fi/",
     tags: ["NFT", "veNFT"],
     logo: "https://pbs.twimg.com/profile_images/1912684430440755200/tA0LNV_E_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 146,
@@ -287,6 +312,7 @@ const projects = [
     website: "https://resolv.xyz/",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1726501525843841024/1gDrgTdA_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 147,
@@ -298,6 +324,7 @@ const projects = [
     website: "https://x.com/usd_hl",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 32,
@@ -308,6 +335,7 @@ const projects = [
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1889316674383282176/ulV41xZ7_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 33,
@@ -319,6 +347,7 @@ const projects = [
     website: "https://www.thehyperliquidbridge.xyz/transfer",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1779646801605242880/FrFssPAQ_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 113,
@@ -330,6 +359,7 @@ const projects = [
     website: "https://stargate.finance/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1928147506699145217/n7-KQGNJ_400x400.png",
+    clicks: 0,
   },
   {
     id: 141,
@@ -341,6 +371,7 @@ const projects = [
     website: "https://swap.mayan.finance/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1891499635597856769/5BMo_JQJ_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 140,
@@ -352,6 +383,7 @@ const projects = [
     website: "https://pawtrait.catbal.io/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1850834359114215425/DVGw_xNc_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 142,
@@ -363,6 +395,7 @@ const projects = [
     website: "https://drip.trade/collections/purrtardio",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1902406438070448129/HiiYKhfx_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 70,
@@ -374,6 +407,7 @@ const projects = [
     website: "https://relay.link/bridge",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1753515078316355584/uT6CssGo_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 34,
@@ -385,6 +419,7 @@ const projects = [
     website: "https://app.dextrabot.com/referral/0XLCRGS",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1858644852365275136/EpQL8Nkb_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 35,
@@ -396,6 +431,7 @@ const projects = [
     website: "https://d2.finance/",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1765931135308115968/f_4LkxDr_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 36,
@@ -407,6 +443,7 @@ const projects = [
     website: "https://app.hyperdrive.fi?ref=133A9FEB",
     tags: ["Lending", "Borrowing", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 37,
@@ -417,6 +454,7 @@ const projects = [
     website: "https://kinetiq.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 38,
@@ -428,6 +466,7 @@ const projects = [
     website: "https://liminal.money/",
     tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1894761111565533184/M0eLKU1u_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 39,
@@ -439,6 +478,7 @@ const projects = [
     website: "https://www.valantis.xyz/",
     tags: ["LST", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 110,
@@ -449,6 +489,7 @@ const projects = [
     website: "https://simpfor.fun/login?referralCode=GT3SH4",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1824061692843802624/ypS4GORQ_400x400.png",
+    clicks: 0,
   },
   {
     id: 96,
@@ -460,6 +501,7 @@ const projects = [
     website: "https://www.neko.fun/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1880643122683916288/xtRa6Q64_400x400.png",
+    clicks: 0,
   },
   {
     id: 117,
@@ -471,6 +513,7 @@ const projects = [
     website: "https://www.hyperzap.io/",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1914165629155721216/yFV5Fp4V_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 108,
@@ -481,6 +524,7 @@ const projects = [
     website: "https://www.curve.finance/dex/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1220560374346461185/W1sQNVWo_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 148,
@@ -492,6 +536,7 @@ const projects = [
     website: "https://relend.network/",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1838501262121209856/PrOhS3Kt_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 112,
@@ -502,6 +547,7 @@ const projects = [
     website: "https://t.me/BloomHyperLiquid_bot?start=ref_E67VP3BK8D",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1853964541261983748/oSitKQIe_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 40,
@@ -513,6 +559,7 @@ const projects = [
     website: "https://app.across.to/bridge",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1886903904874512384/wnRMhfef_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 77,
@@ -523,6 +570,7 @@ const projects = [
     website: "https://www.headtohead.app/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1892511802451226624/LquxgBd__400x400.jpg",
+    clicks: 0,
   },
   {
     id: 23,
@@ -533,6 +581,7 @@ const projects = [
     website: "https://hlnames.xyz/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1892708513534689280/CuTc0feF_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 24,
@@ -543,6 +592,7 @@ const projects = [
     website: "https://thunderhead.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1520908569482309633/5VebUnTk_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 25,
@@ -554,6 +604,7 @@ const projects = [
     website: "https://hyperflash.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1892277863430168576/TIbtpNHW_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 89,
@@ -564,6 +615,7 @@ const projects = [
     website: "https://rabby.io/points?code=0XLCRGS",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 111,
@@ -574,6 +626,7 @@ const projects = [
     website: "https://debank.com/",
     tags: ["Tools", "Block Explorer", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1414880725921267716/YzVitob7_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 26,
@@ -585,6 +638,7 @@ const projects = [
     website: "https://app.napier.finance/",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1665336093611290625/uUmS2hoy_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 14,
@@ -596,6 +650,7 @@ const projects = [
     website: "https://app.timeswap.io/markets",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1879076220106678272/ZkkhrcyV_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 18,
@@ -606,6 +661,7 @@ const projects = [
     website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 78,
@@ -616,6 +672,7 @@ const projects = [
     website: "https://www.hedgewater.xyz/",
     tags: ["Yield", "AI"],
     logo: "https://pbs.twimg.com/profile_images/1878484437786054657/uZz41GWQ_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 53,
@@ -626,6 +683,7 @@ const projects = [
     website: "https://purrsec.com/",
     tags: ["Tools", "Block Explorer", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1407856708261646338/ODpD974X_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 54,
@@ -636,6 +694,7 @@ const projects = [
     website: "https://hypurrscan.io/",
     tags: ["Tools", "Block Explorer", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1859964342466207744/lPYHxw87_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 49,
@@ -647,6 +706,7 @@ const projects = [
     website: "https://pvp.trade/join/tb3b3s",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1811823687273754624/Qf6hsnsI_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 50,
@@ -658,6 +718,7 @@ const projects = [
     website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
     tags: ["Bot", "Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 97,
@@ -668,6 +729,7 @@ const projects = [
     website: "https://lighthouse.one/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1850925548471480320/L-vU3YZs_400x400.png",
+    clicks: 0,
   },
   {
     id: 116,
@@ -679,6 +741,7 @@ const projects = [
     website: "https://app.definitive.fi/r/UJSTNJ7Q",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1848873373511917568/p0-qFbVa_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 100,
@@ -690,6 +753,7 @@ const projects = [
     website: "https://app.cielo.finance/",
     tags: ["Bot", "Tracker", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1879619205730906112/aeXN1N9a_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 99,
@@ -701,6 +765,7 @@ const projects = [
     website: "https://t.me/maestro?start=r-xlcrgs",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1897708570919010304/6i1yPLMe_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 98,
@@ -712,6 +777,7 @@ const projects = [
     website: "https://vfat.io/",
     tags: ["Yield", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1584556833729122304/xwCTl7FM_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 17,
@@ -723,6 +789,7 @@ const projects = [
     website: "https://octis.ai/flip?r=000002HM",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1880178279199698946/m3cs6Ds3_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 79,
@@ -733,6 +800,7 @@ const projects = [
     website: "https://hypeflows.com/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1901381580310081536/RxTaKf3v_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 27,
@@ -744,6 +812,7 @@ const projects = [
     website: "https://silhouette.exchange/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1868973700516601857/jktAc9SE_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 80,
@@ -754,6 +823,7 @@ const projects = [
     website: "https://hyperfly.sh/",
     tags: ["Other", "AI"],
     logo: "https://pbs.twimg.com/profile_images/1881002725946650624/5jRUF5t8_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 28,
@@ -765,6 +835,7 @@ const projects = [
     website: "https://app.sentiment.xyz?refCode=dcb722ec69",
     tags: ["Lending"],
     logo: "https://pbs.twimg.com/profile_images/1777846348735537152/7-y3mdE0_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 44,
@@ -776,6 +847,7 @@ const projects = [
     website: "https://www.mercurytrade.org/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1917593522011623424/5gvgOGN5_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 45,
@@ -787,6 +859,7 @@ const projects = [
     website: "https://www.dexari.com/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1886811418269188097/G-Ax7k-Q_400x400.png",
+    clicks: 0,
   },
   {
     id: 87,
@@ -797,6 +870,7 @@ const projects = [
     website: "https://share.lootbase.com/0xLcrgs",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1889744234451795968/zW1CoCnq_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 81,
@@ -807,6 +881,7 @@ const projects = [
     website: "https://hyperlauncher.ai/",
     tags: ["Launchpad", "AI"],
     logo: "https://pbs.twimg.com/profile_images/1867118056343842819/pRt9hqp4_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 46,
@@ -818,6 +893,7 @@ const projects = [
     website: "https://hyperdash.info/",
     tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1856411250848088064/mG5ufCD6_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 47,
@@ -828,6 +904,7 @@ const projects = [
     website: "https://www.hyperfolio.xyz/",
     tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1845820890321448962/_UP3jBsi_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 120,
@@ -838,6 +915,7 @@ const projects = [
     website: "https://app.defi.app/join/8fYUku",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1807464255249334272/CKuGD7ZW_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 121,
@@ -848,6 +926,7 @@ const projects = [
     website: "https://axiom.trade/@0xlcrgs",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1884809179174760448/Zn1mS8ip_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 71,
@@ -859,6 +938,7 @@ const projects = [
     website: "https://glider.fi/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 122,
@@ -870,6 +950,7 @@ const projects = [
     website: "https://www.tp.xyz/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1883802310834585600/HoVIdb5I_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 123,
@@ -880,6 +961,7 @@ const projects = [
     website: "https://www.trycoinpilot.com/",
     tags: ["Bot", "Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1927673259719585792/VNwfwvw4_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 124,
@@ -890,6 +972,7 @@ const projects = [
     website: "https://tryliquid.xyz?ref_id=3E4RTJC9P",
     tags: ["Trading Interface", "Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1914394533242028033/f-745FsF_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 115,
@@ -901,6 +984,7 @@ const projects = [
     website: "https://hypersignals.ai/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1924849892314255361/a_SduLa2_400x400.png",
+    clicks: 0,
   },
   {
     id: 114,
@@ -911,6 +995,7 @@ const projects = [
     website: "https://www.hybra.finance/",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 86,
@@ -922,6 +1007,7 @@ const projects = [
     website: "https://kryptos.io?via=niteip1995",
     tags: ["Tools", "Taxes"],
     logo: "https://pbs.twimg.com/profile_images/1897644409237512192/yJQptpdA_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 94,
@@ -933,6 +1019,7 @@ const projects = [
     website: "https://www.vaporware.fun/",
     tags: ["Launchpad", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1867073156072046592/dQQ6ZsRj_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 74,
@@ -944,6 +1031,7 @@ const projects = [
     website: "https://hl.fund/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1880969975482961921/GAC7jyiw_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 88,
@@ -955,6 +1043,7 @@ const projects = [
     website: "https://nestwallet.xyz/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1917627579902599168/9_VsxZ89_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 73,
@@ -965,6 +1054,7 @@ const projects = [
     website: "https://vegas.fun?r=0XLCRGS",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 145,
@@ -976,6 +1066,7 @@ const projects = [
     website: "https://app.beefy.com/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1910288827312222208/9lDmAhjF_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 134,
@@ -987,6 +1078,7 @@ const projects = [
     website: "https://mizulabs.xyz/dapp/vault",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1854237810686828547/ZhV6sDwY_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 135,
@@ -998,6 +1090,7 @@ const projects = [
     website: "https://app.theo.xyz/referrals/0xLcrgs",
     tags: ["Yield", "Vaults", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
+    clicks: 0,
   },
   {
     id: 75,
@@ -1009,6 +1102,7 @@ const projects = [
     website: "https://x.com/prjx_hl",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 76,
@@ -1019,6 +1113,7 @@ const projects = [
     website: "https://x.com/hyper_path",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1925648003777298432/5Vl2A71i_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 29,
@@ -1029,6 +1124,7 @@ const projects = [
     website: "https://trade.supurr.app/#/ref/0xlcrgs/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1884280601793929218/mcI9hEhQ_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 138,
@@ -1039,6 +1135,7 @@ const projects = [
     website: "https://x.com/d0tHYPE",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1930144205541912579/trTH-qij_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 139,
@@ -1050,6 +1147,7 @@ const projects = [
     website: "https://farcaster.xyz/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1546487688601096192/QoG0ZVgH_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 30,
@@ -1060,6 +1158,7 @@ const projects = [
     website: "https://www.superhype.app/",
     tags: ["Launchpad", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1892409289467138048/PrC-uVqt_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 31,
@@ -1071,6 +1170,7 @@ const projects = [
     website: "https://www.sunder.finance/swap",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1879801454795575296/xM9D_mFK_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 101,
@@ -1082,6 +1182,7 @@ const projects = [
     website: "https://app.rysk.finance/",
     tags: ["Trading Interface", "Options"],
     logo: "https://pbs.twimg.com/profile_images/1556700928748781569/bLjEj9yu_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 41,
@@ -1092,6 +1193,7 @@ const projects = [
     website: "https://routernitro.com/swap",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1881323127872839680/f7AkYiQe_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 57,
@@ -1103,6 +1205,7 @@ const projects = [
     website: "https://gigabrain.gg/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1923460432636887040/r2TW45xA_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 58,
@@ -1114,6 +1217,7 @@ const projects = [
     website: "https://dapp.gluex.xyz/",
     tags: ["DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1906594758635483136/qEPWWGkA_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 133,
@@ -1124,6 +1228,7 @@ const projects = [
     website: "https://app.eisenfinance.com/",
     tags: ["DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1861248882824593408/h5CrU_s__400x400.jpg",
+    clicks: 0,
   },
   {
     id: 42,
@@ -1135,6 +1240,7 @@ const projects = [
     website: "https://link3.to/W0DF72YJ",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1874690032839147520/diW788eQ_400x400.png",
+    clicks: 0,
   },
   {
     id: 43,
@@ -1146,6 +1252,7 @@ const projects = [
     website: "https://hyperpc.app/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907624650961461248/wyBCK8fK_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 102,
@@ -1157,6 +1264,7 @@ const projects = [
     website: "https://dex.org/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1921876531015471104/_4trkTZO_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 103,
@@ -1168,6 +1276,7 @@ const projects = [
     website: "https://app.basedapp.io?access=UCLV9HOL",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1656905347813232640/DqkrVg1t_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 104,
@@ -1179,6 +1288,7 @@ const projects = [
     website: "https://www.pocketprotector.xyz/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1910382854195789824/G-dAUWhC_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 105,
@@ -1190,6 +1300,7 @@ const projects = [
     website: "https://www.thefarm.fun/",
     tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1864910599198773250/HWsMlIpH_400x400.png",
+    clicks: 0,
   },
   {
     id: 106,
@@ -1200,6 +1311,7 @@ const projects = [
     website: "https://x.com/LootLiquid",
     tags: ["NFT", "Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1894164622602539008/IovQ374W_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 156,
@@ -1210,6 +1322,7 @@ const projects = [
     website: "https://liquina.ai/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1865646244150005760/zLuVTIRD_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 157,
@@ -1220,6 +1333,7 @@ const projects = [
     website: "https://www.glohl.com/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1930865280206475264/1DW5GUeJ_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 107,
@@ -1231,6 +1345,7 @@ const projects = [
     website: "https://harborfinance.app/?ref=48f2-ua5xd",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1905963590282260480/eHil_7qj_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 109,
@@ -1241,6 +1356,7 @@ const projects = [
     website: "https://fan.fun/",
     tags: ["Other", "SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1884115595081433088/K918mGuG_400x400.png",
+    clicks: 0,
   },
   {
     id: 151,
@@ -1251,6 +1367,7 @@ const projects = [
     website: "https://x.com/hyaplabs",
     tags: ["Other", "SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1932509033165950977/ZgPVC9AA_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 48,
@@ -1262,6 +1379,7 @@ const projects = [
     website: "https://t.me/HyperEVMSniperBot?start=6E3A77",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/media/Gru7DOrXsAAWdGu?format=jpg&name=small",
+    clicks: 0,
   },
   {
     id: 153,
@@ -1273,6 +1391,7 @@ const projects = [
     website: "https://liquidscan.fun/trading-bot",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 150,
@@ -1283,6 +1402,7 @@ const projects = [
     website: "https://purrswap.finance/",
     tags: ["DEX", "AMM"],
     logo: "https://pbs.twimg.com/profile_images/1927398301176942592/J8mEOR0W_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 51,
@@ -1293,6 +1413,7 @@ const projects = [
     website: "https://app.coinmarketman.com/hypertracker",
     tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1921840039191076864/MQL-3EMg_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 154,
@@ -1303,6 +1424,7 @@ const projects = [
     website: "https://hypesphere.xyz/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1926590568039079936/SkL9NtDB_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 155,
@@ -1313,6 +1435,7 @@ const projects = [
     website: "https://www.biconomy.io/",
     tags: ["Tools", "Developer"],
     logo: "https://pbs.twimg.com/profile_images/1760639001587863553/jkMcM52V_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 52,
@@ -1323,6 +1446,7 @@ const projects = [
     website: "https://data.asxn.xyz/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1669029465362505756/CXGvN0w0_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 118,
@@ -1334,6 +1458,7 @@ const projects = [
     website: "https://primenumbers.xyz/",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1849722059154239488/TU9dzmb__400x400.jpg",
+    clicks: 0,
   },
   {
     id: 55,
@@ -1344,6 +1469,7 @@ const projects = [
     website: "https://cathena.rndm.io/",
     tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1887119185219620864/1GHem2Q9_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 152,
@@ -1354,6 +1480,7 @@ const projects = [
     website: "https://pvp-frontend.vercel.app/",
     tags: ["Other", "Game"],
     logo: "https://pbs.twimg.com/profile_images/1923474018738298880/zWldEq5d_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 91,
@@ -1365,6 +1492,7 @@ const projects = [
     website: "https://www.app.rage.trade/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1518891395636944897/gLh94IR3_400x400.png",
+    clicks: 0,
   },
   {
     id: 90,
@@ -1376,6 +1504,7 @@ const projects = [
     website: "https://pear.garden/trade?referral=0xLcrgs",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1615784760328192001/kFS3qLV5_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 92,
@@ -1387,6 +1516,7 @@ const projects = [
     website: "https://app.vooi.io/r/3DW6DRN",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1897274648959610880/WzzIafIX_400x400.png",
+    clicks: 0,
   },
   {
     id: 144,
@@ -1397,6 +1527,7 @@ const projects = [
     website: "https://polaris.app/",
     tags: ["Trading Interface", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1909962811804946432/gW76pWsD_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 143,
@@ -1408,6 +1539,7 @@ const projects = [
     website: "https://perpflow.xyz/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1873732821753249792/tJbXJ3fz_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 56,
@@ -1418,6 +1550,7 @@ const projects = [
     website: "https://www.ezpairs.xyz/trade",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1890102511245168640/7ocIdtLE_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 93,
@@ -1429,6 +1562,7 @@ const projects = [
     website: "https://www.vortx.gg/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1889417046401708032/34ziuAPb_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 59,
@@ -1440,6 +1574,7 @@ const projects = [
     website: "https://gateway.hana.network/",
     tags: ["Tools", "DEX", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1826923623556562944/LhUmaR37_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 60,
@@ -1451,6 +1586,7 @@ const projects = [
     website: "https://hyperpnl.com/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1903102046204841984/aF3OnjeP_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 84,
@@ -1462,6 +1598,7 @@ const projects = [
     website: "https://hyperterminal.xyz/",
     tags: ["Trading Interface", "Tools", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1856449296540762112/RWZ62v7c_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 61,
@@ -1472,6 +1609,7 @@ const projects = [
     website: "https://hyperdelta.com/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1923426269376450560/9YGLDDAY_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 136,
@@ -1483,6 +1621,7 @@ const projects = [
     website: "https://hyperbloom.xyz/referral/6430f279-b",
     tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1928058397363945472/30SHmK1e_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 137,
@@ -1493,6 +1632,7 @@ const projects = [
     website: "https://www.gliquid.xyz/swap",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1928414866554974208/FpTxpjHe_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 62,
@@ -1503,6 +1643,7 @@ const projects = [
     website: "https://hyperhyper.fi/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1895494249648377856/xHC87ple_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 132,
@@ -1514,6 +1655,7 @@ const projects = [
     website: "https://arkis.xyz/",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 63,
@@ -1525,6 +1667,7 @@ const projects = [
     website: "https://insilicoterminal.com/#/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1798271540565315584/esokUp7H_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 64,
@@ -1536,6 +1679,7 @@ const projects = [
     website: "https://katoshi.ai/",
     tags: ["Trading Interface", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 129,
@@ -1547,6 +1691,7 @@ const projects = [
     website: "https://gemwallet.com/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1659483462758178823/KN0WzQl6_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 128,
@@ -1558,6 +1703,7 @@ const projects = [
     website: "https://topdog.gg/",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 125,
@@ -1568,6 +1714,7 @@ const projects = [
     website: "https://www.hytrade.fun/trade",
     tags: ["Launchpad", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1931405316798758913/mCxPAyTX_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 65,
@@ -1579,6 +1726,7 @@ const projects = [
     website: "https://lambda.finance/",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1709109269604511744/vXoBoSl1_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 66,
@@ -1589,6 +1737,7 @@ const projects = [
     website: "https://chainpro.xyz/#0xlcrgs",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1894915308495704064/JKryzZve_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 67,
@@ -1600,6 +1749,7 @@ const projects = [
     website: "http://alpha.fractrade.xyz/accounts/signup?invite_code=UI58BY",
     tags: ["Trading Interface", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1879105001366196224/QhBDglZB_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 68,
@@ -1610,6 +1760,7 @@ const projects = [
     website: "https://www.reachaltitude.xyz/waitlist?ref=JAZZ2H7VV4",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1916798556809437184/CBPWnZgk_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 85,
@@ -1620,6 +1771,7 @@ const projects = [
     website: "https://hypervisor.gg/",
     tags: ["Trading Interface", "Tools", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1832829990951383040/oNYLW-Og_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 82,
@@ -1630,6 +1782,7 @@ const projects = [
     website: "https://www.hyperscanner.app/",
     tags: ["Tools", "Block Explorer", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1825505561657380864/qtMwmkIj_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 83,
@@ -1640,6 +1793,7 @@ const projects = [
     website: "https://hyperstats.xyz/",
     tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1853646017620844544/yKjedEz2_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 126,
@@ -1651,6 +1805,7 @@ const projects = [
     website: "https://quickintel.io/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1882651870201520128/_6yWXw-N_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 69,
@@ -1662,6 +1817,7 @@ const projects = [
     website: "https://trysuper.co/",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1913916356874952704/RrNrTN0H_400x400.jpg",
+    clicks: 0,
   },
   {
     id: 127,
@@ -1673,6 +1829,7 @@ const projects = [
     website: "https://tatortrader.quickintel.io/",
     tags: ["Bot", "AI"],
     logo: "https://pbs.twimg.com/profile_images/1905002465117843456/yQmiCqaT_400x400.jpg",
+    clicks: 0,
   },
 ]
 
@@ -1738,6 +1895,28 @@ export default function EcosystemPage() {
   const [projectData, setProjectData] = useState(projects)
   const [loading, setLoading] = useState(true)
 
+  // Load click counts from localStorage on mount
+  useEffect(() => {
+    const storedClicks = localStorage.getItem("projectClicks")
+    if (storedClicks) {
+      const clickData = JSON.parse(storedClicks)
+      const updatedProjects = projects.map((project) => ({
+        ...project,
+        clicks: clickData[project.id] || 0,
+      }))
+      setProjectData(updatedProjects)
+    }
+  }, [])
+
+  // Save click counts to localStorage whenever projectData changes
+  useEffect(() => {
+    const clickData = projectData.reduce((acc, project) => {
+      acc[project.id] = project.clicks
+      return acc
+    }, {})
+    localStorage.setItem("projectClicks", JSON.stringify(clickData))
+  }, [projectData])
+
   // Initialize state from URL params
   useEffect(() => {
     const urlSearch = searchParams.get("search")
@@ -1778,6 +1957,15 @@ export default function EcosystemPage() {
     updateURL(searchQuery, category)
   }
 
+  // Handle click on website button
+  const handleWebsiteClick = (projectId: number) => {
+    setProjectData((prevData) =>
+      prevData.map((project) =>
+        project.id === projectId ? { ...project, clicks: project.clicks + 1 } : project
+      )
+    )
+  }
+
   useEffect(() => {
     const fetchTVL = async () => {
       setLoading(true)
@@ -1796,20 +1984,31 @@ export default function EcosystemPage() {
           }
         }),
       )
-      setProjectData(updatedProjects)
+      setProjectData((prevData) =>
+        updatedProjects.map((updatedProject) => {
+          const existingProject = prevData.find((p) => p.id === updatedProject.id)
+          return {
+            ...updatedProject,
+            clicks: existingProject ? existingProject.clicks : 0,
+          }
+        })
+      )
       setLoading(false)
     }
     fetchTVL()
   }, [])
 
-  const filteredProjects = projectData.filter((project) => {
-    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-    const matchesSearch =
-      (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-    return matchesCategory && matchesSearch
-  })
+  const filteredProjects = projectData
+    .filter((project) => {
+      const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
+      const matchesSearch =
+        (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+      return matchesCategory && matchesSearch
+    })
+    // Sort by clicks in descending order
+    .sort((a, b) => b.clicks - a.clicks)
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -1869,8 +2068,7 @@ export default function EcosystemPage() {
           <div className="mb-12">
             <h1 className="text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
             <p className="text-gray-400 text-lg max-w-3xl">
-              Explore the growing ecosystem of projects building on HyperEVM. Learn about each project, their features,
-              and how to get involved.
+              Explore the growing ecosystem of projects building on HyperEVM, sorted by popularity. Learn about each project, their features, and how to get involved.
             </p>
           </div>
 
@@ -1947,6 +2145,10 @@ export default function EcosystemPage() {
                         <span className="text-gray-400">TVL:</span>
                         <span className="text-white ml-2 font-medium">{project.tvl}</span>
                       </div>
+                      <div>
+                        <span className="text-gray-400">Clicks:</span>
+                        <span className="text-white ml-2 font-medium">{project.clicks}</span>
+                      </div>
                     </div>
 
                     {/* Tags */}
@@ -1964,6 +2166,7 @@ export default function EcosystemPage() {
                         size="sm"
                         variant="outline"
                         className="border-gray-600 text-black-300 hover:bg-gray-800"
+                        onClick={() => handleWebsiteClick(project.id)}
                         asChild
                       >
                         <Link href={project.website} target="_blank" rel="noopener noreferrer">
