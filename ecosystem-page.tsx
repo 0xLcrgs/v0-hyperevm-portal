@@ -1388,7 +1388,7 @@ const projects = [
       "Advanced analytics and trading tools for the HyperEVM ecosystem.",
     categories: ["Bot"],
     status: "Live",
-    website: "https://liquidscan.fun/trading-bot",
+    website: "https://t.me/LiquidScanTrading_Bot?start=ref_HYPERLCRGS",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
     clicks: 0,
