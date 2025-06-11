@@ -1223,6 +1223,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1884115595081433088/K918mGuG_400x400.png",
   },
   {
+    id: 151,
+    name: "Hyap",
+    description: "Every yap matters, built on Hyperliquid. Powered by KaitoAI",
+    categories: ["Other"],
+    status: "Coming Soon",
+    website: "https://x.com/hyaplabs",
+    tags: ["Other", "SocialFi"],
+    logo: "https://pbs.twimg.com/profile_images/1932509033165950977/ZgPVC9AA_400x400.jpg",
+  },
+  {
     id: 48,
     name: "HyperEVM Sniper Bot by SuperSonic",
     description:
@@ -1232,6 +1242,17 @@ const projects = [
     website: "https://t.me/HyperEVMSniperBot?start=6E3A77",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/media/Gru7DOrXsAAWdGu?format=jpg&name=small",
+  },
+  {
+    id: 153,
+    name: "LiquidScan",
+    description:
+      "Advanced analytics and trading tools for the HyperEVM ecosystem.",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://liquidscan.fun/trading-bot",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
   },
   {
     id: 150,
@@ -1252,6 +1273,26 @@ const projects = [
     website: "https://app.coinmarketman.com/hypertracker",
     tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1921840039191076864/MQL-3EMg_400x400.jpg",
+  },
+  {
+    id: 154,
+    name: "Hype Sphere",
+    description: "Sphere map visualization platform for meme token analysis on HyperEVM",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://hypesphere.xyz/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1926590568039079936/SkL9NtDB_400x400.jpg",
+  },
+  {
+    id: 155,
+    name: "Biconomy",
+    description: "Effortlessly execute transactions and intents which access users, assets and liquidity across all blockchains and rollups.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.biconomy.io/",
+    tags: ["Tools", "Developer"],
+    logo: "https://pbs.twimg.com/profile_images/1760639001587863553/jkMcM52V_400x400.jpg",
   },
   {
     id: 52,
@@ -1283,6 +1324,16 @@ const projects = [
     website: "https://cathena.rndm.io/",
     tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1887119185219620864/1GHem2Q9_400x400.jpg",
+  },
+  {
+    id: 152,
+    name: "pvp.duel",
+    description: "Duel, survive, and thrive in the world of HyperEVM gaming. This guide will walk you through how to play, what we're building, and how you can get involved with our DAO. Telegram has always been a quintessential part of the Hyperliquid ecosystem, and our team views Telegram as an incredibly powerful interface to integrate casual gaming.",
+    categories: ["Other"],
+    status: "Beta",
+    website: "https://pvp-frontend.vercel.app/",
+    tags: ["Other", "Game"],
+    logo: "https://pbs.twimg.com/profile_images/1923474018738298880/zWldEq5d_400x400.jpg",
   },
   {
     id: 91,
