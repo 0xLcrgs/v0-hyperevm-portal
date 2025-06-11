@@ -129,7 +129,7 @@ const projects = [
     status: "Live",
     website: "https://liquidlaunch.app/",
     tags: ["Launchpad", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1877771333280444416/fxGPn3G4_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
   },
   {
     id: 10,
@@ -1689,6 +1689,7 @@ const defiLlamaSlugs = {
   "Vfat.io": "vfat.io",
   Arkis: "arkis",
   "Fan App": "fan.fun",
+  Gliquid: "gliquid"
 }
 
 const categories = [
