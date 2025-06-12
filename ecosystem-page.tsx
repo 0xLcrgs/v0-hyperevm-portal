@@ -295,7 +295,7 @@ const projects = [
       "USDhl is a treasury-backed stablecoin that will be available on both HyperCore and the HyperEVM. Accordingly, users will be able to trade it against USDC on a spot order book as well as use it across integrated DeFi applications.",
     categories: ["CDP"],
     status: "Live",
-    website: "https://x.com/usd_hl",
+    website: "https://usdhl.xyz/",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
   },
@@ -908,7 +908,7 @@ const projects = [
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
     categories: ["DEX"],
     status: "Live",
-    website: "https://www.hybra.finance/",
+    website: "https://www.hybra.finance?code=MBKOYM",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
   },
@@ -1735,7 +1735,7 @@ export default function EcosystemPage() {
 
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
-  const [projectData, setProjectData] = useState<typeof projects>(projects) // Initialize with static data
+  const [projectData, setProjectData] = useState(projects)
   const [loading, setLoading] = useState(true)
 
   // Initialize state from URL params
@@ -1778,45 +1778,38 @@ export default function EcosystemPage() {
     updateURL(searchQuery, category)
   }
 
-  // Handle project click
-  const handleProjectClick = async (projectId: number, url: string) => {
-    try {
-      await axios.post(`/api/projects/${projectId}/click`)
-      window.open(url, "_blank")
-    } catch (error) {
-      console.error("Error tracking project click:", error)
-      // Still open the URL even if tracking fails
-      window.open(url, "_blank")
-    }
-  }
-
   useEffect(() => {
-    const fetchProjects = async () => {
+    const fetchTVL = async () => {
       setLoading(true)
-      try {
-        const response = await axios.get("/api/projects?sort=clicks_desc")
-        if (response.data?.projects) {
-          setProjectData(response.data.projects)
-        }
-      } catch (error) {
-        console.error("Error fetching projects:", error)
-        // Keep using the static data if API fails
-      }
+      const updatedProjects = await Promise.all(
+        projects.map(async (project) => {
+          const slug = defiLlamaSlugs[project.name]
+          if (!slug) return { ...project, tvl: "-" }
+          try {
+            const response = await axios.get(`https://api.llama.fi/tvl/${slug}`)
+            return {
+              ...project,
+              tvl: response.data ? `$${Number(response.data).toLocaleString()}` : "-",
+            }
+          } catch {
+            return { ...project, tvl: "-" }
+          }
+        }),
+      )
+      setProjectData(updatedProjects)
       setLoading(false)
     }
-    fetchProjects()
+    fetchTVL()
   }, [])
 
-  const filteredProjects = (projectData || [])
-    .filter((project: { categories: string[]; name?: string; description?: string; tags?: string[] }) => {
-      const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-      const matchesSearch =
-        (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (project.tags || []).some((tag: string) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-      return matchesCategory && matchesSearch
-    })
-    .sort((a: { clicks?: number }, b: { clicks?: number }) => (b.clicks || 0) - (a.clicks || 0))
+  const filteredProjects = projectData.filter((project) => {
+    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
+    const matchesSearch =
+      (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+    return matchesCategory && matchesSearch
+  })
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -1925,8 +1918,7 @@ export default function EcosystemPage() {
               {filteredProjects.map((project) => (
                 <Card
                   key={project.id}
-                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col cursor-pointer"
-                  onClick={() => handleProjectClick(project.id, project.website)}
+                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col"
                 >
                   <CardHeader className="flex-1">
                     <div className="flex items-start justify-between">
