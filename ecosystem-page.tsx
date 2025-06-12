@@ -12,7 +12,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
-const projects = [
+// Simulated persistent storage for click counts (in production, use a database)
+const clickCounts: { [key: string]: number } = {}
+
+interface Project {
+  id: number
+  name: string
+  description: string
+  categories: string[]
+  status: string
+  website: string
+  tags: string[]
+  logo: string
+  clicks?: number
+}
+
+const projects: Project[] = [
   {
     id: 1,
     name: "HyperSwap",
@@ -22,6 +37,7 @@ const projects = [
     website: "https://app.hyperswap.exchange/#/swap?referral=0xLcrgs",
     tags: ["DEX", "AMM"],
     logo: "https://pbs.twimg.com/profile_images/1818300103825719296/mE6pjX1x_400x400.jpg",
+    clicks: clickCounts["HyperSwap"] || 0,
   },
   {
     id: 2,
@@ -32,6 +48,7 @@ const projects = [
     website: "https://app.kittenswap.finance/points?referrer=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1896932742190821376/xaZ_TDuY_400x400.jpg",
+    clicks: clickCounts["KittenSwap"] || 0,
   },
   {
     id: 3,
@@ -43,6 +60,7 @@ const projects = [
     website: "https://usefelix.xyz?ref=18935567",
     tags: ["Lending", "Borrowing", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
+    clicks: clickCounts["Felix"] || 0,
   },
   {
     id: 7,
@@ -54,6 +72,7 @@ const projects = [
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
+    clicks: clickCounts["HyperLend"] || 0,
   },
   {
     id: 9,
@@ -64,6 +83,7 @@ const projects = [
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Borrowing", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
+    clicks: clickCounts["HypurrFi"] || 0,
   },
   {
     id: 4,
@@ -75,6 +95,7 @@ const projects = [
     website: "https://app.harmonix.fi/?ref=Bv2S47vd",
     tags: ["Yield", "Vaults", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1795360456686837760/dAl7G6dh_400x400.png",
+    clicks: clickCounts["Harmonix Finance"] || 0,
   },
   {
     id: 5,
@@ -86,6 +107,7 @@ const projects = [
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
+    clicks: clickCounts["Hyperbeat"] || 0,
   },
   {
     id: 6,
@@ -97,6 +119,7 @@ const projects = [
     website: "https://app.upshift.finance/r/dEc4C8A42A98",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1853600042952663040/AwOMmTi1_400x400.jpg",
+    clicks: clickCounts["Upshift"] || 0,
   },
   {
     id: 15,
@@ -108,6 +131,7 @@ const projects = [
     website: "https://loopedhype.com/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1882460229184471040/eIGqevUG_400x400.jpg",
+    clicks: clickCounts["Looped Hype"] || 0,
   },
   {
     id: 8,
@@ -119,6 +143,7 @@ const projects = [
     website: "https://www.hyperliquid.magpiexyz.io/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1896957468963450884/5pbFwUx8_400x400.jpg",
+    clicks: clickCounts["Hyperpie"] || 0,
   },
   {
     id: 16,
@@ -130,6 +155,7 @@ const projects = [
     website: "https://liquidlaunch.app/",
     tags: ["Launchpad", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
+    clicks: clickCounts["LiquidLaunch"] || 0,
   },
   {
     id: 10,
@@ -141,6 +167,7 @@ const projects = [
     website: "https://laminar.xyz/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
+    clicks: clickCounts["Laminar"] || 0,
   },
   {
     id: 11,
@@ -152,6 +179,7 @@ const projects = [
     website: "https://app.hyperstable.xyz/r/0xLcrgs",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
+    clicks: clickCounts["Hyperstable"] || 0,
   },
   {
     id: 13,
@@ -163,6 +191,7 @@ const projects = [
     website: "https://app.keikofinance.com/#",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1857058088391454720/NtVLHJ1C_400x400.jpg",
+    clicks: clickCounts["Keiko Finance"] || 0,
   },
   {
     id: 12,
@@ -173,6 +202,7 @@ const projects = [
     website: "https://app.hyperyield.com/?invite=UlTQLGpKXhcq",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
+    clicks: clickCounts["HyperYield"] || 0,
   },
   {
     id: 95,
@@ -184,6 +214,7 @@ const projects = [
     website: "https://drip.trade/collections/hypio",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1876004126938537984/qpRkjcAX_400x400.jpg",
+    clicks: clickCounts["Hypio"] || 0,
   },
   {
     id: 149,
@@ -195,6 +226,7 @@ const projects = [
     website: "https://piponhl.xyz/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1855964438337077248/IbcL6SH7_400x400.jpg",
+    clicks: clickCounts["PiP"] || 0,
   },
   {
     id: 19,
@@ -205,6 +237,7 @@ const projects = [
     website: "https://app.debridge.finance/r/31599",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1894665537466040320/5vQrjq6M_400x400.jpg",
+    clicks: clickCounts["DeBridge"] || 0,
   },
   {
     id: 130,
@@ -215,6 +248,7 @@ const projects = [
     website: "https://app.symbiosis.finance/swap?chainIn=Ethereum&tokenIn=ETH",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1882650528951541760/zdaKCf4K_400x400.jpg",
+    clicks: clickCounts["Symbiosis"] || 0,
   },
   {
     id: 20,
@@ -225,6 +259,7 @@ const projects = [
     website: "https://hybridge.xyz/?refUser=26daeda2",
     tags: ["Bridge", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
+    clicks: clickCounts["HyBridge"] || 0,
   },
   {
     id: 131,
@@ -235,6 +270,7 @@ const projects = [
     website: "https://drip.trade/collections/hypers",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1887077871975559168/ZTykoTWW_400x400.jpg",
+    clicks: clickCounts["Hypers"] || 0,
   },
   {
     id: 119,
@@ -245,6 +281,7 @@ const projects = [
     website: "https://garden.finance/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1884485129906839554/4CaD8YXg_400x400.jpg",
+    clicks: clickCounts["Garden"] || 0,
   },
   {
     id: 21,
@@ -255,6 +292,7 @@ const projects = [
     website: "https://drip.trade/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1925250244477952000/4Ju6lXOA_400x400.jpg",
+    clicks: clickCounts["Drip.Trade"] || 0,
   },
   {
     id: 22,
@@ -265,6 +303,7 @@ const projects = [
     website: "https://app.hyperunit.xyz/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1890184998445047808/qgsh4B97_400x400.jpg",
+    clicks: clickCounts["Unit"] || 0,
   },
   {
     id: 72,
@@ -276,6 +315,7 @@ const projects = [
     website: "https://www.hyperwarp.fi/",
     tags: ["NFT", "veNFT"],
     logo: "https://pbs.twimg.com/profile_images/1912684430440755200/tA0LNV_E_400x400.jpg",
+    clicks: clickCounts["HyperWarp"] || 0,
   },
   {
     id: 146,
@@ -287,6 +327,7 @@ const projects = [
     website: "https://resolv.xyz/",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1726501525843841024/1gDrgTdA_400x400.jpg",
+    clicks: clickCounts["Resolv Labs"] || 0,
   },
   {
     id: 147,
@@ -295,9 +336,10 @@ const projects = [
       "USDhl is a treasury-backed stablecoin that will be available on both HyperCore and the HyperEVM. Accordingly, users will be able to trade it against USDC on a spot order book as well as use it across integrated DeFi applications.",
     categories: ["CDP"],
     status: "Live",
-    website: "https://usdhl.xyz/",
+    website: "https://x.com/usd_hl",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
+    clicks: clickCounts["USDhl"] || 0,
   },
   {
     id: 32,
@@ -308,6 +350,7 @@ const projects = [
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1889316674383282176/ulV41xZ7_400x400.jpg",
+    clicks: clickCounts["Jumper Exchange"] || 0,
   },
   {
     id: 33,
@@ -319,6 +362,7 @@ const projects = [
     website: "https://www.thehyperliquidbridge.xyz/transfer",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1779646801605242880/FrFssPAQ_400x400.jpg",
+    clicks: clickCounts["The Hyperliquid Bridge"] || 0,
   },
   {
     id: 113,
@@ -330,6 +374,7 @@ const projects = [
     website: "https://stargate.finance/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1928147506699145217/n7-KQGNJ_400x400.png",
+    clicks: clickCounts["Stargate"] || 0,
   },
   {
     id: 141,
@@ -341,6 +386,7 @@ const projects = [
     website: "https://swap.mayan.finance/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1891499635597856769/5BMo_JQJ_400x400.jpg",
+    clicks: clickCounts["Mayan"] || 0,
   },
   {
     id: 140,
@@ -352,6 +398,7 @@ const projects = [
     website: "https://pawtrait.catbal.io/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1850834359114215425/DVGw_xNc_400x400.jpg",
+    clicks: clickCounts["Catbal"] || 0,
   },
   {
     id: 142,
@@ -363,6 +410,7 @@ const projects = [
     website: "https://drip.trade/collections/purrtardio",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1902406438070448129/HiiYKhfx_400x400.jpg",
+    clicks: clickCounts["Purrtardio"] || 0,
   },
   {
     id: 70,
@@ -374,6 +422,7 @@ const projects = [
     website: "https://relay.link/bridge",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1753515078316355584/uT6CssGo_400x400.jpg",
+    clicks: clickCounts["Relay"] || 0,
   },
   {
     id: 34,
@@ -385,6 +434,7 @@ const projects = [
     website: "https://app.dextrabot.com/referral/0XLCRGS",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1858644852365275136/EpQL8Nkb_400x400.jpg",
+    clicks: clickCounts["Dextrabot"] || 0,
   },
   {
     id: 35,
@@ -396,6 +446,7 @@ const projects = [
     website: "https://d2.finance/",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1765931135308115968/f_4LkxDr_400x400.jpg",
+    clicks: clickCounts["D2 Finance"] || 0,
   },
   {
     id: 36,
@@ -407,6 +458,7 @@ const projects = [
     website: "https://app.hyperdrive.fi?ref=133A9FEB",
     tags: ["Lending", "Borrowing", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
+    clicks: clickCounts["Hyperdrive"] || 0,
   },
   {
     id: 37,
@@ -417,6 +469,7 @@ const projects = [
     website: "https://kinetiq.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
+    clicks: clickCounts["Kinetiq"] || 0,
   },
   {
     id: 38,
@@ -428,6 +481,7 @@ const projects = [
     website: "https://liminal.money/",
     tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1894761111565533184/M0eLKU1u_400x400.jpg",
+    clicks: clickCounts["Liminal"] || 0,
   },
   {
     id: 39,
@@ -439,6 +493,7 @@ const projects = [
     website: "https://www.valantis.xyz/",
     tags: ["LST", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
+    clicks: clickCounts["Valantis"] || 0,
   },
   {
     id: 110,
@@ -908,7 +963,7 @@ const projects = [
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
     categories: ["DEX"],
     status: "Live",
-    website: "https://www.hybra.finance?code=MBKOYM",
+    website: "https://www.hybra.finance/",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
   },
@@ -1735,7 +1790,7 @@ export default function EcosystemPage() {
 
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
-  const [projectData, setProjectData] = useState(projects)
+  const [projectData, setProjectData] = useState<Project[]>([])
   const [loading, setLoading] = useState(true)
 
   // Initialize state from URL params
@@ -1778,38 +1833,54 @@ export default function EcosystemPage() {
     updateURL(searchQuery, category)
   }
 
+  // Handle project click
+  const handleProjectClick = async (projectId: number, url: string) => {
+    try {
+      const project = projectData.find((p: Project) => p.id === projectId)
+      if (project) {
+        clickCounts[project.name] = (clickCounts[project.name] || 0) + 1
+        setProjectData((prev: Project[]) => 
+          prev.map((p: Project) => 
+            p.id === projectId 
+              ? { ...p, clicks: (p.clicks || 0) + 1 }
+              : p
+          )
+        )
+      }
+      window.open(url, "_blank")
+    } catch (error) {
+      console.error("Error tracking project click:", error)
+      // Still open the URL even if tracking fails
+      window.open(url, "_blank")
+    }
+  }
+
   useEffect(() => {
-    const fetchTVL = async () => {
+    const fetchProjects = async () => {
       setLoading(true)
-      const updatedProjects = await Promise.all(
-        projects.map(async (project) => {
-          const slug = defiLlamaSlugs[project.name]
-          if (!slug) return { ...project, tvl: "-" }
-          try {
-            const response = await axios.get(`https://api.llama.fi/tvl/${slug}`)
-            return {
-              ...project,
-              tvl: response.data ? `$${Number(response.data).toLocaleString()}` : "-",
-            }
-          } catch {
-            return { ...project, tvl: "-" }
-          }
-        }),
-      )
-      setProjectData(updatedProjects)
+      try {
+        const response = await axios.get("/api/projects?sort=clicks_desc")
+        setProjectData(response.data.projects)
+      } catch (error) {
+        console.error("Error fetching projects:", error)
+        // Fallback to static data if API fails
+        setProjectData(projects)
+      }
       setLoading(false)
     }
-    fetchTVL()
+    fetchProjects()
   }, [])
 
-  const filteredProjects = projectData.filter((project) => {
-    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-    const matchesSearch =
-      (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-    return matchesCategory && matchesSearch
-  })
+  const filteredProjects = projectData
+    .filter((project: Project) => {
+      const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
+      const matchesSearch =
+        (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (project.tags || []).some((tag: string) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+      return matchesCategory && matchesSearch
+    })
+    .sort((a: Project, b: Project) => (b.clicks || 0) - (a.clicks || 0)) // Sort by clicks in descending order
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -1918,7 +1989,8 @@ export default function EcosystemPage() {
               {filteredProjects.map((project) => (
                 <Card
                   key={project.id}
-                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col"
+                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col cursor-pointer"
+                  onClick={() => handleProjectClick(project.id, project.website)}
                 >
                   <CardHeader className="flex-1">
                     <div className="flex items-start justify-between">
