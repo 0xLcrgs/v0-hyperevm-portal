@@ -1247,7 +1247,7 @@ const projects = [
     name: "Hyap",
     description: "Every yap matters, built on Hyperliquid. Powered by KaitoAI",
     categories: ["Other"],
-    status: "Coming Soon",
+    status: "Beta",
     website: "https://x.com/hyaplabs",
     tags: ["Other", "SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1932509033165950977/ZgPVC9AA_400x400.jpg",
@@ -1334,6 +1334,17 @@ const projects = [
     website: "https://primenumbers.xyz/",
     tags: ["Lending", "Borrowing"],
     logo: "https://pbs.twimg.com/profile_images/1849722059154239488/TU9dzmb__400x400.jpg",
+  },
+  {
+    id: 158,
+    name: "HLbot",
+    description:
+      "The first group trading bot | Built on Hyperliquid",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/hyperliquid_hlbot?start=CEB5EF",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1869558294702145536/-2u314ta_400x400.png",
   },
   {
     id: 55,
