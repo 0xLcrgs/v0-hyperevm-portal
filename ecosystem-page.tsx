@@ -638,6 +638,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1859964342466207744/lPYHxw87_400x400.jpg",
   },
   {
+    id: 159,
+    name: "HyperScan",
+    description: "Explorer for HyperEVM",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.hyperscan.com/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1563254263161032704/1RBJKVcR_400x400.jpg",
+  },
+  {
     id: 49,
     name: "pvp.trade",
     description:
