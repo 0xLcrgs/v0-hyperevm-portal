@@ -1730,7 +1730,8 @@ const defiLlamaSlugs = {
   "Vfat.io": "vfat.io",
   Arkis: "arkis",
   "Fan App": "fan.fun",
-  Gliquid: "gliquid"
+  Gliquid: "gliquid",
+  Hyperdrive: "hyperdrive-hl",
 }
 
 const categories = [
