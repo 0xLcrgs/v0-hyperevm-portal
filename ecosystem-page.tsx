@@ -670,6 +670,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
   },
   {
+    id: 160,
+    name: "Skate",
+    description: "Connecting all VMs. Interact with applications from any VM while staying on your favorite chain.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://amm.skatechain.org/swap",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1873921084871106563/NEW0LSI6_400x400.jpg",
+  },
+  {
     id: 97,
     name: "Lighthouse.one",
     description: "All your crypto and fiat assets in one, private portfolio manager.",
@@ -1732,6 +1742,7 @@ const defiLlamaSlugs = {
   "Fan App": "fan.fun",
   Gliquid: "gliquid",
   Hyperdrive: "hyperdrive-hl",
+  Skate: "skate-amm",
 }
 
 const categories = [
