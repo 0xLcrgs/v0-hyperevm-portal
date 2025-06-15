@@ -1,46 +1,12 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { promises as fs } from "fs"
-import path from "path"
 
-// Path to store click data
-const DATA_FILE = path.join(process.cwd(), "data", "clicks.json")
-
-// Ensure data directory exists
-async function ensureDataDirectory() {
-  const dataDir = path.dirname(DATA_FILE)
-  try {
-    await fs.access(dataDir)
-  } catch {
-    await fs.mkdir(dataDir, { recursive: true })
-  }
-}
-
-// Read click counts from file
-async function readClickCounts(): Promise<Record<number, number>> {
-  try {
-    await ensureDataDirectory()
-    const data = await fs.readFile(DATA_FILE, "utf-8")
-    return JSON.parse(data)
-  } catch (error) {
-    // If file doesn't exist or is invalid, return empty object
-    return {}
-  }
-}
-
-// Write click counts to file
-async function writeClickCounts(clickCounts: Record<number, number>): Promise<void> {
-  try {
-    await ensureDataDirectory()
-    await fs.writeFile(DATA_FILE, JSON.stringify(clickCounts, null, 2))
-  } catch (error) {
-    console.error("Error writing click counts:", error)
-    throw error
-  }
-}
+// In a real application, you would use Vercel KV, Upstash Redis, or a database
+// For demo purposes, we'll use in-memory storage
+// Note: This will reset when the server restarts
+const clickCounts: Record<number, number> = {}
 
 export async function GET() {
   try {
-    const clickCounts = await readClickCounts()
     return NextResponse.json({ clickCounts }, { status: 200 })
   } catch (error) {
     console.error("Error fetching click counts:", error)
@@ -57,14 +23,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Invalid project ID" }, { status: 400 })
     }
 
-    // Read current click counts
-    const clickCounts = await readClickCounts()
-
     // Increment click count for the project
     clickCounts[projectId] = (clickCounts[projectId] || 0) + 1
-
-    // Write updated counts back to file
-    await writeClickCounts(clickCounts)
 
     return NextResponse.json(
       {
