@@ -280,7 +280,8 @@ const projects = [
   {
     id: 146,
     name: "Resolv Labs",
-    description: "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
+    description:
+      "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
     categories: ["CDP"],
     status: "Live",
     website: "https://resolv.xyz/",
@@ -531,7 +532,7 @@ const projects = [
     status: "Live",
     website: "https://hlnames.xyz/",
     tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1928952183304892416/4etP6OnZ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1892708513534689280/CuTc0feF_400x400.jpg",
   },
   {
     id: 24,
@@ -604,7 +605,7 @@ const projects = [
     status: "Live",
     website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
   },
   {
     id: 78,
@@ -794,7 +795,7 @@ const projects = [
     status: "Coming Soon",
     website: "https://www.mercurytrade.org/",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1917593522011623424/5gvgOGN5_400x400.jpg",
   },
   {
     id: 45,
@@ -805,7 +806,7 @@ const projects = [
     status: "Beta",
     website: "https://www.dexari.com/",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1886811418269188097/G-Ax7k-Q_400x400.png",
   },
   {
     id: 87,
@@ -908,7 +909,7 @@ const projects = [
     status: "Coming Soon",
     website: "https://tryliquid.xyz?ref_id=3E4RTJC9P",
     tags: ["Trading Interface", "Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1914394533242028033/f-745FsF_400x400.jpg",
   },
   {
     id: 115,
@@ -1037,7 +1038,7 @@ const projects = [
     status: "Coming Soon",
     website: "https://x.com/hyper_path",
     tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1928723564510711808/Dp-TbSSP_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1925648003777298432/5Vl2A71i_400x400.jpg",
   },
   {
     id: 29,
@@ -1223,8 +1224,7 @@ const projects = [
   {
     id: 156,
     name: "Liquina",
-    description:
-      "Liquina is more than a character; she is a 'Story' and an 'IP' born of the community. The goal of the 'LQnians' community is clear: to turn Liquina, an IP we fully own, into the greatest legend of all time. Let us write history, together.",
+    description: "Liquina is more than a character; she is a 'Story' and an 'IP' born of the community. The goal of the 'LQnians' community is clear: to turn Liquina, an IP we fully own, into the greatest legend of all time. Let us write history, together.",
     categories: ["NFT"],
     status: "Live",
     website: "https://liquina.ai/",
@@ -1286,7 +1286,8 @@ const projects = [
   {
     id: 153,
     name: "LiquidScan",
-    description: "Advanced analytics and trading tools for the HyperEVM ecosystem.",
+    description:
+      "Advanced analytics and trading tools for the HyperEVM ecosystem.",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/LiquidScanTrading_Bot?start=ref_HYPERLCRGS",
@@ -1296,8 +1297,7 @@ const projects = [
   {
     id: 150,
     name: "PurrSwap",
-    description:
-      "Your ultimate AMM solution, serving volatile and stable pools, fueling the HyperEVM revolution. Born from Abracadabra Money stableswap technology, crafted for DeFi dominance.",
+    description: "Your ultimate AMM solution, serving volatile and stable pools, fueling the HyperEVM revolution. Born from Abracadabra Money stableswap technology, crafted for DeFi dominance.",
     categories: ["DEX"],
     status: "Coming Soon",
     website: "https://purrswap.finance/",
@@ -1327,8 +1327,7 @@ const projects = [
   {
     id: 155,
     name: "Biconomy",
-    description:
-      "Effortlessly execute transactions and intents which access users, assets and liquidity across all blockchains and rollups.",
+    description: "Effortlessly execute transactions and intents which access users, assets and liquidity across all blockchains and rollups.",
     categories: ["Tools"],
     status: "Live",
     website: "https://www.biconomy.io/",
@@ -1359,7 +1358,8 @@ const projects = [
   {
     id: 158,
     name: "HLbot",
-    description: "The first group trading bot | Built on Hyperliquid",
+    description:
+      "The first group trading bot | Built on Hyperliquid",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/hyperliquid_hlbot?start=CEB5EF",
@@ -1379,8 +1379,7 @@ const projects = [
   {
     id: 152,
     name: "pvp.duel",
-    description:
-      "Duel, survive, and thrive in the world of HyperEVM gaming. This guide will walk you through how to play, what we're building, and how you can get involved with our DAO. Telegram has always been a quintessential part of the Hyperliquid ecosystem, and our team views Telegram as an incredibly powerful interface to integrate casual gaming.",
+    description: "Duel, survive, and thrive in the world of HyperEVM gaming. This guide will walk you through how to play, what we're building, and how you can get involved with our DAO. Telegram has always been a quintessential part of the Hyperliquid ecosystem, and our team views Telegram as an incredibly powerful interface to integrate casual gaming.",
     categories: ["Other"],
     status: "Beta",
     website: "https://pvp-frontend.vercel.app/",
@@ -1594,8 +1593,7 @@ const projects = [
   {
     id: 125,
     name: "Hytrade",
-    description:
-      "Hytrade is the fastest and most feature-rich hybrid web trading experience, designed to elevate your crypto journey on HyperEVM withhigh-speed execution across all the launchpads and DEXs you love. Our intuitive platform enables you to buy and sell in one click, giving you the competitive edge needed in fast-paced markets.",
+    description: "Hytrade is the fastest and most feature-rich hybrid web trading experience, designed to elevate your crypto journey on HyperEVM withhigh-speed execution across all the launchpads and DEXs you love. Our intuitive platform enables you to buy and sell in one click, giving you the competitive edge needed in fast-paced markets.",
     categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://www.hytrade.fun/trade",
@@ -1764,27 +1762,14 @@ const categories = [
   "Other",
 ]
 
-interface ProjectWithTVL {
-  id: number
-  name: string
-  description: string
-  categories: string[]
-  status: string
-  website: string
-  tags: string[]
-  logo: string
-  tvl?: string
-}
-
 export default function EcosystemPage() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
-  const [projectData, setProjectData] = useState<ProjectWithTVL[]>(projects)
+  const [projectData, setProjectData] = useState(projects)
   const [loading, setLoading] = useState(true)
-  const [clickCounts, setClickCounts] = useState<Record<number, number>>({})
 
   // Initialize state from URL params
   useEffect(() => {
@@ -1798,32 +1783,6 @@ export default function EcosystemPage() {
       setSelectedCategory(urlCategory)
     }
   }, [searchParams])
-
-  // Fetch click counts on component mount
-  useEffect(() => {
-    const fetchClickCounts = async () => {
-      try {
-        const response = await fetch("/api/clicks")
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`)
-        }
-
-        const contentType = response.headers.get("content-type")
-        if (!contentType || !contentType.includes("application/json")) {
-          throw new Error("Response is not JSON")
-        }
-
-        const data = await response.json()
-        setClickCounts(data.clickCounts || {})
-      } catch (error) {
-        console.error("Error fetching click counts:", error)
-        // Set empty click counts on error to prevent app from breaking
-        setClickCounts({})
-      }
-    }
-    fetchClickCounts()
-  }, [])
 
   // Update URL when search or category changes
   const updateURL = (newSearch: string, newCategory: string) => {
@@ -1852,39 +1811,6 @@ export default function EcosystemPage() {
     updateURL(searchQuery, category)
   }
 
-  // Handle project click tracking
-  const handleProjectClick = async (projectId: number) => {
-    try {
-      const response = await fetch("/api/clicks", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ projectId }),
-      })
-
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-
-      const contentType = response.headers.get("content-type")
-      if (!contentType || !contentType.includes("application/json")) {
-        throw new Error("Response is not JSON")
-      }
-
-      const data = await response.json()
-      if (data.success) {
-        setClickCounts((prev) => ({
-          ...prev,
-          [projectId]: data.clickCount,
-        }))
-      }
-    } catch (error) {
-      console.error("Error tracking click:", error)
-      // Silently fail - don't break the user experience
-    }
-  }
-
   useEffect(() => {
     const fetchTVL = async () => {
       setLoading(true)
@@ -1909,25 +1835,14 @@ export default function EcosystemPage() {
     fetchTVL()
   }, [])
 
-  // Sort projects by popularity (click count) - highest first
-  const sortProjectsByPopularity = (projects: ProjectWithTVL[]) => {
-    return [...projects].sort((a, b) => {
-      const aClicks = clickCounts[a.id] || 0
-      const bClicks = clickCounts[b.id] || 0
-      return bClicks - aClicks
-    })
-  }
-
-  const filteredProjects = sortProjectsByPopularity(
-    projectData.filter((project) => {
-      const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-      const matchesSearch =
-        (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-      return matchesCategory && matchesSearch
-    }),
-  )
+  const filteredProjects = projectData.filter((project) => {
+    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
+    const matchesSearch =
+      (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+    return matchesCategory && matchesSearch
+  })
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -1987,8 +1902,8 @@ export default function EcosystemPage() {
           <div className="mb-12">
             <h1 className="text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
             <p className="text-gray-400 text-lg max-w-3xl">
-              Explore the growing ecosystem of projects building on HyperEVM. Projects are automatically sorted by
-              popularity based on community engagement.
+              Explore the growing ecosystem of projects building on HyperEVM. Learn about each project, their features,
+              and how to get involved.
             </p>
           </div>
 
@@ -2036,8 +1951,7 @@ export default function EcosystemPage() {
               {filteredProjects.map((project) => (
                 <Card
                   key={project.id}
-                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col cursor-pointer"
-                  onClick={() => handleProjectClick(project.id)}
+                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col"
                 >
                   <CardHeader className="flex-1">
                     <div className="flex items-start justify-between">
@@ -2084,10 +1998,6 @@ export default function EcosystemPage() {
                         variant="outline"
                         className="border-gray-600 text-black-300 hover:bg-gray-800"
                         asChild
-                        onClick={(e) => {
-                          e.stopPropagation()
-                          handleProjectClick(project.id)
-                        }}
                       >
                         <Link href={project.website} target="_blank" rel="noopener noreferrer">
                           <Globe className="w-4 h-4 mr-2" />
