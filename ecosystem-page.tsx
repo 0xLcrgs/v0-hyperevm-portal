@@ -604,7 +604,7 @@ const projects = [
     status: "Live",
     website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
   },
   {
     id: 78,
