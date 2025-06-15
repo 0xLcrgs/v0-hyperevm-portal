@@ -794,7 +794,7 @@ const projects = [
     status: "Coming Soon",
     website: "https://www.mercurytrade.org/",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1917593522011623424/5gvgOGN5_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
   },
   {
     id: 45,
@@ -805,7 +805,7 @@ const projects = [
     status: "Beta",
     website: "https://www.dexari.com/",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1886811418269188097/G-Ax7k-Q_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
   },
   {
     id: 87,
@@ -908,7 +908,7 @@ const projects = [
     status: "Coming Soon",
     website: "https://tryliquid.xyz?ref_id=3E4RTJC9P",
     tags: ["Trading Interface", "Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1914394533242028033/f-745FsF_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
   },
   {
     id: 115,
@@ -1037,7 +1037,7 @@ const projects = [
     status: "Coming Soon",
     website: "https://x.com/hyper_path",
     tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1925648003777298432/5Vl2A71i_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1928723564510711808/Dp-TbSSP_400x400.jpg",
   },
   {
     id: 29,
