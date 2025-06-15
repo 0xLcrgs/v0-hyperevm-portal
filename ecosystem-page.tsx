@@ -280,7 +280,8 @@ const projects = [
   {
     id: 146,
     name: "Resolv Labs",
-    description: "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
+    description:
+      "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
     categories: ["CDP"],
     status: "Live",
     website: "https://resolv.xyz/",
@@ -531,7 +532,7 @@ const projects = [
     status: "Live",
     website: "https://hlnames.xyz/",
     tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1928952183304892416/4etP6OnZ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1892708513534689280/CuTc0feF_400x400.jpg",
   },
   {
     id: 24,
@@ -604,7 +605,7 @@ const projects = [
     status: "Live",
     website: "https://okto.go.link/defi_home?referral_code=ZkJLD5&adj_t=13c5o7y4",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1914306838683590656/6MT7IDg8_400x400.jpg",
   },
   {
     id: 78,
@@ -1223,8 +1224,7 @@ const projects = [
   {
     id: 156,
     name: "Liquina",
-    description:
-      "Liquina is more than a character; she is a 'Story' and an 'IP' born of the community. The goal of the 'LQnians' community is clear: to turn Liquina, an IP we fully own, into the greatest legend of all time. Let us write history, together.",
+    description: "Liquina is more than a character; she is a 'Story' and an 'IP' born of the community. The goal of the 'LQnians' community is clear: to turn Liquina, an IP we fully own, into the greatest legend of all time. Let us write history, together.",
     categories: ["NFT"],
     status: "Live",
     website: "https://liquina.ai/",
@@ -1286,7 +1286,8 @@ const projects = [
   {
     id: 153,
     name: "LiquidScan",
-    description: "Advanced analytics and trading tools for the HyperEVM ecosystem.",
+    description:
+      "Advanced analytics and trading tools for the HyperEVM ecosystem.",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/LiquidScanTrading_Bot?start=ref_HYPERLCRGS",
@@ -1296,8 +1297,7 @@ const projects = [
   {
     id: 150,
     name: "PurrSwap",
-    description:
-      "Your ultimate AMM solution, serving volatile and stable pools, fueling the HyperEVM revolution. Born from Abracadabra Money stableswap technology, crafted for DeFi dominance.",
+    description: "Your ultimate AMM solution, serving volatile and stable pools, fueling the HyperEVM revolution. Born from Abracadabra Money stableswap technology, crafted for DeFi dominance.",
     categories: ["DEX"],
     status: "Coming Soon",
     website: "https://purrswap.finance/",
@@ -1327,8 +1327,7 @@ const projects = [
   {
     id: 155,
     name: "Biconomy",
-    description:
-      "Effortlessly execute transactions and intents which access users, assets and liquidity across all blockchains and rollups.",
+    description: "Effortlessly execute transactions and intents which access users, assets and liquidity across all blockchains and rollups.",
     categories: ["Tools"],
     status: "Live",
     website: "https://www.biconomy.io/",
@@ -1359,7 +1358,8 @@ const projects = [
   {
     id: 158,
     name: "HLbot",
-    description: "The first group trading bot | Built on Hyperliquid",
+    description:
+      "The first group trading bot | Built on Hyperliquid",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/hyperliquid_hlbot?start=CEB5EF",
@@ -1379,8 +1379,7 @@ const projects = [
   {
     id: 152,
     name: "pvp.duel",
-    description:
-      "Duel, survive, and thrive in the world of HyperEVM gaming. This guide will walk you through how to play, what we're building, and how you can get involved with our DAO. Telegram has always been a quintessential part of the Hyperliquid ecosystem, and our team views Telegram as an incredibly powerful interface to integrate casual gaming.",
+    description: "Duel, survive, and thrive in the world of HyperEVM gaming. This guide will walk you through how to play, what we're building, and how you can get involved with our DAO. Telegram has always been a quintessential part of the Hyperliquid ecosystem, and our team views Telegram as an incredibly powerful interface to integrate casual gaming.",
     categories: ["Other"],
     status: "Beta",
     website: "https://pvp-frontend.vercel.app/",
@@ -1594,8 +1593,7 @@ const projects = [
   {
     id: 125,
     name: "Hytrade",
-    description:
-      "Hytrade is the fastest and most feature-rich hybrid web trading experience, designed to elevate your crypto journey on HyperEVM withhigh-speed execution across all the launchpads and DEXs you love. Our intuitive platform enables you to buy and sell in one click, giving you the competitive edge needed in fast-paced markets.",
+    description: "Hytrade is the fastest and most feature-rich hybrid web trading experience, designed to elevate your crypto journey on HyperEVM withhigh-speed execution across all the launchpads and DEXs you love. Our intuitive platform enables you to buy and sell in one click, giving you the competitive edge needed in fast-paced markets.",
     categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://www.hytrade.fun/trade",
@@ -1804,22 +1802,10 @@ export default function EcosystemPage() {
     const fetchClickCounts = async () => {
       try {
         const response = await fetch("/api/clicks")
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`)
-        }
-
-        const contentType = response.headers.get("content-type")
-        if (!contentType || !contentType.includes("application/json")) {
-          throw new Error("Response is not JSON")
-        }
-
         const data = await response.json()
         setClickCounts(data.clickCounts || {})
       } catch (error) {
         console.error("Error fetching click counts:", error)
-        // Set empty click counts on error to prevent app from breaking
-        setClickCounts({})
       }
     }
     fetchClickCounts()
@@ -1863,17 +1849,8 @@ export default function EcosystemPage() {
         body: JSON.stringify({ projectId }),
       })
 
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-
-      const contentType = response.headers.get("content-type")
-      if (!contentType || !contentType.includes("application/json")) {
-        throw new Error("Response is not JSON")
-      }
-
-      const data = await response.json()
-      if (data.success) {
+      if (response.ok) {
+        const data = await response.json()
         setClickCounts((prev) => ({
           ...prev,
           [projectId]: data.clickCount,
@@ -1881,7 +1858,6 @@ export default function EcosystemPage() {
       }
     } catch (error) {
       console.error("Error tracking click:", error)
-      // Silently fail - don't break the user experience
     }
   }
 
