@@ -307,7 +307,7 @@ const projects = [
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1889316674383282176/ulV41xZ7_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1930642162984579072/NtYd0Egd_400x400.png",
   },
   {
     id: 33,
