@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { incrementClick, getClickCounts } from "@/lib/database"
 
 const projects = [
   {
@@ -1770,6 +1771,7 @@ export default function EcosystemPage() {
   const [searchQuery, setSearchQuery] = useState("")
   const [projectData, setProjectData] = useState(projects)
   const [loading, setLoading] = useState(true)
+  const [clickCounts, setClickCounts] = useState<Record<number, number>>({})
 
   // Initialize state from URL params
   useEffect(() => {
@@ -1811,6 +1813,23 @@ export default function EcosystemPage() {
     updateURL(searchQuery, category)
   }
 
+  const handleLinkClick = async (projectId: number, projectName: string, url: string) => {
+    try {
+      await incrementClick(projectId, projectName)
+      // Update local state
+      setClickCounts((prev) => ({
+        ...prev,
+        [projectId]: (prev[projectId] || 0) + 1,
+      }))
+      // Open the link
+      window.open(url, "_blank", "noopener,noreferrer")
+    } catch (error) {
+      console.error("Failed to track click:", error)
+      // Still open the link even if tracking fails
+      window.open(url, "_blank", "noopener,noreferrer")
+    }
+  }
+
   useEffect(() => {
     const fetchTVL = async () => {
       setLoading(true)
@@ -1835,14 +1854,33 @@ export default function EcosystemPage() {
     fetchTVL()
   }, [])
 
-  const filteredProjects = projectData.filter((project) => {
-    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-    const matchesSearch =
-      (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-    return matchesCategory && matchesSearch
-  })
+  // Load click counts on component mount
+  useEffect(() => {
+    const loadClickCounts = async () => {
+      try {
+        const counts = await getClickCounts()
+        setClickCounts(counts)
+      } catch (error) {
+        console.error("Failed to load click counts:", error)
+      }
+    }
+    loadClickCounts()
+  }, [])
+
+  const filteredProjects = projectData
+    .filter((project) => {
+      const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
+      const matchesSearch =
+        (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+      return matchesCategory && matchesSearch
+    })
+    .sort((a, b) => {
+      const aClicks = clickCounts[a.id] || 0
+      const bClicks = clickCounts[b.id] || 0
+      return bClicks - aClicks // Sort by clicks descending
+    })
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -1997,12 +2035,10 @@ export default function EcosystemPage() {
                         size="sm"
                         variant="outline"
                         className="border-gray-600 text-black-300 hover:bg-gray-800"
-                        asChild
+                        onClick={() => handleLinkClick(project.id, project.name, project.website)}
                       >
-                        <Link href={project.website} target="_blank" rel="noopener noreferrer">
-                          <Globe className="w-4 h-4 mr-2" />
-                          Website
-                        </Link>
+                        <Globe className="w-4 h-4 mr-2" />
+                        Website {clickCounts[project.id] ? `(${clickCounts[project.id]} clicks)` : ""}
                       </Button>
                     </div>
                   </CardContent>
