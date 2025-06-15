@@ -3,8 +3,6 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 
-// The idb package will be automatically imported by next-lite
-
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
