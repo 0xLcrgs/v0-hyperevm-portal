@@ -531,7 +531,7 @@ const projects = [
     status: "Live",
     website: "https://hlnames.xyz/",
     tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1892708513534689280/CuTc0feF_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1928952183304892416/4etP6OnZ_400x400.jpg",
   },
   {
     id: 24,
