@@ -1710,7 +1710,7 @@ const projects = [
       "SuperX is a Telegram copy trading bot built specifically for Hyperliquid. It enables anyone to discover and copy top traders across perps, and soon, spot.",
     categories: ["Bot"],
     status: "Live",
-    website: "https://trysuper.co/",
+    website: "https://trysuper.co/ref/0xlcrgs",
     tags: ["Bot", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1913916356874952704/RrNrTN0H_400x400.jpg",
   },
