@@ -1232,6 +1232,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1864910599198773250/HWsMlIpH_400x400.png",
   },
   {
+    id: 163,
+    name: "Rumpel Labs",
+    description:
+      "Rumpel is a point tokenization protocol. It enables secondary market liquidity and price discovery for offchain loyalty points, unlocking new opportunities for point holders, traders, airdrop hunters, and point issuers.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://app.rumpel.xyz/?ref=Q6CZBF",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1841832534742626305/HPcCzKlb_400x400.jpg",
+  },
+  {
     id: 106,
     name: "LiquidLoot",
     description: "Marketplace for NFTs on HyperliquidX I Launchpad coming soon I Lend&borrow coming soon",
