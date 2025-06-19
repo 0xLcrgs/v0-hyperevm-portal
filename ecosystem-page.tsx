@@ -638,6 +638,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1859964342466207744/lPYHxw87_400x400.jpg",
   },
   {
+    id: 164,
+    name: "Hyperwave",
+    description:
+      "Hyperwave DAO's mission is to build the first Hyperliquid DeFi SuperApp with an aim to help Hyperliquid to become the blockchain to house all of finance. Starting with Hyperwave HLP (hwHLP), a first to market liquid yield bearing token of  Hyperliquidity Provider Vault (HLP), Hyperwave will create asset primitives, serviceable markets for those assets and avenues for users to use those assets in their everyday lives. ",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.hyperwavefi.xyz/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
+  },
+  {
     id: 159,
     name: "HyperScan",
     description: "Explorer for HyperEVM",
