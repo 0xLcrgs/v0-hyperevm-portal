@@ -451,6 +451,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1824061692843802624/ypS4GORQ_400x400.png",
   },
   {
+    id: 151,
+    name: "ApStation",
+    description: "ApStation is a next-generation DEX aggregator and liquidity router designed specifically for the Hyperliquid ecosystem. Built natively on HyperEVM, it aggregates all available on-chain liquidity, executes swaps at 0% protocol fees, and delivers the most efficient route possible with every transaction — all without requiring users to think about routing, pricing, or slippage.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://apstation.io/swap?referer=K51KWZEJ",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1932105712408145920/19Zzxd3Y_400x400.jpg",
+  },
+  {
     id: 96,
     name: "Neko.hl",
     description:
@@ -1287,12 +1297,12 @@ const projects = [
   {
     id: 157,
     name: "GLO",
-    description: "just glo it.",
+    description: "GLO is a Hyperliquid project that unites creators, developers, and holders under one vision. It's built around three core pillars: a project incubator, a reward-driven laboratory, and a suite of practical tools designed specifically for the Hyperliquid ecosystem. These elements spark collaboration, unlock innovation, and push the ecosystem forward.",
     categories: ["NFT"],
     status: "Live",
     website: "https://www.glohl.com/",
     tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1930865280206475264/1DW5GUeJ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1933337598488944640/WVu-5nhU_400x400.jpg",
   },
   {
     id: 107,
@@ -1314,16 +1324,6 @@ const projects = [
     website: "https://fan.fun/",
     tags: ["Other", "SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1884115595081433088/K918mGuG_400x400.png",
-  },
-  {
-    id: 151,
-    name: "Hyap",
-    description: "Every yap matters, built on Hyperliquid. Powered by KaitoAI",
-    categories: ["Other"],
-    status: "Beta",
-    website: "https://x.com/hyaplabs",
-    tags: ["Other", "SocialFi"],
-    logo: "https://pbs.twimg.com/profile_images/1932509033165950977/ZgPVC9AA_400x400.jpg",
   },
   {
     id: 48,
