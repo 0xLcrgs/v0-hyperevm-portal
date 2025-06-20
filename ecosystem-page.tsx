@@ -1092,6 +1092,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
   },
   {
+    id: 166,
+    name: "Delpho",
+    description:
+      "Delpho is built from the ground up with these new technical advancements at the center of its design. Combined, these capabilities remove the sequencing gaps and external trust assumptions that forced earlier stablecoins to choose between safety and earnings.",
+    categories: ["CDP"],
+    status: "Coming Soon",
+    website: "https://www.delpho.xyz/",
+    tags: ["CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1935962128625565696/iJDKV3rV_400x400.jpg",
+  },
+  {
     id: 75,
     name: "Project X",
     description:
