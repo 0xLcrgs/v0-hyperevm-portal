@@ -498,7 +498,7 @@ const projects = [
     description:
       "rUSDC is a collection of USDC wrappers that enables lending market risk curators to relend Ethereum mainnet TVL to other chains. Users can mint rUSDC on Ethereum by supplying USDC, bridge it to partner chains, and access ecosystem incentives.",
     categories: ["Lending", "CDP"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://relend.network/",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1838501262121209856/PrOhS3Kt_400x400.jpg",
