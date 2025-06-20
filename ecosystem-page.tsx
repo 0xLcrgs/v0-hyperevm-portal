@@ -457,7 +457,7 @@ const projects = [
     categories: ["DEX"],
     status: "Live",
     website: "https://apstation.io/swap?referer=K51KWZEJ",
-    tags: ["DEX"],
+    tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1932105712408145920/19Zzxd3Y_400x400.jpg",
   },
   {
