@@ -1006,6 +1006,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1897644409237512192/yJQptpdA_400x400.jpg",
   },
   {
+    id: 165,
+    name: "Defi App",
+    description: "opt.fun is 1 minute expiry options platform on Hyperliquid offering fast and fun high volatility trading.",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://opt.fun/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1927855901966487555/06SWyR9P_400x400.png",
+  },
+  {
     id: 94,
     name: "Vapor",
     description:
