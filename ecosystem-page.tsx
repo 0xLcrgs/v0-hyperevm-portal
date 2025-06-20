@@ -628,6 +628,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
   },
   {
+    id: 114,
+    name: "Hybra Finance",
+    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.hybra.finance?code=MBKOYM",
+    tags: ["DEX", "ve(3,3)"],
+    logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
+  },
+  {
     id: 78,
     name: "Hedgewater Associates",
     description: "Hedgewater is an on-chain AI investment fund focused on Hyperliquid ecosystem.",
@@ -983,16 +993,6 @@ const projects = [
     website: "https://hypersignals.ai/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1924849892314255361/a_SduLa2_400x400.png",
-  },
-  {
-    id: 114,
-    name: "Hybra Finance",
-    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.hybra.finance?code=MBKOYM",
-    tags: ["DEX", "ve(3,3)"],
-    logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
   },
   {
     id: 86,
