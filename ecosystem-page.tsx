@@ -685,7 +685,7 @@ const projects = [
       "Hyperbloom is a Decentralized Exchange (DEX) Aggregator and Yield Optimizer built on HyperEVM that helps users finding the best rates for swaps across Hyperliquid ecosystem together with boosting yield from liquidity pools through autocompounding.",
     categories: ["DEX"],
     status: "Live",
-    website: "https://hyperbloom.xyz/referral/6430f279-b",
+    website: "https://app.hyperbloom.xyz/?ref=6430f279-b",
     tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1932366410082033664/TYBk0ryj_400x400.jpg",
   },
