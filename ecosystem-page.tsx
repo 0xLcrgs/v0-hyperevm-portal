@@ -448,7 +448,7 @@ const projects = [
     status: "Live",
     website: "https://simpfor.fun/login?referralCode=GT3SH4",
     tags: ["Bot", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1824061692843802624/ypS4GORQ_400x400.png",
+    logo: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*SLk3tpy_iNrP02qf0OggPA.png",
   },
   {
     id: 151,
