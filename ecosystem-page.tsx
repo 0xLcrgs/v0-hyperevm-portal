@@ -236,6 +236,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
   },
   {
+    id: 169,
+    name: "hyperG8",
+    description:
+      "hyperG8 is a hypercharged trading platform for hyperEVM tokens. hyperG8 indexes new pairs streams transactions and price data to you in realtime allowing you to trade safe, smart, and without hiccups.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://hyper.g8.xyz/?ref=0XLCRGS",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1927392038397341696/snDMJDN1_400x400.jpg",
+  },
+  {
     id: 34,
     name: "Dextrabot",
     description:
