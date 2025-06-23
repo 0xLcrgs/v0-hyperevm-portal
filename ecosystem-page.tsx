@@ -313,6 +313,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
   },
   {
+    id: 47,
+    name: "HyperCat",
+    description:
+      "HyperCat is a decentralized exchange (DEX) built on the Algebra Integral smart contracts. Leveraging a modular architecture powered by Algebra Integral's V4 AMM, HyperCat enables flexible trading and liquidity management through the use of plugins, with support for custom hooks that will be available to extend on-chain functionality even further.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.hypercat.exchange/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1935052838494945282/E46pS0A7_400x400.png",
+  },
+  {
     id: 13,
     name: "Keiko Finance",
     description:
