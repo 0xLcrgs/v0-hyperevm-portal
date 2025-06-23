@@ -1828,6 +1828,8 @@ const defiLlamaSlugs = {
   Gliquid: "gliquid",
   Hyperdrive: "hyperdrive-hl",
   Skate: "skate-amm",
+  HyperCat: "hypercat",
+  optfun: "optfun",
 }
 
 const categories = [
