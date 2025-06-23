@@ -280,6 +280,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1927392038397341696/snDMJDN1_400x400.jpg",
   },
   {
+    id: 170,
+    name: "Bebop",
+    description:
+      "Bebop offers confidence for every trade: best execution, guaranteed pricing, top security, and industry-leading reliability. Our APIs and SDK boast powerful and performant tools for any protocol, dApp or DAO trade execution, as well as for liquidity providers and solvers.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://bebop.xyz/trade?network=hyperevm",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1888879617886531584/EqdazUob_400x400.jpg",
+  },
+  {
     id: 34,
     name: "Dextrabot",
     description:
