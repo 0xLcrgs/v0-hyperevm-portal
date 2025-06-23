@@ -160,6 +160,39 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
   },
   {
+    id: 16,
+    name: "LiquidSwap",
+    description:
+      "Create tokens and agents effortlessly, trade for profits seamlessly, all without writing a single line of code!",
+    categories: ["Launchpad", "DEX"],
+    status: "Live",
+    website: "https://liqd.ag/",
+    tags: ["Launchpad", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
+  },
+  {
+    id: 10,
+    name: "Laminar",
+    description:
+      "Laminar is a liquidity engine and aggregator connecting disparate liquidity on both HyperEVM and HyperCore to provide simple, optimally priced swaps.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://laminar.xyz/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
+  },
+  {
+    id: 47,
+    name: "HyperCat",
+    description:
+      "HyperCat is a decentralized exchange (DEX) built on the Algebra Integral smart contracts. Leveraging a modular architecture powered by Algebra Integral's V4 AMM, HyperCat enables flexible trading and liquidity management through the use of plugins, with support for custom hooks that will be available to extend on-chain functionality even further.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.hypercat.exchange/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1935052838494945282/E46pS0A7_400x400.png",
+  },
+  {
     id: 164,
     name: "Hyperwave",
     description:
@@ -300,39 +333,6 @@ const projects = [
     website: "https://t.me/hyperliquid_hlbot?start=CEB5EF",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1869558294702145536/-2u314ta_400x400.png",
-  },
-  {
-    id: 16,
-    name: "LiquidLaunch",
-    description:
-      "Create tokens and agents effortlessly, trade for profits seamlessly, all without writing a single line of code!",
-    categories: ["Launchpad", "DEX"],
-    status: "Live",
-    website: "https://liquidlaunch.app/",
-    tags: ["Launchpad", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
-  },
-  {
-    id: 10,
-    name: "Laminar",
-    description:
-      "Laminar is a liquidity engine and aggregator connecting disparate liquidity on both HyperEVM and HyperCore to provide simple, optimally priced swaps.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://laminar.xyz/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
-  },
-  {
-    id: 47,
-    name: "HyperCat",
-    description:
-      "HyperCat is a decentralized exchange (DEX) built on the Algebra Integral smart contracts. Leveraging a modular architecture powered by Algebra Integral's V4 AMM, HyperCat enables flexible trading and liquidity management through the use of plugins, with support for custom hooks that will be available to extend on-chain functionality even further.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.hypercat.exchange/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1935052838494945282/E46pS0A7_400x400.png",
   },
   {
     id: 13,
