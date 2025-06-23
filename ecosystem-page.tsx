@@ -528,10 +528,10 @@ const projects = [
     id: 77,
     name: "HeadtoHead.hl",
     description: "Head to Head is a social wagering platform where people can put their money where their mouth is",
-    categories: ["Other"],
+    categories: ["GambleFi"],
     status: "Live",
     website: "https://www.headtohead.app/",
-    tags: ["Other"],
+    tags: ["GambleFi"],
     logo: "https://pbs.twimg.com/profile_images/1892511802451226624/LquxgBd__400x400.jpg",
   },
   {
@@ -584,6 +584,16 @@ const projects = [
     website: "https://debank.com/",
     tags: ["Tools", "Block Explorer", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1414880725921267716/YzVitob7_400x400.jpg",
+  },
+  {
+    id: 168,
+    name: "Nansen",
+    description: "Nansen is the leading onchain analytics platform trusted by the top crypto teams and investors.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://app.nansen.ai/ref?GeahssNV0Zd",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1798630976387764224/O05j4854_400x400.jpg",
   },
   {
     id: 137,
@@ -1052,10 +1062,10 @@ const projects = [
     id: 73,
     name: "Vegas HL",
     description: "The next-gen crypto poker experience. Built on HyperEVM to revolutionize on-chain gambling.",
-    categories: ["Other"],
+    categories: ["GambleFi"],
     status: "Live",
     website: "https://vegas.fun?r=0XLCRGS",
-    tags: ["Other"],
+    tags: ["GambleFi"],
     logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
   },
   {
@@ -1834,6 +1844,7 @@ const categories = [
   "Trading Interface",
   "Bot",
   "Options",
+  "GambleFi",
   "Other",
 ]
 
