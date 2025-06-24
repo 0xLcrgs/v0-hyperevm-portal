@@ -1812,6 +1812,16 @@ const projects = [
     tags: ["Bot", "AI"],
     logo: "https://pbs.twimg.com/profile_images/1905002465117843456/yQmiCqaT_400x400.jpg",
   },
+  {
+    id: 171,
+    name: "Enso",
+    description: "Enso is blockchain shortcuts. Your fastest way to build and launch onchain. ",
+    categories: ["Other"],
+    status: "Live",
+    website: "https://www.enso.build/",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1795443155015184384/EeDEvFuQ_400x400.jpg",
+  },
 ]
 
 // DeFiLlama slugs (update with actual slugs from DeFiLlama)
