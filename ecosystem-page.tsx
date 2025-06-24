@@ -1192,11 +1192,11 @@ const projects = [
   {
     id: 76,
     name: "HyperPath",
-    description: "Not much is known yet about it (i'll update a soon as possible)",
-    categories: ["Other"],
-    status: "Coming Soon",
-    website: "https://x.com/hyper_path",
-    tags: ["Other"],
+    description: "Hyperpath is a user-friendly on-ramp solution built specifically for seamless entry into the Hyperliquid ecosystem. By transforming your fiat currency into any desired on-chain asset through stable-hop routing, Hyperpath ensures you always get exactly what you want. ",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.hyperpath.finance/swap",
+    tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1928723564510711808/Dp-TbSSP_400x400.jpg",
   },
   {
