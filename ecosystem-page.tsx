@@ -1791,6 +1791,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1853646017620844544/yKjedEz2_400x400.jpg",
   },
   {
+    id: 172,
+    name: "USDHL-M Bridge)",
+    description: "Trade all tokens, across all chains — with Polaris, the Token Portal. Now live in beta.",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://usdhl-bridge.vercel.app/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1912499168616071168/YwutsRBu_400x400.jpg",
+  },
+  {
     id: 126,
     name: "Quick Intel",
     description:
