@@ -123,7 +123,7 @@ const projects = [
     description: "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
     categories: ["DEX"],
     status: "Live",
-    website: "https://www.gliquid.xyz/swap",
+    website: "https://www.gliquid.xyz?referral=g5JIsrfD",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1928414866554974208/FpTxpjHe_400x400.jpg",
   },
