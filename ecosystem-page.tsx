@@ -735,6 +735,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1798630976387764224/O05j4854_400x400.jpg",
   },
   {
+    id: 173,
+    name: "Zerion",
+    description: "Trade any token on EVM & Solana | Zerion API is powering the best apps in crypto",
+    categories: ["Wallet"],
+    status: "Live",
+    website: "https://link.zerion.io/referral?code=5ZJ0IK44Y",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1914217161452564480/j8C2yxNc_400x400.jpg",
+  },
+  {
     id: 26,
     name: "Napier",
     description:
