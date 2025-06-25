@@ -2027,6 +2027,9 @@ export default function EcosystemPage() {
               </Link>
             </div>
             <div className="flex items-center space-x-3">
+              <Button className="bg-yellow-600 hover:bg-yellow-700 text-white">
+                <Link href="https://farming-portal.vercel.app/">Non-Hyperliquid Farms</Link>
+              </Button>
               <Button className="bg-green-600 hover:bg-green-700 text-white">
                 <Link href="https://app.hyperliquid.xyz/join/0XLCRGS">Join Hyperliquid</Link>
               </Button>
