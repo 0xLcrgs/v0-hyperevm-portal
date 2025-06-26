@@ -777,6 +777,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
   },
   {
+    id: 18,
+    name: "Aura",
+    description: "Trade perps Hyperliquid, every token on EVM + Solana, & yield with friends | Supports Apple + Google Pay",
+    categories: ["Wallet"],
+    status: "Coming Soon",
+    website: "https://aura.money/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1925571068175011841/NHhqyxMU_400x400.jpg",
+  },
+  {
     id: 78,
     name: "Hedgewater Associates",
     description: "Hedgewater is an on-chain AI investment fund focused on Hyperliquid ecosystem.",
