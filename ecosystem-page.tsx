@@ -204,6 +204,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
   },
   {
+    id: 180,
+    name: "HLP0",
+    description:
+      "Deposited USDC is deposited directly into the Hyperliquidity Provider vault. Users receive in return HLP0, an omni-chain tokenized representation of their HLP shares, which can be used to participate in lending or farming across top DeFi protocols to earn extra yield.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://www.hlp0.to/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1935447291256782850/4h6gF51x_400x400.jpg",
+  },
+  {
     id: 4,
     name: "Harmonix Finance",
     description:
