@@ -1862,6 +1862,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1882651870201520128/_6yWXw-N_400x400.jpg",
   },
   {
+    id: 179,
+    name: "Kiyotaka",
+    description:
+      "Crypto market intelligence platform. Currently in beta.",
+    categories: ["Tools"],
+    status: "Beta",
+    website: "https://kiyotaka.ai/ref=teMkFvcksW",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1900171367594811392/wjjyhLF1_400x400.jpg",
+  },
+  {
     id: 174,
     name: "Octav",
     description:
