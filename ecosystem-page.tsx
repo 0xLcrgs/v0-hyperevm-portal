@@ -335,6 +335,17 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
   },
   {
+    id: 58,
+    name: "GlueX Protocol",
+    description:
+      "GlueX is the first and only native swap router on HyperEVM, designed to simplify DeFi by unifying swaps, lending, and liquidity provisioning into a single, seamless interface. No MEV losses. No upfront fees. Just a smooth, rewarding experience every single time.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://dapp.gluex.xyz/",
+    tags: ["DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1906594758635483136/qEPWWGkA_400x400.jpg",
+  },
+  {
     id: 158,
     name: "HLbot",
     description:
@@ -1312,17 +1323,6 @@ const projects = [
     website: "https://gigabrain.gg/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1923460432636887040/r2TW45xA_400x400.jpg",
-  },
-  {
-    id: 58,
-    name: "GlueX Protocol",
-    description:
-      "GlueX is the first and only native swap router on HyperEVM, designed to simplify DeFi by unifying swaps, lending, and liquidity provisioning into a single, seamless interface. No MEV losses. No upfront fees. Just a smooth, rewarding experience every single time.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://dapp.gluex.xyz/",
-    tags: ["DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1906594758635483136/qEPWWGkA_400x400.jpg",
   },
   {
     id: 42,
