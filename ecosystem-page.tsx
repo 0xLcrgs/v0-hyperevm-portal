@@ -828,6 +828,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1937555607038623749/_VKMX6Um_400x400.jpg",
   },
   {
+    id: 178,
+    name: "Nunchi",
+    description: "Long or Short Any Yield. Perpetuals for Yield.",
+    categories: ["Options"],
+    status: "Coming Soon",
+    website: "https://nunchi.trade/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1917606843867631616/KuF5WlVE_400x400.png",
+  },
+  {
     id: 53,
     name: "Purrsec",
     description: "Parsec's HyperEVM exclusive Block Explorer",
