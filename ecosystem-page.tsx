@@ -1634,10 +1634,10 @@ const projects = [
     name: "Vortx HL",
     description:
       "Trade spot, perps & prediction markets on Discord, Twitter & more with AI agents. Built on Hyperliquid. Zero fees during beta.",
-    categories: ["Trading Interface"],
+    categories: ["Options"],
     status: "Live",
     website: "https://www.vortx.gg/",
-    tags: ["Trading Interface"],
+    tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1889417046401708032/34ziuAPb_400x400.jpg",
   },
   {
