@@ -767,6 +767,16 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1914217161452564480/j8C2yxNc_400x400.jpg",
   },
   {
+    id: 182,
+    name: "Brahma",
+    description: "Brahma is the programmable execution layer for onchain and real-world capital.",
+    categories: ["Trading Interface", "Wallet", "Tools"],
+    status: "Live",
+    website: "https://console.brahma.fi/onboarding?code=60B56EDE",
+    tags: ["Trading Interface", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1732456585652240384/u1-fAC6J_400x400.jpg",
+  },
+  {
     id: 26,
     name: "Napier",
     description:
