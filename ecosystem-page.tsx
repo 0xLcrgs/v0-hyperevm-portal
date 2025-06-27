@@ -29,10 +29,10 @@ const projects = [
     name: "HyperLend",
     description:
       "HyperLend is a high-performance lending protocol on Hyperliquid EVM, built for capital efficiency. It offers real-time leverage, dynamic rates, and deep liquidity",
-    categories: ["Lending"],
+    categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
-    tags: ["Lending", "Borrowing"],
+    tags: ["Lending", "Borrowing", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
   },
   {
