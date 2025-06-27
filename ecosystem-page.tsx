@@ -829,16 +829,6 @@ const projects = [
     logo: "https://pbs.twimg.com/profile_images/1896595609739554817/SWGQKBSK_400x400.png",
   },
   {
-    id: 176,
-    name: "HypeBond",
-    description: "HypeBond is a decentralized bonding protocol built on HyperEVM, designed to distribute tokens through a transparent and customizable vesting mechanism. Users bond $HYPE and receive HypeBond Tokens over time at a discounted price, with a bonus determined by the length of the vesting period. The system rewards patience: the longer you're willing to wait, the more tokens you'll unlock.",
-    categories: ["Options"],
-    status: "Live",
-    website: "https://hypebond.finance?ref=96rcYxiQIa",
-    tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1937555607038623749/_VKMX6Um_400x400.jpg",
-  },
-  {
     id: 178,
     name: "Nunchi",
     description: "Long or Short Any Yield. Perpetuals for Yield.",
