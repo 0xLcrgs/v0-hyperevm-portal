@@ -74,7 +74,7 @@ const projects = [
     status: "Live",
     website: "https://app.hyperunit.xyz/",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1890184998445047808/qgsh4B97_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1937271299338035200/sEKHkXkc_400x400.jpg",
   },
   {
     id: 36,
@@ -266,7 +266,7 @@ const projects = [
     status: "Beta",
     website: "https://liminal.money/",
     tags: ["Yield", "Delta-neutral"],
-    logo: "https://pbs.twimg.com/profile_images/1894761111565533184/M0eLKU1u_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1934561280637222912/sgMp90I7_400x400.jpg",
   },
   {
     id: 39,
@@ -493,7 +493,7 @@ const projects = [
     status: "Live",
     website: "https://relay.link/bridge",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1753515078316355584/uT6CssGo_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1937203304183832576/CBRGiBg5_400x400.jpg",
   },
   {
     id: 141,
