@@ -1232,6 +1232,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
   },
   {
+    id: 183,
+    name: "HyperMoon.Fun",
+    description:
+      "Meme. Mint. Moon. Hyperliquid's Token Launch Platform for memecoins",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://hypermoon.fun/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1931777052270604289/ju1nkE_R_400x400.png",
+  },
+  {
     id: 145,
     name: "Beefy",
     description:
