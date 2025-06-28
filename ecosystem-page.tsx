@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import axios from "axios"
 import { Globe, Search, Menu, X } from "lucide-react"
@@ -12,7 +12,19 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
-const projects = [
+type Project = {
+  id: number
+  name: string
+  description: string
+  categories: string[]
+  status: string
+  website: string
+  tags: string[]
+  logo: string
+  tvl?: string
+}
+
+const projects: Project[] = [
   {
     id: 3,
     name: "Felix",
@@ -186,7 +198,7 @@ const projects = [
     id: 47,
     name: "HyperCat",
     description:
-      "HyperCat is a DEX on Algebra Integral’s modular V4 AMM, enabling flexible trading and liquidity via plugins and custom on-chain hooks",
+      "HyperCat is a DEX on Algebra Integral's modular V4 AMM, enabling flexible trading and liquidity via plugins and custom on-chain hooks",
     categories: ["DEX"],
     status: "Live",
     website: "https://www.hypercat.exchange/",
@@ -317,7 +329,7 @@ const projects = [
     id: 49,
     name: "pvp.trade",
     description:
-      "pvp.trade is a Telegram bot for trading groups, letting members track, copy, or countertrade each other’s positions in real time",
+      "pvp.trade is a Telegram bot for trading groups, letting members track, copy, or countertrade each other's positions in real time",
     categories: ["Bot"],
     status: "Live",
     website: "https://pvp.trade/join/tb3b3s",
@@ -349,7 +361,7 @@ const projects = [
     id: 58,
     name: "GlueX Protocol",
     description:
-      "GlueX is HyperEVM’s first native swap router, unifying swaps, lending, and liquidity in one interface—no MEV losses or upfront fees",
+      "GlueX is HyperEVM's first native swap router, unifying swaps, lending, and liquidity in one interface—no MEV losses or upfront fees",
     categories: ["DEX"],
     status: "Live",
     website: "https://dapp.gluex.xyz/",
@@ -570,7 +582,7 @@ const projects = [
     id: 140,
     name: "Catbal",
     description:
-      "Catbal’s soulbound NFT collection honors top contributors and captures a nostalgic moment in Hyperliquid’s history for select users.",
+      "Catbal's soulbound NFT collection honors top contributors and captures a nostalgic moment in Hyperliquid's history for select users.",
     categories: ["NFT"],
     status: "Live",
     website: "https://pawtrait.catbal.io/",
@@ -989,7 +1001,7 @@ const projects = [
     id: 17,
     name: "Octis",
     description:
-      "Octis Divers is Hyperliquid’s first revenue-sharing NFT. Holders earn 808FLIP game revenue, which charges a 4% fee per game played.",
+      "Octis Divers is Hyperliquid's first revenue-sharing NFT. Holders earn 808FLIP game revenue, which charges a 4% fee per game played.",
     categories: ["NFT"],
     status: "Live",
     website: "https://octis.ai/flip?r=000002HM",
@@ -1042,7 +1054,7 @@ const projects = [
     id: 44,
     name: "Mercury",
     description:
-      "Mercury is a mobile app for iOS and Android, making Hyperliquid’s DeFi platform simple and accessible for all users",
+      "Mercury is a mobile app for iOS and Android, making Hyperliquid's DeFi platform simple and accessible for all users",
     categories: ["Wallet"],
     status: "Coming Soon",
     website: "https://www.mercurytrade.org/",
@@ -1191,7 +1203,7 @@ const projects = [
     id: 74,
     name: "HL Fund",
     description:
-      "Decentralized hub accelerating Hyperliquid’s growth with reputation, education, DAOs, directories, collabs, and investments.",
+      "Decentralized hub accelerating Hyperliquid's growth with reputation, education, DAOs, directories, collabs, and investments.",
     categories: ["Other"],
     status: "Live",
     website: "https://hl.fund/",
@@ -1945,8 +1957,7 @@ const projects = [
   },
 ]
 
-// DeFiLlama slugs (update with actual slugs from DeFiLlama)
-const defiLlamaSlugs = {
+const defiLlamaSlugs: { [key: string]: string } = {
   HyperSwap: "hyperswap",
   KittenSwap: "kittenswap-finance",
   Felix: "felix",
@@ -2004,55 +2015,147 @@ const categories = [
   "Other",
 ]
 
+type ProjectStatus = "Live" | "Beta" | "Coming Soon" | string
+
+type Category =
+  | "All"
+  | "DEX"
+  | "Bridge"
+  | "Lending"
+  | "Yield"
+  | "CDP"
+  | "LST"
+  | "Launchpad"
+  | "Wallet"
+  | "NFT"
+  | "Tools"
+  | "Trading Interface"
+  | "Bot"
+  | "Options"
+  | "GambleFi"
+  | "Other"
+
+const getStatusColor = (status: ProjectStatus) => {
+  switch (status) {
+    case "Live":
+      return "bg-green-500/20 text-green-400 border-green-500/30"
+    case "Beta":
+      return "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
+    case "Coming Soon":
+      return "bg-blue-500/20 text-blue-400 border-blue-500/30"
+    default:
+      return "bg-gray-500/20 text-gray-400 border-gray-500/30"
+  }
+}
+
+const StatusBadge = ({ status }: { status: ProjectStatus }) => (
+  <Badge className={`${getStatusColor(status)} text-xs flex-shrink-0 ml-2`}>{status}</Badge>
+)
+
+const TagBadges = ({ tags }: { tags: string[] }) => (
+  <div className="flex flex-wrap gap-1 sm:gap-2">
+    {tags.slice(0, 3).map((tag) => (
+      <Badge key={tag} variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
+        {tag}
+      </Badge>
+    ))}
+    {tags.length > 3 && (
+      <Badge variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
+        +{tags.length - 3}
+      </Badge>
+    )}
+  </div>
+)
+
+const ProjectCard = ({ project }: { project: Project }) => (
+  <Card
+    key={project.id}
+    className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col h-full"
+  >
+    <CardHeader className="flex-1 p-4 sm:p-6">
+      <div className="flex items-start justify-between mb-3">
+        <div className="flex items-start space-x-3 flex-1 min-w-0">
+          <div
+            className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex-shrink-0"
+            style={{
+              backgroundImage: `url(${project.logo})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+          <div className="min-w-0 flex-1">
+            <CardTitle className="text-white text-base sm:text-lg lg:text-xl truncate">
+              {project.name}
+            </CardTitle>
+          </div>
+        </div>
+        <StatusBadge status={project.status} />
+      </div>
+      <CardDescription className="text-gray-400 text-sm line-clamp-3 sm:line-clamp-4">
+        {project.description}
+      </CardDescription>
+    </CardHeader>
+    <CardContent className="space-y-4 mt-auto p-4 sm:p-6 pt-0">
+      <div className="text-sm">
+        <div>
+          <span className="text-gray-400">TVL:</span>
+          <span className="text-white ml-2 font-medium">{project.tvl}</span>
+        </div>
+      </div>
+      <TagBadges tags={project.tags} />
+      <div className="flex items-center pt-2">
+        <Button
+          size="sm"
+          variant="outline"
+          className="border-gray-600 text-white hover:bg-gray-800 w-full text-xs sm:text-sm bg-transparent"
+          asChild
+        >
+          <Link href={project.website} target="_blank" rel="noopener noreferrer">
+            <Globe className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
+            Website
+          </Link>
+        </Button>
+      </div>
+    </CardContent>
+  </Card>
+)
+
 export default function EcosystemPage() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
-  const [selectedCategory, setSelectedCategory] = useState("All")
+  const [selectedCategory, setSelectedCategory] = useState<Category>("All")
   const [searchQuery, setSearchQuery] = useState("")
-  const [projectData, setProjectData] = useState(projects)
+  const [projectData, setProjectData] = useState<Project[]>(projects)
   const [loading, setLoading] = useState(true)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  // Initialize state from URL params
   useEffect(() => {
     const urlSearch = searchParams.get("search")
-    const urlCategory = searchParams.get("category")
-
-    if (urlSearch) {
-      setSearchQuery(urlSearch)
-    }
-    if (urlCategory && categories.includes(urlCategory)) {
-      setSelectedCategory(urlCategory)
-    }
+    const urlCategory = searchParams.get("category") as Category | null
+    if (urlSearch) setSearchQuery(urlSearch)
+    if (urlCategory && categories.includes(urlCategory)) setSelectedCategory(urlCategory)
   }, [searchParams])
 
-  // Update URL when search or category changes
-  const updateURL = (newSearch: string, newCategory: string) => {
+  const updateURL = (newSearch: string, newCategory: Category) => {
     const params = new URLSearchParams()
-
-    if (newSearch) {
-      params.set("search", newSearch)
-    }
-    if (newCategory && newCategory !== "All") {
-      params.set("category", newCategory)
-    }
-
+    if (newSearch) params.set("search", newSearch)
+    if (newCategory && newCategory !== "All") params.set("category", newCategory)
     const queryString = params.toString()
     const newURL = queryString ? `/?${queryString}` : "/"
-
     router.push(newURL, { scroll: false })
   }
 
-  const handleSearchChange = (value: string) => {
-    setSearchQuery(value)
-    updateURL(value, selectedCategory)
-  }
-
-  const handleCategoryChange = (category: string) => {
-    setSelectedCategory(category)
-    updateURL(searchQuery, category)
-    setMobileMenuOpen(false) // Close mobile menu when category is selected
+  const handleChange = (type: "search" | "category", value: string) => {
+    if (type === "search") {
+      setSearchQuery(value)
+      updateURL(value, selectedCategory)
+    } else {
+      setSelectedCategory(value as Category)
+      updateURL(searchQuery, value as Category)
+      setMobileMenuOpen(false)
+    }
   }
 
   useEffect(() => {
@@ -2071,7 +2174,7 @@ export default function EcosystemPage() {
           } catch {
             return { ...project, tvl: "-" }
           }
-        }),
+        })
       )
       setProjectData(updatedProjects)
       setLoading(false)
@@ -2079,27 +2182,20 @@ export default function EcosystemPage() {
     fetchTVL()
   }, [])
 
-  const filteredProjects = projectData.filter((project) => {
-    const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-    const matchesSearch =
-      (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-    return matchesCategory && matchesSearch
-  })
-
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case "Live":
-        return "bg-green-500/20 text-green-400 border-green-500/30"
-      case "Beta":
-        return "bg-yellow-500/20 text-yellow-400 border-yellow-500/30"
-      case "Coming Soon":
-        return "bg-blue-500/20 text-blue-400 border-blue-500/30"
-      default:
-        return "bg-gray-500/20 text-gray-400 border-gray-500/30"
-    }
-  }
+  const filteredProjects = Array.from(
+    new Map(
+      projectData
+        .filter((project) => {
+          const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
+          const matchesSearch =
+            (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+            (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+            (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+          return matchesCategory && matchesSearch
+        })
+        .map((project) => [project.id, project])
+    ).values()
+  )
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -2113,7 +2209,6 @@ export default function EcosystemPage() {
         muted
         playsInline
       ></video>
-
       <div className="relative z-10">
         {/* Header */}
         <header className="border-b border-gray-800 px-4 sm:px-6 py-4">
@@ -2133,7 +2228,6 @@ export default function EcosystemPage() {
                 <span className="text-lg sm:text-xl font-semibold whitespace-nowrap">HyperEVM Portal</span>
               </Link>
             </div>
-
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-3">
               <Button className="bg-yellow-600 hover:bg-yellow-700 text-white text-sm px-3 py-2">
@@ -2146,7 +2240,6 @@ export default function EcosystemPage() {
                 <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
               </Button>
             </div>
-
             {/* Mobile Menu Button */}
             <button
               className="lg:hidden p-2 text-white"
@@ -2156,7 +2249,6 @@ export default function EcosystemPage() {
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
-
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 border-t border-gray-700">
@@ -2174,7 +2266,6 @@ export default function EcosystemPage() {
             </div>
           )}
         </header>
-
         {/* Main Content */}
         <main className="mx-auto max-w-7xl px-4 sm:px-6 py-8 sm:py-12">
           {/* Hero Section */}
@@ -2185,7 +2276,6 @@ export default function EcosystemPage() {
               and how to get involved.
             </p>
           </div>
-
           {/* Search and Filters */}
           <div className="mb-6 sm:mb-8 space-y-4 flex flex-col items-center">
             {/* Search Bar */}
@@ -2194,14 +2284,13 @@ export default function EcosystemPage() {
               <Input
                 placeholder="Search projects..."
                 value={searchQuery}
-                onChange={(e) => handleSearchChange(e.target.value)}
+                onChange={(e) => handleChange("search", e.target.value)}
                 className="pl-10 bg-gray-900 border-gray-700 text-white placeholder-gray-400 w-full"
               />
             </div>
-
             {/* Category Tabs */}
             <div className="w-full overflow-x-auto">
-              <Tabs value={selectedCategory} onValueChange={handleCategoryChange}>
+              <Tabs value={selectedCategory} onValueChange={(v) => handleChange("category", v)}>
                 <TabsList className="bg-gray-900 border-gray-700 flex-nowrap min-w-max mx-auto">
                   {categories.map((category) => (
                     <TabsTrigger
@@ -2220,92 +2309,20 @@ export default function EcosystemPage() {
               </Tabs>
             </div>
           </div>
-
           {/* Loading State */}
           {loading && (
             <div className="text-center py-12">
               <div className="text-gray-400 text-lg">Loading TVL data...</div>
             </div>
           )}
-
           {/* Projects Grid */}
           {!loading && (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
               {filteredProjects.map((project) => (
-                <Card
-                  key={project.id}
-                  className="bg-gray-900/80 border-gray-700 hover:border-gray-600 transition-colors flex flex-col h-full"
-                >
-                  <CardHeader className="flex-1 p-4 sm:p-6">
-                    <div className="flex items-start justify-between mb-3">
-                      <div className="flex items-start space-x-3 flex-1 min-w-0">
-                        <div
-                          className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gray-800 flex-shrink-0"
-                          style={{
-                            backgroundImage: `url(${project.logo})`,
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            backgroundRepeat: "no-repeat",
-                          }}
-                        ></div>
-                        <div className="min-w-0 flex-1">
-                          <CardTitle className="text-white text-base sm:text-lg lg:text-xl truncate">
-                            {project.name}
-                          </CardTitle>
-                        </div>
-                      </div>
-                      <Badge className={`${getStatusColor(project.status)} text-xs flex-shrink-0 ml-2`}>
-                        {project.status}
-                      </Badge>
-                    </div>
-                    <CardDescription className="text-gray-400 text-sm line-clamp-3 sm:line-clamp-4">
-                      {project.description}
-                    </CardDescription>
-                  </CardHeader>
-
-                  <CardContent className="space-y-4 mt-auto p-4 sm:p-6 pt-0">
-                    {/* Stats */}
-                    <div className="text-sm">
-                      <div>
-                        <span className="text-gray-400">TVL:</span>
-                        <span className="text-white ml-2 font-medium">{project.tvl}</span>
-                      </div>
-                    </div>
-
-                    {/* Tags */}
-                    <div className="flex flex-wrap gap-1 sm:gap-2">
-                      {project.tags.slice(0, 3).map((tag) => (
-                        <Badge key={tag} variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
-                          {tag}
-                        </Badge>
-                      ))}
-                      {project.tags.length > 3 && (
-                        <Badge variant="secondary" className="bg-gray-800 text-gray-300 text-xs">
-                          +{project.tags.length - 3}
-                        </Badge>
-                      )}
-                    </div>
-
-                    {/* Links */}
-                    <div className="flex items-center pt-2">
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="border-gray-600 text-white hover:bg-gray-800 w-full text-xs sm:text-sm bg-transparent"
-                        asChild
-                      >
-                        <Link href={project.website} target="_blank" rel="noopener noreferrer">
-                          <Globe className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
-                          Website
-                        </Link>
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
+                <ProjectCard key={project.id} project={project} />
               ))}
             </div>
           )}
-
           {/* Empty State */}
           {!loading && filteredProjects.length === 0 && (
             <div className="text-center py-12">
