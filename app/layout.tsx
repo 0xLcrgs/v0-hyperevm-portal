@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     shortcut: "https://hyperfoundation.org/landing/blob_green.gif",
     apple: "https://hyperfoundation.org/landing/blob_green.gif",
   },
-  viewport: "width=device-width, initial-scale=1", // Ensures proper scaling
     generator: 'v0.dev'
 }
 

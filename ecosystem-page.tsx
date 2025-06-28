@@ -5,7 +5,6 @@ import { useRouter, useSearchParams } from "next/navigation"
 import axios from "axios"
 import { Globe, Search } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -1997,25 +1996,13 @@ const categories = [
   "Other",
 ]
 
-interface ProjectWithTVL {
-  id: number
-  name: string
-  description: string
-  categories: string[]
-  status: string
-  website: string
-  tags: string[]
-  logo: string
-  tvl?: string
-}
-
 export default function EcosystemPage() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
   const [selectedCategory, setSelectedCategory] = useState("All")
   const [searchQuery, setSearchQuery] = useState("")
-  const [projectData, setProjectData] = useState<ProjectWithTVL[]>(projects)
+  const [projectData, setProjectData] = useState(projects)
   const [loading, setLoading] = useState(true)
 
   // Initialize state from URL params
@@ -2136,7 +2123,7 @@ export default function EcosystemPage() {
               <Button className="bg-yellow-600 hover:bg-yellow-700 text-white">
                 <Link href="https://farming-portal.vercel.app/">Non-Hyperliquid Farms</Link>
               </Button>
-              <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white">
+              <Button className="bg-green-600 hover:bg-green-700 text-white">
                 <Link href="https://app.hyperliquid.xyz/join/0XLCRGS">Join Hyperliquid</Link>
               </Button>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white">
@@ -2150,7 +2137,7 @@ export default function EcosystemPage() {
         <main className="mx-auto max-w-7xl px-6 py-12">
           {/* Hero Section */}
           <div className="mb-12">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
+            <h1 className="text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
             <p className="text-gray-400 text-lg max-w-3xl">
               Explore the growing ecosystem of projects building on HyperEVM. Learn about each project, their features,
               and how to get involved.
@@ -2206,18 +2193,15 @@ export default function EcosystemPage() {
                   <CardHeader className="flex-1">
                     <div className="flex items-start justify-between">
                       <div className="flex items-start space-x-3">
-                        <Image
-                          src={project.logo || "/placeholder.svg"}
-                          alt={`${project.name} Logo`}
-                          width={40}
-                          height={40}
+                        <div
                           className="w-10 h-10 rounded-full bg-gray-800 flex-shrink-0"
                           style={{
-                            objectFit: "cover",
-                            objectPosition: "center",
+                            backgroundImage: `url(${project.logo})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
                           }}
-                          loading="lazy"
-                        />
+                        ></div>
                         <div>
                           <CardTitle className="text-white text-xl">{project.name}</CardTitle>
                           <CardDescription className="text-gray-400 mt-2">{project.description}</CardDescription>
