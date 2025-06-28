@@ -206,6 +206,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1935052838494945282/E46pS0A7_400x400.png",
   },
   {
+    id: 184,
+    name: "Hypertrade",
+    description:
+      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1934537763086364672/L8qfksmW_400x400.jpg",
+  },
+  {
     id: 164,
     name: "Hyperwave",
     description:
