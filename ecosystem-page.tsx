@@ -17,7 +17,7 @@ const projects = [
     id: 3,
     name: "Felix",
     description:
-      "Felix is a suite of on-chain borrowing and lending products running on Hyperliquid L1. Our goal is to let anyone unlock liquidity or earn yield in a secure, risk-adjusted, and friction-free way.",
+      "Felix offers secure, easy on-chain borrowing and lending on Hyperliquid L1, helping users unlock liquidity or earn yield seamlessly.",
     categories: ["Lending", "CDP"],
     status: "Live",
     website: "https://usefelix.xyz?ref=18935567",
@@ -28,7 +28,7 @@ const projects = [
     id: 7,
     name: "HyperLend",
     description:
-      "HyperLend is a high-performance lending protocol on Hyperliquid EVM, built for capital efficiency. It offers real-time leverage, dynamic rates, and deep liquidity",
+      "HyperLend is a high-performance lending protocol on Hyperliquid EVM, offering real-time leverage, dynamic rates, and deep liquidity.",
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
