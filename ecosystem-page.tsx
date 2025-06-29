@@ -1896,7 +1896,7 @@ const projects: Project[] = [
     id: 128,
     name: "TopDog",
     description:
-      "TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
+      "TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid / Code: XLCRG",
     categories: ["Bot"],
     status: "Beta",
     website: "https://topdog.gg/",
