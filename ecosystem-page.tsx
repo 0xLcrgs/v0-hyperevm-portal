@@ -934,6 +934,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
   },
   {
+    id: 190,
+    name: "HyperStrategy",
+    description:
+      "HyperStrategy is the first fully onchain protocol on HyperEVM designed to mirror the strategy of MicroStrategy",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://www.hyperstrategy.com/",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1931801104070651904/Q8v7xcFd_400x400.jpg",
+  },
+  {
     id: 161,
     name: "Mintify",
     description:
@@ -1013,10 +1024,10 @@ const projects: Project[] = [
     name: "Octis",
     description:
       "Octis Divers is Hyperliquid's first revenue-sharing NFT. Holders earn 808FLIP game revenue, which charges a 4% fee per game played.",
-    categories: ["NFT"],
+    categories: ["NFT", "Gaming"],
     status: "Live",
     website: "https://octis.ai/flip?r=000002HM",
-    tags: ["NFT"],
+    tags: ["NFT", "Gaming"],
     logo: "https://pbs.twimg.com/profile_images/1880178279199698946/m3cs6Ds3_400x400.jpg",
   },
   {
@@ -1463,10 +1474,10 @@ const projects: Project[] = [
     name: "thefarm.fun",
     description:
       "The first GenAI AI Agent game on Hyperliquid: create, battle, and simulate on-chain creatures—think Cryptokitties meets Stardew Valley.",
-    categories: ["Launchpad"],
+    categories: ["Launchpad", "Gaming"],
     status: "Live",
     website: "https://www.thefarm.fun/",
-    tags: ["Launchpad"],
+    tags: ["Launchpad", "Gaming"],
     logo: "https://pbs.twimg.com/profile_images/1864910599198773250/HWsMlIpH_400x400.png",
   },
   {
@@ -1517,10 +1528,10 @@ const projects: Project[] = [
     name: "Harbor Finance",
     description:
       "Harbor Finance is a gamified DeFi platform merging NFTs, passive income, and gameplay—earn $FISH and climb ranks as a Fishercat.",
-    categories: ["NFT"],
+    categories: ["NFT", "Gaming"],
     status: "Live",
     website: "https://harborfinance.app/?ref=48f2-ua5xd",
-    tags: ["NFT"],
+    tags: ["NFT", "Gaming"],
     logo: "https://pbs.twimg.com/profile_images/1905963590282260480/eHil_7qj_400x400.jpg",
   },
   {
@@ -1532,6 +1543,16 @@ const projects: Project[] = [
     website: "https://fan.fun/",
     tags: ["Other", "SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1884115595081433088/K918mGuG_400x400.png",
+  },
+  {
+    id: 189,
+    name: "Cypher",
+    description: "Cypher Wallet is a Multi-Chain, Non-Custodial Crypto Wallet supporting 12+ EVM + Cosmos chains .",
+    categories: ["Wallet"],
+    status: "Live",
+    website: "https://cypherhq.io/card/?ref=0XLCRGS",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1931280880187924480/4qk4HevF_400x400.jpg",
   },
   {
     id: 48,
@@ -1622,10 +1643,10 @@ const projects: Project[] = [
     name: "pvp.duel",
     description:
       "Guide to HyperEVM gaming: duel, survive, join the DAO, and play via Telegram—your gateway to the Hyperliquid gaming world.",
-    categories: ["Other"],
+    categories: ["Other", "Gaming"],
     status: "Beta",
     website: "https://pvp-frontend.vercel.app/",
-    tags: ["Other", "Game"],
+    tags: ["Other", "Gaming"],
     logo: "https://pbs.twimg.com/profile_images/1923474018738298880/zWldEq5d_400x400.jpg",
   },
   {
@@ -1712,6 +1733,26 @@ const projects: Project[] = [
     website: "https://www.vortx.gg/",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1889417046401708032/34ziuAPb_400x400.jpg",
+  },
+  {
+    id: 187,
+    name: "Mass",
+    description: "Mass is your gateway to interacting with multiple networks and financial services built atop the blockchain, also known as DeFi",
+    categories: ["Trading Interface", "Wallet"],
+    status: "Live",
+    website: "https://download.mass.money/ref/SBQqlVQ2NdiV2nJfEkwnEYegIdy",
+    tags: ["Trading Interface", "Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1811432607550259200/0pn5qbde_400x400.jpg",
+  },
+  {
+    id: 188,
+    name: "Kinto",
+    description: "The Modular Exchange. Powered by Arbitrum",
+    categories: ["Trading Interface", "Wallet"],
+    status: "Live",
+    website: "https://engen.kinto.xyz/onboarding?ref=d9738",
+    tags: ["Trading Interface", "Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1658109577081044992/ZBpLvGSb_400x400.jpg",
   },
   {
     id: 59,
@@ -1977,6 +2018,26 @@ const projects: Project[] = [
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1795443155015184384/EeDEvFuQ_400x400.jpg",
   },
+  {
+    id: 185,
+    name: "Nifty Island",
+    description: "Nifty Island is a community-driven gaming platform where players can build and play games together",
+    categories: ["Gaming"],
+    status: "Live",
+    website: "https://www.niftyisland.com/",
+    tags: ["Gaming"],
+    logo: "https://pbs.twimg.com/profile_images/1825635593633624064/xUrZ9-yJ_400x400.jpg",
+  },
+  {
+    id: 186,
+    name: "Proof of Play",
+    description: "Onchain game studio & technology company, building Pirate Nation and the composable infrastructure it runs on.",
+    categories: ["Gaming"],
+    status: "Live",
+    website: "https://proofofplay.com/",
+    tags: ["Gaming"],
+    logo: "https://pbs.twimg.com/profile_images/1672340678310006784/9mkrtmGp_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
@@ -2034,6 +2095,7 @@ const categories = [
   "Bot",
   "Options",
   "GambleFi",
+  "Gaming",
   "Other",
 ]
 
@@ -2055,6 +2117,7 @@ type Category =
   | "Bot"
   | "Options"
   | "GambleFi"
+  | "Gaming"
   | "Other"
 
 const getStatusColor = (status: ProjectStatus) => {
