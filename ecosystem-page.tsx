@@ -633,6 +633,17 @@ const projects: Project[] = [
     logo: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*SLk3tpy_iNrP02qf0OggPA.png",
   },
   {
+    id: 191,
+    name: "Blueberry",
+    description:
+      "Tokenized Yield strategies and curated DeFi ecosystem on Hyperliquid EVM",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://www.blueberry.garden/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1624077952601423878/GjmtH148_400x400.jpg",
+  },
+  {
     id: 96,
     name: "Neko.hl",
     description:
@@ -939,7 +950,7 @@ const projects: Project[] = [
     description:
       "HyperStrategy is the first fully onchain protocol on HyperEVM designed to mirror the strategy of MicroStrategy",
     categories: ["Yield"],
-    status: "Live",
+    status: "Coming Soon",
     website: "https://www.hyperstrategy.com/",
     tags: ["Yield", "Vaults"],
     logo: "https://pbs.twimg.com/profile_images/1931801104070651904/Q8v7xcFd_400x400.jpg",
@@ -1113,6 +1124,16 @@ const projects: Project[] = [
     website: "https://hyperlauncher.ai/",
     tags: ["Launchpad", "AI"],
     logo: "https://pbs.twimg.com/profile_images/1867118056343842819/pRt9hqp4_400x400.jpg",
+  },
+  {
+    id: 192,
+    name: "HypuffLiquid",
+    description: "Community-Driven HyperEVM Launchpad",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://hypuff.fun/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1934981354581831680/85ynWjEa_400x400.jpg",
   },
   {
     id: 46,
