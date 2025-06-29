@@ -648,10 +648,10 @@ const projects: Project[] = [
     name: "Neko.hl",
     description:
       "Neko is the first DeFAI Swarm on Hyperliquid, using AI to automate DeFi trading, token launches, and yield strategies for users",
-    categories: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    categories: ["Trading Interface", "Bot", "Tools"],
     status: "Coming Soon",
     website: "https://www.neko.fun/",
-    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    tags: ["Trading Interface", "Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1880643122683916288/xtRa6Q64_400x400.png",
   },
   {
@@ -980,10 +980,10 @@ const projects: Project[] = [
     id: 97,
     name: "Lighthouse.one",
     description: "All your crypto and fiat assets in one, private portfolio manager.",
-    categories: ["Trading Interface", "Wallet", "Tools"],
+    categories: ["Trading Interface", "Tools"],
     status: "Live",
     website: "https://lighthouse.one/",
-    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    tags: ["Trading Interface", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1850925548471480320/L-vU3YZs_400x400.png",
   },
   {
