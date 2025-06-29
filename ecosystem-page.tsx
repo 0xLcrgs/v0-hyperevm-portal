@@ -697,6 +697,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1838501262121209856/PrOhS3Kt_400x400.jpg",
   },
   {
+    id: 193,
+    name: "Bullpen",
+    description: "Bullpen is the easiest way to trade crypto perps on mobile—period.",
+    categories: ["Bot", "Wallet", "Trading Interface"],
+    status: "Live",
+    website: "https://bullpen.fi/@grg_ouz",
+    tags: ["Bot", "Wallet", "Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1885043356885000192/2YeI1RLF_400x400.png",
+  },
+  {
     id: 112,
     name: "Bloom",
     description: "Most advanced cross-chain trading automation SOL | BSC | BASE | HYPEREVM",
