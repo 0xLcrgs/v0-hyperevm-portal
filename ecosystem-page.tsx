@@ -549,6 +549,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1882650528951541760/zdaKCf4K_400x400.jpg",
   },
   {
+    id: 76,
+    name: "HyperPath",
+    description:
+      "Hyperpath is an easy on-ramp for Hyperliquid, converting fiat to any on-chain asset via stable-hop routing for seamless access.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.hyperpath.finance/swap",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1928723564510711808/Dp-TbSSP_400x400.jpg",
+  },
+  {
     id: 131,
     name: "Hypers",
     description: "Hypers by Drip.Trade, only on Hyperliquid",
@@ -1349,17 +1360,6 @@ const projects: Project[] = [
     website: "https://x.com/prjx_hl",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
-  },
-  {
-    id: 76,
-    name: "HyperPath",
-    description:
-      "Hyperpath is an easy on-ramp for Hyperliquid, converting fiat to any on-chain asset via stable-hop routing for seamless access.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.hyperpath.finance/swap",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1928723564510711808/Dp-TbSSP_400x400.jpg",
   },
   {
     id: 29,
