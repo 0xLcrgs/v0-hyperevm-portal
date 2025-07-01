@@ -2366,10 +2366,6 @@ export default function EcosystemPage() {
               <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-3 py-2">
                 <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
               </Button>
-              <Button className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 backdrop-blur-lg border border-amber-500/40 text-amber-300 hover:text-amber-200 px-3 py-2 rounded-lg transition-all duration-200 text-sm group" title="Copy wallet address: 0x17EB44ADE51Bf97Febf67076582Fea8Cd064c6C5">
-              <span>☕</span>
-              <span className="font-medium">Buy me a coffee</span>
-              </Button>
             </div>
             {/* Mobile Menu Button */}
             <button
