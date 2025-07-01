@@ -304,6 +304,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
   },
   {
+    id: 194,
+    name: "OpenOcean",
+    description:
+      "Swap and bridge any token directly in Hyperfolio, powered by OpenOcean",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://app.hyperbeat.org/earn?referral=FA86003B",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1875019671944196096/8JZgQUb0_400x400.jpg",
+  },
+  {
     id: 169,
     name: "hyperG8",
     description:
