@@ -228,7 +228,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
   },
   {
-    id: 180,
+    id: 177,
     name: "HLP0",
     description:
       "Deposited USDC goes into the Hyperliquidity Provider vault; users get HLP0 tokens, usable for lending or farming to earn extra yield",
@@ -243,7 +243,7 @@ const projects: Project[] = [
     name: "Harmonix Finance",
     description:
       "Harmonix Finance offers automated vaults with hedge fund strategies, making advanced investment optimization easy and accessible for users.",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://app.harmonix.fi/?ref=Bv2S47vd",
     tags: ["Yield", "Vaults", "Delta-neutral"],
@@ -286,7 +286,7 @@ const projects: Project[] = [
     name: "Liminal",
     description:
       "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Beta",
     website: "https://liminal.money/",
     tags: ["Yield", "Delta-neutral"],
@@ -638,10 +638,10 @@ const projects: Project[] = [
     name: "D2 Finance",
     description:
       "D2 Finance is tokenizing real risk-adjusted returns / derivatives trades with a proven track record on-chain.",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://d2.finance/",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield", "Vaults", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1765931135308115968/f_4LkxDr_400x400.jpg",
   },
   {
@@ -888,10 +888,10 @@ const projects: Project[] = [
     name: "Neutral Trade",
     description:
       "Neutral Trade is an on-chain hedge fund using multi-strategy trading, built by ex-Goldman Sachs and Top 3 global hedge fund quants.",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://www.app.neutral.trade/",
-    tags: ["Yield"],
+    tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1896595609739554817/SWGQKBSK_400x400.png",
   },
   {
@@ -935,16 +935,6 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1859964342466207744/lPYHxw87_400x400.jpg",
   },
   {
-    id: 180,
-    name: "HYPE Burn",
-    description: "HYPE is hyper sound money. Max supply is fixed and transaction fees are automatically burned.",
-    categories: ["Tools"],
-    status: "Live",
-    website: "https://www.hypeburn.fun/",
-    tags: ["Tools"],
-    logo: "https://www.hypeburn.fun/images/fire.svg",
-  },
-  {
     id: 181,
     name: "HyperData",
     description:
@@ -975,6 +965,16 @@ const projects: Project[] = [
     website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
     tags: ["Bot", "Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
+  },
+  {
+    id: 180,
+    name: "HYPE Burn",
+    description: "HYPE is hyper sound money. Max supply is fixed and transaction fees are automatically burned.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.hypeburn.fun/",
+    tags: ["Tools"],
+    logo: "https://www.hypeburn.fun/images/fire.svg",
   },
   {
     id: 190,
@@ -1344,7 +1344,7 @@ const projects: Project[] = [
     name: "Theo",
     description:
       "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://app.theo.xyz/referrals/0xLcrgs",
     tags: ["Yield", "Vaults", "Delta-neutral"],
@@ -1674,7 +1674,7 @@ const projects: Project[] = [
     id: 55,
     name: "Cathena",
     description: "Cathena aims to be the Ethena of Hyperliquid, generating delta neutral yield on USDC.",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://cathena.rndm.io/",
     tags: ["Yield", "Delta-neutral"],
@@ -1749,11 +1749,21 @@ const projects: Project[] = [
     name: "Perpflow",
     description:
       "Perpflow automates and tracks delta-neutral perp positions, earning yield from funding rates no matter which way the market moves.",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://perpflow.xyz/",
-    tags: ["Yield"],
+    tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1873732821753249792/tJbXJ3fz_400x400.jpg",
+  },
+  {
+    id: 195,
+    name: "Shogun",
+    description: "Trade any token on any chain from one bot",
+    categories: ["Trading Interface", "DEX", "Bridge"],
+    status: "Live",
+    website: "https://www.gun.fun/",
+    tags: ["Trading Interface", "DEX", "Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1896706319413129216/6juBb5fQ_400x400.jpg",
   },
   {
     id: 56,
@@ -2127,6 +2137,7 @@ const categories = [
   "Bridge",
   "Lending",
   "Yield",
+  "Delta-neutral"
   "CDP",
   "LST",
   "Launchpad",
@@ -2149,6 +2160,7 @@ type Category =
   | "Bridge"
   | "Lending"
   | "Yield"
+  | "Delta-neutral"
   | "CDP"
   | "LST"
   | "Launchpad"
