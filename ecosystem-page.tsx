@@ -2366,6 +2366,9 @@ export default function EcosystemPage() {
               <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-3 py-2">
                 <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
               </Button>
+              <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+                <Link href="https://give-me-a-tip.vercel.app/"><span>☕</span> Buy me a coffee</Link>
+              </Button>
             </div>
             {/* Mobile Menu Button */}
             <button
@@ -2388,6 +2391,9 @@ export default function EcosystemPage() {
                 </Button>
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm w-full">
                   <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
+                </Button>
+                <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+                  <Link href="https://give-me-a-tip.vercel.app/"><span>☕</span> Buy me a coffee</Link>
                 </Button>
               </div>
             </div>
