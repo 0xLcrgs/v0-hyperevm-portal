@@ -2137,7 +2137,7 @@ const categories = [
   "Bridge",
   "Lending",
   "Yield",
-  "Delta-neutral"
+  "Delta-neutral",
   "CDP",
   "LST",
   "Launchpad",
