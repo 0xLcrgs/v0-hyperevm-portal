@@ -1739,7 +1739,7 @@ const projects: Project[] = [
     name: "IVX",
     description: "Trade the most liquid 0dte markets in all of crypto on $ETH and $BTC",
     categories: ["Options"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://diem.ivx.fi/referrals/0xLcrgs",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1807772188327436289/ByxYDJsm_400x400.jpg",
