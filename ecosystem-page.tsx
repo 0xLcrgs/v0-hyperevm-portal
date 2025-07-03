@@ -529,6 +529,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1937203304183832576/CBRGiBg5_400x400.jpg",
   },
   {
+    id: 198,
+    name: "RocketX",
+    description: "Crypto's Everything Exchange",
+    categories: ["Bridge", "DEX"],
+    status: "Live",
+    website: "https://app.rocketx.exchange/swap",
+    tags: ["Bridge", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1856371495850901504/s7htSrnS_400x400.jpg",
+  },
+  {
     id: 141,
     name: "Mayan",
     description:
