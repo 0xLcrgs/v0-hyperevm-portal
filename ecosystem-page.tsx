@@ -841,15 +841,26 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1732456585652240384/u1-fAC6J_400x400.jpg",
   },
   {
-    id: 26,
-    name: "Napier",
+    id: 143,
+    name: "Perpflow",
     description:
-      "A modular yield tokenization protocol that enables you to own, manage, create any yield products without permissions.",
+      "Perpflow automates and tracks delta-neutral perp positions, earning yield from funding rates no matter which way the market moves.",
+    categories: ["Yield", "Delta-neutral"],
+    status: "Live",
+    website: "https://perpflow.xyz/",
+    tags: ["Yield", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1873732821753249792/tJbXJ3fz_400x400.jpg",
+  },
+  {
+    id: 132,
+    name: "Arkis",
+    description:
+      "Arkis is a digital asset prime brokerage offering undercollateralized lending and leverage for capital providers and asset managers",
     categories: ["Yield"],
     status: "Live",
-    website: "https://app.napier.finance/",
+    website: "https://arkis.xyz/",
     tags: ["Yield", "Vaults"],
-    logo: "https://pbs.twimg.com/profile_images/1665336093611290625/uUmS2hoy_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
   },
   {
     id: 14,
@@ -1745,17 +1756,6 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1909962811804946432/gW76pWsD_400x400.jpg",
   },
   {
-    id: 143,
-    name: "Perpflow",
-    description:
-      "Perpflow automates and tracks delta-neutral perp positions, earning yield from funding rates no matter which way the market moves.",
-    categories: ["Yield", "Delta-neutral"],
-    status: "Live",
-    website: "https://perpflow.xyz/",
-    tags: ["Yield", "Delta-neutral"],
-    logo: "https://pbs.twimg.com/profile_images/1873732821753249792/tJbXJ3fz_400x400.jpg",
-  },
-  {
     id: 195,
     name: "Shogun",
     description: "Trade any token on any chain from one bot",
@@ -1795,6 +1795,17 @@ const projects: Project[] = [
     website: "https://download.mass.money/ref/SBQqlVQ2NdiV2nJfEkwnEYegIdy",
     tags: ["Trading Interface", "Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1811432607550259200/0pn5qbde_400x400.jpg",
+  },
+  {
+    id: 26,
+    name: "Napier",
+    description:
+      "A modular yield tokenization protocol that enables you to own, manage, create any yield products without permissions.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.napier.finance/",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1665336093611290625/uUmS2hoy_400x400.jpg",
   },
   {
     id: 188,
@@ -1858,17 +1869,6 @@ const projects: Project[] = [
     website: "https://hyperhyper.fi/",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1895494249648377856/xHC87ple_400x400.jpg",
-  },
-  {
-    id: 132,
-    name: "Arkis",
-    description:
-      "Arkis is a digital asset prime brokerage offering undercollateralized lending and leverage for capital providers and asset managers",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://arkis.xyz/",
-    tags: ["Yield", "Vaults"],
-    logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
   },
   {
     id: 63,
