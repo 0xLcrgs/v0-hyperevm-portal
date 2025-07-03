@@ -1329,6 +1329,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1931777052270604289/ju1nkE_R_400x400.png",
   },
   {
+    id: 197,
+    name: "manadotwin",
+    description:
+      "Hyperliquid-native launch + trading platform that neutralizes snipers, bundlers, bots and rugs.",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://mana.win/app/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1931078179285831680/J2f1_AFD_400x400.jpg",
+  },
+  {
     id: 145,
     name: "Beefy",
     description:
@@ -1382,6 +1393,16 @@ const projects: Project[] = [
     website: "https://x.com/prjx_hl",
     tags: ["Other"],
     logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
+  },
+  {
+    id: 196,
+    name: "Haiku",
+    description: "Haiku is the AI-powered trading hub of Berachain, built on a simple belief: trading should be easy.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://app.haiku.trade/trade",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1936032053738283008/uqx8VCjX_400x400.jpg",
   },
   {
     id: 29,
