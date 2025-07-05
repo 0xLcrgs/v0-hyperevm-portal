@@ -166,10 +166,10 @@ const projects: Project[] = [
     id: 20,
     name: "HyBridge",
     description: "Your Hyperliquid Bridge. Fast, Seamless, and Ready to Connect Across EVM & SOL Chains.",
-    categories: ["Bridge", "DEX"],
+    categories: ["Bridge", "DEX", "On-Ramp"],
     status: "Live",
     website: "https://hybridge.xyz/?refUser=26daeda2",
-    tags: ["Bridge", "DEX Aggregator"],
+    tags: ["Bridge", "DEX Aggregator", "On-Ramp"],
     logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
   },
   {
@@ -522,10 +522,10 @@ const projects: Project[] = [
     name: "Relay",
     description:
       "Instant, low-cost swapping, bridging and cross-chain execution on 80+ chains & counting. Built by Reservoir",
-    categories: ["Bridge"],
+    categories: ["Bridge", "On-Ramp"],
     status: "Live",
     website: "https://relay.link/bridge",
-    tags: ["Bridge"],
+    tags: ["Bridge", "On-Ramp"],
     logo: "https://pbs.twimg.com/profile_images/1937203304183832576/CBRGiBg5_400x400.jpg",
   },
   {
@@ -1671,6 +1671,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1921840039191076864/MQL-3EMg_400x400.jpg",
   },
   {
+    id: 200,
+    name: "Massdrop",
+    description: "A comprehensive tool suite for managing your web3 assets",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://massdrop-v2.vercel.app/",
+    tags: ["Tools"],
+    logo: "https://massdrop-v2.vercel.app/_next/image?url=%2Fmassdrop.png&w=32&q=75",
+  },
+  {
     id: 154,
     name: "Hype Sphere",
     description: "Sphere map visualization platform for meme token analysis on HyperEVM",
@@ -1853,10 +1863,10 @@ const projects: Project[] = [
     name: "Hana Network",
     description:
       "Hana is a hyper-casual, mobile crypto exchange on Hyperliquid, offering no-KYC on/off ramps, casual trading, and farming for all users",
-    categories: ["Tools", "Bridge"],
+    categories: ["Tools", "Bridge", "On-Ramp"],
     status: "Beta",
     website: "https://gateway.hana.network/",
-    tags: ["Tools", "Bridge"],
+    tags: ["Tools", "Bridge", "On-Ramp"],
     logo: "https://pbs.twimg.com/profile_images/1826923623556562944/LhUmaR37_400x400.jpg",
   },
   {
@@ -1869,6 +1879,17 @@ const projects: Project[] = [
     website: "https://hyperpnl.com/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1903102046204841984/aF3OnjeP_400x400.jpg",
+  },
+  {
+    id: 199,
+    name: "ZKP2P",
+    description:
+      "Building a fast, trust minimized and composable P2P on/offramp protocol. Onramp to Base, Arbitrum, Solana, Hyperliquid and Ethereum in 60 seconds",
+    categories: ["On-Ramp"],
+    status: "Live",
+    website: "https://www.zkp2p.xyz/",
+    tags: ["On-Ramp"],
+    logo: "https://pbs.twimg.com/profile_images/1723908407823065088/492zLAxh_400x400.png",
   },
   {
     id: 84,
@@ -2180,6 +2201,7 @@ const categories = [
   "Options",
   "GambleFi",
   "Gaming",
+  "On-Ramp",
   "Other",
 ]
 
@@ -2203,6 +2225,7 @@ type Category =
   | "Options"
   | "GambleFi"
   | "Gaming"
+  | "On-Ramp"
   | "Other"
 
 const getStatusColor = (status: ProjectStatus) => {
