@@ -315,6 +315,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1875019671944196096/8JZgQUb0_400x400.jpg",
   },
   {
+    id: 201,
+    name: "RAMSES",
+    description: "Ramses: Arbitrum's AMM hub with Uniswap v3 security, custom incentives, vote-lock governance, and user-friendly experience.",
+    categories: ["DEX"],
+    status: "Coming Soon",
+    website: "https://app.ramses.exchange/",
+    tags: ["DEX", "ve(3,3)"],
+    logo: "https://pbs.twimg.com/profile_images/1759614763980443648/R6Y5bwip_400x400.jpg",
+  },
+  {
     id: 169,
     name: "hyperG8",
     description:
@@ -809,6 +819,16 @@ const projects: Project[] = [
     website: "https://rabby.io/points?code=0XLCRGS",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
+  },
+  {
+    id: 202,
+    name: "HyperEvmScan",
+    description: "EtherScans HyperEVM dedicated block explorer",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://hyperevmscan.io/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1296736608482283520/6mDtyT6V_400x400.jpg",
   },
   {
     id: 111,
