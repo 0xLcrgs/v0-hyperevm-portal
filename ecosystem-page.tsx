@@ -1869,6 +1869,83 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1665336093611290625/uUmS2hoy_400x400.jpg",
   },
   {
+    id: 203,
+    name: "Gasyard",
+    description:
+      "Gasyard is a cross-VM bridge designed to make asset transfers fast and simple connecting EVM, Solana, Aptos, Sui, Bitcoin, and Hyperliquid in under 10 seconds.",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://hyperliquid.gasyard.fi/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1933752437984444416/-hLn0Api_400x400.jpg",
+  },
+  {
+    id: 204,
+    name: "Defined",
+    description:
+      "The fastest and safest multi-chain trading terminal & Screener.",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://www.defined.fi/tokens/discover?network=hyperevm",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1395427369662390272/JiHWxi6M_400x400.png",
+  },
+  {
+    id: 205,
+    name: "Copin",
+    description:
+      "The leading on-chain data & signal platform for perpetual trading.",
+    categories: ["Trading Interface", "Bot"],
+    status: "Live",
+    website: "https://copin.io/",
+    tags: ["Trading Interface", "Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1721363454655893504/Sw4ZJHSl_400x400.jpg",
+  },
+  {
+    id: 206,
+    name: "Avy",
+    description:
+      "Avy is a swipe-to-trade app for perps — built for everyone, powered by Hyperliquid, and optimized for the mobile-native generation.",
+    categories: ["Wallet"],
+    status: "Beta",
+    website: "https://www.avy.xyz/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1919063597541359616/IUDHSV1I_400x400.jpg",
+  },
+  {
+    id: 207,
+    name: "Hypersig",
+    description:
+      "The Hypercore-based multisig platform for power users",
+    categories: ["Tools"],
+    status: "Coming Soon",
+    website: "https://hypersig.xyz/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1942219775276470272/csct9XRa_400x400.jpg",
+  },
+  {
+    id: 207,
+    name: "Tholos",
+    description:
+      "Tholos is an institutional-grade digital asset custody solution enabling organizations to securely hold crypto and transact across 25+ blockchains.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.tholos.app/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1566801279497666560/5yMpOg_s_400x400.jpg",
+  },
+  {
+    id: 208,
+    name: "XTrade",
+    description:
+      "XTrade is a decentralized trading platform on the Solana network, offering spot and perpetual trading on Hyperliquid.",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://xtrade.gg/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1934996277844115456/cgCzC4wx_400x400.jpg",
+  },
+  {
     id: 188,
     name: "Kinto",
     description: "The Modular Exchange. Powered by Arbitrum",
