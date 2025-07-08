@@ -1251,6 +1251,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
   {
+    id: 210,
+    name: "WhyNotHigher",
+    description:
+      "Probably a DEX aggregator like Odos Protocol",
+    categories: ["DEX"],
+    status: "Coming Soon",
+    website: "https://x.com/whynothigher",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1937491508577419264/qKeBq97t_400x400.jpg",
+  },
+  {
     id: 122,
     name: "TokenPocket",
     description:
