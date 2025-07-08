@@ -190,7 +190,7 @@ const projects: Project[] = [
       "Laminar is a liquidity engine and aggregator on HyperEVM and HyperCore, connecting liquidity to offer simple, optimally priced swaps",
     categories: ["DEX"],
     status: "Live",
-    website: "https://laminar.xyz/",
+    website: "https://laminar.xyz/swap?referral=0xlcrgs",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1881501408022892544/RJdoM0TD_400x400.jpg",
   },
