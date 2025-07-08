@@ -1924,7 +1924,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1942219775276470272/csct9XRa_400x400.jpg",
   },
   {
-    id: 207,
+    id: 208,
     name: "Tholos",
     description:
       "Tholos is an institutional-grade digital asset custody solution enabling organizations to securely hold crypto and transact across 25+ blockchains.",
@@ -1935,7 +1935,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1566801279497666560/5yMpOg_s_400x400.jpg",
   },
   {
-    id: 208,
+    id: 209,
     name: "XTrade",
     description:
       "XTrade is a decentralized trading platform on the Solana network, offering spot and perpetual trading on Hyperliquid.",
