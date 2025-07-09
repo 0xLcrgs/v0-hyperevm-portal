@@ -358,6 +358,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1858644852365275136/EpQL8Nkb_400x400.jpg",
   },
   {
+    id: 128,
+    name: "TopDog",
+    description:
+      "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
+    categories: ["Bot"],
+    status: "Beta",
+    website: "https://topdog.gg/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
+  },
+  {
     id: 49,
     name: "pvp.trade",
     description:
@@ -462,6 +473,37 @@ const projects: Project[] = [
     website: "https://liquidmax.xyz/ref/6DZ4G6GS",
     tags: ["Trading Interface", "Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
+  },
+  {
+    id: 45,
+    name: "Dexari",
+    description:
+      "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
+    categories: ["Wallet"],
+    status: "Beta",
+    website: "https://www.dexari.com/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
+  },
+  {
+    id: 87,
+    name: "Lootbase",
+    description: "A mobile Hyperliquid client to trade perps and spot tokens.",
+    categories: ["Wallet"],
+    status: "Live",
+    website: "https://share.lootbase.com/0xLcrgs",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1889744234451795968/zW1CoCnq_400x400.jpg",
+  },
+  {
+    id: 212,
+    name: "Wallet V",
+    description: "Code: 16606 | We've built Wallet V to help you find, seize, and manage the best opportunities in the decentralized ecosystem.",
+    categories: ["Wallet"],
+    status: "Live",
+    website: "https://walletv.io/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1918317063925342208/boA5iJjD_400x400.jpg",
   },
   {
     id: 95,
@@ -1176,27 +1218,6 @@ const projects: Project[] = [
     website: "https://www.mercurytrade.org/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
-  },
-  {
-    id: 45,
-    name: "Dexari",
-    description:
-      "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
-    categories: ["Wallet"],
-    status: "Beta",
-    website: "https://www.dexari.com/",
-    tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
-  },
-  {
-    id: 87,
-    name: "Lootbase",
-    description: "A mobile Hyperliquid client to trade perps and spot tokens.",
-    categories: ["Wallet"],
-    status: "Live",
-    website: "https://share.lootbase.com/0xLcrgs",
-    tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1889744234451795968/zW1CoCnq_400x400.jpg",
   },
   {
     id: 81,
@@ -2082,17 +2103,6 @@ const projects: Project[] = [
     website: "https://gemwallet.com/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1659483462758178823/KN0WzQl6_400x400.jpg",
-  },
-  {
-    id: 128,
-    name: "TopDog",
-    description:
-      "TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid / Code: XLCRG",
-    categories: ["Bot"],
-    status: "Beta",
-    website: "https://topdog.gg/",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
   },
   {
     id: 125,
