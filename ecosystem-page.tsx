@@ -821,6 +821,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
   },
   {
+    id: 211,
+    name: "Phantom",
+    description: "Phantom is a friendly crypto wallet built for DeFi & NFTs on Solana, Bitcoin, Ethereum, Base, and Hyperliquid",
+    categories: ["Wallet"],
+    status: "Live",
+    website: "https://phantom.com",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1675202638026252291/4StTDIF4_400x400.jpg",
+  },
+  {
     id: 202,
     name: "HyperEvmScan",
     description: "EtherScans HyperEVM dedicated block explorer",
