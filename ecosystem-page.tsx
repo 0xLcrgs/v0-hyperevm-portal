@@ -1282,6 +1282,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
   {
+    id: 213,
+    name: "Maple",
+    description:
+      "Asset management, onchain.",
+    categories: ["Lending", "Yield"],
+    status: "Live",
+    website: "https://maple.finance/",
+    tags: ["Lending", "Borrowing", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1925123677982523392/QN6KuMnz_400x400.jpg",
+  },
+  {
     id: 210,
     name: "WhyNotHigher",
     description:
