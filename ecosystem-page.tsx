@@ -1092,6 +1092,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1925172682145816576/GzyVvnUw_400x400.jpg",
   },
   {
+    id: 214,
+    name: "trade.fun",
+    description:
+      "Trade.fun is the fastest and fully on-chain trading platform where you can trade memecoins, perps with up to 40x leverage, farm yield, or dabble in prediction markets",
+    categories: ["Trading Interface", "DEX", "Launchpad"],
+    status: "Coming Soon",
+    website: "https://trade.fun/",
+    tags: ["Trading Interface", "DEX", "Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1923646981613744128/0jgndIU9_400x400.jpg",
+  },
+  {
     id: 162,
     name: "Awaken",
     description: "Crypto taxes for crypto natives",
