@@ -364,7 +364,7 @@ const projects: Project[] = [
       "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
     categories: ["Bot"],
     status: "Beta",
-    website: "https://topdog.gg/",
+    website: "https://topdog.gg/referrals",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
   },
