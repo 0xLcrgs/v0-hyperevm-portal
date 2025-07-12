@@ -1331,7 +1331,7 @@ const projects: Project[] = [
     description: "Copy winning traders on Hyperliquid today.",
     categories: ["Bot", "Trading Interface"],
     status: "Beta",
-    website: "https://www.trycoinpilot.com/",
+    website: "https://getwaitlist.com/waitlist/26825?ref_id=MKXCWG5PB",
     tags: ["Bot", "Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1930155502790721536/obB_vr3H_400x400.jpg",
   },
