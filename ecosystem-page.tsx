@@ -1481,11 +1481,11 @@ const projects: Project[] = [
     id: 75,
     name: "Project X",
     description:
-      "Project build by @Lamboland_ and @BOBBYBIGYIELD. Not much is known yet about it (pay attention on this one)",
-    categories: ["Other"],
+      "Project build by @Lamboland_ and @BOBBYBIGYIELD.",
+    categories: ["Wallet"],
     status: "Coming Soon",
     website: "https://x.com/prjx_hl",
-    tags: ["Other"],
+    tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
   },
   {
