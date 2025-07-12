@@ -2231,6 +2231,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1882651870201520128/_6yWXw-N_400x400.jpg",
   },
   {
+    id: 215,
+    name: "Transak",
+    description: "The Payments Infra for Stablecoin & Crypto",
+    categories: ["On-Ramp"],
+    status: "Live",
+    website: "https://transak.com/",
+    tags: ["On-Ramp"],
+    logo: "https://pbs.twimg.com/profile_images/1711650788479520768/z_DG8Nwa_400x400.jpg",
+  },
+  {
     id: 179,
     name: "Kiyotaka",
     description: "Crypto market intelligence platform. Currently in beta.",
