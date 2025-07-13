@@ -506,6 +506,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1918317063925342208/boA5iJjD_400x400.jpg",
   },
   {
+    id: 219,
+    name: "Splash",
+    description:
+      "Splash Wallet is a non-custodial crypto wallet that integrates DeFi protocols directly into the user interface.",
+    categories: ["Wallet"],
+    status: "Beta",
+    website: "https://splashwallet.xyz/",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1938085622725701632/n09KtLmW_400x400.jpg",
+  },
+  {
     id: 95,
     name: "Hypio",
     description:
@@ -768,6 +779,17 @@ const projects: Project[] = [
     website: "https://www.curve.finance/dex/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1220560374346461185/W1sQNVWo_400x400.jpg",
+  },
+  {
+    id: 218,
+    name: "Roar Finance",
+    description:
+      "Roar Finance is a decentralized yield farming protocol built on the Hyperliquid EVM Chain",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://roar-finance.gitbook.io/roar-finance",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1933086000017715200/f0ooM9g9_400x400.jpg",
   },
   {
     id: 148,
