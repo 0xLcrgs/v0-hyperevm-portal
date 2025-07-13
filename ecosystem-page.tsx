@@ -1438,10 +1438,10 @@ const projects: Project[] = [
     name: "manadotwin",
     description:
       "Hyperliquid-native launch + trading platform that neutralizes snipers, bundlers, bots and rugs.",
-    categories: ["Launchpad"],
+    categories: ["Launchpad", "Trading Interface"],
     status: "Live",
     website: "https://mana.win/app/",
-    tags: ["Launchpad"],
+    tags: ["Launchpad", "Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1931078179285831680/J2f1_AFD_400x400.jpg",
   },
   {
@@ -2362,6 +2362,9 @@ const defiLlamaSlugs: { [key: string]: string } = {
   Skate: "skate-amm",
   HyperCat: "hypercat",
   optfun: "optfun",
+  "Rumpel Labs": "rumpel-labs",
+  Hyperwave: "hyperwave",
+  manadotwin: "manaswap",
 }
 
 const categories = [
