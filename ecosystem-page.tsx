@@ -1336,6 +1336,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1930155502790721536/obB_vr3H_400x400.jpg",
   },
   {
+    id: 216,
+    name: "daos.world",
+    description:
+      "daos.world is a decentralized launchpad that empowers DAO managers and contributors to participate in on-chain fund management",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://daos.world/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1875045606294683648/WnEGoXn3_400x400.jpg",
+  },
+  {
     id: 115,
     name: "HyperSignals",
     description:
@@ -1560,6 +1571,16 @@ const projects: Project[] = [
     website: "https://app.rysk.finance/",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1556700928748781569/bLjEj9yu_400x400.jpg",
+  },
+  {
+    id: 217,
+    name: "Hypersurface",
+    description: "Options on HyperEVM",
+    categories: ["Options"],
+    status: "Coming Soon",
+    website: "https://hypersurface.io/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1935108055253045249/oURn2S-f_400x400.jpg",
   },
   {
     id: 41,
