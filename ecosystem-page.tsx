@@ -79,6 +79,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
   },
   {
+    id: 75,
+    name: "Project X",
+    description:
+      "Project X is built on the belief that tech is becoming increasingly commoditized and the next era of DeFi will be won by innovating on distribution, incentive design and UX.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.prjx.com/@0xLcrgs",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
+  },
+  {
     id: 22,
     name: "Unit",
     description: "Unit is the asset tokenization layer on Hyperliquid, enabling seamless deposits and withdrawals.",
@@ -1509,17 +1520,6 @@ const projects: Project[] = [
     website: "https://www.delpho.xyz/",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1935962128625565696/iJDKV3rV_400x400.jpg",
-  },
-  {
-    id: 75,
-    name: "Project X",
-    description:
-      "Project build by @Lamboland_ and @BOBBYBIGYIELD.",
-    categories: ["Wallet"],
-    status: "Coming Soon",
-    website: "https://x.com/prjx_hl",
-    tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
   },
   {
     id: 196,
