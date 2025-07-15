@@ -192,7 +192,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://hybridge.xyz/?refUser=26daeda2",
     tags: ["Bridge", "DEX Aggregator", "On-Ramp"],
-    logo: "https://pbs.twimg.com/profile_images/1825570908666269703/-mT8SBx__400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1945131271996272640/_EjA_EV2_400x400.jpg",
   },
   {
     id: 16,
