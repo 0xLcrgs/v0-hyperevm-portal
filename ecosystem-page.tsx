@@ -276,7 +276,7 @@ const projects: Project[] = [
     name: "Liquid.xyz",
     description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
     categories: ["Wallet", "Trading Interface"],
-    status: "Beta",
+    status: "Live",
     website: "https://liquidmax.xyz/ref/6DZ4G6GS",
     tags: ["Trading Interface", "Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
