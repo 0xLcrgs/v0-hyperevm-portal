@@ -2170,6 +2170,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1659483462758178823/KN0WzQl6_400x400.jpg",
   },
   {
+    id: 220,
+    name: "FUNDAMENTAL",
+    description: "Something different.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://fundamental.lol/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1905212032053567488/JIc-KE0A_400x400.jpg",
+  },
+  {
     id: 125,
     name: "Hytrade",
     description:
