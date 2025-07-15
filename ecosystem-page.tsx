@@ -1713,6 +1713,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1894164622602539008/IovQ374W_400x400.jpg",
   },
   {
+    id: 223,
+    name: "Net Protocol",
+    description:
+      "Net protocol is an onchain messaging protocol designed to simplify the process of writing and reading messages stored on the blockchain",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://www.netprotocol.app/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1896484614895460352/eJrYoAU5_400x400.jpg",
+  },
+  {
     id: 156,
     name: "Liquina",
     description:
