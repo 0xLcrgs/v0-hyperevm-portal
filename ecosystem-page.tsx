@@ -2159,6 +2159,28 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
   },
   {
+    id: 221,
+    name: "Hippo1000",
+    description:
+      "Hippo1000 - real time tracking top 1% whales on Hyperliquid. Ape instantly with a 1-click Telegram bot. ",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/Hippo1000bot?start=Hxj3vkk",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1895318430187954176/9c65u3fd_400x400.jpg",
+  },
+  {
+    id: 222,
+    name: "Looter",
+    description:
+      "Your multichain memecoin solution",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/looter_ai_bot?start=use_1Qna2U",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1856480092848844800/MC8pTvat_400x400.jpg",
+  },
+  {
     id: 129,
     name: "Gem Wallet",
     description:
