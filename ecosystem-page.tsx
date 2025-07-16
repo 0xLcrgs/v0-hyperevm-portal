@@ -335,6 +335,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
   },
   {
+    id: 224,
+    name: "Kyber Network",
+    description:
+      "Swap crypto at the best rates with KyberSwap, the Multichain Aggregator available on 16 chains",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://kyberswap.com/",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1641706567014940672/UFuWgdxn_400x400.jpg",
+  },
+  {
     id: 4,
     name: "Harmonix Finance",
     description:
@@ -1324,6 +1335,17 @@ const projects: Project[] = [
     website: "https://glider.fi/",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
+  },
+  {
+    id: 225,
+    name: "FORDEFI",
+    description:
+      "One MPC Wallet for Treasury Management | Trading Operations | Tokenization | RWAs | Stablecoins | Payments | WaaS | Embedded Wallets | BCP",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://fordefi.com/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1938301949440315392/g91FlC2h_400x400.jpg",
   },
   {
     id: 213,
