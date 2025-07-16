@@ -429,7 +429,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.ramses.exchange/",
     tags: ["DEX", "ve(3,3)"],
-    logo: "https://pbs.twimg.com/profile_images/1759614763980443648/R6Y5bwip_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1943503811496034304/mfgD8aKJ_400x400.jpg",
   },
   {
     id: 169,
@@ -954,7 +954,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://link.zerion.io/referral?code=5ZJ0IK44Y",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1914217161452564480/j8C2yxNc_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1943619977342263296/cvmzbMP2_400x400.png",
   },
   {
     id: 182,
@@ -1012,13 +1012,13 @@ const projects: Project[] = [
   },
   {
     id: 78,
-    name: "Hedgewater Associates",
+    name: "Hedgewater",
     description: "Hedgewater is an on-chain AI investment fund focused on Hyperliquid ecosystem.",
     categories: ["Yield"],
     status: "Live",
     website: "https://www.hedgewater.xyz/",
     tags: ["Yield", "AI"],
-    logo: "https://pbs.twimg.com/profile_images/1878484437786054657/uZz41GWQ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1940083311486947328/zjMz6ajf_400x400.jpg",
   },
   {
     id: 175,
@@ -1154,7 +1154,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://awaken.tax?ref=wiidqu-i",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1930716857310535680/dg5Uo6XB_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1943878626153250816/eSbgoWBp_400x400.jpg",
   },
   {
     id: 97,
@@ -1282,7 +1282,7 @@ const projects: Project[] = [
     status: "Beta",
     website: "https://hyperlauncher.ai/",
     tags: ["Launchpad", "AI"],
-    logo: "https://pbs.twimg.com/profile_images/1867118056343842819/pRt9hqp4_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1938421334926823424/Q-S4MweH_400x400.jpg",
   },
   {
     id: 192,
@@ -1541,7 +1541,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://www.delpho.xyz/",
     tags: ["CDP"],
-    logo: "https://pbs.twimg.com/profile_images/1935962128625565696/iJDKV3rV_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1942486893637128192/5L46DcQo_400x400.jpg",
   },
   {
     id: 196,
@@ -1649,14 +1649,14 @@ const projects: Project[] = [
   },
   {
     id: 42,
-    name: "Slate Wallet Tracker",
+    name: "Lit",
     description:
-      "Slate's Hyperliquid Wallet Tracker is a Telegram-based tool that delivers real-time updates on any Hyperliquid wallet's activity",
-    categories: ["Bot", "Tools"],
+      "Lit aims to reimagine and perfect trading for tokenized assets and perpetuals, while making them accessible to the masses through frictionless onboarding & a permissionless HyperLiquid backbone.",
+    categories: ["Trading Interface"],
     status: "Live",
-    website: "https://link3.to/W0DF72YJ",
-    tags: ["Bot", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1874690032839147520/diW788eQ_400x400.png",
+    website: "https://www.lit.trade/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1935211746077130752/L6rIVkC0_400x400.jpg",
   },
   {
     id: 43,
