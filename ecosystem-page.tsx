@@ -1689,7 +1689,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.basedapp.io?access=UCLV9HOL",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1656905347813232640/DqkrVg1t_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1944706694640193536/WWdyyOxw_400x400.jpg",
   },
   {
     id: 104,
@@ -1890,7 +1890,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://cathena.rndm.io/",
     tags: ["Yield", "Delta-neutral"],
-    logo: "https://pbs.twimg.com/profile_images/1887119185219620864/1GHem2Q9_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1937454986360729600/rInrXb37_400x400.jpg",
   },
   {
     id: 152,
@@ -1944,7 +1944,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.vooi.io/r/3DW6DRN",
     tags: ["Trading Interface"],
-    logo: "https://pbs.twimg.com/profile_images/1897274648959610880/WzzIafIX_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1938271243876155393/fXAC9P_h_400x400.jpg",
   },
   {
     id: 144,
@@ -2264,7 +2264,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://chainpro.xyz/#0xlcrgs",
     tags: ["Trading Interface"],
-    logo: "https://pbs.twimg.com/profile_images/1894915308495704064/JKryzZve_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1937986278164680704/Pwmo6Yrn_400x400.jpg",
   },
   {
     id: 67,
