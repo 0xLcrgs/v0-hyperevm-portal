@@ -427,7 +427,7 @@ const projects: Project[] = [
     description: "Ramses: Arbitrum's AMM hub with Uniswap v3 security, custom incentives, vote-lock governance, and user-friendly experience.",
     categories: ["DEX"],
     status: "Live",
-    website: "https://app.ramses.exchange/",
+    website: "https://www.ramses.xyz/trade",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1943503811496034304/mfgD8aKJ_400x400.jpg",
   },
