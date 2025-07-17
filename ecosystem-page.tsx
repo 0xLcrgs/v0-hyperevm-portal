@@ -2075,6 +2075,28 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1566801279497666560/5yMpOg_s_400x400.jpg",
   },
   {
+    id: 226,
+    name: "Drops",
+    description:
+      "Check any crypto wallet for unclaimed airdrops, get Telegram alerts on eligibility!",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://drops.bot/?r=35gnSMWb60",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1945374898873864192/3-xJv_jh_400x400.jpg",
+  },
+  {
+    id: 227,
+    name: "Outcome",
+    description:
+      "The first prediction market on Hyperliquid.",
+    categories: ["Options"],
+    status: "Live",
+    website: "https://outcome.market/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1867277511584841728/d2ojRVxU_400x400.jpg",
+  },
+  {
     id: 209,
     name: "XTrade",
     description:
