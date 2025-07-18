@@ -314,6 +314,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1885043356885000192/2YeI1RLF_400x400.png",
   },
   {
+    id: 228,
+    name: "alright botty",
+    description:
+      "Telegram bot by Alright buddy",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/alrightbottyhome_bot?start=ref_HTC4PZ4B",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1900497908559908864/JxOGs8pi_400x400.jpg",
+  },
+  {
     id: 69,
     name: "SuperX",
     description:
@@ -1165,6 +1176,16 @@ const projects: Project[] = [
     website: "https://lighthouse.one/",
     tags: ["Trading Interface", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1850925548471480320/L-vU3YZs_400x400.png",
+  },
+  {
+    id: 229,
+    name: "Cerebro",
+    description: "Manage all your crypto assets and leverage AI to unlock better performance",
+    categories: ["Trading Interface", "Wallet", "Tools"],
+    status: "Live",
+    website: "https://cerebro.xyz/sign-up?code=038BEFD1",
+    tags: ["Trading Interface", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1841005653630050304/LfpjTTJy_400x400.jpg",
   },
   {
     id: 116,
