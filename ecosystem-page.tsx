@@ -602,6 +602,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1930642162984579072/NtYd0Egd_400x400.png",
   },
   {
+    id: 230,
+    name: "HyperFlow",
+    description: "Flow seamlessly into Hyperliquid with Hyperflow! DEX & bridge Aggregator for fast swaps & transfers.",
+    categories: ["Bridge", "DEX"],
+    status: "Live",
+    website: "https://hyperflow.fun/",
+    tags: ["Bridge", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1914981578272595968/tMZbWPkT_400x400.jpg",
+  },
+  {
     id: 33,
     name: "The Hyperliquid Bridge",
     description:
