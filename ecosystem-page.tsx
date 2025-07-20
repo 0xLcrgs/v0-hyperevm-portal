@@ -397,7 +397,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://loopedhype.com/",
     tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1882460229184471040/eIGqevUG_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1943661057123205120/yNmFkXza_400x400.jpg",
   },
   {
     id: 38,
@@ -589,7 +589,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://garden.finance/",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1884485129906839554/4CaD8YXg_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1943520835119054848/_BXz4rcc_400x400.jpg",
   },
   {
     id: 32,
@@ -632,7 +632,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://relay.link/bridge",
     tags: ["Bridge", "On-Ramp"],
-    logo: "https://pbs.twimg.com/profile_images/1937203304183832576/CBRGiBg5_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1945144527498485760/QxoWQgE0_400x400.jpg",
   },
   {
     id: 198,
@@ -2265,7 +2265,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://gemwallet.com/",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1659483462758178823/KN0WzQl6_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1943936806472339456/5qUKXerv_400x400.jpg",
   },
   {
     id: 220,
