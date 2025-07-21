@@ -796,7 +796,7 @@ const projects: Project[] = [
     description:
       "Tokenized Yield strategies and curated DeFi ecosystem on Hyperliquid EVM",
     categories: ["Yield"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://www.blueberry.garden/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1624077952601423878/GjmtH148_400x400.jpg",
