@@ -443,6 +443,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1943503811496034304/mfgD8aKJ_400x400.jpg",
   },
   {
+    id: 231,
+    name: "Houdini Swap",
+    description: "The most trusted swap in crypto for any chain. Transparent where it counts. Private when it matters.",
+    categories: ["Bridge", "DEX"],
+    status: "Live",
+    website: "https://houdiniswap.com/",
+    tags: ["Bridge", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1747364391110979584/GJxP5GVU_400x400.jpg",
+  },
+  {
     id: 169,
     name: "hyperG8",
     description:
