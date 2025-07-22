@@ -185,6 +185,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
   },
   {
+    id: 38,
+    name: "Liminal",
+    description:
+      "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
+    categories: ["Yield", "Delta-neutral"],
+    status: "Live",
+    website: "https://liminal.money/join/XLCRGS",
+    tags: ["Yield", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1934561280637222912/sgMp90I7_400x400.jpg",
+  },
+  {
     id: 20,
     name: "HyBridge",
     description: "Your Hyperliquid Bridge. Fast, Seamless, and Ready to Connect Across EVM & SOL Chains.",
@@ -398,17 +409,6 @@ const projects: Project[] = [
     website: "https://loopedhype.com/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1943661057123205120/yNmFkXza_400x400.jpg",
-  },
-  {
-    id: 38,
-    name: "Liminal",
-    description:
-      "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
-    categories: ["Yield", "Delta-neutral"],
-    status: "Beta",
-    website: "https://liminal.money/",
-    tags: ["Yield", "Delta-neutral"],
-    logo: "https://pbs.twimg.com/profile_images/1934561280637222912/sgMp90I7_400x400.jpg",
   },
   {
     id: 39,
