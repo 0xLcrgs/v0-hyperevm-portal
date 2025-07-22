@@ -389,6 +389,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1896932742190821376/xaZ_TDuY_400x400.jpg",
   },
   {
+    id: 232,
+    name: "Spectra",
+    description:
+      "Permissionless yield protocol | Create pools, fix rates, trade yield, govern & earn | Formerly APWine",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.spectra.finance/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1678456403080486927/la7vcn7-_400x400.jpg",
+  },
+  {
     id: 6,
     name: "Upshift",
     description:
@@ -1206,6 +1217,17 @@ const projects: Project[] = [
     website: "https://cerebro.xyz/sign-up?code=038BEFD1",
     tags: ["Trading Interface", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1841005653630050304/LfpjTTJy_400x400.jpg",
+  },
+  {
+    id: 233,
+    name: "KittyPunch",
+    description:
+      "KittyPunch is a DeFi project built for consumer blockchains. Trade digital assets, earn yield, and even collect your own Kitties with KittyPunch.",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://www.kittypunch.xyz/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1701266852192866304/LyPRKoUS_400x400.jpg",
   },
   {
     id: 116,
