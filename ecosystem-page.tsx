@@ -118,7 +118,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.hybra.finance?code=MBKOYM",
     tags: ["DEX", "ve(3,3)"],
-    logo: "https://pbs.twimg.com/profile_images/1921875803111120896/YWsOYaL7_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1945766945481175041/7oOm2WzZ_400x400.jpg",
   },
   {
     id: 164,
