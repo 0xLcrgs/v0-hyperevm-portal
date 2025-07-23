@@ -620,7 +620,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1930642162984579072/NtYd0Egd_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1947935575635333120/gJknQM9m_400x400.jpg",
   },
   {
     id: 230,
@@ -986,7 +986,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.nansen.ai/ref?GeahssNV0Zd",
     tags: ["Tools", "Block Explorer", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1798630976387764224/O05j4854_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1944565431345274880/H0RnzeKM_400x400.jpg",
   },
   {
     id: 173,
@@ -1708,7 +1708,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://gigabrain.gg/",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1923460432636887040/r2TW45xA_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1946086777724235776/Z5wcLdaV_400x400.jpg",
   },
   {
     id: 42,
