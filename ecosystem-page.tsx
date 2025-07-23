@@ -1750,7 +1750,7 @@ const projects: Project[] = [
       "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.",
     categories: ["Wallet"],
     status: "Live",
-    website: "https://app.basedapp.io?access=UCLV9HOL",
+    website: "https://basedapp.io/r/XLCRGS",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1944706694640193536/WWdyyOxw_400x400.jpg",
   },
