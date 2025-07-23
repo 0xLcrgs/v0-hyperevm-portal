@@ -1395,7 +1395,7 @@ const projects: Project[] = [
       "Glider is a non-custodial SaaS platform for building, testing, and automating crypto trading portfolios across multiple blockchains / 9l7wb5",
     categories: ["Trading Interface", "Tools"],
     status: "Beta",
-    website: "https://glider.fi/",
+    website: "https://glider.fi/?invite=qspnqxsx",
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
