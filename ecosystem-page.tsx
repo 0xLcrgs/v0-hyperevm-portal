@@ -298,8 +298,8 @@ const projects: Project[] = [
     description:
       "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
     categories: ["Wallet"],
-    status: "Beta",
-    website: "https://www.dexari.com/",
+    status: "Live",
+    website: "https://dexari.com/join/xlcrgs",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
   },
