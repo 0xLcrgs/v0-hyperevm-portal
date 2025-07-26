@@ -2623,6 +2623,7 @@ const defiLlamaSlugs: { [key: string]: string } = {
   manadotwin: "manaswap",
   "Project X": "project-x",
   Kinetiq: "kinetiq",
+  HyperBrick: "hyperbrick",
 }
 
 const categories = [
