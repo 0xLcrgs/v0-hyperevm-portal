@@ -58,6 +58,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
   },
   {
+    id: 241,
+    name: "HyperBrick",
+    description: "Code: XLCRGS | DLMM DEX powering precision trading, dynamic liquidity, and yield-optimized pools for next-gen tokens on Hyperliquid",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://hyperbrick.xyz/",
+    tags: ["DEX", "DLMM"],
+    logo: "https://pbs.twimg.com/profile_images/1945444770773336064/ZAUJfdBF_400x400.jpg",
+  },
+  {
     id: 1,
     name: "HyperSwap",
     description: "First HyperEVM native AMM DEX and Liquidity Hub",
