@@ -638,7 +638,7 @@ const projects: Project[] = [
     description: "Flow seamlessly into Hyperliquid with Hyperflow! DEX & bridge Aggregator for fast swaps & transfers.",
     categories: ["Bridge", "DEX"],
     status: "Live",
-    website: "https://hyperflow.fun/",
+    website: "https://hyperflow.fun?ref=2HfzW",
     tags: ["Bridge", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1914981578272595968/tMZbWPkT_400x400.jpg",
   },
