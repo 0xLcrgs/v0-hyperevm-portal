@@ -2635,6 +2635,7 @@ const defiLlamaSlugs: { [key: string]: string } = {
   "Project X": "project-x",
   Kinetiq: "kinetiq",
   HyperBrick: "hyperbrick",
+  Liminal: "liminal",
 }
 
 const categories = [
