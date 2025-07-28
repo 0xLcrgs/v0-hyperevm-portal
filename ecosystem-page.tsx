@@ -142,6 +142,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
   },
   {
+    id: 230,
+    name: "HyperFlow",
+    description: "Flow seamlessly into Hyperliquid with Hyperflow! DEX & bridge Aggregator for fast swaps & transfers.",
+    categories: ["Bridge", "DEX"],
+    status: "Live",
+    website: "https://hyperflow.fun?ref=2HfzW",
+    tags: ["Bridge", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1914981578272595968/tMZbWPkT_400x400.jpg",
+  },
+  {
     id: 151,
     name: "ApStation",
     description:
@@ -631,16 +641,6 @@ const projects: Project[] = [
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1947935575635333120/gJknQM9m_400x400.jpg",
-  },
-  {
-    id: 230,
-    name: "HyperFlow",
-    description: "Flow seamlessly into Hyperliquid with Hyperflow! DEX & bridge Aggregator for fast swaps & transfers.",
-    categories: ["Bridge", "DEX"],
-    status: "Live",
-    website: "https://hyperflow.fun?ref=2HfzW",
-    tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1914981578272595968/tMZbWPkT_400x400.jpg",
   },
   {
     id: 33,
