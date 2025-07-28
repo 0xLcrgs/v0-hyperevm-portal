@@ -759,6 +759,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1896957468963450884/5pbFwUx8_400x400.jpg",
   },
   {
+    id: 242,
+    name: "Pendle",
+    description:
+      "Liberating Yield || The world's largest crypto yield trading platform",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://www.pendle.finance/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1621033017337843713/loDsYCJr_400x400.jpg",
+  },
+  {
     id: 146,
     name: "Resolv Labs",
     description: "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
