@@ -111,6 +111,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
   },
   {
+    id: 245,
+    name: "hx_finance",
+    description:
+      "The future of private DeFi on HyperEVM. Efficient swaps now, zero-knowledge privacy on the horizon.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://app.hx.finance?ref=xlcrgs",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1942932382593560576/YBBNLaEF_400x400.jpg",
+  },
+  {
     id: 137,
     name: "Gliquid",
     description: "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
