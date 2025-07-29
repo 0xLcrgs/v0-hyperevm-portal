@@ -60,10 +60,10 @@ const projects: Project[] = [
   {
     id: 241,
     name: "HyperBrick",
-    description: "Code: XLCRGS | DLMM DEX powering precision trading, dynamic liquidity, and yield-optimized pools for next-gen tokens on Hyperliquid",
+    description: "DLMM DEX powering precision trading, dynamic liquidity, and yield-optimized pools for next-gen tokens on Hyperliquid",
     categories: ["DEX"],
     status: "Live",
-    website: "https://hyperbrick.xyz/",
+    website: "https://hyperbrick.xyz/point?ref=XLCRGS",
     tags: ["DEX", "DLMM"],
     logo: "https://pbs.twimg.com/profile_images/1945444770773336064/ZAUJfdBF_400x400.jpg",
   },
