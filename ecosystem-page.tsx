@@ -1716,10 +1716,10 @@ const projects: Project[] = [
     name: "Farcaster",
     description:
       "Farcaster is a decentralized social network on Ethereum and Optimism, where users fully own their data, identity, and connections",
-    categories: ["Other"],
+    categories: ["SocialFi"],
     status: "Live",
     website: "https://farcaster.xyz/",
-    tags: ["Other"],
+    tags: ["SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1546487688601096192/QoG0ZVgH_400x400.jpg",
   },
   {
@@ -1797,6 +1797,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1935211746077130752/L6rIVkC0_400x400.jpg",
   },
   {
+    id: 423,
+    name: "Alchemy",
+    description:
+      "Your complete developer platform to build rollups, apps & everything in between.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.alchemy.com/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1947425842738384896/eDE44AUv_400x400.jpg",
+  },
+  {
     id: 43,
     name: "HypeRPC",
     description:
@@ -1806,6 +1817,16 @@ const projects: Project[] = [
     website: "https://hyperpc.app/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907624650961461248/wyBCK8fK_400x400.jpg",
+  },
+  {
+    id: 244,
+    name: "Catapult",
+    description: "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
+    categories: ["SocialFi"],
+    status: "Live",
+    website: "https://mindshare.catapult.trade/",
+    tags: ["SocialFi"],
+    logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
   },
   {
     id: 102,
@@ -1920,10 +1941,10 @@ const projects: Project[] = [
     id: 109,
     name: "Fan App",
     description: "Fan App is an exclusive content platform where creators can monetize access dynamically",
-    categories: ["Other"],
+    categories: ["SocialFi"],
     status: "Live",
     website: "https://fan.fun/",
-    tags: ["Other", "SocialFi"],
+    tags: ["SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1884115595081433088/K918mGuG_400x400.png",
   },
   {
@@ -2678,6 +2699,7 @@ type Category =
   | "Trading Interface"
   | "Bot"
   | "Options"
+  | "SocialFi"
   | "GambleFi"
   | "Gaming"
   | "On-Ramp"
