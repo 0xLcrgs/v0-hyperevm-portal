@@ -998,7 +998,17 @@ const projects: Project[] = [
     status: "Live",
     website: "https://hyperevmscan.io/",
     tags: ["Tools", "Block Explorer", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1296736608482283520/6mDtyT6V_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1947952831568482304/GkEPdf-r_400x400.jpg",
+  },
+  {
+    id: 247,
+    name: "HyperScan",
+    description: "Fork of Blockscout. With custom indexing, components, widgets, and APIs built specifically for the HyperLiquid ecosystem.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://beta.hyperscan.com/",
+    tags: ["Tools", "Block Explorer", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1646991609416806408/vKLEZxhh_400x400.png",
   },
   {
     id: 111,
