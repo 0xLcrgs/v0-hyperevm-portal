@@ -2127,6 +2127,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1909962811804946432/gW76pWsD_400x400.jpg",
   },
   {
+    id: 246,
+    name: "Supercexy",
+    description: "You're still early",
+    categories: ["Trading Interface"],
+    status: "Beta",
+    website: "https://youre-still-early.supercexy.com/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1934102773140013057/xHsgC8PX_400x400.jpg",
+  },
+  {
     id: 195,
     name: "Shogun",
     description: "Trade any token on any chain from one bot",
