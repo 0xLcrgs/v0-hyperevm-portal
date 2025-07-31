@@ -248,6 +248,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
   },
   {
+    id: 248,
+    name: "Balancer",
+    description: "The ultimate platform for custom liquidity solutions. Balancer v3 perfectly balances simplicity and flexibility to reshape the future of AMMs.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://balancer.fi/",
+    tags: ["DEX", "CLAMM"],
+    logo: "https://pbs.twimg.com/profile_images/1948110735919206400/k0A_9Gix_400x400.jpg",
+  },
+  {
     id: 10,
     name: "Laminar",
     description:
@@ -2039,7 +2049,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.biconomy.io/",
     tags: ["Tools", "Developer"],
-    logo: "https://pbs.twimg.com/profile_images/1760639001587863553/jkMcM52V_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1950555090592358400/CgSHj6y1_400x400.jpg",
   },
   {
     id: 52,
@@ -2154,7 +2164,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.gun.fun/",
     tags: ["Trading Interface", "DEX", "Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1896706319413129216/6juBb5fQ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1947345653862174720/XQdkjfd5_400x400.jpg",
   },
   {
     id: 56,
@@ -2273,7 +2283,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://drops.bot/?r=35gnSMWb60",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1945374898873864192/3-xJv_jh_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1946435701286817792/ztlFUyHI_400x400.jpg",
   },
   {
     id: 227,
