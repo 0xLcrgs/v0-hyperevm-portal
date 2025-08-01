@@ -611,6 +611,28 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1918317063925342208/boA5iJjD_400x400.jpg",
   },
   {
+    id: 252,
+    name: "Liquid Terminal",
+    description:
+      "The terminal to house all Hyperliquid",
+    categories: ["Trading Interface"],
+    status: "Beta",
+    website: "https://liquidterminal.xyz/?ref=HyperLcrgs",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1879551929799364608/io3_oOVD_400x400.jpg",
+  },
+  {
+    id: 250,
+    name: "GemsGun",
+    description:
+      "All-in-one HyperEVM trading platform. Data-driven, trader-focused, always ahead.",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://gemsgun.com/hyper/discover?inviteCode=CrFqBpar",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1921830295944507392/ojy-o2AT_400x400.jpg",
+  },
+  {
     id: 219,
     name: "Splash",
     description:
@@ -1260,6 +1282,17 @@ const projects: Project[] = [
     website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
     tags: ["Bot", "Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
+  },
+  {
+    id: 251,
+    name: "HypeFun",
+    description:
+      "Community owned AI Launchpad coming soon on HyperEVM",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://hypefun.ai/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1947261638857404416/gGdX9-OU_400x400.jpg",
   },
   {
     id: 180,
