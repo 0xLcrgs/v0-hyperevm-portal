@@ -644,6 +644,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1938085622725701632/n09KtLmW_400x400.jpg",
   },
   {
+    id: 253,
+    name: "ILLIQUID",
+    description:
+      "First liquid NFTs on Hyperliquid",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://www.illiquidnft.io/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1915843266307616768/WuB9gv4Z_400x400.jpg",
+  },
+  {
     id: 95,
     name: "Hypio",
     description:
