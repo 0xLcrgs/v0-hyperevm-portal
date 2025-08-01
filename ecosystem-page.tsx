@@ -664,6 +664,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1947935575635333120/gJknQM9m_400x400.jpg",
   },
   {
+    id: 249,
+    name: "Bungee",
+    description: "Bungee is a liquidity marketplace built on SOCKET that lets you trade any token on any chain.",
+    categories: ["Bridge", "DEX"],
+    status: "Live",
+    website: "https://www.bungee.exchange/",
+    tags: ["Bridge", "DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1938126602774450177/qEmo_mDl_400x400.png",
+  },
+  {
     id: 33,
     name: "The Hyperliquid Bridge",
     description:
