@@ -687,6 +687,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1943520835119054848/_BXz4rcc_400x400.jpg",
   },
   {
+    id: 254,
+    name: "Brotocol",
+    description: "Bringing DeFi to Bitcoin via enabling Swaps, Bridge and Payment directly on the $BTC network—20+ chains + Best rate guaranteed!",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://brotocol.xyz/bitcoin/swap",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1913248373445922817/L7TSfOwY_400x400.jpg",
+  },
+  {
     id: 32,
     name: "Jumper Exchange",
     description: "Crypto's Everything Exchange",
@@ -2615,7 +2625,7 @@ const projects: Project[] = [
   },
   {
     id: 172,
-    name: "USDHL-M Bridge)",
+    name: "USDHL-M Bridge",
     description: "Trade all tokens, across all chains — with Polaris, the Token Portal. Now live in beta.",
     categories: ["Bridge"],
     status: "Live",
