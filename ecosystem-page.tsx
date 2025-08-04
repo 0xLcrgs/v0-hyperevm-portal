@@ -1828,6 +1828,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1546487688601096192/QoG0ZVgH_400x400.jpg",
   },
   {
+    id: 256,
+    name: "Bitget Wallet",
+    description: "Making Crypto for Everyone. Trade, earn, pay and discover Web3 with 80M users ",
+    categories: ["Wallet"],
+    status: "Live",
+    website: "https://web3.bitget.com/en",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg",
+  },
+  {
     id: 30,
     name: "SuperHype",
     description: "HyperEVM token launchpad and AMM DEX",
