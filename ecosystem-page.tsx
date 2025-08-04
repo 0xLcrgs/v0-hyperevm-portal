@@ -1013,6 +1013,16 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1928952183304892416/4etP6OnZ_400x400.jpg",
   },
   {
+    id: 255,
+    name: "RubiFi",
+    description: "The world's first democratized market making platform. Powered by $RUB, the most scarce and expensive asset in crypto",
+    categories: ["Other"],
+    status: "Live",
+    website: "https://www.rub.finance/",
+    tags: ["Other"],
+    logo: "https://pbs.twimg.com/profile_images/1949681143214931969/VqiidYkV_400x400.jpg",
+  },
+  {
     id: 24,
     name: "Thunderhead",
     description: "The premiere liquid-staking solution for the Hyperliquid network.",
