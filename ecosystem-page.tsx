@@ -399,6 +399,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1913916356874952704/RrNrTN0H_400x400.jpg",
   },
   {
+    id: 261,
+    name: "Apexliquid",
+    description:
+      " Trade & Copy Trade on Hyperliquid. Get 1,000+ Smart Wallets For Free. ",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/Apexliquid_Bot?start=ref_J47G6V26",
+    tags: ["Bot", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1927626311360765952/Z1aHCoTc_400x400.jpg",
+  },
+  {
     id: 153,
     name: "LiquidScan",
     description: "Advanced analytics and trading tools for the HyperEVM ecosystem.",
@@ -644,6 +655,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1921830295944507392/ojy-o2AT_400x400.jpg",
   },
   {
+    id: 262,
+    name: "fullstack",
+    description:
+      "fullstack",
+    categories: ["Trading Interface"],
+    status: "Coming Soon",
+    website: "https://x.com/fullstack_trade",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1896299355184734208/hcCPfvW9_400x400.jpg",
+  },
+  {
     id: 219,
     name: "Splash",
     description:
@@ -863,6 +885,17 @@ const projects: Project[] = [
     website: "https://resolv.xyz/",
     tags: ["CDP"],
     logo: "https://pbs.twimg.com/profile_images/1726501525843841024/1gDrgTdA_400x400.jpg",
+  },
+  {
+    id: 259,
+    name: "Axal",
+    description:
+      "Earn more. Stablecoin savings accounts backed by a16zcrypto & CMT Digital.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://getaxal.com/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1952380370516901889/8LoFkKCm_400x400.jpg",
   },
   {
     id: 140,
@@ -1167,6 +1200,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
   },
   {
+    id: 263,
+    name: "WhiskerSwap",
+    description:
+      "WhiskerSwap DEX | Multi-route aggregation on EVM",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.whiskerswap.xyz?ref=OEIMGE",
+    tags: ["DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1944320095502680064/kH6YXXrg_400x400.jpg",
+  },
+  {
     id: 14,
     name: "Timeswap",
     description:
@@ -1187,6 +1231,17 @@ const projects: Project[] = [
     website: "https://app.ventuals.com/",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1931109324480229376/EB_PojFW_400x400.png",
+  },
+  {
+    id: 260,
+    name: "HypurrQuant",
+    description:
+      "HypurrQuant strives to provide a better automated trading experience, passive income opportunities, asset management, and DeFi services.",
+    categories: ["Bot", "Yield", "Delta-neutral"],
+    status: "Live",
+    website: "https://t.me/hypurrQuant_bot",
+    tags: ["Bot", "Yield", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1912707637424320514/cvLVUN6g_400x400.jpg",
   },
   {
     id: 18,
