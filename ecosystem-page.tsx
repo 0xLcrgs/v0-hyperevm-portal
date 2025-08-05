@@ -317,10 +317,10 @@ const projects: Project[] = [
     name: "TopDog",
     description:
       "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
-    categories: ["Bot"],
-    status: "Beta",
+    categories: ["Trading Interface", "Bot"],
+    status: "Live",
     website: "https://topdog.gg/referrals",
-    tags: ["Bot"],
+    tags: ["Trading Interface", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
   },
   {
@@ -343,6 +343,17 @@ const projects: Project[] = [
     website: "https://dexari.com/join/xlcrgs",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
+  },
+  {
+    id: 258,
+    name: "Dreamcash",
+    description:
+      "Code: xrlyfy | Trading so good it feels like a dream. On Hyperliquid.",
+    categories: ["Wallet"],
+    status: "Beta",
+    website: "https://dreamcash.xyz",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1950639556446900224/sUXo-sDJ_400x400.jpg",
   },
   {
     id: 49,
@@ -1112,6 +1123,16 @@ const projects: Project[] = [
     website: "https://link.zerion.io/referral?code=5ZJ0IK44Y",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1943619977342263296/cvmzbMP2_400x400.png",
+  },
+  {
+    id: 257,
+    name: "Allium",
+    description: "Allium supports analytics, accounting, auditing, trading apps, degen use cases.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://hyperliquid.allium.so/",
+    tags: ["Tools", "Tracker"],
+    logo: "https://pbs.twimg.com/profile_images/1778926940407132160/UEwR3lHt_400x400.jpg",
   },
   {
     id: 182,
