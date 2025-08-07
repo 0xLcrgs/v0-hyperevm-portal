@@ -1026,6 +1026,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1853964541261983748/oSitKQIe_400x400.jpg",
   },
   {
+    id: 264,
+    name: "Turtle.Club",
+    description:
+      "Turtle Club links LPs to top incentives across assets and chains, simplifying due diligence by operating without smart contracts.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.turtle.club/deals?ref=0XLCRGS",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1830925816802451456/OUDzqTkE_400x400.png",
+  },
+  {
     id: 40,
     name: "Across Protocol",
     description:
