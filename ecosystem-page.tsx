@@ -1599,7 +1599,7 @@ const projects: Project[] = [
     description:
       "Mercury is a mobile app for iOS and Android, making Hyperliquid's DeFi platform simple and accessible for all users",
     categories: ["Wallet"],
-    status: "Coming Soon",
+    status: "Beta",
     website: "https://www.mercurytrade.org/",
     tags: ["Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
