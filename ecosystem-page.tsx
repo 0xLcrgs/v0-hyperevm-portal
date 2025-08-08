@@ -431,6 +431,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1641706567014940672/UFuWgdxn_400x400.jpg",
   },
   {
+    id: 266,
+    name: "Matcha",
+    description:
+      "The powerful onchain DEX aggregator built by 0x",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://meta.matcha.xyz/?chainId=999&sellToken=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1936106079877844992/t_kZCRae_400x400.jpg",
+  },
+  {
     id: 4,
     name: "Harmonix Finance",
     description:
