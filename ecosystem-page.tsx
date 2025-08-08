@@ -1211,6 +1211,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
   },
   {
+    id: 265,
+    name: "Bunni",
+    description:
+      "The Shapeshifting Exchange - DEX that maximizes liquidity provider profits in all market conditions. Built on Uniswap v4",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://bunni.xyz/explore/pools?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1884669497677647872/t_i4-ppl_400x400.jpg",
+  },
+  {
     id: 263,
     name: "WhiskerSwap",
     description:
