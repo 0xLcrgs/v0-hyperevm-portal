@@ -2585,6 +2585,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1923426269376450560/9YGLDDAY_400x400.jpg",
   },
   {
+    id: 267,
+    name: "Noble",
+    description:
+      "Purpose-built for stablecoin issuance Optimizing for UX",
+    categories: ["CDP"],
+    status: "Coming Soon",
+    website: "https://www.noble.xyz/",
+    tags: ["CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1760713184493670400/SAXSaUTN_400x400.jpg",
+  },
+  {
     id: 62,
     name: "Hyperhyper",
     description: "The hyper-speculation application",
