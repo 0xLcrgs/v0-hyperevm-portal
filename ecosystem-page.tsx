@@ -2046,10 +2046,10 @@ const projects: Project[] = [
     id: 244,
     name: "Catapult",
     description: "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
-    categories: ["SocialFi"],
+    categories: ["Launchpad"],
     status: "Live",
     website: "https://mindshare.catapult.trade/",
-    tags: ["SocialFi"],
+    tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
   },
   {
