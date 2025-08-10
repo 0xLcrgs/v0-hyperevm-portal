@@ -302,6 +302,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1935447291256782850/4h6gF51x_400x400.jpg",
   },
   {
+    id: 268,
+    name: "Morpho",
+    description:
+      "Open infrastructure for onchain loans",
+    categories: ["Lending", "Yield"],
+    status: "Live",
+    website: "https://morpho.org/",
+    tags: ["Lending", "Borrowing", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1930600293915410432/dgTU7UNU_400x400.jpg",
+  },
+  {
     id: 34,
     name: "Dextrabot",
     description:
