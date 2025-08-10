@@ -81,16 +81,6 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    name: "HypurrFi",
-    description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
-    categories: ["Lending", "CDP"],
-    status: "Live",
-    website: "https://app.hypurr.fi/buddies/0XLCRGS",
-    tags: ["Lending", "Borrowing", "CDP"],
-    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
-  },
-  {
-    id: 7,
     name: "Liminal",
     description:
       "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
@@ -101,7 +91,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1934561280637222912/sgMp90I7_400x400.jpg",
   },
   {
-    id: 8,
+    id: 7,
     name: "Hyperdrive",
     description:
       "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
@@ -112,7 +102,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
   },
   {
-    id: 9,
+    id: 8,
     name: "Hyperwave",
     description:
       "Hyperwave DAO aims to build a DeFi SuperApp on Hyperliquid, starting with hwHLP, to create asset markets and real-world use for users.",
@@ -123,7 +113,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
   },
   {
-    id: 10,
+    id: 9,
     name: "hx_finance",
     description:
       "The future of private DeFi on HyperEVM. Efficient swaps now, zero-knowledge privacy on the horizon.",
@@ -134,7 +124,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1942932382593560576/YBBNLaEF_400x400.jpg",
   },
   {
-    id: 11,
+    id: 10,
     name: "Gliquid",
     description: "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
     categories: ["DEX"],
@@ -144,7 +134,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1928414866554974208/FpTxpjHe_400x400.jpg",
   },
   {
-    id: 12,
+    id: 11,
     name: "Hybra Finance",
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
     categories: ["DEX"],
@@ -154,7 +144,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1945766945481175041/7oOm2WzZ_400x400.jpg",
   },
   {
-    id: 13,
+    id: 12,
     name: "HyperFlow",
     description: "Flow seamlessly into Hyperliquid with Hyperflow! DEX & bridge Aggregator for fast swaps & transfers.",
     categories: ["Bridge", "DEX"],
@@ -164,7 +154,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1914981578272595968/tMZbWPkT_400x400.jpg",
   },
   {
-    id: 14,
+    id: 13,
     name: "ApStation",
     description:
       "ApStation is a next-gen DEX aggregator and liquidity router on HyperEVM, offering 0% protocol fees and optimal swaps for the Hyperliquid ecosystem.",
@@ -175,7 +165,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1932105712408145920/19Zzxd3Y_400x400.jpg",
   },
   {
-    id: 15,
+    id: 14,
     name: "HyperBloom",
     description:
       "Hyperbloom is a DEX aggregator and yield optimizer on HyperEVM, offering best swap rates and autocompounding yields across Hyperliquid",
@@ -186,7 +176,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1932366410082033664/TYBk0ryj_400x400.jpg",
   },
   {
-    id: 16,
+    id: 15,
     name: "Mercury",
     description:
       "Mercury is a mobile app for iOS and Android, making Hyperliquid's DeFi platform simple and accessible for all users",
@@ -197,7 +187,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
   },
   {
-    id: 17,
+    id: 16,
     name: "Liquid.xyz",
     description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
     categories: ["Wallet", "Trading Interface"],
@@ -207,7 +197,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
   },
   {
-    id: 18,
+    id: 17,
     name: "Dexari",
     description:
       "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
@@ -218,7 +208,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
   },
   {
-    id: 19,
+    id: 18,
     name: "Supercexy",
     description: "You're still early",
     categories: ["Wallet", "Trading Interface"],
@@ -228,7 +218,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1953782840157749248/3nEXVDCi_400x400.jpg",
   },
   {
-    id: 20,
+    id: 19,
     name: "Dreamcash",
     description:
       "Code: xrlyfy | Trading so good it feels like a dream. On Hyperliquid.",
@@ -239,7 +229,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1950639556446900224/sUXo-sDJ_400x400.jpg",
   },
   {
-    id: 21,
+    id: 20,
     name: "Splash",
     description:
       "Splash Wallet is a non-custodial crypto wallet that integrates DeFi protocols directly into the user interface.",
@@ -250,7 +240,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1938085622725701632/n09KtLmW_400x400.jpg",
   },
   {
-    id: 22,
+    id: 21,
     name: "Unit",
     description: "Unit is the asset tokenization layer on Hyperliquid, enabling seamless deposits and withdrawals.",
     categories: ["Bridge"],
@@ -260,7 +250,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1937271299338035200/sEKHkXkc_400x400.jpg",
   },
   {
-    id: 23,
+    id: 22,
     name: "Kinetiq",
     description: "Powering Liquid Staking on Hyperliquid.",
     categories: ["LST"],
@@ -268,6 +258,16 @@ const projects: Project[] = [
     website: "https://kinetiq.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
+  },
+  {
+    id: 23,
+    name: "HypurrFi",
+    description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
+    categories: ["Lending", "CDP"],
+    status: "Live",
+    website: "https://app.hypurr.fi/buddies/0XLCRGS",
+    tags: ["Lending", "Borrowing", "CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
   },
   {
     id: 24,
@@ -439,7 +439,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.kittenswap.finance/points?referrer=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["DEX", "ve(3,3)"],
-    logo: "https://pbs.twimg.com/profile_images/1896932742190821376/xaZ_TDuY_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1951351497754632192/aLjGUNxI_400x400.jpg",
   },
   {
     id: 40,
