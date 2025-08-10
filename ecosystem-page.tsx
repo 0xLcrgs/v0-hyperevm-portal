@@ -91,17 +91,6 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    name: "Hyperdrive",
-    description:
-      "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
-    categories: ["Lending", "Yield"],
-    status: "Live",
-    website: "https://app.hyperdrive.fi?ref=133A9FEB",
-    tags: ["Lending", "Borrowing", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
-  },
-  {
-    id: 8,
     name: "Liminal",
     description:
       "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
@@ -112,7 +101,29 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1934561280637222912/sgMp90I7_400x400.jpg",
   },
   {
+    id: 8,
+    name: "Hyperdrive",
+    description:
+      "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
+    categories: ["Lending", "Yield"],
+    status: "Live",
+    website: "https://app.hyperdrive.fi?ref=133A9FEB",
+    tags: ["Lending", "Borrowing", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
+  },
+  {
     id: 9,
+    name: "Hyperwave",
+    description:
+      "Hyperwave DAO aims to build a DeFi SuperApp on Hyperliquid, starting with hwHLP, to create asset markets and real-world use for users.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.hyperwavefi.xyz/hyperfren/XLCRGS",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
+  },
+  {
+    id: 10,
     name: "hx_finance",
     description:
       "The future of private DeFi on HyperEVM. Efficient swaps now, zero-knowledge privacy on the horizon.",
@@ -123,7 +134,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1942932382593560576/YBBNLaEF_400x400.jpg",
   },
   {
-    id: 10,
+    id: 11,
     name: "Gliquid",
     description: "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
     categories: ["DEX"],
@@ -133,7 +144,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1928414866554974208/FpTxpjHe_400x400.jpg",
   },
   {
-    id: 11,
+    id: 12,
     name: "Hybra Finance",
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
     categories: ["DEX"],
@@ -141,17 +152,6 @@ const projects: Project[] = [
     website: "https://www.hybra.finance?code=MBKOYM",
     tags: ["DEX", "ve(3,3)"],
     logo: "https://pbs.twimg.com/profile_images/1945766945481175041/7oOm2WzZ_400x400.jpg",
-  },
-  {
-    id: 12,
-    name: "Hyperwave",
-    description:
-      "Hyperwave DAO aims to build a DeFi SuperApp on Hyperliquid, starting with hwHLP, to create asset markets and real-world use for users.",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://app.hyperwavefi.xyz/hyperfren/XLCRGS",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
   },
   {
     id: 13,
@@ -221,11 +221,11 @@ const projects: Project[] = [
     id: 19,
     name: "Supercexy",
     description: "You're still early",
-    categories: ["Trading Interface"],
-    status: "Beta",
+    categories: ["Wallet", "Trading Interface"],
+    status: ":ive",
     website: "https://youre-still-early.supercexy.com/",
-    tags: ["Trading Interface"],
-    logo: "https://pbs.twimg.com/profile_images/1934102773140013057/xHsgC8PX_400x400.jpg",
+    tags: ["Wallet", "Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1953782840157749248/3nEXVDCi_400x400.jpg",
   },
   {
     id: 20,
