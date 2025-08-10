@@ -27,17 +27,6 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    name: "Felix",
-    description:
-      "Felix offers secure, easy on-chain borrowing and lending on Hyperliquid L1, helping users unlock liquidity or earn yield seamlessly.",
-    categories: ["Lending", "CDP"],
-    status: "Live",
-    website: "https://usefelix.xyz?ref=18935567",
-    tags: ["Lending", "Borrowing", "CDP"],
-    logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
-  },
-  {
-    id: 2,
     name: "HyperLend",
     description:
       "HyperLend is a high-performance lending protocol on Hyperliquid EVM, offering real-time leverage, dynamic rates, and deep liquidity.",
@@ -48,14 +37,26 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
   },
   {
-    id: 3,
-    name: "HypurrFi",
-    description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
+    id: 2,
+    name: "Felix",
+    description:
+      "Felix offers secure, easy on-chain borrowing and lending on Hyperliquid L1, helping users unlock liquidity or earn yield seamlessly.",
     categories: ["Lending", "CDP"],
     status: "Live",
-    website: "https://app.hypurr.fi/buddies/0XLCRGS",
+    website: "https://usefelix.xyz?ref=18935567",
     tags: ["Lending", "Borrowing", "CDP"],
-    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
+  },
+  {
+    id: 3,
+    name: "Hyperbeat",
+    description:
+      "Hyperbeat is a native protocol on Hyperliquid, designed to scale HyperliquidX, HyperEVM, and the broader ecosystem",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.hyperbeat.org/earn?referral=FA86003B",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
   },
   {
     id: 4,
@@ -69,17 +70,6 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    name: "Hyperbeat",
-    description:
-      "Hyperbeat is a native protocol on Hyperliquid, designed to scale HyperliquidX, HyperEVM, and the broader ecosystem",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://app.hyperbeat.org/earn?referral=FA86003B",
-    tags: ["Yield", "Vaults"],
-    logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
-  },
-  {
-    id: 6,
     name: "Project X",
     description:
       "Project X is built on the belief that tech is becoming increasingly commoditized and the next era of DeFi will be won by innovating on distribution, incentive design and UX.",
@@ -88,6 +78,16 @@ const projects: Project[] = [
     website: "https://www.prjx.com/@0xLcrgs",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1922089219737911296/1miGhDTB_400x400.jpg",
+  },
+  {
+    id: 6,
+    name: "HypurrFi",
+    description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
+    categories: ["Lending", "CDP"],
+    status: "Live",
+    website: "https://app.hypurr.fi/buddies/0XLCRGS",
+    tags: ["Lending", "Borrowing", "CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
   },
   {
     id: 7,
