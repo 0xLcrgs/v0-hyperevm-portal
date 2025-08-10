@@ -544,10 +544,10 @@ const projects: Project[] = [
     name: "Theo",
     description:
       "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
-    categories: ["Yield", "Delta-neutral"],
+    categories: ["Yield", "CDP", "Delta-neutral"],
     status: "Live",
-    website: "https://app.theo.xyz/referrals/0xLcrgs",
-    tags: ["Yield", "Vaults", "Delta-neutral"],
+    website: "https://app.theo.xyz/invite?invite=8ab991be-7e8a-40a5-9b93-c3b2518a6a95",
+    tags: ["Yield", "CDP", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
   },
   {
