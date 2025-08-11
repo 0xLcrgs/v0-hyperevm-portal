@@ -831,6 +831,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
   },
   {
+    id: 268,
+    name: "Evoq Finance",
+    description:
+      "A P2P-based lending optimizer",
+    categories: ["Lending", "Yield", "Tools"],
+    status: "Coming Soon",
+    website: "https://app.evoq.finance/?referralCode=2Dn0SQra",
+    tags: ["Lending", "Yield", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1870006305014067200/RUidb_w7_400x400.jpg",
+  },
+  {
     id: 76,
     name: "Neko.hl",
     description:
