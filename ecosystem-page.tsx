@@ -303,14 +303,14 @@ const projects: Project[] = [
   },
   {
     id: 27,
-    name: "TopDog",
+    name: "nest",
     description:
-      "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
-    categories: ["Trading Interface", "Bot"],
-    status: "Live",
-    website: "https://topdog.gg/referrals",
-    tags: ["Trading Interface", "Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
+      "The trading and liquidity engine for Hyperliquid",
+    categories: ["DEX"],
+    status: "Coming Soon",
+    website: "https://x.com/NestExchange",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1936441608909512704/gCwY16PF_400x400.jpg",
   },
   {
     id: 28,
@@ -346,14 +346,14 @@ const projects: Project[] = [
   },
   {
     id: 31,
-    name: "HLP0",
+    name: "HYPE Engine",
     description:
-      "Deposited USDC goes into the Hyperliquidity Provider vault; users get HLP0 tokens, usable for lending or farming to earn extra yield",
+      "The $HYPE accumulation machine.",
     categories: ["Yield"],
-    status: "Live",
-    website: "https://www.hlp0.to/",
+    status: "Coming Soon",
+    website: "https://x.com/TheHypeEngine",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1935447291256782850/4h6gF51x_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1954998568319606785/sxWE6Y_9_400x400.jpg",
   },
   {
     id: 32,
@@ -829,17 +829,6 @@ const projects: Project[] = [
     website: "https://app.hyperstable.xyz/r/0xLcrgs",
     tags: ["Lending", "CDP"],
     logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
-  },
-  {
-    id: 268,
-    name: "Evoq Finance",
-    description:
-      "A P2P-based lending optimizer",
-    categories: ["Lending", "Yield", "Tools"],
-    status: "Coming Soon",
-    website: "https://app.evoq.finance/?referralCode=2Dn0SQra",
-    tags: ["Lending", "Yield", "Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1870006305014067200/RUidb_w7_400x400.jpg",
   },
   {
     id: 76,
@@ -1392,13 +1381,14 @@ const projects: Project[] = [
   },
   {
     id: 128,
-    name: "Hypers",
-    description: "Hypers by Drip.Trade, only on Hyperliquid",
-    categories: ["NFT"],
+    name: "HLP0",
+    description:
+      "Deposited USDC goes into the Hyperliquidity Provider vault; users get HLP0 tokens, usable for lending or farming to earn extra yield",
+    categories: ["Yield"],
     status: "Live",
-    website: "https://drip.trade/collections/hypers",
-    tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1887077871975559168/ZTykoTWW_400x400.jpg",
+    website: "https://www.hlp0.to/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1935447291256782850/4h6gF51x_400x400.jpg",
   },
   {
     id: 129,
@@ -1594,25 +1584,25 @@ const projects: Project[] = [
   },
   {
     id: 147,
-    name: "Liquina",
+    name: "TopDog",
     description:
-      "Liquina is a community-created character and IP, with the LQnians aiming to make her a legendary, collectively owned story.",
-    categories: ["NFT"],
+      "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
+    categories: ["Trading Interface", "Bot"],
     status: "Live",
-    website: "https://liquina.ai/",
-    tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1865646244150005760/zLuVTIRD_400x400.jpg",
+    website: "https://topdog.gg/referrals",
+    tags: ["Trading Interface", "Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
   },
   {
     id: 148,
-    name: "GLO",
+    name: "Reactor",
     description:
-      "GLO unites creators and developers on Hyperliquid with an incubator, rewards lab, and tools to drive collaboration and innovation.",
-    categories: ["NFT"],
+      "Full crypto trading stack. Unmatched control and speed on-chain. Built for those who move fast.",
+    categories: ["Trading Interface"],
     status: "Live",
-    website: "https://www.glohl.com/",
-    tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1933337598488944640/WVu-5nhU_400x400.jpg",
+    website: "https://app.reactor.trade/dashboard?ref=OM56BHEN",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1926951271736459264/BQOdQmqr_400x400.jpg",
   },
   {
     id: 149,
@@ -1626,14 +1616,14 @@ const projects: Project[] = [
   },
   {
     id: 150,
-    name: "Harbor Finance",
+    name: "Overdraft",
     description:
-      "Harbor Finance is a gamified DeFi platform merging NFTs, passive income, and gameplay—earn $FISH and climb ranks as a Fishercat.",
-    categories: ["NFT", "Gaming"],
+      "The Fiat DEX. Swap fiat - crypto in seconds. No custody. No fees. No fund freeze.",
+    categories: ["On-Ramp"],
     status: "Live",
-    website: "https://harborfinance.app/?ref=48f2-ua5xd",
-    tags: ["NFT", "Gaming"],
-    logo: "https://pbs.twimg.com/profile_images/1905963590282260480/eHil_7qj_400x400.jpg",
+    website: "https://overdraft.com/",
+    tags: ["On-Ramp"],
+    logo: "https://pbs.twimg.com/profile_images/1939703991849369600/7efZ_yCa_400x400.jpg",
   },
   {
     id: 151,
@@ -2867,6 +2857,39 @@ const projects: Project[] = [
     tags: ["Gaming"],
     logo: "https://pbs.twimg.com/profile_images/1672340678310006784/9mkrtmGp_400x400.png",
   },
+  {
+    id: 268,
+    name: "Evoq Finance",
+    description:
+      "A P2P-based lending optimizer",
+    categories: ["Lending", "Yield", "Tools"],
+    status: "Coming Soon",
+    website: "https://app.evoq.finance/?referralCode=2Dn0SQra",
+    tags: ["Lending", "Yield", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1870006305014067200/RUidb_w7_400x400.jpg",
+  },
+  {
+    id: 269,
+    name: "circle",
+    description:
+      "socialFi on hyperliquid",
+    categories: ["SocialFi"],
+    status: "Coming Soon",
+    website: "https://docs.hypercircle.app/",
+    tags: ["SocialFi"],
+    logo: "https://pbs.twimg.com/profile_images/1946639933688451073/cVRsBwh9_400x400.jpg",
+  },
+  {
+    id: 270,
+    name: "Jigsaw",
+    description:
+      "The missing piece of DeFi ",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://jigsaw.finance/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1766154707083640832/S6Hu9K57_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
@@ -2932,6 +2955,7 @@ const categories = [
   "Trading Interface",
   "Bot",
   "Options",
+  "SocialFi",
   "GambleFi",
   "Gaming",
   "On-Ramp",
