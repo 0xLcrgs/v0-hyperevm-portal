@@ -520,13 +520,13 @@ const projects: Project[] = [
   },
   {
     id: 47,
-    name: "Catapult",
-    description: "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
-    categories: ["Launchpad"],
+    name: "Euler",
+    description: "The lending super app.",
+    categories: ["Lending", "Yield"],
     status: "Live",
-    website: "https://mindshare.catapult.trade/",
-    tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
+    website: "https://app.euler.finance/",
+    tags: ["Lending", "Borrowing", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1947602115557527553/15Jr7cIa_400x400.jpg",
   },
   {
     id: 48,
@@ -2940,6 +2940,16 @@ const projects: Project[] = [
     website: "https://gacha.omni-x.io/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1639169328594444289/7s4pPLu5_400x400.png",
+  },
+  {
+    id: 276,
+    name: "Catapult",
+    description: "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://mindshare.catapult.trade/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
   },
 ]
 
