@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     shortcut: "https://hyperfoundation.org/landing/blob_green.gif",
     apple: "https://hyperfoundation.org/landing/blob_green.gif",
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
