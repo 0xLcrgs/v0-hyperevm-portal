@@ -155,14 +155,14 @@ const projects: Project[] = [
   },
   {
     id: 13,
-    name: "ApStation",
+    name: "BasedApp",
     description:
-      "ApStation is a next-gen DEX aggregator and liquidity router on HyperEVM, offering 0% protocol fees and optimal swaps for the Hyperliquid ecosystem.",
-    categories: ["DEX"],
+      "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.",
+    categories: ["Wallet"],
     status: "Live",
-    website: "https://apstation.io/swap?referer=K51KWZEJ",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1932105712408145920/19Zzxd3Y_400x400.jpg",
+    website: "https://basedapp.io/register?ref=XLCRGS",
+    tags: ["Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1945707037322575872/clYVc-L2_400x400.jpg",
   },
   {
     id: 14,
@@ -357,14 +357,14 @@ const projects: Project[] = [
   },
   {
     id: 32,
-    name: "BasedApp",
+    name: "ApStation",
     description:
-      "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.",
-    categories: ["Wallet"],
+      "ApStation is a next-gen DEX aggregator and liquidity router on HyperEVM, offering 0% protocol fees and optimal swaps for the Hyperliquid ecosystem.",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://basedapp.io/register?ref=XLCRGS",
-    tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1945707037322575872/clYVc-L2_400x400.jpg",
+    website: "https://apstation.io/swap?referer=K51KWZEJ",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1932105712408145920/19Zzxd3Y_400x400.jpg",
   },
   {
     id: 33,
