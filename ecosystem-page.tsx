@@ -139,7 +139,7 @@ const projects: Project[] = [
     description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
     categories: ["Wallet", "Trading Interface"],
     status: "Live",
-    website: "https://referral.tryliquid.xyz/wFDZZ3qDAVb",
+    website: "https://referral.tryliquid.xyz/pa9N6Yf5QVb",
     tags: ["Trading Interface", "Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
   },
