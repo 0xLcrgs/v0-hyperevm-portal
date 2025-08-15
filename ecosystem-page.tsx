@@ -2951,6 +2951,28 @@ const projects: Project[] = [
     tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
   },
+  {
+    id: 277,
+    name: "squid",
+    description:
+      "Seamlessly connecting chains, tokens, and wallets. Swap, send, and manage your crypto across. EVM Cosmos Solana Bitcoin XRPL",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://www.squidrouter.com/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1938625911743524864/ppNPPF84_400x400.jpg",
+  },
+  {
+    id: 278,
+    name: "Hyperconnect",
+    description:
+      "Hyperconnect - Connect Hyperliquid to everything else",
+    categories: ["Trading Interface", "Tools"],
+    status: "Beta",
+    website: "https://www.hlconnect.xyz/",
+    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1935287126649974784/tziyM7NJ_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
