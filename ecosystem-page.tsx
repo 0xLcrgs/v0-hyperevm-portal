@@ -299,7 +299,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://bullpen.fi/@grg_ouz",
     tags: ["Bot", "Wallet", "Trading Interface"],
-    logo: "https://pbs.twimg.com/profile_images/1885043356885000192/2YeI1RLF_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1956038689152184336/UDbECykj_400x400.jpg",
   },
   {
     id: 27,
@@ -601,7 +601,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1947935575635333120/gJknQM9m_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1952718333335269376/NWZNfDuk_400x400.png",
   },
   {
     id: 55,
@@ -1419,7 +1419,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://hyperdash.info/",
     tags: ["Tools", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1856411250848088064/mG5ufCD6_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1949853938523484160/slsxb235_400x400.png",
   },
   {
     id: 132,
