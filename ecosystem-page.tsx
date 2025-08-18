@@ -2973,6 +2973,61 @@ const projects: Project[] = [
     tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1935287126649974784/tziyM7NJ_400x400.jpg",
   },
+  {
+    id: 279,
+    name: "Infinex",
+    description:
+      "Building the crypto everything app.",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://infinex.xyz/",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1882695221806514176/GkH8YOul_400x400.jpg",
+  },
+  {
+    id: 280,
+    name: "Pulse",
+    description:
+      "Pulse (formerly HyperHolders) is an app that lets you track essential, detailed data of coins (and more) on HyperEVM.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.pulsehl.app/dashboard",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1948720135239258112/21efKmtR_400x400.jpg",
+  },
+  {
+    id: 281,
+    name: "Equilibria",
+    description:
+      "First yield booster on top of Pendle",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://equilibria.fi/home",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1741669269199597568/ruIAkZfU_400x400.jpg",
+  },
+  {
+    id: 281,
+    name: "Funnel",
+    description:
+      "The Hyperliquid Asset Engine",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://www.funnel.markets/rewards?referral_code=042b066b",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1948006273569742848/1NM_bCyA_400x400.jpg",
+  },
+  {
+    id: 282,
+    name: "Ranger",
+    description:
+      "DeFi's command center.",
+    categories: ["Trading Interface"],
+    status: "Live",
+    website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1945124678068015104/6T3L_kk4_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
