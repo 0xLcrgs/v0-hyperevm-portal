@@ -3007,7 +3007,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1741669269199597568/ruIAkZfU_400x400.jpg",
   },
   {
-    id: 281,
+    id: 282,
     name: "Funnel",
     description:
       "The Hyperliquid Asset Engine",
@@ -3018,12 +3018,12 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1948006273569742848/1NM_bCyA_400x400.jpg",
   },
   {
-    id: 282,
+    id: 283,
     name: "Ranger",
     description:
       "DeFi's command center.",
     categories: ["Trading Interface"],
-    status: "Live",
+    status: "Coming Soon",
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1945124678068015104/6T3L_kk4_400x400.jpg",
