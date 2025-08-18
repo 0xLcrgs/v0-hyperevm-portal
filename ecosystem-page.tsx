@@ -3028,6 +3028,17 @@ const projects: Project[] = [
     tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1945124678068015104/6T3L_kk4_400x400.jpg",
   },
+  {
+    id: 284,
+    name: "SEKAI",
+    description:
+      "Sekai is building a platform to let anyone launch Liquid Staking Tokens on Hyperliquid. ",
+    categories: ["Launchpad"],
+    status: "Coming Soon",
+    website: "https://sekai.fi/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1952637430697222144/HcDyXa6S_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
