@@ -3086,6 +3086,7 @@ const defiLlamaSlugs: { [key: string]: string } = {
   HyperBrick: "hyperbrick",
   Liminal: "liminal",
   HyperBloom: "hyperbloom",
+  hx_finance: "hx-finance",
 }
 
 const categories = [
