@@ -1445,11 +1445,11 @@ const projects: Project[] = [
     id: 134,
     name: "Glider",
     description:
-      "Glider is a non-custodial SaaS platform for building, testing, and automating crypto trading portfolios across multiple blockchains / 9l7wb5",
-    categories: ["Trading Interface", "Tools"],
+      "Glider is a non-custodial SaaS platform for building, testing, and automating crypto trading portfolios across multiple blockchains",
+    categories: ["Bot", "Tools"],
     status: "Beta",
     website: "https://glider.fi/?invite=qspnqxsx",
-    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
   },
   {
@@ -3038,6 +3038,28 @@ const projects: Project[] = [
     website: "https://sekai.fi/",
     tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1952637430697222144/HcDyXa6S_400x400.jpg",
+  },
+  {
+    id: 285,
+    name: "Hypervault",
+    description:
+      "Simplifying the way you earn on HyperEVM",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.hypervault.finance/#/earn/0kR48p64Rp6ps456n28S91r5O2oqN3N626QRQPP8R5",
+    tags: ["Yield", "Vaults"],
+    logo: "https://pbs.twimg.com/profile_images/1940897752134676480/vWWNbS-V_400x400.jpg",
+  },
+  {
+    id: 286,
+    name: "Nimbus Trade",
+    description:
+      "Automate your trades on Hyperliquid",
+    categories: ["Bot", "Tools"],
+    status: "Coming Soon",
+    website: "https://nimbus.trade/",
+    tags: ["Bot", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1957412897279143936/ukM18KPh_400x400.jpg",
   },
 ]
 
