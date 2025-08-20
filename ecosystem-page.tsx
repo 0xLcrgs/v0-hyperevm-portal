@@ -3061,6 +3061,28 @@ const projects: Project[] = [
     tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1957412897279143936/ukM18KPh_400x400.jpg",
   },
+  {
+    id: 287,
+    name: "USD.AI",
+    description:
+      "The yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
+    categories: ["CDP"],
+    status: "Beta",
+    website: "https://usd.ai/",
+    tags: ["CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1951320192929210368/TNqvIAxs_400x400.jpg",
+  },
+  {
+    id: 288,
+    name: "IceCreamSwap",
+    description:
+      "AI powered DEX aggregator finding you the best swaps",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://icecreamswap.com/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1532715330782605312/S3PvFlua_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
