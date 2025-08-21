@@ -3193,6 +3193,17 @@ const projects: Project[] = [
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1945479570544525312/eRDWK5ws_400x400.jpg",
   },
+  {
+    id: 299,
+    name: "HypeScreener",
+    description:
+      "Hyperliquid + HyperEVM dashboard for degens and farmers",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.hypescreener.xyz/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1927802443921866752/-NDiORL8_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
