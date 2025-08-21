@@ -1790,7 +1790,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://nunchi.trade/",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1917606843867631616/KuF5WlVE_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1954935759359619072/toqXGJ0O_400x400.jpg",
   },
   {
     id: 167,
@@ -3093,6 +3093,105 @@ const projects: Project[] = [
     website: "https://www.skewga.com/",
     tags: ["Tools"],
     logo: "https://www.skewga.com/_next/image?url=%2Ficons%2Fdragonite.png&w=128&q=75",
+  },
+  {
+    id: 290,
+    name: "Peri Pair Bot",
+    description:
+      "First Pair trading telegram bot with Rust-based execution exclusively on Hyperliquid",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/peripairbot?start=curvy-regret-7164",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1828241303517437957/jn6CbmAo_400x400.jpg",
+  },
+  {
+    id: 291,
+    name: "Hypervol",
+    description:
+      "Native Options Market for HyperEVM, Built on Hyperliquid",
+    categories: ["Options"],
+    status: "Coming Soon",
+    website: "https://www.hypervol.xyz/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1867561440548093953/tLO5Fx_L_400x400.jpg",
+  },
+  {
+    id: 292,
+    name: "Hyena",
+    description:
+      "loading...",
+    categories: ["Trading Interface"],
+    status: "Coming Soon",
+    website: "https://x.com/hyenatrade",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1951298518146314240/8QvqrC3f_400x400.jpg",
+  },
+  {
+    id: 293,
+    name: "HiveFi",
+    description:
+      "Trading strategy hub on Hyperliquid",
+    categories: ["Bot"],
+    status: "Coming Soon",
+    website: "https://hivefi.xyz/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1922683916919382016/8i3oDdcH_400x400.jpg",
+  },
+  {
+    id: 294,
+    name: "kibl",
+    description:
+      "Borrow, lend, and leverage.",
+    categories: ["Lending", "Yield"],
+    status: "Coming Soon",
+    website: "https://kibl.fi/",
+    tags: ["Lending", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1868186942766297088/w1eFzQq7_400x400.jpg",
+  },
+  {
+    id: 295,
+    name: "RNDM",
+    description:
+      "Disrupt DeFi with AI agents! Generate liquidity, solve with agents!",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://www.rndm.io/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1818442590775119872/XjPg0i4P_400x400.jpg",
+  },
+  {
+    id: 296,
+    name: "HYYY",
+    description:
+      "Developing $USDhy, a next-generation stablecoin on HyperEVM, utilizing delta-neutral strategies and AI-optimized position management on HyperLiquid",
+    categories: ["CDP"],
+    status: "Coming Soon",
+    website: "https://hyyy.app/",
+    tags: ["CDP"],
+    logo: "https://pbs.twimg.com/profile_images/1893890782190501888/EwZkdjXM_400x400.jpg",
+  },
+  {
+    id: 297,
+    name: "Liquid Start",
+    description:
+      "Experiment with the aim of improving the DeFi landscape we currently use. Covering Hyperliquid ecosystem",
+    categories: ["Trading Interface"],
+    status: "Coming Soon",
+    website: "https://x.com/Liquid_Start",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1815663701854171136/saIusHTg_400x400.png",
+  },
+  {
+    id: 298,
+    name: "Flowscan",
+    description:
+      "Hyperliquid Data Layer.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.flowscan.xyz/",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1945479570544525312/eRDWK5ws_400x400.jpg",
   },
 ]
 
