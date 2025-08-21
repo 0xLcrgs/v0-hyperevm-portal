@@ -55,7 +55,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Live",
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
   },
   {
@@ -385,7 +385,7 @@ const projects: Project[] = [
     categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://app.harmonix.fi/?ref=Bv2S47vd",
-    tags: ["Yield", "Vaults", "Delta-neutral"],
+    tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1795360456686837760/dAl7G6dh_400x400.png",
   },
   {
@@ -482,7 +482,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Live",
     website: "https://app.upshift.finance/r/dEc4C8A42A98",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1853600042952663040/AwOMmTi1_400x400.jpg",
   },
   {
@@ -632,7 +632,7 @@ const projects: Project[] = [
     categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://d2.finance/",
-    tags: ["Yield", "Vaults", "Delta-neutral"],
+    tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1765931135308115968/f_4LkxDr_400x400.jpg",
   },
   {
@@ -654,7 +654,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Beta",
     website: "https://www.hyperstrategy.com/",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1931801104070651904/Q8v7xcFd_400x400.jpg",
   },
   {
@@ -687,7 +687,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Live",
     website: "https://arkis.xyz/",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1915081501563076609/E_iRuoQD_400x400.jpg",
   },
   {
@@ -720,7 +720,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://roar-finance.gitbook.io/roar-finance",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1933086000017715200/f0ooM9g9_400x400.jpg",
   },
   {
@@ -1269,10 +1269,10 @@ const projects: Project[] = [
     id: 117,
     name: "Allium",
     description: "Allium supports analytics, accounting, auditing, trading apps, degen use cases.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://hyperliquid.allium.so/",
-    tags: ["Tools", "Tracker"],
+    tags: ["Analytics", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1778926940407132160/UEwR3lHt_400x400.jpg",
   },
   {
@@ -1555,10 +1555,10 @@ const projects: Project[] = [
     name: "Rumpel Labs",
     description:
       "Rumpel is a protocol that tokenizes offchain loyalty points, enabling trading, liquidity, and price discovery for point holders and traders",
-    categories: ["Tools"],
+    categories: ["Yield"],
     status: "Live",
     website: "https://app.rumpel.xyz/?ref=Q6CZBF",
-    tags: ["Tools"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1841832534742626305/HPcCzKlb_400x400.jpg",
   },
   {
@@ -1702,10 +1702,10 @@ const projects: Project[] = [
     id: 158,
     name: "ASXN",
     description: "ASXN master list of Hyperliquid Dashboards",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://data.asxn.xyz/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1669029465362505756/CXGvN0w0_400x400.jpg",
   },
   {
@@ -1827,10 +1827,10 @@ const projects: Project[] = [
     name: "HyperData",
     description:
       "Explore new Hyperliquid heatmaps for spot and perps to track daily changes, volumes, and market caps—now with a smoother user experience!",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://hyperscan.fun/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1874780836358193152/KW07UhJi_400x400.jpg",
   },
   {
@@ -1869,10 +1869,10 @@ const projects: Project[] = [
     id: 174,
     name: "HYPE Burn",
     description: "HYPE is hyper sound money. Max supply is fixed and transaction fees are automatically burned.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://www.hypeburn.fun/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://www.hypeburn.fun/images/fire.svg",
   },
   {
@@ -1909,10 +1909,10 @@ const projects: Project[] = [
     id: 178,
     name: "Nansen",
     description: "Nansen is the leading onchain analytics platform trusted by the top crypto teams and investors.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://app.nansen.ai/ref?GeahssNV0Zd",
-    tags: ["Tools", "Block Explorer", "Tracker"],
+    tags: ["Analytics", "Block Explorer", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1944565431345274880/H0RnzeKM_400x400.jpg",
   },
   {
@@ -2015,10 +2015,10 @@ const projects: Project[] = [
     id: 188,
     name: "HypeFlows",
     description: "HypeFlows is the best place to track Hyperliquid's trading stats against Centralized Exchanges.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://hypeflows.com/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1901381580310081536/RxTaKf3v_400x400.jpg",
   },
   {
@@ -2291,7 +2291,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Live",
     website: "https://app.napier.finance/",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1665336093611290625/uUmS2hoy_400x400.jpg",
   },
   {
@@ -2428,10 +2428,10 @@ const projects: Project[] = [
     name: "Hana Network",
     description:
       "Hana is a hyper-casual, mobile crypto exchange on Hyperliquid, offering no-KYC on/off ramps, casual trading, and farming for all users",
-    categories: ["Tools", "Bridge", "On-Ramp"],
+    categories: ["Bridge", "On-Ramp"],
     status: "Beta",
     website: "https://gateway.hana.network/",
-    tags: ["Tools", "Bridge", "On-Ramp"],
+    tags: ["Bridge", "On-Ramp"],
     logo: "https://pbs.twimg.com/profile_images/1826923623556562944/LhUmaR37_400x400.jpg",
   },
   {
@@ -2593,7 +2593,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Live",
     website: "https://mizulabs.xyz/dapp/vault",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1854237810686828547/ZhV6sDwY_400x400.jpg",
   },
   {
@@ -2758,10 +2758,10 @@ const projects: Project[] = [
     id: 258,
     name: "Hyperstats.hl",
     description: "An independent source of Hyperliquid trading statistics",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://hyperstats.xyz/",
-    tags: ["Tools", "Tracker"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1853646017620844544/yKjedEz2_400x400.jpg",
   },
   {
@@ -2862,10 +2862,10 @@ const projects: Project[] = [
     name: "Evoq Finance",
     description:
       "A P2P-based lending optimizer",
-    categories: ["Lending", "Yield", "Tools"],
+    categories: ["Lending", "Yield"],
     status: "Coming Soon",
     website: "https://app.evoq.finance/?referralCode=2Dn0SQra",
-    tags: ["Lending", "Yield", "Tools"],
+    tags: ["Lending", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1870006305014067200/RUidb_w7_400x400.jpg",
   },
   {
@@ -2989,10 +2989,10 @@ const projects: Project[] = [
     name: "Pulse",
     description:
       "Pulse (formerly HyperHolders) is an app that lets you track essential, detailed data of coins (and more) on HyperEVM.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://www.pulsehl.app/dashboard",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1948720135239258112/21efKmtR_400x400.jpg",
   },
   {
@@ -3047,7 +3047,7 @@ const projects: Project[] = [
     categories: ["Yield"],
     status: "Live",
     website: "https://app.hypervault.finance/#/earn/0kR48p64Rp6ps456n28S91r5O2oqN3N626QRQPP8R5",
-    tags: ["Yield", "Vaults"],
+    tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1940897752134676480/vWWNbS-V_400x400.jpg",
   },
   {
@@ -3088,10 +3088,10 @@ const projects: Project[] = [
     name: "Skewga's Island",
     description:
       "This is a curated project to help traders cut through noise and focus on signals that matter. Explore liquidity, positioning, macro regimes, and market moving data—all in one place.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://www.skewga.com/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://www.skewga.com/_next/image?url=%2Ficons%2Fdragonite.png&w=128&q=75",
   },
   {
@@ -3187,10 +3187,10 @@ const projects: Project[] = [
     name: "Flowscan",
     description:
       "Hyperliquid Data Layer.",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://www.flowscan.xyz/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1945479570544525312/eRDWK5ws_400x400.jpg",
   },
   {
@@ -3198,10 +3198,10 @@ const projects: Project[] = [
     name: "HypeScreener",
     description:
       "Hyperliquid + HyperEVM dashboard for degens and farmers",
-    categories: ["Tools"],
+    categories: ["Analytics"],
     status: "Live",
     website: "https://www.hypescreener.xyz/",
-    tags: ["Tools"],
+    tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1927802443921866752/-NDiORL8_400x400.jpg",
   },
   {
