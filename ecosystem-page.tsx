@@ -41,10 +41,10 @@ const projects: Project[] = [
     name: "Felix",
     description:
       "Felix offers secure, easy on-chain borrowing and lending on Hyperliquid L1, helping users unlock liquidity or earn yield seamlessly.",
-    categories: ["Lending", "CDP"],
+    categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://usefelix.xyz?ref=18935567",
-    tags: ["Lending", "Borrowing", "CDP"],
+    tags: ["Lending", "Borrowing", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
   },
   {
@@ -95,10 +95,10 @@ const projects: Project[] = [
     name: "Mercury",
     description:
       "Mercury is a mobile app for iOS and Android, making Hyperliquid's DeFi platform simple and accessible for all users",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Beta",
     website: "https://www.mercurytrade.org/",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
   },
   {
@@ -117,30 +117,30 @@ const projects: Project[] = [
     name: "Dexari",
     description:
       "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://dexari.com/join/xlcrgs",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
   },
   {
     id: 10,
     name: "Supercexy",
     description: "You're still early",
-    categories: ["Wallet", "Trading Interface"],
+    categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://supercexy.com/@0xlcrgs",
-    tags: ["Wallet", "Trading Interface"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1953782840157749248/3nEXVDCi_400x400.jpg",
   },
   {
     id: 11,
     name: "Liquid.xyz",
     description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
-    categories: ["Wallet", "Trading Interface"],
+    categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://referral.tryliquid.xyz/pa9N6Yf5QVb",
-    tags: ["Trading Interface", "Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
   },
   {
@@ -158,10 +158,10 @@ const projects: Project[] = [
     name: "BasedApp",
     description:
       "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://basedapp.io/register?ref=XLCRGS",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1945707037322575872/clYVc-L2_400x400.jpg",
   },
   {
@@ -219,24 +219,24 @@ const projects: Project[] = [
   },
   {
     id: 19,
-    name: "Dreamcash",
+    name: "Hypertrade",
     description:
-      "Code: xrlyfy | Trading so good it feels like a dream. On Hyperliquid.",
-    categories: ["Wallet"],
-    status: "Beta",
-    website: "https://dreamcash.xyz",
-    tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1950639556446900224/sUXo-sDJ_400x400.jpg",
+      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1934537763086364672/L8qfksmW_400x400.jpg",
   },
   {
     id: 20,
     name: "Splash",
     description:
       "Splash Wallet is a non-custodial crypto wallet that integrates DeFi protocols directly into the user interface.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Beta",
     website: "https://splashwallet.xyz/",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1938085622725701632/n09KtLmW_400x400.jpg",
   },
   {
@@ -263,10 +263,10 @@ const projects: Project[] = [
     id: 23,
     name: "HypurrFi",
     description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
-    categories: ["Lending", "CDP"],
+    categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
-    tags: ["Lending", "Borrowing", "CDP"],
+    tags: ["Lending", "Borrowing", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
   },
   {
@@ -295,10 +295,10 @@ const projects: Project[] = [
     id: 26,
     name: "Bullpen",
     description: "Bullpen is the easiest way to trade crypto perps on mobile—period.",
-    categories: ["Bot", "Wallet", "Trading Interface"],
+    categories: ["Bot", "Front End"],
     status: "Live",
     website: "https://bullpen.fi/@grg_ouz",
-    tags: ["Bot", "Wallet", "Trading Interface"],
+    tags: ["Bot", "Front End"],
     logo: "https://pbs.twimg.com/profile_images/1956038689152184336/UDbECykj_400x400.jpg",
   },
   {
@@ -490,10 +490,10 @@ const projects: Project[] = [
     name: "USDhl",
     description:
       "USDhl is a treasury-backed stablecoin for both HyperCore and HyperEVM, tradable against USDC and usable across integrated DeFi apps",
-    categories: ["CDP"],
+    categories: ["Stablecoin"],
     status: "Live",
     website: "https://usdhl.xyz/",
-    tags: ["CDP"],
+    tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
   },
   {
@@ -501,10 +501,10 @@ const projects: Project[] = [
     name: "Delpho",
     description:
       "Delpho uses new tech to eliminate sequencing gaps and trust issues, letting stablecoins achieve both safety and earnings.",
-    categories: ["CDP"],
+    categories: ["Stablecoin"],
     status: "Coming Soon",
     website: "https://www.delpho.xyz/",
-    tags: ["CDP"],
+    tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1942486893637128192/5L46DcQo_400x400.jpg",
   },
   {
@@ -544,10 +544,10 @@ const projects: Project[] = [
     name: "Theo",
     description:
       "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
-    categories: ["Yield", "CDP", "Delta-neutral"],
+    categories: ["Yield", "Stablecoin", "Delta-neutral"],
     status: "Live",
     website: "https://app.theo.xyz/invite?invite=8ab991be-7e8a-40a5-9b93-c3b2518a6a95",
-    tags: ["Yield", "CDP", "Delta-neutral"],
+    tags: ["Yield", "Stablecoin", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
   },
   {
@@ -749,10 +749,10 @@ const projects: Project[] = [
     name: "HyperSignals",
     description:
       "Delivering trading edge via hyperliquid orderbook patterns, smart money moves & offchain sentiment analysis.",
-    categories: ["Trading Interface", "Tools"],
+    categories: ["Bot", "Tools"],
     status: "Beta",
     website: "https://hypersignals.ai/",
-    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1924849892314255361/a_SduLa2_400x400.png",
   },
   {
@@ -810,24 +810,24 @@ const projects: Project[] = [
   },
   {
     id: 74,
-    name: "Hypertrade",
+    name: "Dreamcash",
     description:
-      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1934537763086364672/L8qfksmW_400x400.jpg",
+      "Code: xrlyfy | Trading so good it feels like a dream. On Hyperliquid.",
+    categories: ["Mobile Wallet"],
+    status: "Beta",
+    website: "https://dreamcash.xyz",
+    tags: ["Mobile Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1950639556446900224/sUXo-sDJ_400x400.jpg",
   },
   {
     id: 75,
     name: "Hyperstable",
     description:
       "Hyperstable is a crypto-backed, over-collateralized and decentralized stablecoin that's designed to trade at one US Dollar.",
-    categories: ["Lending", "CDP"],
+    categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://app.hyperstable.xyz/r/0xLcrgs",
-    tags: ["Lending", "CDP"],
+    tags: ["Lending", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1911431404476362753/WdVhBKDh_400x400.png",
   },
   {
@@ -889,10 +889,10 @@ const projects: Project[] = [
     name: "Noble",
     description:
       "Purpose-built for stablecoin issuance Optimizing for UX",
-    categories: ["CDP"],
+    categories: ["Stablecoin"],
     status: "Coming Soon",
     website: "https://www.noble.xyz/",
-    tags: ["CDP"],
+    tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1760713184493670400/SAXSaUTN_400x400.jpg",
   },
   {
@@ -911,10 +911,10 @@ const projects: Project[] = [
     name: "Keiko Finance",
     description:
       "Keiko is a permissionless borrowing protocol with dynamic interest rates and liquidation ratios on Hyperliquid",
-    categories: ["Lending", "CDP"],
+    categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://app.keikofinance.com/#",
-    tags: ["Lending", "CDP"],
+    tags: ["Lending", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1857058088391454720/NtVLHJ1C_400x400.jpg",
   },
   {
@@ -942,20 +942,20 @@ const projects: Project[] = [
     id: 86,
     name: "Lootbase",
     description: "A mobile Hyperliquid client to trade perps and spot tokens.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://share.lootbase.com/0xLcrgs",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1889744234451795968/zW1CoCnq_400x400.jpg",
   },
   {
     id: 87,
     name: "Wallet V",
     description: "Code: 16606 | We've built Wallet V to help you find, seize, and manage the best opportunities in the decentralized ecosystem.",
-    categories: ["Wallet"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://walletv.io/",
-    tags: ["Wallet"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1918317063925342208/boA5iJjD_400x400.jpg",
   },
   {
@@ -1188,7 +1188,7 @@ const projects: Project[] = [
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/Apexliquid_Bot?start=ref_J47G6V26",
-    tags: ["Bot", "Tracker"],
+    tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1927626311360765952/Z1aHCoTc_400x400.jpg",
   },
   {
@@ -1237,10 +1237,10 @@ const projects: Project[] = [
     name: "Aura",
     description:
       "Trade perps Hyperliquid, every token on EVM + Solana, & yield with friends | Supports Apple + Google Pay",
-    categories: ["Wallet"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://aura.money/",
-    tags: ["Wallet"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1954851882142216192/UWTKuaO4_400x400.jpg",
   },
   {
@@ -1279,10 +1279,10 @@ const projects: Project[] = [
     id: 118,
     name: "Resolv Labs",
     description: "Trustless stablecoin and low-risk crypto investments backed by the True-Delta Neutral Architecture.",
-    categories: ["CDP"],
+    categories: ["Stablecoin"],
     status: "Live",
     website: "https://resolv.xyz/",
-    tags: ["CDP"],
+    tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1726501525843841024/1gDrgTdA_400x400.jpg",
   },
   {
@@ -1290,60 +1290,60 @@ const projects: Project[] = [
     name: "Relend Network",
     description:
       "rUSDC lets users mint and bridge USDC wrappers from Ethereum to other chains, enabling cross-chain lending and ecosystem incentives.",
-    categories: ["Lending", "CDP"],
+    categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://relend.network/",
-    tags: ["Lending", "CDP"],
+    tags: ["Lending", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1838501262121209856/PrOhS3Kt_400x400.jpg",
   },
   {
     id: 120,
     name: "Rabby Wallet",
     description: "The game-changing wallet for Ethereum and all EVM chains.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://rabby.io/points?code=0XLCRGS",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
   },
   {
     id: 121,
     name: "Phantom",
     description: "Phantom is a friendly crypto wallet built for DeFi & NFTs on Solana, Bitcoin, Ethereum, Base, and Hyperliquid",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://phantom.com",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1675202638026252291/4StTDIF4_400x400.jpg",
   },
   {
     id: 122,
     name: "Zerion",
     description: "Trade any token on EVM & Solana | Zerion API is powering the best apps in crypto",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://link.zerion.io/referral?code=5ZJ0IK44Y",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1943619977342263296/cvmzbMP2_400x400.png",
   },
   {
     id: 123,
     name: "Brahma",
     description: "Brahma is the programmable execution layer for onchain and real-world capital.",
-    categories: ["Trading Interface", "Wallet", "Tools"],
+    categories: ["Bot", "Tools"],
     status: "Live",
     website: "https://console.brahma.fi/onboarding?code=60B56EDE",
-    tags: ["Trading Interface", "Wallet", "Tools"],
+    tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1732456585652240384/u1-fAC6J_400x400.jpg",
   },
   {
     id: 124,
     name: "Bitget Wallet",
     description: "Making Crypto for Everyone. Trade, earn, pay and discover Web3 with 80M users ",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://web3.bitget.com/en",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg",
   },
   {
@@ -1490,10 +1490,10 @@ const projects: Project[] = [
     name: "TokenPocket",
     description:
       "Easy and safe to buy, store, send, swap tokens and collect NFTs. Trusted by 30+ millions users from 200+ countries and regions.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://www.tp.xyz/",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1883802310834585600/HoVIdb5I_400x400.jpg",
   },
   {
@@ -1533,10 +1533,10 @@ const projects: Project[] = [
     name: "Pocket Pro",
     description:
       "Pocket Pro is the first cross-platform Hyperliquid trading app, letting users trade perps on X, earn 20% from referrals, and enable one-click copy trading with friends.",
-    categories: ["Wallet"],
+    categories: ["Βοτ"],
     status: "Live",
     website: "https://t.me/pocketprotectorbot?start=r-xLcrgs",
-    tags: ["Wallet"],
+    tags: ["Βοτ"],
     logo: "https://pbs.twimg.com/profile_images/1910382854195789824/G-dAUWhC_400x400.jpg",
   },
   {
@@ -1608,10 +1608,10 @@ const projects: Project[] = [
     id: 149,
     name: "Cypher",
     description: "Cypher Wallet is a Multi-Chain, Non-Custodial Crypto Wallet supporting 12+ EVM + Cosmos chains .",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://cypherhq.io/card/?ref=0XLCRGS",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1931280880187924480/4qk4HevF_400x400.jpg",
   },
   {
@@ -1796,10 +1796,10 @@ const projects: Project[] = [
     id: 167,
     name: "Okto",
     description: "Hyperliquid Core and HyperEVM integrated mobile wallet",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://okto.go.link/defi_home?referral_code=AmVbM2&adj_t=13c5o7y4",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
   },
   {
@@ -1939,10 +1939,10 @@ const projects: Project[] = [
     id: 181,
     name: "Cerebro",
     description: "Manage all your crypto assets and leverage AI to unlock better performance",
-    categories: ["Trading Interface", "Wallet", "Tools"],
+    categories: ["Bot", "Tools"],
     status: "Live",
     website: "https://cerebro.xyz/sign-up?code=038BEFD1",
-    tags: ["Trading Interface", "Wallet", "Tools"],
+    tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1841005653630050304/LfpjTTJy_400x400.jpg",
   },
   {
@@ -1961,10 +1961,10 @@ const projects: Project[] = [
     name: "Definitive",
     description:
       "Definitive is a non-custodial, multi-chain trading platform offering CeFi-like execution, gasless trades, and advanced order types on DeFi rails",
-    categories: ["Trading Interface", "Tools"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://app.definitive.fi/r/UJSTNJ7Q",
-    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1848873373511917568/p0-qFbVa_400x400.jpg",
   },
   {
@@ -2153,10 +2153,10 @@ const projects: Project[] = [
     name: "Derps",
     description:
       "Derps is a fun, easy-to-use mobile app for on-chain perpetuals (no KYC, zero gas fees) powered by HyperLiquid, MoonPay & dexorgexchange",
-    categories: ["Wallet"],
-    status: "Live",
+    categories: ["Front End"],
+    status: "Coming Soon",
     website: "https://dex.org/",
-    tags: ["Wallet"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1921876531015471104/_4trkTZO_400x400.jpg",
   },
   {
@@ -2277,10 +2277,10 @@ const projects: Project[] = [
     id: 213,
     name: "Mass",
     description: "Mass is your gateway to interacting with multiple networks and financial services built atop the blockchain, also known as DeFi",
-    categories: ["Trading Interface", "Wallet"],
+    categories: ["Trading Interface"],
     status: "Live",
     website: "https://download.mass.money/ref/SBQqlVQ2NdiV2nJfEkwnEYegIdy",
-    tags: ["Trading Interface", "Wallet"],
+    tags: ["Trading Interface"],
     logo: "https://pbs.twimg.com/profile_images/1811432607550259200/0pn5qbde_400x400.jpg",
   },
   {
@@ -2332,10 +2332,10 @@ const projects: Project[] = [
     name: "Avy",
     description:
       "Avy is a swipe-to-trade app for perps — built for everyone, powered by Hyperliquid, and optimized for the mobile-native generation.",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Beta",
     website: "https://www.avy.xyz/",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1919063597541359616/IUDHSV1I_400x400.jpg",
   },
   {
@@ -2397,10 +2397,10 @@ const projects: Project[] = [
     id: 224,
     name: "Kinto",
     description: "The Modular Exchange. Powered by Arbitrum",
-    categories: ["Trading Interface", "Wallet"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://engen.kinto.xyz/onboarding?ref=d9738",
-    tags: ["Trading Interface", "Wallet"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1658109577081044992/ZBpLvGSb_400x400.jpg",
   },
   {
@@ -2536,10 +2536,10 @@ const projects: Project[] = [
     name: "Nest",
     description:
       "Sophisticated mobile trading app for professional traders. Now supports HL perps, and live sentiment & whale tracking.",
-    categories: ["Wallet"],
+    categories: ["Extension Wallet"],
     status: "Live",
     website: "https://nestwallet.xyz/",
-    tags: ["Wallet"],
+    tags: ["Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1917627579902599168/9_VsxZ89_400x400.jpg",
   },
   {
@@ -2665,10 +2665,10 @@ const projects: Project[] = [
     name: "Gem Wallet",
     description:
       "Gem Wallet is a user-friendly crypto wallet that offers convenience and top-notch security for beginners like you",
-    categories: ["Wallet"],
+    categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://gemwallet.com/",
-    tags: ["Wallet"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1943936806472339456/5qUKXerv_400x400.jpg",
   },
   {
@@ -2697,10 +2697,10 @@ const projects: Project[] = [
     name: "Lambda Finance",
     description:
       "Lambda introduces btcUSD, a permissionless and efficient BTC-backed stablecoin, unlocking Bitcoin liquidity for DeFi applications.",
-    categories: ["Lending"],
+    categories: ["Lending", "Stablecoin"],
     status: "Coming Soon",
     website: "https://lambda.finance/",
-    tags: ["Lending", "CDP"],
+    tags: ["Lending", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1709109269604511744/vXoBoSl1_400x400.jpg",
   },
   {
@@ -2824,7 +2824,7 @@ const projects: Project[] = [
     categories: ["Bot"],
     status: "Live",
     website: "https://tatortrader.quickintel.io/",
-    tags: ["Bot", "AI"],
+    tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1905002465117843456/yQmiCqaT_400x400.jpg",
   },
   {
@@ -2953,7 +2953,7 @@ const projects: Project[] = [
   },
   {
     id: 277,
-    name: "squid",
+    name: "Squid",
     description:
       "Seamlessly connecting chains, tokens, and wallets. Swap, send, and manage your crypto across. EVM Cosmos Solana Bitcoin XRPL",
     categories: ["Bridge"],
@@ -2967,10 +2967,10 @@ const projects: Project[] = [
     name: "Hyperconnect",
     description:
       "Hyperconnect - Connect Hyperliquid to everything else",
-    categories: ["Trading Interface", "Tools"],
+    categories: ["Bot", "Tools"],
     status: "Beta",
     website: "https://www.hlconnect.xyz/",
-    tags: ["Trading Interface", "Bot", "Wallet", "Tools"],
+    tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1935287126649974784/tziyM7NJ_400x400.jpg",
   },
   {
@@ -3066,10 +3066,10 @@ const projects: Project[] = [
     name: "USD.AI",
     description:
       "The yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
-    categories: ["CDP"],
+    categories: ["Stablecoin"],
     status: "Beta",
     website: "https://usd.ai/",
-    tags: ["CDP"],
+    tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1951320192929210368/TNqvIAxs_400x400.jpg",
   },
   {
@@ -3165,10 +3165,10 @@ const projects: Project[] = [
     name: "HYYY",
     description:
       "Developing $USDhy, a next-generation stablecoin on HyperEVM, utilizing delta-neutral strategies and AI-optimized position management on HyperLiquid",
-    categories: ["CDP"],
+    categories: ["Stablecoin"],
     status: "Coming Soon",
     website: "https://hyyy.app/",
-    tags: ["CDP"],
+    tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1893890782190501888/EwZkdjXM_400x400.jpg",
   },
   {
@@ -3272,13 +3272,15 @@ const categories = [
   "Lending",
   "Yield",
   "Delta-neutral",
-  "CDP",
+  "Stablecoin",
   "LST",
   "Launchpad",
-  "Wallet",
+  "Extension Wallet",
+  "Mobile Wallet",
   "NFT",
   "Tools",
-  "Trading Interface",
+  "Analytics",
+  "Front End",
   "Bot",
   "Options",
   "SocialFi",
@@ -3297,13 +3299,15 @@ type Category =
   | "Lending"
   | "Yield"
   | "Delta-neutral"
-  | "CDP"
+  | "Stablecoin"
   | "LST"
   | "Launchpad"
-  | "Wallet"
+  | "Extension Wallet"
+  | "Mobile Wallet"
   | "NFT"
   | "Tools"
-  | "Trading Interface"
+  | "Analytics"
+  | "Front End"
   | "Bot"
   | "Options"
   | "SocialFi"
