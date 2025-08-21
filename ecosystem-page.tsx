@@ -1149,14 +1149,14 @@ const projects: Project[] = [
   },
   {
     id: 106,
-    name: "WhiskerSwap",
+    name: "Hyena",
     description:
-      "WhiskerSwap DEX | Multi-route aggregation on EVM",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.whiskerswap.xyz?ref=OEIMGE",
-    tags: ["DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1944320095502680064/kH6YXXrg_400x400.jpg",
+      "loading...",
+    categories: ["Trading Interface"],
+    status: "Coming Soon",
+    website: "https://x.com/hyenatrade",
+    tags: ["Trading Interface"],
+    logo: "https://pbs.twimg.com/profile_images/1951298518146314240/8QvqrC3f_400x400.jpg",
   },
   {
     id: 107,
@@ -1241,7 +1241,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://aura.money/",
     tags: ["Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1925571068175011841/NHhqyxMU_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1954851882142216192/UWTKuaO4_400x400.jpg",
   },
   {
     id: 115,
@@ -3118,14 +3118,14 @@ const projects: Project[] = [
   },
   {
     id: 292,
-    name: "Hyena",
+    name: "HyperSpartan",
     description:
-      "loading...",
-    categories: ["Trading Interface"],
-    status: "Coming Soon",
-    website: "https://x.com/hyenatrade",
-    tags: ["Trading Interface"],
-    logo: "https://pbs.twimg.com/profile_images/1951298518146314240/8QvqrC3f_400x400.jpg",
+      "Hyperliquid Telegram Bot",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://www.hyperspartan.xyz/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1891738991382163456/PUKVVK-M_400x400.jpg",
   },
   {
     id: 293,
@@ -3203,6 +3203,17 @@ const projects: Project[] = [
     website: "https://www.hypescreener.xyz/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1927802443921866752/-NDiORL8_400x400.jpg",
+  },
+  {
+    id: 300,
+    name: "Hyper DeFAI",
+    description:
+      "The only DeFAI on Hyperliquid",
+    categories: ["Bot"],
+    status: "Coming Soon",
+    website: "https://www.hyperai.org/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1869036926444904448/uuSKfWEH_400x400.jpg",
   },
 ]
 
