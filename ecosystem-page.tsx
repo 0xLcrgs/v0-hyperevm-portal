@@ -371,10 +371,10 @@ const projects: Project[] = [
     name: "Ventuals",
     description:
       "Long or short pre-IPO companies with leverage, on Hyperliquid",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://app.ventuals.com/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1931109324480229376/EB_PojFW_400x400.png",
   },
   {
@@ -512,10 +512,10 @@ const projects: Project[] = [
     name: "fullstack",
     description:
       "fullstack",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://x.com/fullstack_trade",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1896299355184734208/hcCPfvW9_400x400.jpg",
   },
   {
@@ -533,10 +533,10 @@ const projects: Project[] = [
     name: "Insilico Terminal",
     description:
       "First professional-grade order and execution management terminal on HyperLiquid, free to use, with advanced features for all traders.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://insilicoterminal.com/#/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1798271540565315584/esokUp7H_400x400.jpg",
   },
   {
@@ -759,10 +759,10 @@ const projects: Project[] = [
     id: 69,
     name: "Coinpilot",
     description: "Copy winning traders on Hyperliquid today.",
-    categories: ["Bot", "Trading Interface"],
+    categories: ["Bot"],
     status: "Beta",
     website: "https://getwaitlist.com/waitlist/26825?ref_id=MKXCWG5PB",
-    tags: ["Bot", "Trading Interface"],
+    tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1930155502790721536/obB_vr3H_400x400.jpg",
   },
   {
@@ -835,10 +835,10 @@ const projects: Project[] = [
     name: "Neko.hl",
     description:
       "Neko is the first DeFAI Swarm on Hyperliquid, using AI to automate DeFi trading, token launches, and yield strategies for users",
-    categories: ["Trading Interface", "Bot", "Tools"],
+    categories: ["Bot", "Tools"],
     status: "Coming Soon",
     website: "https://www.neko.fun/",
-    tags: ["Trading Interface", "Bot", "Tools"],
+    tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1880643122683916288/xtRa6Q64_400x400.png",
   },
   {
@@ -963,10 +963,10 @@ const projects: Project[] = [
     name: "Liquid Terminal",
     description:
       "The terminal to house all Hyperliquid",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Beta",
     website: "https://liquidterminal.xyz/?ref=HyperLcrgs",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1879551929799364608/io3_oOVD_400x400.jpg",
   },
   {
@@ -974,10 +974,10 @@ const projects: Project[] = [
     name: "GemsGun",
     description:
       "All-in-one HyperEVM trading platform. Data-driven, trader-focused, always ahead.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://gemsgun.com/hyper/discover?inviteCode=CrFqBpar",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1921830295944507392/ojy-o2AT_400x400.jpg",
   },
   {
@@ -1152,10 +1152,10 @@ const projects: Project[] = [
     name: "Hyena",
     description:
       "loading...",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://x.com/hyenatrade",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1951298518146314240/8QvqrC3f_400x400.jpg",
   },
   {
@@ -1259,10 +1259,10 @@ const projects: Project[] = [
     name: "trade.fun",
     description:
       "Trade.fun is the fastest and fully on-chain trading platform where you can trade memecoins, perps with up to 40x leverage, farm yield, or dabble in prediction markets",
-    categories: ["Trading Interface", "DEX", "Launchpad"],
+    categories: ["Launchpad"],
     status: "Live",
     website: "https://trade.fun/",
-    tags: ["Trading Interface", "DEX", "Launchpad"],
+    tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1923646981613744128/0jgndIU9_400x400.jpg",
   },
   {
@@ -1425,20 +1425,20 @@ const projects: Project[] = [
     id: 132,
     name: "Defi App",
     description: "Combining the magic of CeFi and DeFi in the world's first decentralized Superapp ",
-    categories: ["Trading Interface", "DEX"],
+    categories: ["Front End", "DEX"],
     status: "Live",
     website: "https://app.defi.app/join/8fYUku",
-    tags: ["Trading Interface", "DEX"],
+    tags: ["Front End", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1807464255249334272/CKuGD7ZW_400x400.jpg",
   },
   {
     id: 133,
     name: "Axiom",
     description: "The ONLY Trading Platform You'll Ever Need. Memes, Perps, Yield, All-In-One.",
-    categories: ["Trading Interface", "DEX"],
+    categories: ["Front End", "DEX"],
     status: "Live",
     website: "https://axiom.trade/@0xlcrgs",
-    tags: ["Trading Interface", "DEX"],
+    tags: ["Front End", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1884809179174760448/Zn1mS8ip_400x400.jpg",
   },
   {
@@ -1457,10 +1457,10 @@ const projects: Project[] = [
     name: "Pear Protocol",
     description:
       "Pear Protocol streamlines leveraged crypto pair trading in one on-chain transaction, improving efficiency and risk management.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://pear.garden/trade?referral=0xLcrgs",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1615784760328192001/kFS3qLV5_400x400.jpg",
   },
   {
@@ -1587,10 +1587,10 @@ const projects: Project[] = [
     name: "TopDog",
     description:
       "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
-    categories: ["Trading Interface", "Bot"],
+    categories: ["Bot"],
     status: "Live",
     website: "https://topdog.gg/referrals",
-    tags: ["Trading Interface", "Bot"],
+    tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
   },
   {
@@ -1598,10 +1598,10 @@ const projects: Project[] = [
     name: "Reactor",
     description:
       "Full crypto trading stack. Unmatched control and speed on-chain. Built for those who move fast.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://app.reactor.trade/dashboard?ref=OM56BHEN",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1926951271736459264/BQOdQmqr_400x400.jpg",
   },
   {
@@ -1734,10 +1734,10 @@ const projects: Project[] = [
     name: "Anchorage Digital",
     description:
       "The trusted crypto platform for innovators and investors.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://www.anchorage.com/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1597615022133354499/jJsLNXTH_400x400.png",
   },
   {
@@ -1745,10 +1745,10 @@ const projects: Project[] = [
     name: "ddot",
     description:
       "24/7 decentralized derivatives on everything that matters | built on Hyperliquid",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://hypermercantile.gitbook.io/docs",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1939028964900528129/GreaVdZG_400x400.jpg",
   },
   {
@@ -1929,10 +1929,10 @@ const projects: Project[] = [
     id: 180,
     name: "Lighthouse.one",
     description: "All your crypto and fiat assets in one, private portfolio manager.",
-    categories: ["Trading Interface", "Tools"],
+    categories: ["Front End", "Tools"],
     status: "Live",
     website: "https://lighthouse.one/",
-    tags: ["Trading Interface", "Tools"],
+    tags: ["Front End", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1850925548471480320/L-vU3YZs_400x400.png",
   },
   {
@@ -2109,10 +2109,10 @@ const projects: Project[] = [
     name: "Lit",
     description:
       "Lit aims to reimagine and perfect trading for tokenized assets and perpetuals, while making them accessible to the masses through frictionless onboarding & a permissionless HyperLiquid backbone.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://www.lit.trade/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1935211746077130752/L6rIVkC0_400x400.jpg",
   },
   {
@@ -2142,10 +2142,10 @@ const projects: Project[] = [
     name: "Mintify",
     description:
       "Mintify lets you trade any asset on any network directly onchain, offering real-time, intuitive access to digital markets and economies",
-    categories: ["Trading Interface", "DEX", "Launchpad"],
+    categories: ["Front End", "DEX", "Launchpad"],
     status: "Live",
     website: "https://mintify.xyz/",
-    tags: ["Trading Interface", "DEX", "Launchpad"],
+    tags: ["Front End", "DEX", "Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1925172682145816576/GzyVvnUw_400x400.jpg",
   },
   {
@@ -2194,10 +2194,10 @@ const projects: Project[] = [
     name: "Rage Trade",
     description:
       "Rage Trade is a multi-chain perp aggregator blending CEX convenience with DeFi transparency for on-chain trading.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://www.app.rage.trade/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1518891395636944897/gLh94IR3_400x400.png",
   },
   {
@@ -2215,20 +2215,20 @@ const projects: Project[] = [
     name: "Vooi",
     description:
       "VOOI, backed by Binance Labs, is a derivatives marketplace using chain abstraction to offer CEX-like trading across multiple perp DEXs",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://app.vooi.io/r/3DW6DRN",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1938271243876155393/fXAC9P_h_400x400.jpg",
   },
   {
     id: 208,
     name: "Polaris",
     description: "Trade all tokens, across all chains — with Polaris, the Token Portal. Now live in beta.",
-    categories: ["Trading Interface", "DEX", "Bridge"],
+    categories: ["DEX", "Bridge"],
     status: "Live",
     website: "https://polaris.app/",
-    tags: ["Trading Interface", "DEX", "Bridge"],
+    tags: ["DEX", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1909962811804946432/gW76pWsD_400x400.jpg",
   },
   {
@@ -2246,20 +2246,20 @@ const projects: Project[] = [
     id: 210,
     name: "Shogun",
     description: "Trade any token on any chain from one bot",
-    categories: ["Trading Interface", "DEX", "Bridge"],
+    categories: ["DEX", "Bridge"],
     status: "Live",
     website: "https://www.gun.fun/",
-    tags: ["Trading Interface", "DEX", "Bridge"],
+    tags: ["DEX", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1947345653862174720/XQdkjfd5_400x400.jpg",
   },
   {
     id: 211,
     name: "EzPairs",
     description: "A pair trading platform that allows users to trade custom weighted pairs with x3 leverage.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://www.ezpairs.xyz/trade",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1890102511245168640/7ocIdtLE_400x400.jpg",
   },
   {
@@ -2277,10 +2277,10 @@ const projects: Project[] = [
     id: 213,
     name: "Mass",
     description: "Mass is your gateway to interacting with multiple networks and financial services built atop the blockchain, also known as DeFi",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://download.mass.money/ref/SBQqlVQ2NdiV2nJfEkwnEYegIdy",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1811432607550259200/0pn5qbde_400x400.jpg",
   },
   {
@@ -2310,10 +2310,10 @@ const projects: Project[] = [
     name: "Defined",
     description:
       "The fastest and safest multi-chain trading terminal & Screener.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://www.defined.fi/tokens/discover?network=hyperevm",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1395427369662390272/JiHWxi6M_400x400.png",
   },
   {
@@ -2321,10 +2321,10 @@ const projects: Project[] = [
     name: "Copin",
     description:
       "The leading on-chain data & signal platform for perpetual trading.",
-    categories: ["Trading Interface", "Bot"],
+    categories: ["Bot"],
     status: "Live",
     website: "https://copin.io/",
-    tags: ["Trading Interface", "Bot"],
+    tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1721363454655893504/Sw4ZJHSl_400x400.jpg",
   },
   {
@@ -2387,10 +2387,10 @@ const projects: Project[] = [
     name: "XTrade",
     description:
       "XTrade is a decentralized trading platform on the Solana network, offering spot and perpetual trading on Hyperliquid.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://xtrade.gg/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1934996277844115456/cgCzC4wx_400x400.jpg",
   },
   {
@@ -2439,10 +2439,10 @@ const projects: Project[] = [
     name: "HyperPNL",
     description:
       "Decentralized prop trading on HyperEVM solves trust and transparency issues of centralized trading firms.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://hyperpnl.com/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1903102046204841984/aF3OnjeP_400x400.jpg",
   },
   {
@@ -2461,10 +2461,10 @@ const projects: Project[] = [
     name: "Hyperterminal",
     description:
       "Your all-in-one analytics powerhouse designed to revolutionize your Hyperliquid trading with real-time market insights.",
-    categories: ["Trading Interface", "Tools"],
+    categories: ["Tools"],
     status: "Beta",
     website: "https://hyperterminal.xyz/",
-    tags: ["Trading Interface", "Tools", "Bot"],
+    tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1856449296540762112/RWZ62v7c_400x400.jpg",
   },
   {
@@ -2568,10 +2568,10 @@ const projects: Project[] = [
     name: "manadotwin",
     description:
       "Hyperliquid-native launch + trading platform that neutralizes snipers, bundlers, bots and rugs.",
-    categories: ["Launchpad", "Trading Interface"],
+    categories: ["Launchpad"],
     status: "Live",
     website: "https://mana.win/app/",
-    tags: ["Launchpad", "Trading Interface"],
+    tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1931078179285831680/J2f1_AFD_400x400.jpg",
   },
   {
@@ -2632,10 +2632,10 @@ const projects: Project[] = [
     name: "Katōshi",
     description:
       "Katōshi lets traders build and deploy secure, advanced trading bots on Hyperliquid, with TradingView integration and pro-grade API.",
-    categories: ["Trading Interface", "Bot"],
+    categories: ["Front End", "Bot"],
     status: "Live",
     website: "https://katoshi.ai/",
-    tags: ["Trading Interface", "Bot"],
+    tags: ["Front End", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
   },
   {
@@ -2707,10 +2707,10 @@ const projects: Project[] = [
     id: 253,
     name: "Chainpro",
     description: "Advanced onchain trading terminal across multiple ecosystems",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://chainpro.xyz/#0xlcrgs",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1937986278164680704/Pwmo6Yrn_400x400.jpg",
   },
   {
@@ -2718,30 +2718,30 @@ const projects: Project[] = [
     name: "Fractrade",
     description:
       "Fractrade lets you create AI trading agents for Hyperliquid, offering risk management, copy trading, and automated strategies",
-    categories: ["Trading Interface", "Bot"],
+    categories: ["Front End", "Bot"],
     status: "Live",
     website: "http://alpha.fractrade.xyz/accounts/signup?invite_code=UI58BY",
-    tags: ["Trading Interface", "Bot"],
+    tags: ["Front End", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1879105001366196224/QhBDglZB_400x400.jpg",
   },
   {
     id: 255,
     name: "Altitude",
     description: "The next-gen trading experience is here. Get access to our full range blockchain infrastructure.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Beta",
     website: "https://www.reachaltitude.xyz/waitlist?ref=JAZZ2H7VV4",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1916798556809437184/CBPWnZgk_400x400.jpg",
   },
   {
     id: 256,
     name: "Hypervisor",
     description: "Hyperliquid focused data analytics/trading platform with fully customizable dashboards",
-    categories: ["Trading Interface", "Tools"],
+    categories: ["Bot", "Tools"],
     status: "Beta",
     website: "https://hypervisor.gg/",
-    tags: ["Trading Interface", "Tools", "Bot"],
+    tags: ["Tools", "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1832829990951383040/oNYLW-Og_400x400.jpg",
   },
   {
@@ -2978,10 +2978,10 @@ const projects: Project[] = [
     name: "Infinex",
     description:
       "Building the crypto everything app.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://infinex.xyz/",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1882695221806514176/GkH8YOul_400x400.jpg",
   },
   {
@@ -3011,10 +3011,10 @@ const projects: Project[] = [
     name: "Funnel",
     description:
       "The Hyperliquid Asset Engine",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Live",
     website: "https://www.funnel.markets/rewards?referral_code=042b066b",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1948006273569742848/1NM_bCyA_400x400.jpg",
   },
   {
@@ -3022,10 +3022,10 @@ const projects: Project[] = [
     name: "Ranger",
     description:
       "DeFi's command center.",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1945124678068015104/6T3L_kk4_400x400.jpg",
   },
   {
@@ -3176,10 +3176,10 @@ const projects: Project[] = [
     name: "Liquid Start",
     description:
       "Experiment with the aim of improving the DeFi landscape we currently use. Covering Hyperliquid ecosystem",
-    categories: ["Trading Interface"],
+    categories: ["Front End"],
     status: "Coming Soon",
     website: "https://x.com/Liquid_Start",
-    tags: ["Trading Interface"],
+    tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1815663701854171136/saIusHTg_400x400.png",
   },
   {
