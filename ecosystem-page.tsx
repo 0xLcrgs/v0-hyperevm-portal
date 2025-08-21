@@ -3083,6 +3083,17 @@ const projects: Project[] = [
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1532715330782605312/S3PvFlua_400x400.png",
   },
+  {
+    id: 289,
+    name: "Skewga's Island",
+    description:
+      "This is a curated project to help traders cut through noise and focus on signals that matter. Explore liquidity, positioning, macro regimes, and market moving data—all in one place.",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://www.skewga.com/",
+    tags: ["Tools"],
+    logo: "https://www.skewga.com/_next/image?url=%2Ficons%2Fdragonite.png&w=128&q=75",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
