@@ -1533,10 +1533,10 @@ const projects: Project[] = [
     name: "Pocket Pro",
     description:
       "Pocket Pro is the first cross-platform Hyperliquid trading app, letting users trade perps on X, earn 20% from referrals, and enable one-click copy trading with friends.",
-    categories: ["Βοτ"],
+    categories: ["Bot"],
     status: "Live",
     website: "https://t.me/pocketprotectorbot?start=r-xLcrgs",
-    tags: ["Βοτ"],
+    tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1910382854195789824/G-dAUWhC_400x400.jpg",
   },
   {
@@ -3406,37 +3406,68 @@ export default function EcosystemPage() {
   const router = useRouter()
   const searchParams = useSearchParams()
 
-  const [selectedCategory, setSelectedCategory] = useState<Category>("All")
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [searchQuery, setSearchQuery] = useState("")
   const [projectData, setProjectData] = useState<Project[]>(projects)
   const [loading, setLoading] = useState(true)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  const allCategories = useMemo(() => {
+    const categories = new Set<string>()
+    projects.forEach((project) => {
+      project.categories.forEach((category) => categories.add(category))
+    })
+    return Array.from(categories).sort()
+  }, [])
+
+  const filteredProjects = useMemo(() => {
+    let filtered = projectData
+
+    if (selectedCategories.length > 0) {
+      filtered = filtered.filter((project) =>
+        selectedCategories.some((category) => project.categories.includes(category)),
+      )
+    }
+
+    if (searchQuery) {
+      filtered = filtered.filter((project) => {
+        const matchesSearch =
+          (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+          (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
+          (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
+        return matchesSearch
+      })
+    }
+
+    return Array.from(new Map(filtered.map((project) => [project.id, project])).values())
+  }, [projectData, selectedCategories, searchQuery])
+
+  const toggleCategory = (category: string) => {
+    setSelectedCategories((prev) =>
+      prev.includes(category) ? prev.filter((c) => c !== category) : [...prev, category],
+    )
+  }
+
+  const clearFilters = () => {
+    setSelectedCategories([])
+  }
+
   useEffect(() => {
     const urlSearch = searchParams.get("search")
-    const urlCategory = searchParams.get("category") as Category | null
     if (urlSearch) setSearchQuery(urlSearch)
-    if (urlCategory && categories.includes(urlCategory)) setSelectedCategory(urlCategory)
   }, [searchParams])
 
-  const updateURL = (newSearch: string, newCategory: Category) => {
+  const updateURL = (newSearch: string) => {
     const params = new URLSearchParams()
     if (newSearch) params.set("search", newSearch)
-    if (newCategory && newCategory !== "All") params.set("category", newCategory)
     const queryString = params.toString()
     const newURL = queryString ? `/?${queryString}` : "/"
     router.push(newURL, { scroll: false })
   }
 
-  const handleChange = (type: "search" | "category", value: string) => {
-    if (type === "search") {
-      setSearchQuery(value)
-      updateURL(value, selectedCategory)
-    } else {
-      setSelectedCategory(value as Category)
-      updateURL(searchQuery, value as Category)
-      setMobileMenuOpen(false)
-    }
+  const handleSearchChange = (value: string) => {
+    setSearchQuery(value)
+    updateURL(value)
   }
 
   useEffect(() => {
@@ -3455,28 +3486,13 @@ export default function EcosystemPage() {
           } catch {
             return { ...project, tvl: "-" }
           }
-        })
+        }),
       )
       setProjectData(updatedProjects)
       setLoading(false)
     }
     fetchTVL()
   }, [])
-
-  const filteredProjects = Array.from(
-    new Map(
-      projectData
-        .filter((project) => {
-          const matchesCategory = selectedCategory === "All" || project.categories.includes(selectedCategory)
-          const matchesSearch =
-            (project.name || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-            (project.description || "").toLowerCase().includes(searchQuery.toLowerCase()) ||
-            (project.tags || []).some((tag) => (tag || "").toLowerCase().includes(searchQuery.toLowerCase()))
-          return matchesCategory && matchesSearch
-        })
-        .map((project) => [project.id, project])
-    ).values()
-  )
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -3563,37 +3579,51 @@ export default function EcosystemPage() {
               and how to get involved.
             </p>
           </div>
-          {/* Search and Filters */}
-          <div className="mb-6 sm:mb-8 space-y-4 flex flex-col items-center">
-            {/* Search Bar */}
+          {/* Search Bar */}
+          <div className="mb-6 sm:mb-8 flex justify-center">
             <div className="relative w-full max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
               <Input
                 placeholder="Search projects..."
                 value={searchQuery}
-                onChange={(e) => handleChange("search", e.target.value)}
+                onChange={(e) => handleSearchChange(e.target.value)}
                 className="pl-10 bg-gray-900 border-gray-700 text-white placeholder-gray-400 w-full"
               />
             </div>
-            {/* Category Tabs */}
-            <div className="w-full overflow-x-auto">
-              <Tabs value={selectedCategory} onValueChange={(v) => handleChange("category", v)}>
-                <TabsList className="bg-gray-900 border-gray-700 flex-nowrap min-w-max mx-auto">
-                  {categories.map((category) => (
-                    <TabsTrigger
-                      key={category}
-                      value={category}
-                      className="data-[state=active]:bg-white data-[state=active]:text-black whitespace-nowrap text-xs sm:text-sm px-2 sm:px-3"
-                    >
-                      {category} (
-                      {category === "All"
-                        ? projectData.length
-                        : projectData.filter((p) => p.categories.includes(category)).length}
-                      )
-                    </TabsTrigger>
-                  ))}
-                </TabsList>
-              </Tabs>
+          </div>
+
+          {/* Categories Filter */}
+          <div className="mb-8">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-2xl font-semibold text-white">Categories</h2>
+              {selectedCategories.length > 0 && (
+                <Button
+                  onClick={clearFilters}
+                  variant="outline"
+                  size="sm"
+                  className="text-white border-white/20 hover:bg-white/10 bg-transparent"
+                >
+                  <X className="w-4 h-4 mr-2" />
+                  Clear Filters ({selectedCategories.length})
+                </Button>
+              )}
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {allCategories.map((category) => (
+                <Badge
+                  key={category}
+                  variant={selectedCategories.includes(category) ? "default" : "outline"}
+                  className={`cursor-pointer transition-all duration-200 ${
+                    selectedCategories.includes(category)
+                      ? "bg-blue-600 text-white hover:bg-blue-700"
+                      : "text-white border-white/30 hover:bg-white/10 hover:border-white/50"
+                  }`}
+                  onClick={() => toggleCategory(category)}
+                >
+                  {category}
+                </Badge>
+              ))}
             </div>
           </div>
           {/* Loading State */}
