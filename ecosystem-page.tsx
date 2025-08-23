@@ -864,14 +864,14 @@ const projects: Project[] = [
   },
   {
     id: 79,
-    name: "Axal",
+    name: "SEKAI",
     description:
-      "Earn more. Stablecoin savings accounts backed by a16zcrypto & CMT Digital.",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://getaxal.com/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1952380370516901889/8LoFkKCm_400x400.jpg",
+      "Sekai is building a platform to let anyone launch Liquid Staking Tokens on Hyperliquid. ",
+    categories: ["Launchpad"],
+    status: "Coming Soon",
+    website: "https://sekai.fi/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1952637430697222144/HcDyXa6S_400x400.jpg",
   },
   {
     id: 80,
@@ -3030,14 +3030,14 @@ const projects: Project[] = [
   },
   {
     id: 284,
-    name: "SEKAI",
+    name: "Upheaval",
     description:
-      "Sekai is building a platform to let anyone launch Liquid Staking Tokens on Hyperliquid. ",
-    categories: ["Launchpad"],
-    status: "Coming Soon",
-    website: "https://sekai.fi/",
-    tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1952637430697222144/HcDyXa6S_400x400.jpg",
+      "Defi on Hyperliquid",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://upheaval.fi/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
   },
   {
     id: 285,
