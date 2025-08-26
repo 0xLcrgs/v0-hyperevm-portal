@@ -340,7 +340,7 @@ const projects: Project[] = [
       "Tokenized Yield strategies and curated DeFi ecosystem on Hyperliquid EVM",
     categories: ["Yield"],
     status: "Live",
-    website: "https://www.blueberry.garden/",
+    website: "https://app.blueberry.garden/?referrer=xlcrgs",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1624077952601423878/GjmtH148_400x400.jpg",
   },
