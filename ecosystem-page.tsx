@@ -591,7 +591,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://garden.finance/",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1943520835119054848/_BXz4rcc_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1955253205832699904/83uUswbn_400x400.jpg",
   },
   {
     id: 54,
@@ -719,7 +719,7 @@ const projects: Project[] = [
       "Roar Finance is a decentralized yield farming protocol built on the Hyperliquid EVM Chain",
     categories: ["Yield"],
     status: "Coming Soon",
-    website: "https://roar-finance.gitbook.io/roar-finance",
+    website: "https://roar-finance.xyz/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1933086000017715200/f0ooM9g9_400x400.jpg",
   },
@@ -1923,7 +1923,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://awaken.tax?ref=wiidqu-i",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1943878626153250816/eSbgoWBp_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1956877724536233984/GQEHcUor_400x400.jpg",
   },
   {
     id: 180,
@@ -2081,7 +2081,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://hypersurface.io/",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1935108055253045249/oURn2S-f_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1956034564020953093/syzdswCd_400x400.jpg",
   },
   {
     id: 195,
@@ -2271,7 +2271,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.vortx.gg/",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1889417046401708032/34ziuAPb_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1957881861994119169/mX8N1kEI_400x400.jpg",
   },
   {
     id: 213,
@@ -2855,7 +2855,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://proofofplay.com/",
     tags: ["Gaming"],
-    logo: "https://pbs.twimg.com/profile_images/1672340678310006784/9mkrtmGp_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1954952845108621312/NkoaOYew_400x400.jpg",
   },
   {
     id: 268,
@@ -3214,6 +3214,17 @@ const projects: Project[] = [
     website: "https://www.hyperai.org/",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1869036926444904448/uuSKfWEH_400x400.jpg",
+  },
+  {
+    id: 301,
+    name: "Avail Nexus",
+    description:
+      "Avail Nexus streamlines asset deposits into Hyperliquid by enabling transfers from 9 different blockchains",
+    categories: ["Tools"],
+    status: "Live",
+    website: "https://chromewebstore.google.com/detail/avail-nexus-sdk-injector/pckfgdpbgkdehabcapdbhlphaoajdlea",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1916802973201756160/B64QI4r0_400x400.jpg",
   },
 ]
 
