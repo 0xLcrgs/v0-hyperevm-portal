@@ -135,8 +135,8 @@ const projects: Project[] = [
   },
   {
     id: 11,
-    name: "Liquid.xyz",
-    description: "Not a lot of info yet but it's seams to be a non-custodial wallet with UI resembling a CEX",
+    name: "Liquid",
+    description: "Liquid is the fastest way to trade Bitcoin, ETH, and 200+ other coins with up to 40x multipliers.",
     categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://referral.tryliquid.xyz/pa9N6Yf5QVb",
@@ -157,7 +157,7 @@ const projects: Project[] = [
     id: 13,
     name: "BasedApp",
     description:
-      "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan.",
+      "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan. | C15SAMN1",
     categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://basedapp.io/register?ref=XLCRGS",
