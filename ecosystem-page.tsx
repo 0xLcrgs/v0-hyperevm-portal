@@ -52,10 +52,10 @@ const projects: Project[] = [
     name: "Hyperbeat",
     description:
       "Hyperbeat is a native protocol on Hyperliquid, designed to scale HyperliquidX, HyperEVM, and the broader ecosystem",
-    categories: ["Yield"],
+    categories: ["Yield", "Delta-neutral"],
     status: "Live",
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
-    tags: ["Yield"],
+    tags: ["Yield", "Delta-neutral"],
     logo: "https://pbs.twimg.com/profile_images/1879158343194796032/ftN7FT3s_400x400.jpg",
   },
   {
