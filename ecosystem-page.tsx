@@ -226,7 +226,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1934537763086364672/L8qfksmW_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
   },
   {
     id: 20,
