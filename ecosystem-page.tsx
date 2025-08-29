@@ -3226,6 +3226,50 @@ const projects: Project[] = [
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1916802973201756160/B64QI4r0_400x400.jpg",
   },
+  {
+    id: 302,
+    name: "Rainbow",
+    description:
+      "The wallet that rewards you for having fun onchain.",
+    categories: ["Mobile Wallet", "Extension Wallet"],
+    status: "Live",
+    website: "https://rainbow.me/",
+    tags: ["Mobile Wallet", "Extension Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1557391177665708032/FSuv7Zpo_400x400.png",
+  },
+  {
+    id: 303,
+    name: "Rarible",
+    description:
+      "More than a marketplace.",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://rarible.com/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1945534692624596992/TT7LDdMz_400x400.png",
+  },
+  {
+    id: 304,
+    name: "Deploy.Finance",
+    description:
+      "Earn supercharged yields on Hyperliquid",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.deploy.finance/dashboard",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1951345586604564480/vqqFH1qZ_400x400.jpg",
+  },
+  {
+    id: 305,
+    name: "Kintsu",
+    description:
+      "Creators of sHYPE and sMON - A new paradigm in decentralized Liquid Staking on Hyperliquid and Monad",
+    categories: ["LST"],
+    status: "Coming Soon",
+    website: "https://kintsu.xyz/",
+    tags: ["LST"],
+    logo: "https://pbs.twimg.com/profile_images/1889795497059143680/c-neRA1E_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
