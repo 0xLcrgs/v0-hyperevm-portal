@@ -758,10 +758,10 @@ const projects: Project[] = [
   {
     id: 69,
     name: "Coinpilot",
-    description: "Copy winning traders on Hyperliquid today.",
+    description: "Save 10% off fees with code: 82246a | Copy winning traders on Hyperliquid today.",
     categories: ["Bot"],
     status: "Beta",
-    website: "https://getwaitlist.com/waitlist/26825?ref_id=MKXCWG5PB",
+    website: "https://apps.apple.com/hk/app/coinpilot/id6747697788",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1930155502790721536/obB_vr3H_400x400.jpg",
   },
