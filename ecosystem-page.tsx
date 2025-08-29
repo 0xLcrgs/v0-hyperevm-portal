@@ -2947,7 +2947,7 @@ const projects: Project[] = [
     description: "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
     categories: ["Launchpad"],
     status: "Live",
-    website: "https://mindshare.catapult.trade/",
+    website: "https://catapult.trade/invite/2TB7ZO7Z",
     tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
   },
