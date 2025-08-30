@@ -3270,6 +3270,39 @@ const projects: Project[] = [
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1889795497059143680/c-neRA1E_400x400.png",
   },
+  {
+    id: 306,
+    name: "OpenSea",
+    description:
+      "The best place to discover, own, and trade onchain.",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://opensea.io/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1950405044354109440/QgiC_4ma_400x400.jpg",
+  },
+  {
+    id: 307,
+    name: "Wormhole",
+    description:
+      "Wormhole is the leading interoperability platform connecting traditional finance and the internet economy.",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://portalbridge.com/?targetChain=hyperevm",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1952696710108442624/lx9p8q90_400x400.jpg",
+  },
+  {
+    id: 308,
+    name: "StraddleFi",
+    description:
+      "Decentralized Crypto Options DEX on HyperLiquid | Trade, Hedge & Build Strategies On-Chain ",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://www.straddlefi.xyz/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1955718859823947778/evtiQ_co_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
