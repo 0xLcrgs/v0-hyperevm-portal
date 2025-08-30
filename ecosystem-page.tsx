@@ -3303,6 +3303,17 @@ const projects: Project[] = [
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1955718859823947778/evtiQ_co_400x400.jpg",
   },
+  {
+    id: 309,
+    name: "Rosetta",
+    description:
+      "Rosetta is a block-level yield router for Hyperliquid — auto-allocating capital across HyperEVM and HyperCore to maximize stablecoin returns in real time.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://www.rosetta.sh/vaults",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1959567196486569984/2VMtV0wr_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
