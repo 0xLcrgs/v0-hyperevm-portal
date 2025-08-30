@@ -3662,7 +3662,7 @@ export default function EcosystemPage() {
           {/* Hero Section */}
           <div className="mb-8 sm:mb-12 text-center sm:text-left">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">Ultimate HyperEVM Dashboard</h1>
-            <p className="text-gray-400 text-base sm:text-lg max-w-3xl mx-auto sm:mx-0">
+            <p className="text-base sm:text-lg max-w-3xl mx-auto sm:mx-0">
               Explore the growing ecosystem of projects building on HyperEVM. Learn about each project, their features,
               and how to get involved.
             </p>
