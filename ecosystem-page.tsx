@@ -3314,6 +3314,28 @@ const projects: Project[] = [
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1959567196486569984/2VMtV0wr_400x400.jpg",
   },
+  {
+    id: 310,
+    name: "Zyper",
+    description:
+      "Launch free pools on PRJX & HyperSwap with locked LP + virtual liquidity. Earn trading fees forever.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://zyper.fun/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1931761027265253376/uwzWs9JV_400x400.jpg",
+  },
+  {
+    id: 311,
+    name: "HyperScope",
+    description:
+      "Scanning the stars of HyperEVM. One dashboard for every pool, every dex, every apr ",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://x.com/hyperscope_hl",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1959055887940681728/vC21RM_l_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
