@@ -3347,6 +3347,17 @@ const projects: Project[] = [
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1897688545688424448/AOUTW5iS_400x400.jpg",
   },
+  {
+    id: 313,
+    name: "Liquid Estate",
+    description:
+      "Tokenized real estate, anywhere, anytime. HyperEVM.",
+    categories: ["RWA"],
+    status: "Coming Soon",
+    website: "https://liquidestate.xyz/",
+    tags: ["RWA"],
+    logo: "https://pbs.twimg.com/profile_images/1944725372517359617/YIFGVff7_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
@@ -3410,6 +3421,7 @@ const categories = [
   "Extension Wallet",
   "Mobile Wallet",
   "NFT",
+  "RWA",
   "Tools",
   "Analytics",
   "Front End",
@@ -3437,6 +3449,7 @@ type Category =
   | "Extension Wallet"
   | "Mobile Wallet"
   | "NFT"
+  | "RWA"
   | "Tools"
   | "Analytics"
   | "Front End"
