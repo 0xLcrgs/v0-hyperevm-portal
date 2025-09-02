@@ -3675,8 +3675,8 @@ export default function EcosystemPage() {
               <Button className="bg-yellow-600 hover:bg-yellow-700 text-white text-sm px-3 py-2">
                 <Link href="https://farming-portal.vercel.app/">Non-Hyperliquid Farms</Link>
               </Button>
-              <Button className="bg-green-600 hover:bg-green-700 text-white text-sm px-3 py-2">
-                <Link href="https://app.hyperliquid.xyz/join/0XLCRGS">Join Hyperliquid</Link>
+              <Button className="bg-green-800 hover:bg-green-900 text-white">
+                <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
               </Button>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-3 py-2">
                 <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
@@ -3701,9 +3701,9 @@ export default function EcosystemPage() {
                 <Button className="bg-yellow-600 hover:bg-yellow-700 text-white text-sm w-full">
                   <Link href="https://farming-portal.vercel.app/">Non-Hyperliquid Farms</Link>
                 </Button>
-                <Button className="bg-green-600 hover:bg-green-700 text-white text-sm w-full">
-                  <Link href="https://app.hyperliquid.xyz/join/0XLCRGS">Join Hyperliquid</Link>
-                </Button>
+              <Button className="bg-green-800 hover:bg-green-900 text-white">
+                <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
+              </Button>
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm w-full">
                   <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
                 </Button>
