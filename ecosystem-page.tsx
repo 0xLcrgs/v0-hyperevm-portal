@@ -3336,6 +3336,17 @@ const projects: Project[] = [
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1959055887940681728/vC21RM_l_400x400.jpg",
   },
+  {
+    id: 312,
+    name: "LiquidFi",
+    description:
+      "NFT Aggregated Marketplace of Hyperliquid",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://www.liquidfi.app/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1897688545688424448/AOUTW5iS_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
