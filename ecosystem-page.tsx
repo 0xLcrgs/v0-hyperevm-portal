@@ -26,6 +26,17 @@ type Project = {
 
 const projects: Project[] = [
   {
+    id: 313,
+    name: "Hyperliquid Core",
+    description:
+      "The blockchain to house all finance. Trade, build apps, and launch tokens on the same hyper-performant chain. X by Hyper Foundation",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://app.hyperliquid.xyz/join/0XLCRGS",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1646991609416806408/vKLEZxhh_400x400.png",
+  },
+  {
     id: 1,
     name: "HyperLend",
     description:
@@ -3348,7 +3359,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1897688545688424448/AOUTW5iS_400x400.jpg",
   },
   {
-    id: 313,
+    id: 314,
     name: "Liquid Estate",
     description:
       "Tokenized real estate, anywhere, anytime. HyperEVM.",
@@ -3361,6 +3372,7 @@ const projects: Project[] = [
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
+  "Hyperliquid Core": "hyperliquid",
   HyperSwap: "hyperswap",
   KittenSwap: "kittenswap-finance",
   Felix: "felix",
