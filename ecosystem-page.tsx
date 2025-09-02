@@ -33,7 +33,7 @@ const projects: Project[] = [
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
-    tags: ["Lending", "Borrowing", "Yield"],
+    tags: ["Lending", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
   },
   {
@@ -44,7 +44,7 @@ const projects: Project[] = [
     categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://usefelix.xyz?ref=18935567",
-    tags: ["Lending", "Borrowing", "Stablecoin"],
+    tags: ["Lending", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1845076293735297024/mx8MTMca_400x400.jpg",
   },
   {
@@ -183,7 +183,7 @@ const projects: Project[] = [
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://app.hyperdrive.fi?ref=133A9FEB",
-    tags: ["Lending", "Borrowing", "Yield"],
+    tags: ["Lending", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1903009623214526464/KLFqDb6j_400x400.jpg",
   },
   {
@@ -266,7 +266,7 @@ const projects: Project[] = [
     categories: ["Lending", "Stablecoin"],
     status: "Live",
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
-    tags: ["Lending", "Borrowing", "Stablecoin"],
+    tags: ["Lending", "Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
   },
   {
@@ -449,7 +449,7 @@ const projects: Project[] = [
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://morpho.org/",
-    tags: ["Lending", "Borrowing", "Yield"],
+    tags: ["Lending", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1930600293915410432/dgTU7UNU_400x400.jpg",
   },
   {
@@ -525,7 +525,7 @@ const projects: Project[] = [
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://app.euler.finance/",
-    tags: ["Lending", "Borrowing", "Yield"],
+    tags: ["Lending", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1947602115557527553/15Jr7cIa_400x400.jpg",
   },
   {
@@ -924,7 +924,7 @@ const projects: Project[] = [
     categories: ["Lending"],
     status: "Live",
     website: "https://app.hyperyield.com/?invite=UlTQLGpKXhcq",
-    tags: ["Lending", "Borrowing"],
+    tags: ["Lending"],
     logo: "https://pbs.twimg.com/profile_images/1878399390240411648/cp1BIbd6_400x400.jpg",
   },
   {
@@ -1471,7 +1471,7 @@ const projects: Project[] = [
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://maple.finance/",
-    tags: ["Lending", "Borrowing", "Yield"],
+    tags: ["Lending", "Yield"],
     logo: "https://pbs.twimg.com/profile_images/1925123677982523392/QN6KuMnz_400x400.jpg",
   },
   {
@@ -1716,7 +1716,7 @@ const projects: Project[] = [
     categories: ["Lending"],
     status: "Coming Soon",
     website: "https://primenumbers.xyz/",
-    tags: ["Lending", "Borrowing"],
+    tags: ["Lending"],
     logo: "https://pbs.twimg.com/profile_images/1849722059154239488/TU9dzmb__400x400.jpg",
   },
   {
