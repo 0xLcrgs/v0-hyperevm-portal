@@ -3369,6 +3369,83 @@ const projects: Project[] = [
     tags: ["RWA"],
     logo: "https://pbs.twimg.com/profile_images/1944725372517359617/YIFGVff7_400x400.png",
   },
+  {
+    id: 315,
+    name: "KΔIRΩS",
+    description:
+      "Building a pretty good High Yield Savings Protocol",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://x.com/0xKairos1",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1961160206873657345/cVr0MHUK_400x400.jpg",
+  },
+  {
+    id: 316,
+    name: "Trenches",
+    description:
+      "Trenches is a real-time, multiplayer PvP trading game where players go H2H to win pooled buy-ins. It turns speculation into a competitive sport. Coming soon.",
+    categories: ["Launchpad"],
+    status: "Coming Soon",
+    website: "https://www.trenches.online/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1951103584533356544/2A98WCvD_400x400.jpg",
+  },
+  {
+    id: 317,
+    name: "Kops",
+    description:
+      "The Only Agentic Automation Protocol on Hype. Powered by Hyperliquid",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://kops.ai/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1944740666266841089/mJokSskJ_400x400.jpg",
+  },
+  {
+    id: 318,
+    name: "Nested",
+    description:
+      "Swap your coins with uniswap and 1inch directly on discord with the best rates.",
+    categories: ["Bot"],
+    status: "Coming Soon",
+    website: "https://nestedwallet.com/",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1883122885515964416/Sv7a9JUt_400x400.jpg",
+  },
+  {
+    id: 319,
+    name: "Zup Protocol",
+    description:
+      "Find & Deposit into the best liquidity pool in a minute.",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://app.zupprotocol.xyz/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1962526802254938112/bUYs8Ff5_400x400.jpg",
+  },
+  {
+    id: 320,
+    name: "Yape Club",
+    description:
+      "AI co-yapping platform for smart apes only. Create high-quality content. Grow your influence. Earn rewards.",
+    categories: ["InfoFi"],
+    status: "Coming Soon",
+    website: "https://liquidestate.xyz/",
+    tags: ["InfoFi"],
+    logo: "https://pbs.twimg.com/profile_images/1942948430613012480/c6U06JsQ_400x400.png",
+  },
+  {
+    id: 321,
+    name: "Ultrasolid",
+    description:
+      "Core-aligned veDEX on Hyperliquid.",
+    categories: ["DEX"],
+    status: "Coming Soon",
+    website: "https://ultrasolid.xyz/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1952299861392662528/lSUI8LR4_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
@@ -3440,6 +3517,7 @@ const categories = [
   "Bot",
   "Options",
   "SocialFi",
+  "InfoFi",
   "GambleFi",
   "Gaming",
   "On-Ramp",
@@ -3468,6 +3546,7 @@ type Category =
   | "Bot"
   | "Options"
   | "SocialFi"
+  | "InfoFi"
   | "GambleFi"
   | "Gaming"
   | "On-Ramp"
