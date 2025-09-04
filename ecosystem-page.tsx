@@ -125,14 +125,6 @@ const projects: Project[] = [
     website: "https://app.hyperwavefi.xyz/hyperfren/XLCRGS",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1935137488886185984/aH_2XS_M_400x400.png",
-    name: "Mercury",
-    description:
-      "Mercury is a mobile app for iOS and Android, making Hyperliquid's DeFi platform simple and accessible for all users",
-    categories: ["Mobile Wallet"],
-    status: "Beta",
-    website: "https://www.mercurytrade.org/",
-    tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
   },
   {
     id: 8,
