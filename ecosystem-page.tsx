@@ -205,7 +205,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.hybra.finance?code=MBKOYM",
     tags: ["DEX", "ve(3,3)"],
-    logo: "https://pbs.twimg.com/profile_images/1945766945481175041/7oOm2WzZ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1960708894415839238/a_t1x1aO_400x400.jpg",
   },
   {
     id: 17,
@@ -592,7 +592,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://relay.link/bridge",
     tags: ["Bridge", "On-Ramp"],
-    logo: "https://pbs.twimg.com/profile_images/1945144527498485760/QxoWQgE0_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1960334543052816384/ejODKCzq_400x400.jpg",
   },
   {
     id: 53,
@@ -1178,7 +1178,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.across.to/bridge",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1886903904874512384/wnRMhfef_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1962922084637523969/vaBp-d_o_400x400.jpg",
   },
   {
     id: 108,
@@ -1315,7 +1315,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://rabby.io/points?code=0XLCRGS",
     tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1414514212915748873/Grz0B2t2_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1958728511725907968/U2hr8sJ6_400x400.jpg",
   },
   {
     id: 121,
@@ -1399,7 +1399,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.hlp0.to/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1935447291256782850/4h6gF51x_400x400.jpg",
+    logo: "https://www.hlp0.to/_next/image?url=%2Fhlp0_logo.png&w=48&q=75",
   },
   {
     id: 129,
@@ -1791,7 +1791,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.app.neutral.trade/",
     tags: ["Yield", "Delta-neutral"],
-    logo: "https://pbs.twimg.com/profile_images/1896595609739554817/SWGQKBSK_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1960430750185992192/sKepj4Dp_400x400.jpg",
   },
   {
     id: 166,
@@ -2507,7 +2507,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://kryptos.io?via=niteip1995",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1897644409237512192/yJQptpdA_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1959884075038130176/tCbisbxP_400x400.jpg",
   },
   {
     id: 234,
@@ -2836,7 +2836,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://tatortrader.quickintel.io/",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1905002465117843456/yQmiCqaT_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1959469247870197760/BG-zZ7qR_400x400.jpg",
   },
   {
     id: 265,
@@ -3037,7 +3037,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1945124678068015104/6T3L_kk4_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1958600297263022080/SNO-rxyu_400x400.jpg",
   },
   {
     id: 284,
