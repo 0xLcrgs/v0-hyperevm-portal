@@ -3046,7 +3046,7 @@ const projects: Project[] = [
       "Defi on Hyperliquid",
     categories: ["DEX"],
     status: "Live",
-    website: "https://upheaval.fi/",
+    website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
   },
