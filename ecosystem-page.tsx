@@ -3446,6 +3446,17 @@ const projects: Project[] = [
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1952299861392662528/lSUI8LR4_400x400.jpg",
   },
+  {
+    id: 322,
+    name: "BrownFi",
+    description:
+      "Innovative oracle-based AMM, high capital efficiency (~UniV3), NO out-of-range & simple LP management for average users to mitigate IL & maximize LP gains",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://brownfi.io/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1746843422454087680/Q58dTyR7_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
@@ -3495,6 +3506,10 @@ const defiLlamaSlugs: { [key: string]: string } = {
   Liminal: "liminal",
   HyperBloom: "hyperbloom",
   hx_finance: "hx-finance",
+  Upheaval: "upheaval-finance",
+  Hypervault: "hypervault",
+  Blueberry: "blueberry",
+  BrownFi: "brownfi",
 }
 
 const categories = [
