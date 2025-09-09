@@ -3442,7 +3442,7 @@ const projects: Project[] = [
       "Core-aligned veDEX on Hyperliquid.",
     categories: ["DEX"],
     status: "Coming Soon",
-    website: "https://ultrasolid.xyz/",
+    website: "https://app.ultrasolid.xyz/@xlcrgs",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1952299861392662528/lSUI8LR4_400x400.jpg",
   },
