@@ -114,6 +114,17 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1945707037322575872/clYVc-L2_400x400.jpg",
   },
   {
+    id: 284,
+    name: "Upheaval",
+    description:
+      "Defi on Hyperliquid",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
+  },
+  {
     id: 8,
     name: "Mercury",
     description:
@@ -3038,17 +3049,6 @@ const projects: Project[] = [
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1958600297263022080/SNO-rxyu_400x400.jpg",
-  },
-  {
-    id: 284,
-    name: "Upheaval",
-    description:
-      "Defi on Hyperliquid",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
   },
   {
     id: 285,
