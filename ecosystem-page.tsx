@@ -3521,6 +3521,9 @@ const defiLlamaSlugs: { [key: string]: string } = {
   Hypervault: "hypervault",
   Blueberry: "blueberry",
   BrownFi: "brownfi",
+  Veda: "veda",
+  "Rysk Finance": "rysk-finance",
+  Ultrasolid: "ultrasolid",
 }
 
 const categories = [
