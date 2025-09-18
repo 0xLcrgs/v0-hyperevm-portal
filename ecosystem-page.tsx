@@ -3468,6 +3468,50 @@ const projects: Project[] = [
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1942249195835994112/Bi0LWPtd_400x400.jpg",
   },
+  {
+    id: 324,
+    name: "HyperBill",
+    description:
+      "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://hyperbill.io/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
+  },
+  {
+    id: 325,
+    name: "GUESS",
+    description:
+      "Predictions Market on Hyperliquid",
+    categories: ["Options"],
+    status: "Coming Soon",
+    website: "https://www.guess.gs/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1963672474580668416/tSuCzi1x_400x400.jpg",
+  },
+  {
+    id: 326,
+    name: "Fibrous",
+    description:
+      "One place for best execution across chains, now live on HyperEVM",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://fibrous.finance/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg",
+  },
+  {
+    id: 327,
+    name: "Tangem",
+    description:
+      "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
+    categories: ["Mobile Wallet"],
+    status: "Live",
+    website: "https://tangem.com/en/",
+    tags: ["Mobile Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
