@@ -3534,6 +3534,17 @@ const projects: Project[] = [
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1968089645184331776/ZXi8xGwD_400x400.jpg",
   },
+  {
+    id: 330,
+    name: "FLIPgo",
+    description:
+      "FLIPgo is Hyperliquid's native streaming platform",
+    categories: ["SocialFi"],
+    status: "Beta",
+    website: "https://flipgo.xyz/",
+    tags: ["SocialFi"],
+    logo: "https://pbs.twimg.com/profile_images/1945422682960355328/lXNE8jrO_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
