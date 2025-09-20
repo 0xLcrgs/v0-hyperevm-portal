@@ -3523,6 +3523,17 @@ const projects: Project[] = [
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
   },
+  {
+    id: 329,
+    name: "CCTP.to",
+    description:
+      "Fee-free USDC transfers across chains. Built as a public good using Circle's CCTP. No markups, no hidden costs.",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://www.cctp.to/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1968089645184331776/ZXi8xGwD_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
