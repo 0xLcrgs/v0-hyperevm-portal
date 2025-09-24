@@ -41,7 +41,7 @@ const projects: Project[] = [
     name: "HyperLend",
     description:
       "HyperLend is a high-performance lending protocol on Hyperliquid EVM, offering real-time leverage, dynamic rates, and deep liquidity.",
-    categories: ["Lending", "Yield"],
+    categories: ["Lending", "Yield", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
     tags: ["Lending", "Yield"],
@@ -52,7 +52,7 @@ const projects: Project[] = [
     name: "Felix",
     description:
       "Felix offers secure, easy on-chain borrowing and lending on Hyperliquid L1, helping users unlock liquidity or earn yield seamlessly.",
-    categories: ["Lending", "Stablecoin"],
+    categories: ["Lending", "Stablecoin", "1st Tier Airdrop"],
     status: "Live",
     website: "https://usefelix.xyz?ref=18935567",
     tags: ["Lending", "Stablecoin"],
@@ -63,7 +63,7 @@ const projects: Project[] = [
     name: "Hyperbeat",
     description:
       "Hyperbeat is a native protocol on Hyperliquid, designed to scale HyperliquidX, HyperEVM, and the broader ecosystem",
-    categories: ["Yield", "Delta-neutral"],
+    categories: ["Yield", "Delta-neutral", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.hyperbeat.org/earn?referral=FA86003B",
     tags: ["Yield", "Delta-neutral"],
@@ -74,7 +74,7 @@ const projects: Project[] = [
     name: "Project X",
     description:
       "Project X is built on the belief that tech is becoming increasingly commoditized and the next era of DeFi will be won by innovating on distribution, incentive design and UX.",
-    categories: ["DEX"],
+    categories: ["DEX", "1st Tier Airdrop"],
     status: "Live",
     website: "https://www.prjx.com/@0xLcrgs",
     tags: ["DEX"],
@@ -85,7 +85,7 @@ const projects: Project[] = [
     name: "Liminal",
     description:
       "Liminal is a protocol that enables users to earn real and sustainable yield on their stablecoins through delta-neutral strategies",
-    categories: ["Yield", "Delta-neutral"],
+    categories: ["Yield", "Delta-neutral", "1st Tier Airdrop"],
     status: "Live",
     website: "https://liminal.money/join/XLCRGS",
     tags: ["Yield", "Delta-neutral"],
@@ -96,7 +96,7 @@ const projects: Project[] = [
     name: "Ultrasolid",
     description:
       "Core-aligned veDEX on Hyperliquid.",
-    categories: ["DEX"],
+    categories: ["DEX", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.ultrasolid.xyz/@xlcrgs",
     tags: ["DEX"],
@@ -107,7 +107,7 @@ const projects: Project[] = [
     name: "BasedApp",
     description:
       "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan. | C15SAMN1",
-    categories: ["Mobile Wallet", "Extension Wallet"],
+    categories: ["Mobile Wallet", "Extension Wallet", "1st Tier Airdrop"],
     status: "Live",
     website: "https://basedapp.io/register?ref=XLCRGS",
     tags: ["Mobile Wallet", "Extension Wallet"],
@@ -118,7 +118,7 @@ const projects: Project[] = [
     name: "Upheaval",
     description:
       "Defi on Hyperliquid",
-    categories: ["DEX"],
+    categories: ["DEX", "1st Tier Airdrop"],
     status: "Live",
     website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
     tags: ["DEX"],
@@ -203,7 +203,7 @@ const projects: Project[] = [
     name: "Hyperdrive",
     description:
       "The premier stablecoin money market on Hyperliquid and the foundational layer for making everything on HyperCore liquid.",
-    categories: ["Lending", "Yield"],
+    categories: ["Lending", "Yield", "2nd Tier Airdrop"],
     status: "Live",
     website: "https://app.hyperdrive.fi?ref=133A9FEB",
     tags: ["Lending", "Yield"],
@@ -213,7 +213,7 @@ const projects: Project[] = [
     id: 16,
     name: "Hybra Finance",
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
-    categories: ["DEX"],
+    categories: ["DEX", "2nd Tier Airdrop"],
     status: "Live",
     website: "https://www.hybra.finance?code=MBKOYM",
     tags: ["DEX", "ve(3,3)"],
@@ -234,7 +234,7 @@ const projects: Project[] = [
     id: 18,
     name: "Gliquid",
     description: "Next-Gen V4 AMM unlocking hyper-efficient liquidity on Hyperliquid Powered by Crypto Algebra",
-    categories: ["DEX"],
+    categories: ["DEX", "3rd Tier Airdrop"],
     status: "Live",
     website: "https://www.gliquid.xyz?referral=g5JIsrfD",
     tags: ["DEX"],
@@ -244,7 +244,7 @@ const projects: Project[] = [
     id: 19,
     name: "HyperBrick",
     description: "DLMM DEX powering precision trading, dynamic liquidity, and yield-optimized pools for next-gen tokens on Hyperliquid",
-    categories: ["DEX"],
+    categories: ["DEX", "2nd Tier Airdrop"],
     status: "Live",
     website: "https://hyperbrick.xyz/point?ref=XLCRGS",
     tags: ["DEX", "DLMM"],
@@ -265,7 +265,7 @@ const projects: Project[] = [
     id: 21,
     name: "Unit",
     description: "Unit is the asset tokenization layer on Hyperliquid, enabling seamless deposits and withdrawals.",
-    categories: ["Bridge"],
+    categories: ["Bridge", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.hyperunit.xyz/",
     tags: ["Bridge"],
@@ -275,7 +275,7 @@ const projects: Project[] = [
     id: 22,
     name: "Kinetiq",
     description: "Powering Liquid Staking on Hyperliquid.",
-    categories: ["LST"],
+    categories: ["LST", "1st Tier Airdrop"],
     status: "Live",
     website: "https://kinetiq.xyz/",
     tags: ["LST"],
@@ -285,7 +285,7 @@ const projects: Project[] = [
     id: 23,
     name: "HypurrFi",
     description: "HypurrFi is a leveraged lending marketplace for clean leverage loops on Hyperliquid.",
-    categories: ["Lending", "Stablecoin"],
+    categories: ["Lending", "Stablecoin", "2nd Tier Airdrop"],
     status: "Live",
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Stablecoin"],
@@ -393,7 +393,7 @@ const projects: Project[] = [
     name: "Ventuals",
     description:
       "Long or short pre-IPO companies with leverage, on Hyperliquid",
-    categories: ["Front End"],
+    categories: ["Front End", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.ventuals.com/",
     tags: ["Front End"],
@@ -542,13 +542,14 @@ const projects: Project[] = [
   },
   {
     id: 47,
-    name: "Euler",
-    description: "The lending super app.",
-    categories: ["Lending", "Yield"],
+    name: "Hypervault",
+    description:
+      "Simplifying the way you earn on HyperEVM",
+    categories: ["Yield"],
     status: "Live",
-    website: "https://app.euler.finance/",
-    tags: ["Lending", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1947602115557527553/15Jr7cIa_400x400.jpg",
+    website: "https://app.hypervault.finance/#/earn/0kR48p64Rp6ps456n28S91r5O2oqN3N626QRQPP8R5",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1970825289052585984/30eTzh0a_400x400.jpg",
   },
   {
     id: 48,
@@ -559,7 +560,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://insilicoterminal.com/#/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1798271540565315584/esokUp7H_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1961017208127021056/J93iHkBn_400x400.jpg",
   },
   {
     id: 49,
@@ -3052,14 +3053,13 @@ const projects: Project[] = [
   },
   {
     id: 285,
-    name: "Hypervault",
-    description:
-      "Simplifying the way you earn on HyperEVM",
-    categories: ["Yield"],
+    name: "Euler",
+    description: "The lending super app.",
+    categories: ["Lending", "Yield"],
     status: "Live",
-    website: "https://app.hypervault.finance/#/earn/0kR48p64Rp6ps456n28S91r5O2oqN3N626QRQPP8R5",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1940897752134676480/vWWNbS-V_400x400.jpg",
+    website: "https://app.euler.finance/",
+    tags: ["Lending", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1947602115557527553/15Jr7cIa_400x400.jpg",
   },
   {
     id: 286,
@@ -3612,6 +3612,9 @@ const categories = [
   "Delta-neutral",
   "Stablecoin",
   "LST",
+  "1st Tier Airdrop",
+  "2nd Tier Airdrop",
+  "3rd Tier Airdrop",
   "Launchpad",
   "Extension Wallet",
   "Mobile Wallet",
@@ -3641,6 +3644,9 @@ type Category =
   | "Delta-neutral"
   | "Stablecoin"
   | "LST"
+  | "1st Tier Airdrop"
+  | "2nd Tier Airdrop"
+  | "3rd Tier Airdrop"
   | "Launchpad"
   | "Extension Wallet"
   | "Mobile Wallet"
