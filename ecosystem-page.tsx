@@ -575,14 +575,13 @@ const projects: Project[] = [
   },
   {
     id: 50,
-    name: "The Hyperliquid Bridge",
-    description:
-      "The Hyperliquid Bridge lets you transfer assets into HyperEVM and HyperCore from 120+ blockchains quickly, securely, and with low fees",
-    categories: ["Bridge"],
-    status: "Live",
-    website: "https://www.thehyperliquidbridge.xyz/transfer",
-    tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1779646801605242880/FrFssPAQ_400x400.jpg",
+    name: "USDT0",
+    description: "USDT0 brings the largest stablecoin in the world to the most widely adopted blockchains.",
+    categories: ["Stablecoin", "Bridge"],
+    status: "Coming Soon",
+    website: "https://usdt0.to/",
+    tags: ["Stablecoin", "Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1879546764971188224/SQISVYwX_400x400.jpg",
   },
   {
     id: 51,
@@ -737,14 +736,14 @@ const projects: Project[] = [
   },
   {
     id: 65,
-    name: "Roar Finance",
+    name: "CCTP.to",
     description:
-      "Roar Finance is a decentralized yield farming protocol built on the Hyperliquid EVM Chain",
-    categories: ["Yield"],
-    status: "Coming Soon",
-    website: "https://roar-finance.xyz/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1933086000017715200/f0ooM9g9_400x400.jpg",
+      "Fee-free USDC transfers across chains. Built as a public good using Circle's CCTP. No markups, no hidden costs.",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://www.cctp.to/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1968089645184331776/ZXi8xGwD_400x400.jpg",
   },
   {
     id: 66,
@@ -1011,7 +1010,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.haiku.trade/trade",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1936032053738283008/uqx8VCjX_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1961481058077077504/4JzRDWYX_400x400.jpg",
   },
   {
     id: 91,
@@ -1222,7 +1221,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://t.me/hyperliquid_hlbot?start=CEB5EF",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1869558294702145536/-2u314ta_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1962822507658125318/VX4M0Q81_400x400.png",
   },
   {
     id: 111,
@@ -2692,7 +2691,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://gemwallet.com/",
     tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1943936806472339456/5qUKXerv_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1966227883849822208/IQ19vw6i_400x400.jpg",
   },
   {
     id: 250,
@@ -2734,7 +2733,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://chainpro.xyz/#0xlcrgs",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1937986278164680704/Pwmo6Yrn_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1965054151429156864/f_2JmgBQ_400x400.jpg",
   },
   {
     id: 254,
