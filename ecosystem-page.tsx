@@ -542,14 +542,14 @@ const projects: Project[] = [
   },
   {
     id: 47,
-    name: "Hypervault",
+    name: "Based",
     description:
-      "Simplifying the way you earn on HyperEVM",
-    categories: ["Yield"],
+      "#1 Degen Trading Bo",
+    categories: ["Bot"],
     status: "Live",
-    website: "https://app.hypervault.finance/#/earn/0kR48p64Rp6ps456n28S91r5O2oqN3N626QRQPP8R5",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1970825289052585984/30eTzh0a_400x400.jpg",
+    website: "https://t.me/based_eth_bot?start=r_xLcrgs",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1867165795752562689/gknOnrpW_400x400.jpg",
   },
   {
     id: 48,
