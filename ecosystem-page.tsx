@@ -1051,7 +1051,7 @@ const projects: Project[] = [
       "Swap and bridge any token directly in Hyperfolio, powered by OpenOcean",
     categories: ["DEX"],
     status: "Live",
-    website: "https://app.hyperbeat.org/earn?referral=FA86003B",
+    website: "https://app.openocean.finance/",
     tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1875019671944196096/8JZgQUb0_400x400.jpg",
   },
