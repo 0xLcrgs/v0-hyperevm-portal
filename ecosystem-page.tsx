@@ -3728,7 +3728,6 @@ const ProjectCard = ({ project }: { project: Project }) => (
             </CardTitle>
           </div>
         </div>
-        <StatusBadge status={project.status} />
       </div>
       <CardDescription className="text-gray-400 text-sm line-clamp-3 sm:line-clamp-4">
         {project.description}
@@ -3741,6 +3740,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
           <span className="text-white ml-2 font-medium">{project.tvl}</span>
         </div>
       </div>
+      <StatusBadge status={project.status} />
       <TagBadges tags={project.tags} />
       <div className="flex items-center pt-2">
         <Button
