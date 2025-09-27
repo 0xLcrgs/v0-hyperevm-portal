@@ -3544,6 +3544,16 @@ const projects: Project[] = [
     tags: ["SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1945422682960355328/lXNE8jrO_400x400.jpg",
   },
+  {
+    id: 70,
+    name: "Backpack",
+    description: "All-in-one crypto wallet and exchange.",
+    categories: ["Mobile Wallet", "Extension Wallet"],
+    status: "Live",
+    website: "https://backpack.app/",
+    tags: ["Mobile Wallet", "Extension Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
