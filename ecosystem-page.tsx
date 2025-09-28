@@ -3545,7 +3545,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1945422682960355328/lXNE8jrO_400x400.jpg",
   },
   {
-    id: 70,
+    id: 331,
     name: "Backpack",
     description: "All-in-one crypto wallet and exchange.",
     categories: ["Mobile Wallet", "Extension Wallet"],
@@ -3553,6 +3553,16 @@ const projects: Project[] = [
     website: "https://backpack.app/",
     tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
+  },
+  {
+    id: 332,
+    name: "Native Markets",
+    description: "Building a better dollar for Hyperliquid",
+    categories: ["Stablecoin"],
+    status: "Live",
+    website: "https://x.com/nativemarkets",
+    tags: ["Stablecoin"],
+    logo: "https://pbs.twimg.com/profile_images/1970731609138630656/4HSqttrU_400x400.jpg",
   },
 ]
 
