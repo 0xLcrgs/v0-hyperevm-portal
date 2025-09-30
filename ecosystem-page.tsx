@@ -3574,6 +3574,16 @@ const projects: Project[] = [
     tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1953782840157749248/3nEXVDCi_400x400.jpg",
   },
+  {
+    id: 334,
+    name: "Moralis",
+    description: "The crypto data layer. Fetch blockchain data with our Data APIs, monitor crypto data with Streams, and export massive blockchain datasets with Datashare.",
+    categories: ["Tools", "Analytics"],
+    status: "Live",
+    website: "https://moralis.com/",
+    tags: ["Tools", "Analytics"],
+    logo: "https://pbs.twimg.com/profile_images/1970408541505683456/0Ga2dHiU_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
