@@ -3584,6 +3584,16 @@ const projects: Project[] = [
     tags: ["Tools", "Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1970408541505683456/0Ga2dHiU_400x400.jpg",
   },
+  {
+    id: 335,
+    name: "SLTP",
+    description: "The only perp terminal built for the long run, powered by Hyperliquid",
+    categories: ["Mobile Wallet", "Front End"],
+    status: "Beta",
+    website: "https://sltp.trade?referral=jimyq4",
+    tags: ["Mobile Wallet", "Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
