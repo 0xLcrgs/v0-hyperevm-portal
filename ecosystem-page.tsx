@@ -3594,6 +3594,16 @@ const projects: Project[] = [
     tags: ["Mobile Wallet", "Front End"],
     logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
   },
+  {
+    id: 336,
+    name: "HyperETH",
+    description: "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
+    categories: ["Front End"],
+    status: "Live",
+    website: "https://hypereth.io/register?ref=HYPE",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
