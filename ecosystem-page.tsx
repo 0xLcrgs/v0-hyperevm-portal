@@ -3604,6 +3604,17 @@ const projects: Project[] = [
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
   },
+  {
+    id: 337,
+    name: "Ring Protocol",
+    description:
+      "A new era in decentralized exchange revolutionizing asset utilization. One ring to rule them all.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://ring.exchange/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1763217496901869568/fyqZ5UP9_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
