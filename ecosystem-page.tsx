@@ -3681,6 +3681,17 @@ const projects: Project[] = [
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1886833243087163392/c1VJNgwf_400x400.jpg",
   },
+  {
+    id: 344,
+    name: "Cashmere",
+    description:
+      "Middleware infrastructure for zero-slippage one-click native omnichain transfers.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://cashmere.exchange/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1551945866793164802/KmcIMByo_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
