@@ -869,7 +869,7 @@ const projects: Project[] = [
     description:
       "HyperFlash is a next-gen staking protocol on HyperEVM, combining liquid staking with MEV strategies to maximize HYPE yields for users",
     categories: ["LST"],
-    status: "Coming Soon",
+    status: "Beta",
     website: "https://hyperflash.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1892277863430168576/TIbtpNHW_400x400.jpg",
@@ -3625,6 +3625,61 @@ const projects: Project[] = [
     website: "https://lagoon.finance/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1851946166524461056/PVBmjpnL_400x400.png",
+  },
+  {
+    id: 339,
+    name: "Solv Protocol",
+    description:
+      "The Operating Layer Of Bitcoin for more efficient capital flow.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://app.solv.finance/points/8C9FQR",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1971489442235092992/njLUqgMN_400x400.jpg",
+  },
+  {
+    id: 340,
+    name: "NOXA",
+    description:
+      "Degen DEX always first on new blockchains.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://dex.noxa.fi/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1869917127064350720/aZ2QkH0B_400x400.jpg",
+  },
+  {
+    id: 341,
+    name: "Parallel Protocol",
+    description:
+      "Capital-efficient, over-collateralized & decentralized stablecoins. Backed by yield-generating correlated assets",
+    categories: ["Yield", "Stablecoin"],
+    status: "Live",
+    website: "https://app.parallel.best/",
+    tags: ["Yield", "Stablecoin"],
+    logo: "https://pbs.twimg.com/profile_images/1917852593323204609/GWO6ReJs_400x400.jpg",
+  },
+  {
+    id: 342,
+    name: "Yei Finance",
+    description:
+      "Building Clovis: cross-chain liquidity layer with Yield Stacking. YeiBridge, YeiLend, and YeiSwap on Sei.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://vault.clovis.network/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1959153542423617537/aPIUGIBX_400x400.jpg",
+  },
+  {
+    id: 343,
+    name: "ChipSwap",
+    description:
+      "We're always seeking for new chains for you.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://chipswap.org/#/swap",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1886833243087163392/c1VJNgwf_400x400.jpg",
   },
 ]
 
