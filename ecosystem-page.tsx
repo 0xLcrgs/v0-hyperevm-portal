@@ -3615,6 +3615,17 @@ const projects: Project[] = [
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1763217496901869568/fyqZ5UP9_400x400.jpg",
   },
+  {
+    id: 338,
+    name: "LAGOON",
+    description:
+      "Build yield products that scale, and bring the best of DeFi to your users.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://lagoon.finance/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1851946166524461056/PVBmjpnL_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
