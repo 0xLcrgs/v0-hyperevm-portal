@@ -227,7 +227,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.hx.finance?ref=xlcrgs",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1942932382593560576/YBBNLaEF_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1968928687023067136/K4KvjUa0_400x400.jpg",
   },
   {
     id: 18,
@@ -288,7 +288,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1882841326347005953/vewoJ4Vl_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1969041163429588992/2ku_zyHH_400x400.jpg",
   },
   {
     id: 24,
