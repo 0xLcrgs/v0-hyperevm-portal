@@ -147,13 +147,13 @@ const projects: Project[] = [
   },
   {
     id: 10,
-    name: "Quanto",
-    description: "Trade 600+ pairs & memes on leverage. Use any altcoin holdings as margin.",
+    name: "trade.xyz",
+    description: "Trade anything, anytime.",
     categories: ["Front End"],
-    status: "Live",
-    website: "https://quanto.trade/register?shareAccountId=TXUD4a2Y",
+    status: "Beta",
+    website: "https://trade.xyz/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1944612250699862016/0Sx3UeMT_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1971989421844000768/MNOCmF3z_400x400.jpg",
   },
   {
     id: 11,
@@ -3680,6 +3680,16 @@ const projects: Project[] = [
     website: "https://chipswap.org/#/swap",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1886833243087163392/c1VJNgwf_400x400.jpg",
+  },
+  {
+    id: 344,
+    name: "Quanto",
+    description: "Trade 600+ pairs & memes on leverage. Use any altcoin holdings as margin.",
+    categories: ["Front End"],
+    status: "Live",
+    website: "https://quanto.trade/register?shareAccountId=TXUD4a2Y",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1944612250699862016/0Sx3UeMT_400x400.jpg",
   },
 ]
 
