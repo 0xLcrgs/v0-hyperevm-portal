@@ -3008,14 +3008,14 @@ const projects: Project[] = [
   },
   {
     id: 280,
-    name: "Pulse",
+    name: "Cashmere",
     description:
-      "Pulse (formerly HyperHolders) is an app that lets you track essential, detailed data of coins (and more) on HyperEVM.",
-    categories: ["Analytics"],
+      "Middleware infrastructure for zero-slippage one-click native omnichain transfers.",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://www.pulsehl.app/dashboard",
-    tags: ["Analytics"],
-    logo: "https://pbs.twimg.com/profile_images/1948720135239258112/21efKmtR_400x400.jpg",
+    website: "https://cashmere.exchange/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1551945866793164802/KmcIMByo_400x400.jpg",
   },
   {
     id: 281,
@@ -3680,17 +3680,6 @@ const projects: Project[] = [
     website: "https://chipswap.org/#/swap",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1886833243087163392/c1VJNgwf_400x400.jpg",
-  },
-  {
-    id: 344,
-    name: "Cashmere",
-    description:
-      "Middleware infrastructure for zero-slippage one-click native omnichain transfers.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://cashmere.exchange/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1551945866793164802/KmcIMByo_400x400.jpg",
   },
 ]
 
