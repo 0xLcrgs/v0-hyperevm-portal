@@ -3045,7 +3045,7 @@ const projects: Project[] = [
     description:
       "DeFi's command center.",
     categories: ["Front End"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1958600297263022080/SNO-rxyu_400x400.jpg",
