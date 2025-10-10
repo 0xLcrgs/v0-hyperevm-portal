@@ -1258,10 +1258,10 @@ const projects: Project[] = [
     name: "Aura",
     description:
       "Trade perps Hyperliquid, every token on EVM + Solana, & yield with friends | Supports Apple + Google Pay",
-    categories: ["Front End"],
+    categories: ["Mobile Wallet"],
     status: "Coming Soon",
     website: "https://aura.money/",
-    tags: ["Front End"],
+    tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1954851882142216192/UWTKuaO4_400x400.jpg",
   },
   {
