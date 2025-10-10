@@ -1944,7 +1944,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://awaken.tax?ref=wiidqu-i",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1956877724536233984/GQEHcUor_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1976146141084524544/w9_JOV9a_400x400.jpg",
   },
   {
     id: 180,
@@ -2521,14 +2521,14 @@ const projects: Project[] = [
   },
   {
     id: 234,
-    name: "optfun",
+    name: "Racks",
     description:
-      "opt.fun is 1 minute expiry options platform on Hyperliquid offering fast and fun high volatility trading.",
+      "Ultra-gamified, fast-paced, high volatility trading on Hyperliquid",
     categories: ["Options"],
     status: "Live",
-    website: "https://opt.fun/",
+    website: "https://racks.win/",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1927855901966487555/06SWyR9P_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1969947403835830272/OcvIGMor_400x400.jpg",
   },
   {
     id: 235,
@@ -2604,7 +2604,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.beefy.com/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1910288827312222208/9lDmAhjF_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1975907575351701504/2TJ_mvwk_400x400.jpg",
   },
   {
     id: 242,
@@ -2732,7 +2732,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://chainpro.xyz/#0xlcrgs",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1965054151429156864/f_2JmgBQ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1973459056871256064/inXYAjdR_400x400.jpg",
   },
   {
     id: 254,
@@ -2824,7 +2824,7 @@ const projects: Project[] = [
     status: "Beta",
     website: "https://kiyotaka.ai/ref=teMkFvcksW",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1900171367594811392/wjjyhLF1_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1968642880861519872/xBDOBa-Z_400x400.png",
   },
   {
     id: 263,
@@ -2985,14 +2985,14 @@ const projects: Project[] = [
   },
   {
     id: 278,
-    name: "Hyperconnect",
+    name: "LAGOON",
     description:
-      "Hyperconnect - Connect Hyperliquid to everything else",
-    categories: ["Bot", "Tools"],
-    status: "Beta",
-    website: "https://www.hlconnect.xyz/",
-    tags: ["Bot", "Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1935287126649974784/tziyM7NJ_400x400.jpg",
+      "Build yield products that scale, and bring the best of DeFi to your users.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://lagoon.finance/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1851946166524461056/PVBmjpnL_400x400.png",
   },
   {
     id: 279,
@@ -3003,7 +3003,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://infinex.xyz/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1882695221806514176/GkH8YOul_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1973189685578186752/3Pru2Imr_400x400.png",
   },
   {
     id: 280,
@@ -3112,7 +3112,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://t.me/peripairbot?start=curvy-regret-7164",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1828241303517437957/jn6CbmAo_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1960978431845281792/ypgwXKwD_400x400.jpg",
   },
   {
     id: 291,
@@ -3255,7 +3255,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://rarible.com/",
     tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1945534692624596992/TT7LDdMz_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1975921457747120128/6a38tep1_400x400.jpg",
   },
   {
     id: 304,
@@ -3277,7 +3277,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://kintsu.xyz/",
     tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1889795497059143680/c-neRA1E_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1968364161106145280/K9GXYfXa_400x400.png",
   },
   {
     id: 306,
@@ -3288,7 +3288,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://opensea.io/",
     tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1950405044354109440/QgiC_4ma_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1965854183611052041/WsGaeqhY_400x400.jpg",
   },
   {
     id: 307,
@@ -3512,14 +3512,13 @@ const projects: Project[] = [
   },
   {
     id: 328,
-    name: "SLTP",
-    description:
-      "The only perp terminal built for the long run, powered by Hyperliquid",
+    name: "HyperETH",
+    description: "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
     categories: ["Front End"],
-    status: "Coming Soon",
-    website: "https://sltp.trade?referral=jimyq4",
+    status: "Live",
+    website: "https://hypereth.io/register?ref=HYPE",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
   },
   {
     id: 329,
@@ -3595,16 +3594,6 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
   },
   {
-    id: 336,
-    name: "HyperETH",
-    description: "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
-    categories: ["Front End"],
-    status: "Live",
-    website: "https://hypereth.io/register?ref=HYPE",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
-  },
-  {
     id: 337,
     name: "Ring Protocol",
     description:
@@ -3614,17 +3603,6 @@ const projects: Project[] = [
     website: "https://ring.exchange/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1763217496901869568/fyqZ5UP9_400x400.jpg",
-  },
-  {
-    id: 338,
-    name: "LAGOON",
-    description:
-      "Build yield products that scale, and bring the best of DeFi to your users.",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://lagoon.finance/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1851946166524461056/PVBmjpnL_400x400.png",
   },
 ]
 
