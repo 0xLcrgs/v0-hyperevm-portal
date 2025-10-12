@@ -725,13 +725,13 @@ const projects: Project[] = [
   },
   {
     id: 64,
-    name: "Quanto",
-    description: "Trade 600+ pairs & memes on leverage. Use any altcoin holdings as margin.",
-    categories: ["Front End"],
-    status: "Live",
-    website: "https://quanto.trade/register?shareAccountId=TXUD4a2Y",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1944612250699862016/0Sx3UeMT_400x400.jpg",
+    name: "SLTP",
+    description: "The only perp terminal built for the long run, powered by Hyperliquid",
+    categories: ["Mobile Wallet", "Front End"],
+    status: "Beta",
+    website: "https://sltp.trade?referral=jimyq4",
+    tags: ["Mobile Wallet", "Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
   },
   {
     id: 65,
@@ -3585,16 +3585,6 @@ const projects: Project[] = [
   },
   {
     id: 335,
-    name: "SLTP",
-    description: "The only perp terminal built for the long run, powered by Hyperliquid",
-    categories: ["Mobile Wallet", "Front End"],
-    status: "Beta",
-    website: "https://sltp.trade?referral=jimyq4",
-    tags: ["Mobile Wallet", "Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1966012676099993600/7sqCfZ33_400x400.png",
-  },
-  {
-    id: 337,
     name: "Ring Protocol",
     description:
       "A new era in decentralized exchange revolutionizing asset utilization. One ring to rule them all.",
