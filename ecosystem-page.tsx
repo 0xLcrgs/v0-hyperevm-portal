@@ -3594,6 +3594,17 @@ const projects: Project[] = [
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1763217496901869568/fyqZ5UP9_400x400.jpg",
   },
+  {
+    id: 336,
+    name: "Whales Market",
+    description:
+      "The Leading Pre-market DEX for OTC Token Deals.",
+    categories: ["Options"],
+    status: "Live",
+    website: "https://pro.whales.market/?r=046949",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1970832036119433217/pm_Xem0V_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
