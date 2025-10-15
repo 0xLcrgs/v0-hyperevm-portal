@@ -3605,6 +3605,17 @@ const projects: Project[] = [
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1970832036119433217/pm_Xem0V_400x400.jpg",
   },
+  {
+    id: 338,
+    name: "Polymarket",
+    description:
+      "The world's largest prediction market.",
+    categories: ["Options"],
+    status: "Live",
+    website: "https://polymarket.com/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1965851729825546240/fLHeW0Ji_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
