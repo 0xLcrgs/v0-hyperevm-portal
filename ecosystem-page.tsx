@@ -3616,6 +3616,17 @@ const projects: Project[] = [
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1965851729825546240/fLHeW0Ji_400x400.jpg",
   },
+  {
+    id: 339,
+    name: "Neura Vaults",
+    description:
+      "Self-Evolving Liquidity Vaults on HyperEVM",
+    categories: ["Options"],
+    status: "Coming Soon",
+    website: "https://x.com/Neuravaults",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1950867757592969216/2n_KDhNU_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
