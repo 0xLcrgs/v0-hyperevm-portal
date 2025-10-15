@@ -3310,7 +3310,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://www.straddlefi.xyz/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1955718859823947778/evtiQ_co_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1968421456468955136/Y_QmbelA_400x400.jpg",
   },
   {
     id: 309,
@@ -3321,7 +3321,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.rosetta.sh/vaults",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1959567196486569984/2VMtV0wr_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1963241774467424256/uW7ky41Y_400x400.jpg",
   },
   {
     id: 310,
@@ -3369,14 +3369,14 @@ const projects: Project[] = [
   },
   {
     id: 315,
-    name: "KΔIRΩS",
+    name: "Neura Vaults",
     description:
-      "Building a pretty good High Yield Savings Protocol",
-    categories: ["Yield"],
+      "Self-Evolving Liquidity Vaults on HyperEVM",
+    categories: ["Options"],
     status: "Coming Soon",
-    website: "https://x.com/0xKairos1",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1961160206873657345/cVr0MHUK_400x400.jpg",
+    website: "https://x.com/Neuravaults",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1950867757592969216/2n_KDhNU_400x400.jpg",
   },
   {
     id: 316,
@@ -3615,17 +3615,6 @@ const projects: Project[] = [
     website: "https://polymarket.com/",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1965851729825546240/fLHeW0Ji_400x400.jpg",
-  },
-  {
-    id: 339,
-    name: "Neura Vaults",
-    description:
-      "Self-Evolving Liquidity Vaults on HyperEVM",
-    categories: ["Options"],
-    status: "Coming Soon",
-    website: "https://x.com/Neuravaults",
-    tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1950867757592969216/2n_KDhNU_400x400.jpg",
   },
 ]
 
