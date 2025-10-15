@@ -3616,6 +3616,17 @@ const projects: Project[] = [
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1965851729825546240/fLHeW0Ji_400x400.jpg",
   },
+  {
+    id: 339,
+    name: "SIR",
+    description:
+      "Leverage with a onetime fee, keep the rest for yourself",
+    categories: ["Front End"],
+    status: "Live",
+    website: "https://app.sir.trading/",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1945486033337913344/NG0Axq9d_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
