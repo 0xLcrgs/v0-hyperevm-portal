@@ -3627,6 +3627,17 @@ const projects: Project[] = [
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1945486033337913344/NG0Axq9d_400x400.jpg",
   },
+  {
+    id: 340,
+    name: "GONDI",
+    description:
+      "Premier NFT Liquidity Marketplace. Collect. Sell. Borrow. Lend.",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://www.gondi.xyz/",
+    tags: ["NFT", "veNFT"],
+    logo: "https://pbs.twimg.com/profile_images/1976314337363951616/7K2hoVot_400x400.png",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
