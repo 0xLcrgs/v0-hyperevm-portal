@@ -3638,6 +3638,16 @@ const projects: Project[] = [
     tags: ["NFT", "veNFT"],
     logo: "https://pbs.twimg.com/profile_images/1976314337363951616/7K2hoVot_400x400.png",
   },
+  {
+    id: 341,
+    name: "Bitfrost",
+    description: "Bitfrost is accelerating growth across the Hyperliquid ecosystem by launching the next wave of Spot markets.",
+    categories: ["Bridge"],
+    status: "Coming Soon",
+    website: "https://bitfrost.xyz/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1853499656711368704/q1uv1RzI_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
