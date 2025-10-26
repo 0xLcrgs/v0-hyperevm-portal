@@ -3989,9 +3989,9 @@ export default function EcosystemPage() {
             </div>
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-3">
-              <Button className="bg-green-700 hover:bg-green-800 text-white">
-                <Link href="https://hyperevm-portal.vercel.app/">HyperEVM Portal</Link>
-              </Button>
+                <Button className="bg-gray-200 hover:bg-gray-300 text-black">
+                  <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
+                </Button>
               <Button className="bg-green-800 hover:bg-green-900 text-white">
                 <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
               </Button>
@@ -4017,8 +4017,8 @@ export default function EcosystemPage() {
           {mobileMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 border-t border-gray-700">
               <div className="flex flex-col space-y-3 pt-4">
-                <Button className="bg-green-700 hover:bg-green-800 text-white">
-                  <Link href="https://hyperevm-portal.vercel.app/">HyperEVM Portal</Link>
+                <Button className="bg-gray-200 hover:bg-gray-300 text-black">
+                  <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
                 </Button>
               <Button className="bg-green-800 hover:bg-green-900 text-white">
                 <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
