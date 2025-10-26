@@ -3989,17 +3989,19 @@ export default function EcosystemPage() {
             </div>
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-3">
-              <Button className="bg-[#f4eff1] hover:bg-[#e9e3e6] text-black text-sm w-full">
-                <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
+              <Button className="bg-green-700 hover:bg-green-800 text-white">
+                <Link href="https://hyperevm-portal.vercel.app/">HyperEVM Portal</Link>
               </Button>
               <Button className="bg-green-800 hover:bg-green-900 text-white">
                 <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
               </Button>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-3 py-2">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                 <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
               </Button>
               <Button className="bg-amber-600 hover:bg-amber-700 text-white">
-                <Link href="https://give-me-a-tip.vercel.app/"><span>☕</span> Buy me a coffee</Link>
+                <Link href="https://give-me-a-tip.vercel.app/">
+                  <span>☕</span> Buy me a coffee
+                </Link>
               </Button>
             </div>
             {/* Mobile Menu Button */}
@@ -4015,17 +4017,19 @@ export default function EcosystemPage() {
           {mobileMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 border-t border-gray-700">
               <div className="flex flex-col space-y-3 pt-4">
-              <Button className="bg-[#f4eff1] hover:bg-[#e9e3e6] text-black text-sm w-full">
-                <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
-              </Button>
+                <Button className="bg-green-700 hover:bg-green-800 text-white">
+                  <Link href="https://hyperevm-portal.vercel.app/">HyperEVM Portal</Link>
+                </Button>
               <Button className="bg-green-800 hover:bg-green-900 text-white">
                 <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
               </Button>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm w-full">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                   <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
                 </Button>
                 <Button className="bg-amber-600 hover:bg-amber-700 text-white">
-                  <Link href="https://give-me-a-tip.vercel.app/"><span>☕</span> Buy me a coffee</Link>
+                  <Link href="https://give-me-a-tip.vercel.app/">
+                    <span>☕</span> Buy me a coffee
+                  </Link>
                 </Button>
               </div>
             </div>
