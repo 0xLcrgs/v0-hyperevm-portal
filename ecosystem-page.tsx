@@ -295,10 +295,10 @@ const projects: Project[] = [
     name: "Dextrabot",
     description:
       "Discover profitable traders, analyze their performance, and automatically copy their strategies with customizable risk settings",
-    categories: ["Bot"],
+    categories: ["Bot", "Front End"],
     status: "Live",
     website: "https://app.dextrabot.com/referral/0XLCRGS",
-    tags: ["Bot", "Tracker"],
+    tags: ["Bot", "Tracker", "Front End"],
     logo: "https://pbs.twimg.com/profile_images/1858644852365275136/EpQL8Nkb_400x400.jpg",
   },
   {
@@ -314,14 +314,14 @@ const projects: Project[] = [
   },
   {
     id: 26,
-    name: "Upheaval",
+    name: "tread.fi",
     description:
-      "Defi on Hyperliquid",
-    categories: ["DEX"],
+      "Crypto trading terminal. Institutional grade OEMS.",
+    categories: ["Bot", "Front End"],
     status: "Live",
-    website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
+    website: "https://app.tread.fi/referral/34CQIRWV",
+    tags: ["Bot", "Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1935178101073620992/8k2xMeGv_400x400.jpg",
   },
   {
     id: 27,
@@ -3647,6 +3647,17 @@ const projects: Project[] = [
     website: "https://bitfrost.xyz/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1853499656711368704/q1uv1RzI_400x400.jpg",
+  },
+  {
+    id: 342,
+    name: "Upheaval",
+    description:
+      "Defi on Hyperliquid",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
   },
 ]
 
