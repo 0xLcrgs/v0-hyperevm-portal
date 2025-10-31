@@ -3659,6 +3659,17 @@ const projects: Project[] = [
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1943206624879087617/U01ngr77_400x400.jpg",
   },
+  {
+    id: 343,
+    name: "Otomato",
+    description:
+      "Building the HyperEVM assistant",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://app.otomato.xyz/access-code?ref=CGRCM5",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1924474808793772032/We-q1hsM_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
