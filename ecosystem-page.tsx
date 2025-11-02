@@ -3670,6 +3670,39 @@ const projects: Project[] = [
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1924474808793772032/We-q1hsM_400x400.jpg",
   },
+  {
+    id: 344,
+    name: "Zigg",
+    description:
+      "Emerging performant markets",
+    categories: ["Front End"],
+    status: "Coming Soon",
+    website: "https://x.com/ZiggsOnChain",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1679611494109937664/iBuz9THB_400x400.jpg",
+  },
+  {
+    id: 345,
+    name: "Global Compute Index",
+    description:
+      "Commodifying Compute",
+    categories: ["Front End"],
+    status: "Coming Soon",
+    website: "https://globalcomputeindex.com/#pitch",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1980169121191862272/ToVL-sfm_400x400.jpg",
+  },
+  {
+    id: 346,
+    name: "HyperOdd",
+    description:
+      "Trade any event, anywhere with leverage on Hyperliquid",
+    categories: ["Options"],
+    status: "Coming Soon",
+    website: "https://hyperodd.com/",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1980341315419136000/KRlG8f5t_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
