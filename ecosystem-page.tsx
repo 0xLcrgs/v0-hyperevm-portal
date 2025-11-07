@@ -3703,6 +3703,16 @@ const projects: Project[] = [
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1980341315419136000/KRlG8f5t_400x400.jpg",
   },
+  {
+    id: 347,
+    name: "Jones",
+    description: "Exotic DeFi strategies and v3 ALMs.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://www.jonesdao.io/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1752720694725447680/5lhJqVqT_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
