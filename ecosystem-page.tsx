@@ -3723,6 +3723,16 @@ const projects: Project[] = [
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1948500291948617728/sVyotcqO_400x400.jpg",
   },
+  {
+    id: 348,
+    name: "GlueX Terminal",
+    description: "The only institutional grade portfolio manager for decentralized finance.",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://x.com/GluexTerminal",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1984068308229107712/wSgCUKPG_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
