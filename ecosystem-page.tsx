@@ -3724,7 +3724,7 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1948500291948617728/sVyotcqO_400x400.jpg",
   },
   {
-    id: 348,
+    id: 349,
     name: "GlueX Terminal",
     description: "The only institutional grade portfolio manager for decentralized finance.",
     categories: ["Yield"],
