@@ -3713,6 +3713,16 @@ const projects: Project[] = [
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1752720694725447680/5lhJqVqT_400x400.jpg",
   },
+  {
+    id: 348,
+    name: "Wellspring",
+    description: "High Yield Savings powered by Stablecoins & DeFi. Earn up to 12% APY on your cash deposits today!",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://wellspring.money/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1948500291948617728/sVyotcqO_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
