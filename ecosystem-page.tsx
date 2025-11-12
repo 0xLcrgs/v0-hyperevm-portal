@@ -93,14 +93,14 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    name: "Ultrasolid",
+    name: "Nest Exchange",
     description:
-      "Core-aligned veDEX on Hyperliquid.",
-    categories: ["DEX", "1st Tier Airdrop"],
-    status: "Live",
-    website: "https://app.ultrasolid.xyz/@xlcrgs",
+      "The trading and liquidity engine for Hyperliquid",
+    categories: ["DEX"],
+    status: "Coming Soon",
+    website: "https://x.com/NestExchange",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1952299861392662528/lSUI8LR4_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1979502682537611264/8tf3gNFS_400x400.jpg",
   },
   {
     id: 7,
@@ -325,14 +325,14 @@ const projects: Project[] = [
   },
   {
     id: 27,
-    name: "Nest Exchange",
+    name: "Ultrasolid",
     description:
-      "The trading and liquidity engine for Hyperliquid",
-    categories: ["DEX"],
-    status: "Coming Soon",
-    website: "https://x.com/NestExchange",
+      "Core-aligned veDEX on Hyperliquid.",
+    categories: ["DEX", "1st Tier Airdrop"],
+    status: "Live",
+    website: "https://app.ultrasolid.xyz/@xlcrgs",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1979502682537611264/8tf3gNFS_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1952299861392662528/lSUI8LR4_400x400.jpg",
   },
   {
     id: 28,
