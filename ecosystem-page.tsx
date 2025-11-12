@@ -111,7 +111,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://basedapp.io/register?ref=XLCRGS",
     tags: ["Mobile Wallet", "Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1945707037322575872/clYVc-L2_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1984514496564772867/BS13JA5U_400x400.jpg",
   },
   {
     id: 284,
@@ -163,7 +163,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://referral.tryliquid.xyz/pa9N6Yf5QVb",
     tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1929902747706372096/ahC8Vpla_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1980705287322357760/HhxSRvbc_400x400.jpg",
   },
   {
     id: 12,
@@ -237,7 +237,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.gliquid.xyz?referral=g5JIsrfD",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1928414866554974208/FpTxpjHe_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1979237805386604544/Hdr0z-D7_400x400.jpg",
   },
   {
     id: 19,
@@ -278,7 +278,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://kinetiq.xyz/",
     tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1880410606093647872/qazlkvcq_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1979238128289300480/92H90ZSs_400x400.jpg",
   },
   {
     id: 23,
@@ -332,7 +332,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://x.com/NestExchange",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1936441608909512704/gCwY16PF_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1979502682537611264/8tf3gNFS_400x400.jpg",
   },
   {
     id: 28,
@@ -375,7 +375,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://x.com/TheHypeEngine",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1954998568319606785/sxWE6Y_9_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1979502579827482624/xFqCy9VQ_400x400.jpg",
   },
   {
     id: 32,
@@ -434,14 +434,14 @@ const projects: Project[] = [
   },
   {
     id: 37,
-    name: "LiquidSwap",
+    name: "LiquidLabs",
     description:
       "Create tokens and agents effortlessly, trade for profits seamlessly, all without writing a single line of code!",
     categories: ["Launchpad", "DEX"],
     status: "Live",
     website: "https://liqd.ag/",
     tags: ["Launchpad", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1930956754810032128/WAE3Cju-_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1981094134669533184/VNwnq46t_400x400.jpg",
   },
   {
     id: 38,
@@ -623,7 +623,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1952718333335269376/NWZNfDuk_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1984742511982555136/cv9_ryfG_400x400.png",
   },
   {
     id: 55,
@@ -763,7 +763,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.spinup.zone/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
     tags: ["Launchpad", "LST"],
-    logo: "https://pbs.twimg.com/profile_images/1896957468963450884/5pbFwUx8_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1976174812717289472/RMuWA5Sh_400x400.jpg",
   },
   {
     id: 68,
@@ -1052,7 +1052,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.openocean.finance/",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1875019671944196096/8JZgQUb0_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1985165765344124928/aAoblUIx_400x400.jpg",
   },
   {
     id: 95,
@@ -1062,7 +1062,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.ramses.xyz/trade",
     tags: ["DEX", "ve(3,3)"],
-    logo: "https://pbs.twimg.com/profile_images/1943503811496034304/mfgD8aKJ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1975421034028281856/MGE7BvAj_400x400.jpg",
   },
   {
     id: 96,
@@ -1094,7 +1094,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://bebop.xyz/trade?network=hyperevm",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1888879617886531584/EqdazUob_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1985276316720009216/gTbCUTV3_400x400.jpg",
   },
   {
     id: 99,
@@ -1126,7 +1126,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://swap.mayan.finance/",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1891499635597856769/5BMo_JQJ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1984641516195688448/XrBNDCrE_400x400.jpg",
   },
   {
     id: 102,
@@ -1177,7 +1177,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://x.com/hyenatrade",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1951298518146314240/8QvqrC3f_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1980281120336826368/UlF1eDEn_400x400.jpg",
   },
   {
     id: 107,
@@ -1188,7 +1188,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.across.to/bridge",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1962922084637523969/vaBp-d_o_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1983984117092859904/0LvQEcB__400x400.jpg",
   },
   {
     id: 108,
@@ -1365,7 +1365,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://web3.bitget.com/en",
     tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1925128816948883456/YTkbP_HA_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1985900137202532373/chOqlzmP_400x400.jpg",
   },
   {
     id: 125,
@@ -1633,7 +1633,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://cypherhq.io/card/?ref=0XLCRGS",
     tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1931280880187924480/4qk4HevF_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1975234913638223873/J3fd5DZs_400x400.jpg",
   },
   {
     id: 150,
@@ -1658,7 +1658,7 @@ const projects: Project[] = [
   },
   {
     id: 152,
-    name: "HyperEVM Sniper Bot by SuperSonic",
+    name: "HyperEVM Sniper",
     description:
       "Trade tokens on HyperEVM with the fastest trading bot. HyperSwap DEX V2/V3 & LiquidLaunch are supported.",
     categories: ["Bot"],
@@ -1821,7 +1821,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://okto.go.link/defi_home?referral_code=AmVbM2&adj_t=13c5o7y4",
     tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1930522800776683520/5ScNp0VE_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1978012771645345792/cRD3Pb_3_400x400.jpg",
   },
   {
     id: 168,
@@ -1944,7 +1944,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://awaken.tax?ref=wiidqu-i",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1976146141084524544/w9_JOV9a_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1981076064878157824/VEllsdAH_400x400.jpg",
   },
   {
     id: 180,
@@ -2071,7 +2071,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://farcaster.xyz/",
     tags: ["SocialFi"],
-    logo: "https://pbs.twimg.com/profile_images/1546487688601096192/QoG0ZVgH_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1980310281558409216/DWoYcKR7_400x400.jpg",
   },
   {
     id: 192,
@@ -2145,7 +2145,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.alchemy.com/",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1947425842738384896/eDE44AUv_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1979190252448133120/xAMqZF7__400x400.jpg",
   },
   {
     id: 199,
@@ -2464,7 +2464,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://hyperpnl.com/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1903102046204841984/aF3OnjeP_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1986117532940431360/OhGiNmGp_400x400.png",
   },
   {
     id: 229,
@@ -2517,7 +2517,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://kryptos.io?via=niteip1995",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1959884075038130176/tCbisbxP_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1986785298064211968/HMDzyo8l_400x400.jpg",
   },
   {
     id: 234,
@@ -2604,7 +2604,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.beefy.com/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1975907575351701504/2TJ_mvwk_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1985675769293549568/2n4Wbwx4_400x400.jpg",
   },
   {
     id: 242,
@@ -2650,14 +2650,14 @@ const projects: Project[] = [
   },
   {
     id: 246,
-    name: "Katōshi",
+    name: "Katoshi",
     description:
       "Katōshi lets traders build and deploy secure, advanced trading bots on Hyperliquid, with TradingView integration and pro-grade API.",
     categories: ["Front End", "Bot"],
     status: "Live",
     website: "https://katoshi.ai/",
     tags: ["Front End", "Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1864361726663122944/fm-qO0Nl_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1985583559902474241/1jtYnSGD_400x400.jpg",
   },
   {
     id: 247,
@@ -2690,7 +2690,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://gemwallet.com/",
     tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1966227883849822208/IQ19vw6i_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1983265250569842688/3NCDIWGt_400x400.jpg",
   },
   {
     id: 250,
@@ -2970,7 +2970,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://catapult.trade/invite/2TB7ZO7Z",
     tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1937804921388015616/TIfDZ8Sv_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1984253228561657856/XPMP4cKA_400x400.jpg",
   },
   {
     id: 277,
@@ -3003,7 +3003,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://infinex.xyz/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1973189685578186752/3Pru2Imr_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1978267585633525760/PavGc5KA_400x400.png",
   },
   {
     id: 280,
@@ -3233,7 +3233,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://chromewebstore.google.com/detail/avail-nexus-sdk-injector/pckfgdpbgkdehabcapdbhlphaoajdlea",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1916802973201756160/B64QI4r0_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1981315109080219648/roJu5dHT_400x400.jpg",
   },
   {
     id: 302,
@@ -3255,7 +3255,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://rarible.com/",
     tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1975921457747120128/6a38tep1_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1981189339980693504/1iOTxPAt_400x400.jpg",
   },
   {
     id: 304,
@@ -3277,7 +3277,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://kintsu.xyz/",
     tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1968364161106145280/K9GXYfXa_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1984001421960704000/UpI70-s4_400x400.jpg",
   },
   {
     id: 306,
@@ -3288,7 +3288,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://opensea.io/",
     tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1965854183611052041/WsGaeqhY_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1988303062847647744/aN36pB1h_400x400.jpg",
   },
   {
     id: 307,
@@ -3376,7 +3376,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://x.com/Neuravaults",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1950867757592969216/2n_KDhNU_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1982952833709162496/KF_SzVrM_400x400.jpg",
   },
   {
     id: 316,
@@ -3540,7 +3540,7 @@ const projects: Project[] = [
     status: "Beta",
     website: "https://flipgo.xyz/",
     tags: ["SocialFi"],
-    logo: "https://pbs.twimg.com/profile_images/1945422682960355328/lXNE8jrO_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1977184535205892096/9dn7s864_400x400.jpg",
   },
   {
     id: 331,
@@ -3560,7 +3560,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://x.com/nativemarkets",
     tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1970731609138630656/4HSqttrU_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1973434072392200192/lHZFBKVV_400x400.jpg",
   },
   {
     id: 333,
@@ -3711,7 +3711,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.jonesdao.io/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1752720694725447680/5lhJqVqT_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1972653329470910464/5ZLON14p_400x400.jpg",
   },
   {
     id: 348,
