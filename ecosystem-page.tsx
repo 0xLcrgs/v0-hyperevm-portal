@@ -3733,6 +3733,16 @@ const projects: Project[] = [
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1984068308229107712/wSgCUKPG_400x400.jpg",
   },
+  {
+    id: 350,
+    name: "Hyperscreener by ASXN",
+    description: "All-in-one dashboard for everything Hyperliquid",
+    categories: ["Analytics"],
+    status: "Live",
+    website: "https://hyperscreener.asxn.xyz/home",
+    tags: ["Analytics"],
+    logo: "https://pbs.twimg.com/profile_images/1669029465362505756/CXGvN0w0_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
