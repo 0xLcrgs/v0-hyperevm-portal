@@ -98,7 +98,7 @@ const projects: Project[] = [
       "The trading and liquidity engine for Hyperliquid",
     categories: ["DEX"],
     status: "Coming Soon",
-    website: "https://x.com/NestExchange",
+    website: "https://www.usenest.xyz/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1979502682537611264/8tf3gNFS_400x400.jpg",
   },
