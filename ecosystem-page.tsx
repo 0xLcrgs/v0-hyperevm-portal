@@ -3747,11 +3747,21 @@ const projects: Project[] = [
     id: 351,
     name: "Hybra Finance",
     description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
-    categories: ["DEX", "2nd Tier Airdrop"],
+    categories: ["DEX"],
     status: "Live",
     website: "https://www.hybra.finance?code=MBKOYM",
-    tags: ["DEX", "ve(3,3)"],
+    tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1960708894415839238/a_t1x1aO_400x400.jpg",
+  },
+  {
+    id: 352,
+    name: "Derive.xyz",
+    description: "Derive (prev. Lyra) | The Leading Decentralized Options Platform on BTC & ETH.",
+    categories: ["Options"],
+    status: "Live",
+    website: "https://app.derive.xyz/trade/options?symbol=HYPE",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
 ]
 
