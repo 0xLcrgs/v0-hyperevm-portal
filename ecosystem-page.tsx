@@ -1438,7 +1438,7 @@ const projects: Project[] = [
       "Hyperdash empowers traders with real-time analytics and insights by tracking the most successful derivatives traders on Hyperliquid.",
     categories: ["Tools"],
     status: "Live",
-    website: "https://hyperdash.info/",
+    website: "https://hyperdash.com/join/xlcrgs",
     tags: ["Tools", "Tracker"],
     logo: "https://pbs.twimg.com/profile_images/1949853938523484160/slsxb235_400x400.png",
   },
