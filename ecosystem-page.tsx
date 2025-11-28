@@ -1175,7 +1175,7 @@ const projects: Project[] = [
       "loading...",
     categories: ["Front End"],
     status: "Coming Soon",
-    website: "https://x.com/hyenatrade",
+    website: "https://www.hyena.trade/",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1980281120336826368/UlF1eDEn_400x400.jpg",
   },
