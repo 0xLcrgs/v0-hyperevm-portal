@@ -623,7 +623,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1984742511982555136/cv9_ryfG_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1992887505918754817/sCa6EGQw_400x400.jpg",
   },
   {
     id: 55,
@@ -3522,14 +3522,13 @@ const projects: Project[] = [
   },
   {
     id: 329,
-    name: "CCTP.to",
-    description:
-      "Fee-free USDC transfers across chains. Built as a public good using Circle's CCTP. No markups, no hidden costs.",
-    categories: ["Bridge"],
+    name: "Alura",
+    description: "The Discipline Engine for Hyperliquid Perps.",
+    categories: ["Bot"],
     status: "Live",
-    website: "https://www.cctp.to/",
-    tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1968089645184331776/ZXi8xGwD_400x400.jpg",
+    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
   },
   {
     id: 330,
@@ -3762,16 +3761,6 @@ const projects: Project[] = [
     website: "https://app.derive.xyz/trade/options?symbol=HYPE",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
-  },
-  {
-    id: 353,
-    name: "Alura",
-    description: "The Discipline Engine for Hyperliquid Perps.",
-    categories: ["Bot"],
-    status: "Live",
-    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
   },
 ]
 
