@@ -3763,6 +3763,16 @@ const projects: Project[] = [
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
+  {
+    id: 353,
+    name: "Derive.xyz",
+    description: "The Discipline Engine for Hyperliquid Perps.",
+    categories: ["Bot"],
+    status: "Live",
+    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
+  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
