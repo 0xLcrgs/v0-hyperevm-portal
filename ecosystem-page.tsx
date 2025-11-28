@@ -3765,7 +3765,7 @@ const projects: Project[] = [
   },
   {
     id: 353,
-    name: "Derive.xyz",
+    name: "Alura",
     description: "The Discipline Engine for Hyperliquid Perps.",
     categories: ["Bot"],
     status: "Live",
