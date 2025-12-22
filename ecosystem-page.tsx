@@ -67,7 +67,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.tread.fi/referral/34CQIRWV",
     tags: ["Bot", "Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1935178101073620992/8k2xMeGv_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2000493331365920770/AWOwvKqn_400x400.jpg",
   },
   {
     id: 4,
@@ -104,14 +104,14 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    name: "BasedApp",
+    name: "Based",
     description:
       "Spend Crypto like Fiat with BasedApp Visa Card. Live in SG, opening up to more countries in April 2025. Backed by Delphi, Hashed and Spartan. | C15SAMN1",
     categories: ["Mobile Wallet", "Front End", "2nd Tier Airdrop"],
     status: "Live",
     website: "https://basedapp.io/register?ref=XLCRGS",
     tags: ["Mobile Wallet", "Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1984514496564772867/BS13JA5U_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2002771365037019136/r5KMEUkg_400x400.jpg",
   },
   {
     id: 284,
@@ -125,14 +125,14 @@ const projects: Project[] = [
   },
   {
     id: 8,
-    name: "Mercury",
+    name: "Hyperwagyu",
     description:
-      "Mercury is a mobile app for iOS and Android, making Hyperliquid's DeFi platform simple and accessible for all users",
-    categories: ["Mobile Wallet"],
-    status: "Beta",
-    website: "https://www.mercurytrade.org/",
-    tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1929998534218055681/Pxe0NjGb_400x400.jpg",
+      "A Trustless Hyperliquid <> Monero Bridge",
+    categories: ["Bridge"],
+    status: "Live",
+    website: "https://www.hyperwagyu.xyz/",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1997372011538984960/y_QEwcaI_400x400.jpg",
   },
   {
     id: 9,
@@ -216,7 +216,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://x.com/markets_xyz",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1983323627652022272/_4CWkRS4_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2000613313902780418/m6MlsRpl_400x400.jpg",
   },
   {
     id: 17,
@@ -288,7 +288,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.hypurr.fi/buddies/0XLCRGS",
     tags: ["Lending", "Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1969041163429588992/2ku_zyHH_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1991902971676758017/Dl4dF7Ay_400x400.jpg",
   },
   {
     id: 24,
@@ -419,7 +419,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.valantis.xyz/",
     tags: ["LST", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1752754182572924928/I7hOaBLU_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1995684070496362497/RKAuYxox_400x400.jpg",
   },
   {
     id: 36,
@@ -516,7 +516,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://usdhl.xyz/",
     tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1928111403551911936/rkFUzZ4Z_400x400.jpg",
+    logo: "https://usefelix.gitbook.io/usdhl/~gitbook/image?url=https%3A%2F%2F3235872099-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252Fn5iCQOMvurUghop1f7qS%252Fsites%252Fsite_2lLPE%252Ficon%252Fqz1M9JPCnbQYgkpVsHKw%252FrkFUzZ4Z_400x400.jpg%3Falt%3Dmedia%26token%3D96630b3d-560e-4d9c-a493-9975e2cdd076&width=32&dpr=4&quality=100&sign=1d5f7368&sv=2",
   },
   {
     id: 45,
@@ -623,7 +623,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://jumper.exchange/",
     tags: ["Bridge", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1992887505918754817/sCa6EGQw_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1995446284627632128/UEEe3Id8_400x400.jpg",
   },
   {
     id: 55,
@@ -936,7 +936,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.keikofinance.com/#",
     tags: ["Lending", "Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1857058088391454720/NtVLHJ1C_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1991540857766354967/SNLji12a_400x400.jpg",
   },
   {
     id: 84,
@@ -977,7 +977,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://walletv.io/",
     tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1918317063925342208/boA5iJjD_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1988016788416626688/8Ua_z3VW_400x400.jpg",
   },
   {
     id: 88,
@@ -1052,7 +1052,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.openocean.finance/",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1985165765344124928/aAoblUIx_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2001840454112022528/MtPC4455_400x400.jpg",
   },
   {
     id: 95,
@@ -1094,7 +1094,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://bebop.xyz/trade?network=hyperevm",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1985276316720009216/gTbCUTV3_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2000900041997967360/ncb99tto_400x400.jpg",
   },
   {
     id: 99,
@@ -1126,7 +1126,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://swap.mayan.finance/",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1984641516195688448/XrBNDCrE_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1995516018748219392/4Q4w7xBt_400x400.png",
   },
   {
     id: 102,
@@ -1177,7 +1177,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://www.hyena.trade/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1980281120336826368/UlF1eDEn_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1994070254411038720/aYWh2ESb_400x400.jpg",
   },
   {
     id: 107,
@@ -1304,7 +1304,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://resolv.xyz/",
     tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1726501525843841024/1gDrgTdA_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1990833426514268160/vxkdhlu-_400x400.png",
   },
   {
     id: 119,
@@ -1440,7 +1440,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://hyperdash.com/join/xlcrgs",
     tags: ["Tools", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1949853938523484160/slsxb235_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1990872908109934592/9oyEGJsg_400x400.jpg",
   },
   {
     id: 132,
