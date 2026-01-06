@@ -4066,7 +4066,7 @@ export default function EcosystemPage() {
         preload="auto"
         loop
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
-        src="https://video.twimg.com/amplify_video/1928753602933219328/vid/avc1/1600x900/t3bgFkc89HL0N87C.mp4?tag=21"
+        src="https://video.twimg.com/amplify_video/2008379447389638656/vid/avc1/1280x720/RwGeVOvQtNVZBORO.mp4?tag=14"
         autoPlay
         muted
         playsInline
