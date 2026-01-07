@@ -34,7 +34,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.hyperliquid.xyz/join/0XLCRGS",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1646991609416806408/vKLEZxhh_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/2001260078352285697/f5cl2Syx_400x400.jpg",
   },
   {
     id: 1,
@@ -45,7 +45,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
     tags: ["Lending", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1808617090602901504/VsTtyaqZ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2003457356873539584/ItzG0Krp_400x400.jpg",
   },
   {
     id: 2,
@@ -4066,7 +4066,7 @@ export default function EcosystemPage() {
         preload="auto"
         loop
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
-        src="https://video.twimg.com/amplify_video/2008379447389638656/vid/avc1/1280x720/RwGeVOvQtNVZBORO.mp4?tag=14"
+        src="https://www.shutterstock.com/shutterstock/videos/3894679377/preview/stock-footage-abstract-d-deformed-figure-green-metabolite-drop-surrealistic-object-based-on-metabolic-spheres.webm"
         autoPlay
         muted
         playsInline
