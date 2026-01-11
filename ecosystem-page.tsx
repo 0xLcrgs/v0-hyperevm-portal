@@ -10,7 +10,6 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 type Project = {
   id: number
@@ -61,8 +60,7 @@ const projects: Project[] = [
   {
     id: 3,
     name: "tread.fi",
-    description:
-      "Crypto trading terminal. Institutional grade OEMS.",
+    description: "Crypto trading terminal. Institutional grade OEMS.",
     categories: ["Bot", "Front End"],
     status: "Live",
     website: "https://app.tread.fi/referral/34CQIRWV",
@@ -94,8 +92,7 @@ const projects: Project[] = [
   {
     id: 6,
     name: "Nest Exchange",
-    description:
-      "The trading and liquidity engine for Hyperliquid",
+    description: "The trading and liquidity engine for Hyperliquid",
     categories: ["DEX"],
     status: "Coming Soon",
     website: "https://www.usenest.xyz/",
@@ -126,8 +123,7 @@ const projects: Project[] = [
   {
     id: 8,
     name: "Hyperwagyu",
-    description:
-      "A Trustless Hyperliquid <> Monero Bridge",
+    description: "A Trustless Hyperliquid <> Monero Bridge",
     categories: ["Bridge"],
     status: "Live",
     website: "https://www.hyperwagyu.xyz/",
@@ -178,8 +174,7 @@ const projects: Project[] = [
   {
     id: 13,
     name: "Ventuals",
-    description:
-      "Long or short pre-IPO companies with leverage, on Hyperliquid",
+    description: "Long or short pre-IPO companies with leverage, on Hyperliquid",
     categories: ["Front End", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.ventuals.com/",
@@ -221,8 +216,7 @@ const projects: Project[] = [
   {
     id: 17,
     name: "hx_finance",
-    description:
-      "The future of private DeFi on HyperEVM. Efficient swaps now, zero-knowledge privacy on the horizon.",
+    description: "The future of private DeFi on HyperEVM. Efficient swaps now, zero-knowledge privacy on the horizon.",
     categories: ["DEX", "3rd Tier Airdrop"],
     status: "Live",
     website: "https://app.hx.finance?ref=xlcrgs",
@@ -242,7 +236,8 @@ const projects: Project[] = [
   {
     id: 19,
     name: "HyperBrick",
-    description: "DLMM DEX powering precision trading, dynamic liquidity, and yield-optimized pools for next-gen tokens on Hyperliquid",
+    description:
+      "DLMM DEX powering precision trading, dynamic liquidity, and yield-optimized pools for next-gen tokens on Hyperliquid",
     categories: ["DEX", "3rd Tier Airdrop"],
     status: "Live",
     website: "https://hyperbrick.xyz/point?ref=XLCRGS",
@@ -263,7 +258,8 @@ const projects: Project[] = [
   {
     id: 21,
     name: "Unit",
-    description: "Unit is Hyperliquid's native asset tokenization layer that brings spot assets directly into the exchange and ecosystem.",
+    description:
+      "Unit is Hyperliquid's native asset tokenization layer that brings spot assets directly into the exchange and ecosystem.",
     categories: ["Bridge", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.hyperunit.xyz/",
@@ -326,8 +322,7 @@ const projects: Project[] = [
   {
     id: 27,
     name: "Ultrasolid",
-    description:
-      "Core-aligned veDEX on Hyperliquid.",
+    description: "Core-aligned veDEX on Hyperliquid.",
     categories: ["DEX", "1st Tier Airdrop"],
     status: "Live",
     website: "https://app.ultrasolid.xyz/@xlcrgs",
@@ -358,8 +353,7 @@ const projects: Project[] = [
   {
     id: 30,
     name: "Blueberry",
-    description:
-      "Tokenized Yield strategies and curated DeFi ecosystem on Hyperliquid EVM",
+    description: "Tokenized Yield strategies and curated DeFi ecosystem on Hyperliquid EVM",
     categories: ["Yield"],
     status: "Live",
     website: "https://app.blueberry.garden/?referrer=xlcrgs",
@@ -369,8 +363,7 @@ const projects: Project[] = [
   {
     id: 31,
     name: "HYPE Engine",
-    description:
-      "The $HYPE accumulation machine.",
+    description: "The $HYPE accumulation machine.",
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://x.com/TheHypeEngine",
@@ -466,8 +459,7 @@ const projects: Project[] = [
   {
     id: 40,
     name: "Morpho",
-    description:
-      "Open infrastructure for onchain loans",
+    description: "Open infrastructure for onchain loans",
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://morpho.org/",
@@ -477,8 +469,7 @@ const projects: Project[] = [
   {
     id: 41,
     name: "Pendle",
-    description:
-      "Liberating Yield || The world's largest crypto yield trading platform",
+    description: "Liberating Yield || The world's largest crypto yield trading platform",
     categories: ["Yield"],
     status: "Live",
     website: "https://www.pendle.finance/",
@@ -532,8 +523,7 @@ const projects: Project[] = [
   {
     id: 46,
     name: "Fullstack.Trade",
-    description:
-      "Multi Asset Margin for Hyperliquid. The only front end you'll ever need.",
+    description: "Multi Asset Margin for Hyperliquid. The only front end you'll ever need.",
     categories: ["Front End"],
     status: "Coming Soon",
     website: "https://x.com/fullstack_trade",
@@ -543,8 +533,7 @@ const projects: Project[] = [
   {
     id: 47,
     name: "Based",
-    description:
-      "#1 Degen Trading Bot",
+    description: "#1 Degen Trading Bot",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/based_eth_bot?start=r_xLcrgs",
@@ -638,8 +627,7 @@ const projects: Project[] = [
   {
     id: 56,
     name: "Veda",
-    description:
-      "The DeFi Engine for Financial Apps // $4B+ in deposits",
+    description: "The DeFi Engine for Financial Apps // $4B+ in deposits",
     categories: ["Yield"],
     status: "Live",
     website: "https://veda.tech/",
@@ -757,8 +745,7 @@ const projects: Project[] = [
   {
     id: 67,
     name: "SpinUp",
-    description:
-      "Spin memes into perpetual market fire.",
+    description: "Spin memes into perpetual market fire.",
     categories: ["Launchpad", "LST"],
     status: "Live",
     website: "https://www.spinup.zone/stake?ref=0xE48c64Ec6cf456a28F91e5B2bdA3A626DEDCC8E5",
@@ -832,8 +819,7 @@ const projects: Project[] = [
   {
     id: 74,
     name: "Dreamcash",
-    description:
-      "Code: xrlyfy | Trading so good it feels like a dream. On Hyperliquid.",
+    description: "Code: xrlyfy | Trading so good it feels like a dream. On Hyperliquid.",
     categories: ["Mobile Wallet"],
     status: "Beta",
     website: "https://dreamcash.xyz",
@@ -876,7 +862,8 @@ const projects: Project[] = [
   {
     id: 78,
     name: "RubiFi",
-    description: "The world's first democratized market making platform. Powered by $RUB, the most scarce and expensive asset in crypto",
+    description:
+      "The world's first democratized market making platform. Powered by $RUB, the most scarce and expensive asset in crypto",
     categories: ["Other"],
     status: "Live",
     website: "https://www.rub.finance/",
@@ -886,8 +873,7 @@ const projects: Project[] = [
   {
     id: 79,
     name: "SEKAI",
-    description:
-      "Sekai is building a platform to let anyone launch Liquid Staking Tokens on Hyperliquid. ",
+    description: "Sekai is building a platform to let anyone launch Liquid Staking Tokens on Hyperliquid. ",
     categories: ["Launchpad"],
     status: "Coming Soon",
     website: "https://sekai.fi/",
@@ -908,8 +894,7 @@ const projects: Project[] = [
   {
     id: 81,
     name: "Noble",
-    description:
-      "Purpose-built for stablecoin issuance Optimizing for UX",
+    description: "Purpose-built for stablecoin issuance Optimizing for UX",
     categories: ["Stablecoin"],
     status: "Coming Soon",
     website: "https://www.noble.xyz/",
@@ -972,7 +957,8 @@ const projects: Project[] = [
   {
     id: 87,
     name: "Wallet V",
-    description: "Code: 16606 | We've built Wallet V to help you find, seize, and manage the best opportunities in the decentralized ecosystem.",
+    description:
+      "Code: 16606 | We've built Wallet V to help you find, seize, and manage the best opportunities in the decentralized ecosystem.",
     categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://walletv.io/",
@@ -982,8 +968,7 @@ const projects: Project[] = [
   {
     id: 88,
     name: "Liquid Terminal",
-    description:
-      "The terminal to house all Hyperliquid",
+    description: "The terminal to house all Hyperliquid",
     categories: ["Front End"],
     status: "Beta",
     website: "https://liquidterminal.xyz/?ref=HyperLcrgs",
@@ -993,8 +978,7 @@ const projects: Project[] = [
   {
     id: 89,
     name: "GemsGun",
-    description:
-      "All-in-one HyperEVM trading platform. Data-driven, trader-focused, always ahead.",
+    description: "All-in-one HyperEVM trading platform. Data-driven, trader-focused, always ahead.",
     categories: ["Front End"],
     status: "Live",
     website: "https://gemsgun.com/hyper/discover?inviteCode=CrFqBpar",
@@ -1014,8 +998,7 @@ const projects: Project[] = [
   {
     id: 91,
     name: "Matcha",
-    description:
-      "The powerful onchain DEX aggregator built by 0x",
+    description: "The powerful onchain DEX aggregator built by 0x",
     categories: ["DEX"],
     status: "Live",
     website: "https://meta.matcha.xyz/?chainId=999&sellToken=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
@@ -1025,8 +1008,7 @@ const projects: Project[] = [
   {
     id: 92,
     name: "Kyber Network",
-    description:
-      "Swap crypto at the best rates with KyberSwap, the Multichain Aggregator available on 16 chains",
+    description: "Swap crypto at the best rates with KyberSwap, the Multichain Aggregator available on 16 chains",
     categories: ["DEX"],
     status: "Live",
     website: "https://kyberswap.com/",
@@ -1036,7 +1018,8 @@ const projects: Project[] = [
   {
     id: 93,
     name: "Balancer",
-    description: "The ultimate platform for custom liquidity solutions. Balancer v3 perfectly balances simplicity and flexibility to reshape the future of AMMs.",
+    description:
+      "The ultimate platform for custom liquidity solutions. Balancer v3 perfectly balances simplicity and flexibility to reshape the future of AMMs.",
     categories: ["DEX"],
     status: "Live",
     website: "https://balancer.fi/",
@@ -1046,8 +1029,7 @@ const projects: Project[] = [
   {
     id: 94,
     name: "OpenOcean",
-    description:
-      "Swap and bridge any token directly in Hyperfolio, powered by OpenOcean",
+    description: "Swap and bridge any token directly in Hyperfolio, powered by OpenOcean",
     categories: ["DEX"],
     status: "Live",
     website: "https://app.openocean.finance/",
@@ -1057,7 +1039,8 @@ const projects: Project[] = [
   {
     id: 95,
     name: "RAMSES",
-    description: "Ramses: Arbitrum's AMM hub with Uniswap v3 security, custom incentives, vote-lock governance, and user-friendly experience.",
+    description:
+      "Ramses: Arbitrum's AMM hub with Uniswap v3 security, custom incentives, vote-lock governance, and user-friendly experience.",
     categories: ["DEX"],
     status: "Live",
     website: "https://www.ramses.xyz/trade",
@@ -1171,8 +1154,7 @@ const projects: Project[] = [
   {
     id: 106,
     name: "Hyena",
-    description:
-      "loading...",
+    description: "loading...",
     categories: ["Front End"],
     status: "Coming Soon",
     website: "https://www.hyena.trade/",
@@ -1193,8 +1175,7 @@ const projects: Project[] = [
   {
     id: 108,
     name: "alright botty",
-    description:
-      "Telegram bot by Alright buddy",
+    description: "Telegram bot by Alright buddy",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/alrightbottyhome_bot?start=ref_HTC4PZ4B",
@@ -1204,8 +1185,7 @@ const projects: Project[] = [
   {
     id: 109,
     name: "Apexliquid",
-    description:
-      " Trade & Copy Trade on Hyperliquid. Get 1,000+ Smart Wallets For Free. ",
+    description: " Trade & Copy Trade on Hyperliquid. Get 1,000+ Smart Wallets For Free. ",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/Apexliquid_Bot?start=ref_J47G6V26",
@@ -1267,8 +1247,7 @@ const projects: Project[] = [
   {
     id: 115,
     name: "Hyperclash",
-    description:
-      "Assemble the sharpest Hyperliquid trader team and profit from their performance",
+    description: "Assemble the sharpest Hyperliquid trader team and profit from their performance",
     categories: ["NFT"],
     status: "Live",
     website: "https://hyperclash.xyz/marketplace",
@@ -1330,7 +1309,8 @@ const projects: Project[] = [
   {
     id: 121,
     name: "Phantom",
-    description: "Phantom is a friendly crypto wallet built for DeFi & NFTs on Solana, Bitcoin, Ethereum, Base, and Hyperliquid",
+    description:
+      "Phantom is a friendly crypto wallet built for DeFi & NFTs on Solana, Bitcoin, Ethereum, Base, and Hyperliquid",
     categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://phantom.com",
@@ -1392,8 +1372,7 @@ const projects: Project[] = [
   {
     id: 127,
     name: "NOXA",
-    description:
-      "Degen DEX always first on new blockchains.",
+    description: "Degen DEX always first on new blockchains.",
     categories: ["DEX"],
     status: "Live",
     website: "https://dex.noxa.fi/",
@@ -1403,8 +1382,7 @@ const projects: Project[] = [
   {
     id: 128,
     name: "Solv Protocol",
-    description:
-      "The Operating Layer Of Bitcoin for more efficient capital flow.",
+    description: "The Operating Layer Of Bitcoin for more efficient capital flow.",
     categories: ["Yield"],
     status: "Live",
     website: "https://app.solv.finance/points/8C9FQR",
@@ -1487,8 +1465,7 @@ const projects: Project[] = [
   {
     id: 136,
     name: "Maple",
-    description:
-      "Asset management, onchain.",
+    description: "Asset management, onchain.",
     categories: ["Lending", "Yield"],
     status: "Live",
     website: "https://maple.finance/",
@@ -1498,8 +1475,7 @@ const projects: Project[] = [
   {
     id: 137,
     name: "WhyNotHigher",
-    description:
-      "Probably a DEX aggregator like Odos Protocol",
+    description: "Probably a DEX aggregator like Odos Protocol",
     categories: ["DEX"],
     status: "Coming Soon",
     website: "https://x.com/whynothigher",
@@ -1617,8 +1593,7 @@ const projects: Project[] = [
   {
     id: 148,
     name: "Reactor",
-    description:
-      "Full crypto trading stack. Unmatched control and speed on-chain. Built for those who move fast.",
+    description: "Full crypto trading stack. Unmatched control and speed on-chain. Built for those who move fast.",
     categories: ["Front End"],
     status: "Live",
     website: "https://app.reactor.trade/dashboard?ref=OM56BHEN",
@@ -1638,8 +1613,7 @@ const projects: Project[] = [
   {
     id: 150,
     name: "Overdraft",
-    description:
-      "The Fiat DEX. Swap fiat - crypto in seconds. No custody. No fees. No fund freeze.",
+    description: "The Fiat DEX. Swap fiat - crypto in seconds. No custody. No fees. No fund freeze.",
     categories: ["On-Ramp"],
     status: "Live",
     website: "https://overdraft.com/",
@@ -1753,8 +1727,7 @@ const projects: Project[] = [
   {
     id: 161,
     name: "Anchorage Digital",
-    description:
-      "The trusted crypto platform for innovators and investors.",
+    description: "The trusted crypto platform for innovators and investors.",
     categories: ["Front End"],
     status: "Live",
     website: "https://www.anchorage.com/",
@@ -1764,8 +1737,7 @@ const projects: Project[] = [
   {
     id: 162,
     name: "ddot",
-    description:
-      "24/7 decentralized derivatives on everything that matters | built on Hyperliquid",
+    description: "24/7 decentralized derivatives on everything that matters | built on Hyperliquid",
     categories: ["Front End"],
     status: "Coming Soon",
     website: "https://hypermercantile.gitbook.io/docs",
@@ -1878,8 +1850,7 @@ const projects: Project[] = [
   {
     id: 173,
     name: "HypeFun",
-    description:
-      "Community owned AI Launchpad coming soon on HyperEVM",
+    description: "Community owned AI Launchpad coming soon on HyperEVM",
     categories: ["Launchpad"],
     status: "Live",
     website: "https://hypefun.ai/",
@@ -1909,7 +1880,8 @@ const projects: Project[] = [
   {
     id: 176,
     name: "HyperScan",
-    description: "Fork of Blockscout. With custom indexing, components, widgets, and APIs built specifically for the HyperLiquid ecosystem.",
+    description:
+      "Fork of Blockscout. With custom indexing, components, widgets, and APIs built specifically for the HyperLiquid ecosystem.",
     categories: ["Tools"],
     status: "Live",
     website: "https://beta.hyperscan.com/",
@@ -2139,8 +2111,7 @@ const projects: Project[] = [
   {
     id: 198,
     name: "Alchemy",
-    description:
-      "Your complete developer platform to build rollups, apps & everything in between.",
+    description: "Your complete developer platform to build rollups, apps & everything in between.",
     categories: ["Tools"],
     status: "Live",
     website: "https://www.alchemy.com/",
@@ -2297,7 +2268,8 @@ const projects: Project[] = [
   {
     id: 213,
     name: "Mass",
-    description: "Mass is your gateway to interacting with multiple networks and financial services built atop the blockchain, also known as DeFi",
+    description:
+      "Mass is your gateway to interacting with multiple networks and financial services built atop the blockchain, also known as DeFi",
     categories: ["Front End"],
     status: "Live",
     website: "https://download.mass.money/ref/SBQqlVQ2NdiV2nJfEkwnEYegIdy",
@@ -2329,8 +2301,7 @@ const projects: Project[] = [
   {
     id: 216,
     name: "Defined",
-    description:
-      "The fastest and safest multi-chain trading terminal & Screener.",
+    description: "The fastest and safest multi-chain trading terminal & Screener.",
     categories: ["Front End"],
     status: "Live",
     website: "https://www.defined.fi/tokens/discover?network=hyperevm",
@@ -2340,8 +2311,7 @@ const projects: Project[] = [
   {
     id: 217,
     name: "Copin",
-    description:
-      "The leading on-chain data & signal platform for perpetual trading.",
+    description: "The leading on-chain data & signal platform for perpetual trading.",
     categories: ["Bot"],
     status: "Live",
     website: "https://copin.io/",
@@ -2362,8 +2332,7 @@ const projects: Project[] = [
   {
     id: 219,
     name: "Hypersig",
-    description:
-      "The Hypercore-based multisig platform for power users",
+    description: "The Hypercore-based multisig platform for power users",
     categories: ["Tools"],
     status: "Coming Soon",
     website: "https://hypersig.xyz/",
@@ -2384,8 +2353,7 @@ const projects: Project[] = [
   {
     id: 221,
     name: "Drops",
-    description:
-      "Check any crypto wallet for unclaimed airdrops, get Telegram alerts on eligibility!",
+    description: "Check any crypto wallet for unclaimed airdrops, get Telegram alerts on eligibility!",
     categories: ["Tools"],
     status: "Live",
     website: "https://drops.bot/?r=35gnSMWb60",
@@ -2395,8 +2363,7 @@ const projects: Project[] = [
   {
     id: 222,
     name: "Outcome",
-    description:
-      "The first prediction market on Hyperliquid.",
+    description: "The first prediction market on Hyperliquid.",
     categories: ["Options"],
     status: "Live",
     website: "https://outcome.market/",
@@ -2437,7 +2404,8 @@ const projects: Project[] = [
   {
     id: 226,
     name: "Vision",
-    description: "Everything you need to access, explore, and thrive in the decentralised internet. Powered by Vision (VSN)",
+    description:
+      "Everything you need to access, explore, and thrive in the decentralised internet. Powered by Vision (VSN)",
     categories: ["Other"],
     status: "Live",
     website: "https://vision.now/",
@@ -2522,8 +2490,7 @@ const projects: Project[] = [
   {
     id: 234,
     name: "Racks",
-    description:
-      "Ultra-gamified, fast-paced, high volatility trading on Hyperliquid",
+    description: "Ultra-gamified, fast-paced, high volatility trading on Hyperliquid",
     categories: ["Options"],
     status: "Live",
     website: "https://racks.win/",
@@ -2576,8 +2543,7 @@ const projects: Project[] = [
   {
     id: 239,
     name: "HyperMoon.Fun",
-    description:
-      "Meme. Mint. Moon. Hyperliquid's Token Launch Platform for memecoins",
+    description: "Meme. Mint. Moon. Hyperliquid's Token Launch Platform for memecoins",
     categories: ["Launchpad"],
     status: "Live",
     website: "https://hypermoon.fun/",
@@ -2587,8 +2553,7 @@ const projects: Project[] = [
   {
     id: 240,
     name: "manadotwin",
-    description:
-      "Hyperliquid-native launch + trading platform that neutralizes snipers, bundlers, bots and rugs.",
+    description: "Hyperliquid-native launch + trading platform that neutralizes snipers, bundlers, bots and rugs.",
     categories: ["Launchpad"],
     status: "Live",
     website: "https://mana.win/app/",
@@ -2620,7 +2585,8 @@ const projects: Project[] = [
   {
     id: 243,
     name: "Brotocol",
-    description: "Bringing DeFi to Bitcoin via enabling Swaps, Bridge and Payment directly on the $BTC network—20+ chains + Best rate guaranteed!",
+    description:
+      "Bringing DeFi to Bitcoin via enabling Swaps, Bridge and Payment directly on the $BTC network—20+ chains + Best rate guaranteed!",
     categories: ["Bridge"],
     status: "Live",
     website: "https://brotocol.xyz/bitcoin/swap",
@@ -2673,8 +2639,7 @@ const projects: Project[] = [
   {
     id: 248,
     name: "Looter",
-    description:
-      "Your multichain memecoin solution",
+    description: "Your multichain memecoin solution",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/looter_ai_bot?start=use_1Qna2U",
@@ -2871,7 +2836,8 @@ const projects: Project[] = [
   {
     id: 267,
     name: "Proof of Play",
-    description: "Onchain game studio & technology company, building Pirate Nation and the composable infrastructure it runs on.",
+    description:
+      "Onchain game studio & technology company, building Pirate Nation and the composable infrastructure it runs on.",
     categories: ["Gaming"],
     status: "Live",
     website: "https://proofofplay.com/",
@@ -2881,8 +2847,7 @@ const projects: Project[] = [
   {
     id: 268,
     name: "Evoq Finance",
-    description:
-      "A P2P-based lending optimizer",
+    description: "A P2P-based lending optimizer",
     categories: ["Lending", "Yield"],
     status: "Coming Soon",
     website: "https://app.evoq.finance/?referralCode=2Dn0SQra",
@@ -2892,8 +2857,7 @@ const projects: Project[] = [
   {
     id: 269,
     name: "circle",
-    description:
-      "socialFi on hyperliquid",
+    description: "socialFi on hyperliquid",
     categories: ["SocialFi"],
     status: "Coming Soon",
     website: "https://docs.hypercircle.app/",
@@ -2903,8 +2867,7 @@ const projects: Project[] = [
   {
     id: 270,
     name: "Jigsaw",
-    description:
-      "The missing piece of DeFi ",
+    description: "The missing piece of DeFi ",
     categories: ["Yield"],
     status: "Live",
     website: "https://jigsaw.finance/",
@@ -2965,7 +2928,8 @@ const projects: Project[] = [
   {
     id: 276,
     name: "Catapult",
-    description: "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
+    description:
+      "Hyper-Intelligent Launch Engine. Dual Mode: On-chain and RNG Unified Flywheel. Built on Hyperliquid and LayerZero",
     categories: ["Launchpad"],
     status: "Live",
     website: "https://catapult.trade/invite/2TB7ZO7Z",
@@ -2986,8 +2950,7 @@ const projects: Project[] = [
   {
     id: 278,
     name: "LAGOON",
-    description:
-      "Build yield products that scale, and bring the best of DeFi to your users.",
+    description: "Build yield products that scale, and bring the best of DeFi to your users.",
     categories: ["Yield"],
     status: "Live",
     website: "https://lagoon.finance/",
@@ -2997,8 +2960,7 @@ const projects: Project[] = [
   {
     id: 279,
     name: "Infinex",
-    description:
-      "Building the crypto everything app.",
+    description: "Building the crypto everything app.",
     categories: ["Front End"],
     status: "Live",
     website: "https://infinex.xyz/",
@@ -3008,8 +2970,7 @@ const projects: Project[] = [
   {
     id: 280,
     name: "Cashmere",
-    description:
-      "Middleware infrastructure for zero-slippage one-click native omnichain transfers.",
+    description: "Middleware infrastructure for zero-slippage one-click native omnichain transfers.",
     categories: ["DEX"],
     status: "Live",
     website: "https://cashmere.exchange/",
@@ -3019,8 +2980,7 @@ const projects: Project[] = [
   {
     id: 281,
     name: "Equilibria",
-    description:
-      "First yield booster on top of Pendle",
+    description: "First yield booster on top of Pendle",
     categories: ["Yield"],
     status: "Live",
     website: "https://equilibria.fi/home",
@@ -3030,8 +2990,7 @@ const projects: Project[] = [
   {
     id: 282,
     name: "Funnel",
-    description:
-      "The Hyperliquid Asset Engine",
+    description: "The Hyperliquid Asset Engine",
     categories: ["Front End"],
     status: "Live",
     website: "https://www.funnel.markets/rewards?referral_code=042b066b",
@@ -3041,8 +3000,7 @@ const projects: Project[] = [
   {
     id: 283,
     name: "Ranger",
-    description:
-      "DeFi's command center.",
+    description: "DeFi's command center.",
     categories: ["Front End"],
     status: "Live",
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
@@ -3062,8 +3020,7 @@ const projects: Project[] = [
   {
     id: 286,
     name: "Nimbus Trade",
-    description:
-      "Automate your trades on Hyperliquid",
+    description: "Automate your trades on Hyperliquid",
     categories: ["Bot", "Tools"],
     status: "Coming Soon",
     website: "https://nimbus.trade/",
@@ -3073,8 +3030,7 @@ const projects: Project[] = [
   {
     id: 287,
     name: "USD.AI",
-    description:
-      "The yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
+    description: "The yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
     categories: ["Stablecoin"],
     status: "Beta",
     website: "https://usd.ai/",
@@ -3084,8 +3040,7 @@ const projects: Project[] = [
   {
     id: 288,
     name: "IceCreamSwap",
-    description:
-      "AI powered DEX aggregator finding you the best swaps",
+    description: "AI powered DEX aggregator finding you the best swaps",
     categories: ["DEX"],
     status: "Live",
     website: "https://icecreamswap.com/",
@@ -3106,8 +3061,7 @@ const projects: Project[] = [
   {
     id: 290,
     name: "Peri Pair Bot",
-    description:
-      "First Pair trading telegram bot with Rust-based execution exclusively on Hyperliquid",
+    description: "First Pair trading telegram bot with Rust-based execution exclusively on Hyperliquid",
     categories: ["Bot"],
     status: "Live",
     website: "https://t.me/peripairbot?start=curvy-regret-7164",
@@ -3117,8 +3071,7 @@ const projects: Project[] = [
   {
     id: 291,
     name: "Hypervol",
-    description:
-      "Native Options Market for HyperEVM, Built on Hyperliquid",
+    description: "Native Options Market for HyperEVM, Built on Hyperliquid",
     categories: ["Options"],
     status: "Coming Soon",
     website: "https://www.hypervol.xyz/",
@@ -3128,8 +3081,7 @@ const projects: Project[] = [
   {
     id: 292,
     name: "HyperSpartan",
-    description:
-      "Hyperliquid Telegram Bot",
+    description: "Hyperliquid Telegram Bot",
     categories: ["Bot"],
     status: "Live",
     website: "https://www.hyperspartan.xyz/",
@@ -3139,8 +3091,7 @@ const projects: Project[] = [
   {
     id: 293,
     name: "HiveFi",
-    description:
-      "Trading strategy hub on Hyperliquid",
+    description: "Trading strategy hub on Hyperliquid",
     categories: ["Bot"],
     status: "Coming Soon",
     website: "https://hivefi.xyz/",
@@ -3150,8 +3101,7 @@ const projects: Project[] = [
   {
     id: 294,
     name: "kibl",
-    description:
-      "Borrow, lend, and leverage.",
+    description: "Borrow, lend, and leverage.",
     categories: ["Lending", "Yield"],
     status: "Coming Soon",
     website: "https://kibl.fi/",
@@ -3161,8 +3111,7 @@ const projects: Project[] = [
   {
     id: 295,
     name: "RNDM",
-    description:
-      "Disrupt DeFi with AI agents! Generate liquidity, solve with agents!",
+    description: "Disrupt DeFi with AI agents! Generate liquidity, solve with agents!",
     categories: ["Launchpad"],
     status: "Live",
     website: "https://www.rndm.io/",
@@ -3194,8 +3143,7 @@ const projects: Project[] = [
   {
     id: 298,
     name: "Flowscan",
-    description:
-      "Hyperliquid Data Layer.",
+    description: "Hyperliquid Data Layer.",
     categories: ["Analytics"],
     status: "Live",
     website: "https://www.flowscan.xyz/",
@@ -3205,8 +3153,7 @@ const projects: Project[] = [
   {
     id: 299,
     name: "HypeScreener",
-    description:
-      "Hyperliquid + HyperEVM dashboard for degens and farmers",
+    description: "Hyperliquid + HyperEVM dashboard for degens and farmers",
     categories: ["Analytics"],
     status: "Live",
     website: "https://www.hypescreener.xyz/",
@@ -3216,8 +3163,7 @@ const projects: Project[] = [
   {
     id: 300,
     name: "Hyper DeFAI",
-    description:
-      "The only DeFAI on Hyperliquid",
+    description: "The only DeFAI on Hyperliquid",
     categories: ["Bot"],
     status: "Coming Soon",
     website: "https://www.hyperai.org/",
@@ -3238,8 +3184,7 @@ const projects: Project[] = [
   {
     id: 302,
     name: "Rainbow",
-    description:
-      "The wallet that rewards you for having fun onchain.",
+    description: "The wallet that rewards you for having fun onchain.",
     categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
     website: "https://rainbow.me/",
@@ -3249,8 +3194,7 @@ const projects: Project[] = [
   {
     id: 303,
     name: "Rarible",
-    description:
-      "More than a marketplace.",
+    description: "More than a marketplace.",
     categories: ["NFT"],
     status: "Live",
     website: "https://rarible.com/",
@@ -3260,8 +3204,7 @@ const projects: Project[] = [
   {
     id: 304,
     name: "Deploy.Finance",
-    description:
-      "Earn supercharged yields on Hyperliquid",
+    description: "Earn supercharged yields on Hyperliquid",
     categories: ["Yield"],
     status: "Live",
     website: "https://app.deploy.finance/dashboard",
@@ -3271,8 +3214,7 @@ const projects: Project[] = [
   {
     id: 305,
     name: "Kintsu",
-    description:
-      "Creators of sHYPE and sMON - A new paradigm in decentralized Liquid Staking on Hyperliquid and Monad",
+    description: "Creators of sHYPE and sMON - A new paradigm in decentralized Liquid Staking on Hyperliquid and Monad",
     categories: ["LST"],
     status: "Coming Soon",
     website: "https://kintsu.xyz/",
@@ -3282,8 +3224,7 @@ const projects: Project[] = [
   {
     id: 306,
     name: "OpenSea",
-    description:
-      "The best place to discover, own, and trade onchain.",
+    description: "The best place to discover, own, and trade onchain.",
     categories: ["NFT"],
     status: "Live",
     website: "https://opensea.io/",
@@ -3304,8 +3245,7 @@ const projects: Project[] = [
   {
     id: 308,
     name: "StraddleFi",
-    description:
-      "Decentralized Crypto Options DEX on HyperLiquid | Trade, Hedge & Build Strategies On-Chain ",
+    description: "Decentralized Crypto Options DEX on HyperLiquid | Trade, Hedge & Build Strategies On-Chain ",
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://www.straddlefi.xyz/",
@@ -3326,8 +3266,7 @@ const projects: Project[] = [
   {
     id: 310,
     name: "Zyper",
-    description:
-      "Launch free pools on PRJX & HyperSwap with locked LP + virtual liquidity. Earn trading fees forever.",
+    description: "Launch free pools on PRJX & HyperSwap with locked LP + virtual liquidity. Earn trading fees forever.",
     categories: ["Yield"],
     status: "Live",
     website: "https://zyper.fun/",
@@ -3337,8 +3276,7 @@ const projects: Project[] = [
   {
     id: 311,
     name: "HyperScope",
-    description:
-      "Scanning the stars of HyperEVM. One dashboard for every pool, every dex, every apr ",
+    description: "Scanning the stars of HyperEVM. One dashboard for every pool, every dex, every apr ",
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://x.com/hyperscope_hl",
@@ -3348,8 +3286,7 @@ const projects: Project[] = [
   {
     id: 312,
     name: "LiquidFi",
-    description:
-      "NFT Aggregated Marketplace of Hyperliquid",
+    description: "NFT Aggregated Marketplace of Hyperliquid",
     categories: ["NFT"],
     status: "Live",
     website: "https://www.liquidfi.app/",
@@ -3357,10 +3294,20 @@ const projects: Project[] = [
     logo: "https://pbs.twimg.com/profile_images/1897688545688424448/AOUTW5iS_400x400.jpg",
   },
   {
+    id: 313,
+    name: "Hyperliquid Core",
+    description:
+      "The blockchain to house all finance. Trade, build apps, and launch tokens on the same hyper-performant chain. X by Hyper Foundation",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://app.hyperliquid.xyz/join/0XLCRGS",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/2001260078352285697/f5cl2Syx_400x400.jpg",
+  },
+  {
     id: 314,
     name: "Liquid Estate",
-    description:
-      "Tokenized real estate, anywhere, anytime. HyperEVM.",
+    description: "Tokenized real estate, anywhere, anytime. HyperEVM.",
     categories: ["RWA"],
     status: "Coming Soon",
     website: "https://liquidestate.xyz/",
@@ -3370,8 +3317,7 @@ const projects: Project[] = [
   {
     id: 315,
     name: "Neura Vaults",
-    description:
-      "Self-Evolving Liquidity Vaults on HyperEVM",
+    description: "Self-Evolving Liquidity Vaults on HyperEVM",
     categories: ["Options"],
     status: "Coming Soon",
     website: "https://x.com/Neuravaults",
@@ -3392,8 +3338,7 @@ const projects: Project[] = [
   {
     id: 317,
     name: "Kops",
-    description:
-      "The Only Agentic Automation Protocol on Hype. Powered by Hyperliquid",
+    description: "The Only Agentic Automation Protocol on Hype. Powered by Hyperliquid",
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://kops.ai/",
@@ -3403,8 +3348,7 @@ const projects: Project[] = [
   {
     id: 318,
     name: "Nested",
-    description:
-      "Swap your coins with uniswap and 1inch directly on discord with the best rates.",
+    description: "Swap your coins with uniswap and 1inch directly on discord with the best rates.",
     categories: ["Bot"],
     status: "Coming Soon",
     website: "https://nestedwallet.com/",
@@ -3414,8 +3358,7 @@ const projects: Project[] = [
   {
     id: 319,
     name: "Zup Protocol",
-    description:
-      "Find & Deposit into the best liquidity pool in a minute.",
+    description: "Find & Deposit into the best liquidity pool in a minute.",
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://app.zupprotocol.xyz/",
@@ -3458,8 +3401,7 @@ const projects: Project[] = [
   {
     id: 323,
     name: "Perpalert",
-    description:
-      "We notify you about your Hyperliquid trades over a call.",
+    description: "We notify you about your Hyperliquid trades over a call.",
     categories: ["Tools"],
     status: "Live",
     website: "https://www.perpalert.app/",
@@ -3469,8 +3411,7 @@ const projects: Project[] = [
   {
     id: 324,
     name: "HyperBill",
-    description:
-      "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
+    description: "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
     categories: ["Yield"],
     status: "Coming Soon",
     website: "https://hyperbill.io/",
@@ -3480,8 +3421,7 @@ const projects: Project[] = [
   {
     id: 325,
     name: "GUESS",
-    description:
-      "Predictions Market on Hyperliquid",
+    description: "Predictions Market on Hyperliquid",
     categories: ["Options"],
     status: "Coming Soon",
     website: "https://www.guess.gs/",
@@ -3491,8 +3431,7 @@ const projects: Project[] = [
   {
     id: 326,
     name: "Fibrous",
-    description:
-      "One place for best execution across chains, now live on HyperEVM",
+    description: "One place for best execution across chains, now live on HyperEVM",
     categories: ["DEX"],
     status: "Live",
     website: "https://fibrous.finance/",
@@ -3502,8 +3441,7 @@ const projects: Project[] = [
   {
     id: 327,
     name: "Tangem",
-    description:
-      "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
+    description: "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
     categories: ["Mobile Wallet"],
     status: "Live",
     website: "https://tangem.com/en/",
@@ -3513,7 +3451,8 @@ const projects: Project[] = [
   {
     id: 328,
     name: "HyperETH",
-    description: "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
+    description:
+      "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
     categories: ["Front End"],
     status: "Live",
     website: "https://hypereth.io/register?ref=HYPE",
@@ -3533,8 +3472,7 @@ const projects: Project[] = [
   {
     id: 330,
     name: "FLIPgo",
-    description:
-      "FLIPgo is Hyperliquid's native streaming platform",
+    description: "FLIPgo is Hyperliquid's native streaming platform",
     categories: ["SocialFi"],
     status: "Beta",
     website: "https://flipgo.xyz/",
@@ -3564,8 +3502,7 @@ const projects: Project[] = [
   {
     id: 333,
     name: "ChipSwap",
-    description:
-      "We're always seeking for new chains for you.",
+    description: "We're always seeking for new chains for you.",
     categories: ["DEX"],
     status: "Live",
     website: "https://chipswap.org/#/swap",
@@ -3575,7 +3512,8 @@ const projects: Project[] = [
   {
     id: 334,
     name: "Moralis",
-    description: "The crypto data layer. Fetch blockchain data with our Data APIs, monitor crypto data with Streams, and export massive blockchain datasets with Datashare.",
+    description:
+      "The crypto data layer. Fetch blockchain data with our Data APIs, monitor crypto data with Streams, and export massive blockchain datasets with Datashare.",
     categories: ["Tools", "Analytics"],
     status: "Live",
     website: "https://moralis.com/",
@@ -3585,8 +3523,7 @@ const projects: Project[] = [
   {
     id: 335,
     name: "Ring Protocol",
-    description:
-      "A new era in decentralized exchange revolutionizing asset utilization. One ring to rule them all.",
+    description: "A new era in decentralized exchange revolutionizing asset utilization. One ring to rule them all.",
     categories: ["DEX"],
     status: "Live",
     website: "https://ring.exchange/",
@@ -3596,8 +3533,7 @@ const projects: Project[] = [
   {
     id: 336,
     name: "Whales Market",
-    description:
-      "The Leading Pre-market DEX for OTC Token Deals.",
+    description: "The Leading Pre-market DEX for OTC Token Deals.",
     categories: ["Options"],
     status: "Live",
     website: "https://pro.whales.market/?r=046949",
@@ -3607,8 +3543,7 @@ const projects: Project[] = [
   {
     id: 338,
     name: "Polymarket",
-    description:
-      "The world's largest prediction market.",
+    description: "The world's largest prediction market.",
     categories: ["Options"],
     status: "Live",
     website: "https://polymarket.com/",
@@ -3618,8 +3553,7 @@ const projects: Project[] = [
   {
     id: 339,
     name: "SIR",
-    description:
-      "Leverage with a onetime fee, keep the rest for yourself",
+    description: "Leverage with a onetime fee, keep the rest for yourself",
     categories: ["Front End"],
     status: "Live",
     website: "https://app.sir.trading/",
@@ -3629,8 +3563,7 @@ const projects: Project[] = [
   {
     id: 340,
     name: "GONDI",
-    description:
-      "Premier NFT Liquidity Marketplace. Collect. Sell. Borrow. Lend.",
+    description: "Premier NFT Liquidity Marketplace. Collect. Sell. Borrow. Lend.",
     categories: ["NFT"],
     status: "Live",
     website: "https://www.gondi.xyz/",
@@ -3640,7 +3573,8 @@ const projects: Project[] = [
   {
     id: 341,
     name: "Bitfrost",
-    description: "Bitfrost is accelerating growth across the Hyperliquid ecosystem by launching the next wave of Spot markets.",
+    description:
+      "Bitfrost is accelerating growth across the Hyperliquid ecosystem by launching the next wave of Spot markets.",
     categories: ["Bridge"],
     status: "Coming Soon",
     website: "https://bitfrost.xyz/",
@@ -3650,8 +3584,7 @@ const projects: Project[] = [
   {
     id: 342,
     name: "Upheaval",
-    description:
-      "Defi on Hyperliquid",
+    description: "Defi on Hyperliquid",
     categories: ["DEX"],
     status: "Live",
     website: "https://upheaval.fi/portfolio?ref=OXLCRGS",
@@ -3661,8 +3594,7 @@ const projects: Project[] = [
   {
     id: 343,
     name: "Otomato",
-    description:
-      "Building the HyperEVM assistant",
+    description: "Building the HyperEVM assistant",
     categories: ["Bot"],
     status: "Live",
     website: "https://app.otomato.xyz/access-code?ref=CGRCM5",
@@ -3672,8 +3604,7 @@ const projects: Project[] = [
   {
     id: 344,
     name: "Zigg",
-    description:
-      "Emerging performant markets",
+    description: "Emerging performant markets",
     categories: ["Front End"],
     status: "Coming Soon",
     website: "https://x.com/ZiggsOnChain",
@@ -3683,8 +3614,7 @@ const projects: Project[] = [
   {
     id: 345,
     name: "Global Compute Index",
-    description:
-      "Commodifying Compute",
+    description: "Commodifying Compute",
     categories: ["Front End"],
     status: "Coming Soon",
     website: "https://globalcomputeindex.com/#pitch",
@@ -3694,8 +3624,7 @@ const projects: Project[] = [
   {
     id: 346,
     name: "HyperOdd",
-    description:
-      "Trade any event, anywhere with leverage on Hyperliquid",
+    description: "Trade any event, anywhere with leverage on Hyperliquid",
     categories: ["Options"],
     status: "Coming Soon",
     website: "https://hyperodd.com/",
@@ -3931,9 +3860,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
             }}
           ></div>
           <div className="min-w-0 flex-1">
-            <CardTitle className="text-white text-base sm:text-lg lg:text-xl truncate">
-              {project.name}
-            </CardTitle>
+            <CardTitle className="text-white text-base sm:text-lg lg:text-xl truncate">{project.name}</CardTitle>
           </div>
         </div>
       </div>
@@ -4062,11 +3989,12 @@ export default function EcosystemPage() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Background Video */}
+      {/* CHANGE: Updated video source to use provided blob URL */}
       <video
         preload="auto"
         loop
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
-        src="https://www.shutterstock.com/shutterstock/videos/3894679377/preview/stock-footage-abstract-d-deformed-figure-green-metabolite-drop-surrealistic-object-based-on-metabolic-spheres.webm"
+        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RwGeVOvQtNVZBORO-KARqSqFmGhvTMT2zwlHromODnQUfKF.mp4"
         autoPlay
         muted
         playsInline
@@ -4092,9 +4020,9 @@ export default function EcosystemPage() {
             </div>
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-3">
-                <Button className="bg-gray-200 hover:bg-gray-300 text-black">
-                  <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
-                </Button>
+              <Button className="bg-gray-200 hover:bg-gray-300 text-black">
+                <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
+              </Button>
               <Button className="bg-green-800 hover:bg-green-900 text-white">
                 <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
               </Button>
@@ -4123,9 +4051,9 @@ export default function EcosystemPage() {
                 <Button className="bg-gray-200 hover:bg-gray-300 text-black">
                   <Link href="https://megaeth-portal.vercel.app/">MegaETH Portal</Link>
                 </Button>
-              <Button className="bg-green-800 hover:bg-green-900 text-white">
-                <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
-              </Button>
+                <Button className="bg-green-800 hover:bg-green-900 text-white">
+                  <Link href="https://plasma-portal.vercel.app//">Plasma Portal</Link>
+                </Button>
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                   <Link href="https://x.com/intent/follow?screen_name=HyperLcrgs">Follow X</Link>
                 </Button>
