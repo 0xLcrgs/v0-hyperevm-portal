@@ -37,14 +37,13 @@ const projects: Project[] = [
   },
   {
     id: 1,
-    name: "HyperLend",
-    description:
-      "HyperLend is a high-performance lending protocol on Hyperliquid EVM, offering real-time leverage, dynamic rates, and deep liquidity.",
-    categories: ["Lending", "Yield", "1st Tier Airdrop"],
+    name: "Markets",
+    description: "By Kinetiq",
+    categories: ["Front End"],
     status: "Live",
-    website: "https://app.hyperlend.finance/?ref=0XLCRGS",
-    tags: ["Lending", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/2003457356873539584/ItzG0Krp_400x400.jpg",
+    website: "https://markets.xyz/join/xlcrgs",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/2000613313902780418/m6MlsRpl_400x400.jpg",
   },
   {
     id: 2,
@@ -205,13 +204,14 @@ const projects: Project[] = [
   },
   {
     id: 16,
-    name: "Markets",
-    description: "By Kinetiq",
-    categories: ["Front End"],
+    name: "HyperLend",
+    description:
+      "HyperLend is a high-performance lending protocol on Hyperliquid EVM, offering real-time leverage, dynamic rates, and deep liquidity.",
+    categories: ["Lending", "Yield", "1st Tier Airdrop"],
     status: "Live",
-    website: "https://x.com/markets_xyz",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/2000613313902780418/m6MlsRpl_400x400.jpg",
+    website: "https://app.hyperlend.finance/?ref=0XLCRGS",
+    tags: ["Lending", "Yield"],
+    logo: "https://pbs.twimg.com/profile_images/2003457356873539584/ItzG0Krp_400x400.jpg",
   },
   {
     id: 17,
