@@ -38,7 +38,7 @@ const projects: Project[] = [
   {
     id: 1,
     name: "Markets",
-    description: "By Kinetiq",
+    description: "The universal frontend for capital markets. By Kinetiq",
     categories: ["Front End"],
     status: "Live",
     website: "https://markets.xyz/join/xlcrgs",
@@ -225,13 +225,13 @@ const projects: Project[] = [
   },
   {
     id: 18,
-    name: "Hybra Finance",
-    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.hybra.finance?code=MBKOYM",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1960708894415839238/a_t1x1aO_400x400.jpg",
+    name: "Delpho",
+    description: "Redefining productive onchain money. The first atomic stablecoin powered by perpetual funding.",
+    categories: ["Stablecoin"],
+    status: "Coming Soon",
+    website: "https://prism.delpho.xyz/ref/d8a86c22c7e813be",
+    tags: ["Stablecoin"],
+    logo: "https://pbs.twimg.com/profile_images/1942486893637128192/5L46DcQo_400x400.jpg",
   },
   {
     id: 19,
@@ -3481,6 +3481,16 @@ const projects: Project[] = [
     website: "https://backpack.app/",
     tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
+  },
+  {
+    id: 332,
+    name: "Hybra Finance",
+    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.hybra.finance?code=MBKOYM",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1960708894415839238/a_t1x1aO_400x400.jpg",
   },
 ]
 
