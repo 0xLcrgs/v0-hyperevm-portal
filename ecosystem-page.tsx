@@ -64,7 +64,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.tread.fi/referral/34CQIRWV",
     tags: ["Bot", "Front End"],
-    logo: "https://pbs.twimg.com/profile_images/2000493331365920770/AWOwvKqn_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2008758708768305153/g5jFdC3E_400x400.jpg",
   },
   {
     id: 4,
