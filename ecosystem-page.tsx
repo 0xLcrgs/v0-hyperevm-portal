@@ -1222,13 +1222,14 @@ const projects: Project[] = [
   },
   {
     id: 113,
-    name: "Bloom",
-    description: "Most advanced cross-chain trading automation SOL | BSC | BASE | HYPEREVM",
-    categories: ["Bot"],
+    name: "BrownFi",
+    description:
+      "Innovative oracle-based AMM, high capital efficiency (~UniV3), NO out-of-range & simple LP management for average users to mitigate IL & maximize LP gains",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://t.me/BloomHyperLiquid_bot?start=ref_E67VP3BK8D",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1853964541261983748/oSitKQIe_400x400.jpg",
+    website: "https://brownfi.io/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1746843422454087680/Q58dTyR7_400x400.jpg",
   },
   {
     id: 114,
