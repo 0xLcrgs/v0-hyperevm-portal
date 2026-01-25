@@ -2259,14 +2259,13 @@ const projects: Project[] = [
   },
   {
     id: 213,
-    name: "Mass",
-    description:
-      "Mass is your gateway to interacting with multiple networks and financial services built atop the blockchain, also known as DeFi",
-    categories: ["Front End"],
+    name: "Rainbow",
+    description: "The wallet that rewards you for having fun onchain.",
+    categories: ["Mobile Wallet", "Extension Wallet"],
     status: "Live",
-    website: "https://download.mass.money/ref/SBQqlVQ2NdiV2nJfEkwnEYegIdy",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1811432607550259200/0pn5qbde_400x400.jpg",
+    website: "https://rainbow.me/",
+    tags: ["Mobile Wallet", "Extension Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1557391177665708032/FSuv7Zpo_400x400.png",
   },
   {
     id: 214,
@@ -3169,16 +3168,6 @@ const projects: Project[] = [
     website: "https://chromewebstore.google.com/detail/avail-nexus-sdk-injector/pckfgdpbgkdehabcapdbhlphaoajdlea",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1981315109080219648/roJu5dHT_400x400.jpg",
-  },
-  {
-    id: 302,
-    name: "Rainbow",
-    description: "The wallet that rewards you for having fun onchain.",
-    categories: ["Mobile Wallet", "Extension Wallet"],
-    status: "Live",
-    website: "https://rainbow.me/",
-    tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1557391177665708032/FSuv7Zpo_400x400.png",
   },
 ]
 
