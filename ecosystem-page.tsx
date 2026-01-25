@@ -182,14 +182,14 @@ const projects: Project[] = [
   },
   {
     id: 14,
-    name: "HyperBloom",
+    name: "Theo",
     description:
-      "Hyperbloom is a DEX aggregator and yield optimizer on HyperEVM, offering best swap rates and autocompounding yields across Hyperliquid",
-    categories: ["DEX", "3rd Tier Airdrop"],
+      "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
+    categories: ["Yield", "Stablecoin", "Delta-neutral"],
     status: "Live",
-    website: "https://app.hyperbloom.xyz/?ref=6430f279-b",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1974003014659723264/5pzYHG6A_400x400.jpg",
+    website: "https://app.theo.xyz/invite?invite=8ab991be-7e8a-40a5-9b93-c3b2518a6a95",
+    tags: ["Yield", "Stablecoin", "Delta-neutral"],
+    logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
   },
   {
     id: 15,
@@ -550,14 +550,14 @@ const projects: Project[] = [
   },
   {
     id: 49,
-    name: "Theo",
+    name: "HyperBloom",
     description:
-      "Theo is decentralized trading infrastructure connecting onchain capital with global markets and institutions.",
-    categories: ["Yield", "Stablecoin", "Delta-neutral"],
+      "Hyperbloom is a DEX aggregator and yield optimizer on HyperEVM, offering best swap rates and autocompounding yields across Hyperliquid",
+    categories: ["DEX", "3rd Tier Airdrop"],
     status: "Live",
-    website: "https://app.theo.xyz/invite?invite=8ab991be-7e8a-40a5-9b93-c3b2518a6a95",
-    tags: ["Yield", "Stablecoin", "Delta-neutral"],
-    logo: "https://pbs.twimg.com/profile_images/1928132409783963648/LizAN275_400x400.png",
+    website: "https://app.hyperbloom.xyz/?ref=6430f279-b",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1974003014659723264/5pzYHG6A_400x400.jpg",
   },
   {
     id: 50,
