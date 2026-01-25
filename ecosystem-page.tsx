@@ -2298,7 +2298,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.defined.fi/tokens/discover?network=hyperevm",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1395427369662390272/JiHWxi6M_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/2010045822021644288/30XNNmNF_400x400.jpg",
   },
   {
     id: 217,
