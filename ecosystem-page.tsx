@@ -1032,7 +1032,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.openocean.finance/",
     tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/2001840454112022528/MtPC4455_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2009101181348655104/OPNFP7hy_400x400.jpg",
   },
   {
     id: 95,
