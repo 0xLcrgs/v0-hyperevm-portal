@@ -2675,7 +2675,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://zyper.fun/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1931761027265253376/uwzWs9JV_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1996641912040640513/jw1STPU5_400x400.jpg",
   },
   {
     id: 253,
