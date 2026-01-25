@@ -2922,7 +2922,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://catapult.trade/invite/2TB7ZO7Z",
     tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1984253228561657856/XPMP4cKA_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1999091079254245376/Xv0RRdjx_400x400.jpg",
   },
   {
     id: 277,
