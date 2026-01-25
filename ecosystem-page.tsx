@@ -2980,13 +2980,14 @@ const projects: Project[] = [
   },
   {
     id: 282,
-    name: "Funnel",
-    description: "The Hyperliquid Asset Engine",
-    categories: ["Front End"],
+    name: "Hypertrade",
+    description:
+      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://www.funnel.markets/rewards?referral_code=042b066b",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1948006273569742848/1NM_bCyA_400x400.jpg",
+    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
   },
   {
     id: 283,
@@ -3355,17 +3356,6 @@ const projects: Project[] = [
     website: "https://liquidestate.xyz/",
     tags: ["InfoFi"],
     logo: "https://pbs.twimg.com/profile_images/1942948430613012480/c6U06JsQ_400x400.png",
-  },
-  {
-    id: 321,
-    name: "Hypertrade",
-    description:
-      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
   },
 ]
 
