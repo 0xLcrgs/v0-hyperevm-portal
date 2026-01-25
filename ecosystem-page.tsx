@@ -1834,14 +1834,14 @@ const projects: Project[] = [
   },
   {
     id: 172,
-    name: "HypurrFun",
+    name: "Skewga's Island",
     description:
-      "Launch and trade memecoins on Hyperliquid via Telegram. Snipe launches, join whale chats, and compete with other cabals easily!",
-    categories: ["Bot", "Launchpad"],
+      "This is a curated project to help traders cut through noise and focus on signals that matter. Explore liquidity, positioning, macro regimes, and market moving data—all in one place.",
+    categories: ["Analytics"],
     status: "Live",
-    website: "https://t.me/HypurrFunBot?start=ref_2ac3a876",
-    tags: ["Bot", "Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1787461676607934464/VrwQ_1q1_400x400.jpg",
+    website: "https://www.skewga.com/",
+    tags: ["Analytics"],
+    logo: "https://www.skewga.com/_next/image?url=%2Ficons%2Fdragonite.png&w=128&q=75",
   },
   {
     id: 173,
@@ -3035,17 +3035,6 @@ const projects: Project[] = [
     website: "https://icecreamswap.com/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1532715330782605312/S3PvFlua_400x400.png",
-  },
-  {
-    id: 289,
-    name: "Skewga's Island",
-    description:
-      "This is a curated project to help traders cut through noise and focus on signals that matter. Explore liquidity, positioning, macro regimes, and market moving data—all in one place.",
-    categories: ["Analytics"],
-    status: "Live",
-    website: "https://www.skewga.com/",
-    tags: ["Analytics"],
-    logo: "https://www.skewga.com/_next/image?url=%2Ficons%2Fdragonite.png&w=128&q=75",
   },
 ]
 
