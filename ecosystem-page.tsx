@@ -2671,14 +2671,13 @@ const projects: Project[] = [
   },
   {
     id: 252,
-    name: "Lambda Finance",
-    description:
-      "Lambda introduces btcUSD, a permissionless and efficient BTC-backed stablecoin, unlocking Bitcoin liquidity for DeFi applications.",
-    categories: ["Lending", "Stablecoin"],
-    status: "Coming Soon",
-    website: "https://lambda.finance/",
-    tags: ["Lending", "Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1709109269604511744/vXoBoSl1_400x400.jpg",
+    name: "Zyper",
+    description: "Launch free pools on PRJX & HyperSwap with locked LP + virtual liquidity. Earn trading fees forever.",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://zyper.fun/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1931761027265253376/uwzWs9JV_400x400.jpg",
   },
   {
     id: 253,
@@ -3254,26 +3253,6 @@ const projects: Project[] = [
     website: "https://t.me/aluraHperliquid_bot?start=5736577098",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
-  },
-  {
-    id: 310,
-    name: "Zyper",
-    description: "Launch free pools on PRJX & HyperSwap with locked LP + virtual liquidity. Earn trading fees forever.",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://zyper.fun/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1931761027265253376/uwzWs9JV_400x400.jpg",
-  },
-  {
-    id: 311,
-    name: "HyperScope",
-    description: "Scanning the stars of HyperEVM. One dashboard for every pool, every dex, every apr ",
-    categories: ["Yield"],
-    status: "Coming Soon",
-    website: "https://x.com/hyperscope_hl",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1959055887940681728/vC21RM_l_400x400.jpg",
   },
 ]
 
