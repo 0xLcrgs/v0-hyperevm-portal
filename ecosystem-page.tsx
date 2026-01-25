@@ -2959,10 +2959,10 @@ const projects: Project[] = [
     id: 280,
     name: "Cashmere",
     description: "Middleware infrastructure for zero-slippage one-click native omnichain transfers.",
-    categories: ["DEX"],
+    categories: ["DEX", "Bridge"],
     status: "Live",
     website: "https://cashmere.exchange/",
-    tags: ["DEX"],
+    tags: ["DEX", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/2011016394050060288/woFx8M5-_400x400.jpg",
   },
   {
