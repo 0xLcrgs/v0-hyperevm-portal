@@ -2629,13 +2629,13 @@ const projects: Project[] = [
   },
   {
     id: 248,
-    name: "Looter",
-    description: "Your multichain memecoin solution",
+    name: "Alura",
+    description: "The Discipline Engine for Hyperliquid Perps.",
     categories: ["Bot"],
     status: "Live",
-    website: "https://t.me/looter_ai_bot?start=use_1Qna2U",
+    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1856480092848844800/MC8pTvat_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
   },
   {
     id: 249,
@@ -3243,16 +3243,6 @@ const projects: Project[] = [
     website: "https://www.straddlefi.xyz/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1968421456468955136/Y_QmbelA_400x400.jpg",
-  },
-  {
-    id: 309,
-    name: "Alura",
-    description: "The Discipline Engine for Hyperliquid Perps.",
-    categories: ["Bot"],
-    status: "Live",
-    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
   },
 ]
 
