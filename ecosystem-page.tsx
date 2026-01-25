@@ -3051,13 +3051,14 @@ const projects: Project[] = [
   },
   {
     id: 290,
-    name: "Peri Pair Bot",
-    description: "First Pair trading telegram bot with Rust-based execution exclusively on Hyperliquid",
-    categories: ["Bot"],
+    name: "BrownFi",
+    description:
+      "Innovative oracle-based AMM, high capital efficiency (~UniV3), NO out-of-range & simple LP management for average users to mitigate IL & maximize LP gains",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://t.me/peripairbot?start=curvy-regret-7164",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1960978431845281792/ypgwXKwD_400x400.jpg",
+    website: "https://brownfi.io/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1746843422454087680/Q58dTyR7_400x400.jpg",
   },
   {
     id: 291,
@@ -3365,27 +3366,6 @@ const projects: Project[] = [
     website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
     tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
-  },
-  {
-    id: 322,
-    name: "BrownFi",
-    description:
-      "Innovative oracle-based AMM, high capital efficiency (~UniV3), NO out-of-range & simple LP management for average users to mitigate IL & maximize LP gains",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://brownfi.io/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1746843422454087680/Q58dTyR7_400x400.jpg",
-  },
-  {
-    id: 323,
-    name: "Perpalert",
-    description: "We notify you about your Hyperliquid trades over a call.",
-    categories: ["Tools"],
-    status: "Live",
-    website: "https://www.perpalert.app/",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1942249195835994112/Bi0LWPtd_400x400.jpg",
   },
 ]
 
