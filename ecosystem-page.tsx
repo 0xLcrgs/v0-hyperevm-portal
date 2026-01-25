@@ -937,7 +937,7 @@ const projects: Project[] = [
     description:
       "Bitfrost is accelerating growth across the Hyperliquid ecosystem by launching the next wave of Spot markets.",
     categories: ["Bridge"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://bitfrost.xyz/",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1853499656711368704/q1uv1RzI_400x400.jpg",
