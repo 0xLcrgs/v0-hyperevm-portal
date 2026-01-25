@@ -565,7 +565,7 @@ const projects: Project[] = [
     name: "USDT0",
     description: "USDT0 brings the largest stablecoin in the world to the most widely adopted blockchains.",
     categories: ["Stablecoin", "Bridge"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://usdt0.to/",
     tags: ["Stablecoin", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/2013321478834409473/eD-oLIDE_400x400.jpg",
