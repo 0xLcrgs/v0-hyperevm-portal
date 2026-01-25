@@ -2943,7 +2943,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://lagoon.finance/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1851946166524461056/PVBmjpnL_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/2011102010708312064/muCCEbWn_400x400.png",
   },
   {
     id: 279,
