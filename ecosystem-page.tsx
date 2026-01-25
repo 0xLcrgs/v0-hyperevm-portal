@@ -2329,7 +2329,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://hypersig.xyz/",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1942219775276470272/csct9XRa_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2001607057661739008/m91yHmmS_400x400.jpg",
   },
   {
     id: 220,
