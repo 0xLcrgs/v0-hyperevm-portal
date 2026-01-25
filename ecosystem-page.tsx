@@ -145,7 +145,7 @@ const projects: Project[] = [
     name: "trade.xyz",
     description: "Trade anything, anytime.",
     categories: ["Front End", "1st Tier Airdrop"],
-    status: "Beta",
+    status: "Live",
     website: "https://trade.xyz/",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1971989421844000768/MNOCmF3z_400x400.jpg",
