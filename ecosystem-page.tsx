@@ -3091,13 +3091,13 @@ const projects: Project[] = [
   },
   {
     id: 294,
-    name: "kibl",
-    description: "Borrow, lend, and leverage.",
-    categories: ["Lending", "Yield"],
-    status: "Coming Soon",
-    website: "https://kibl.fi/",
-    tags: ["Lending", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1868186942766297088/w1eFzQq7_400x400.jpg",
+    name: "Fibrous",
+    description: "One place for best execution across chains, now live on HyperEVM",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://fibrous.finance/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg",
   },
   {
     id: 295,
@@ -3406,16 +3406,6 @@ const projects: Project[] = [
     website: "https://app.derive.xyz/trade/options?symbol=HYPE",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
-  },
-  {
-    id: 326,
-    name: "Fibrous",
-    description: "One place for best execution across chains, now live on HyperEVM",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://fibrous.finance/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg",
   },
 ]
 
