@@ -1057,14 +1057,13 @@ const projects: Project[] = [
   },
   {
     id: 97,
-    name: "hyperG8",
-    description:
-      "hyperG8 is a fast trading platform for hyperEVM tokens, streaming new pairs, transactions, and prices in real time for safe, smart trading",
-    categories: ["DEX"],
+    name: "Derive.xyz",
+    description: "Derive (prev. Lyra) | The Leading Decentralized Options Platform on BTC & ETH.",
+    categories: ["Options"],
     status: "Live",
-    website: "https://hyper.g8.xyz/?ref=0XLCRGS",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1927392038397341696/snDMJDN1_400x400.jpg",
+    website: "https://app.derive.xyz/trade/options?symbol=HYPE",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
   {
     id: 98,
@@ -3067,16 +3066,6 @@ const projects: Project[] = [
     website: "https://hyperbill.io/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
-  },
-  {
-    id: 292,
-    name: "Derive.xyz",
-    description: "Derive (prev. Lyra) | The Leading Decentralized Options Platform on BTC & ETH.",
-    categories: ["Options"],
-    status: "Live",
-    website: "https://app.derive.xyz/trade/options?symbol=HYPE",
-    tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
 ]
 
