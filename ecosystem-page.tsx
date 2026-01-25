@@ -2100,7 +2100,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.lit.trade/",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1935211746077130752/L6rIVkC0_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1986591975391285248/DA0k5QAW_400x400.jpg",
   },
   {
     id: 198,
