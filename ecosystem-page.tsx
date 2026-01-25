@@ -891,13 +891,13 @@ const projects: Project[] = [
   },
   {
     id: 81,
-    name: "Noble",
-    description: "Purpose-built for stablecoin issuance Optimizing for UX",
-    categories: ["Stablecoin"],
-    status: "Coming Soon",
-    website: "https://www.noble.xyz/",
-    tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1760713184493670400/SAXSaUTN_400x400.jpg",
+    name: "Equilibria",
+    description: "First yield booster on top of Pendle",
+    categories: ["Yield"],
+    status: "Live",
+    website: "https://equilibria.fi/home",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/2008064087289368576/gl37Jtdb_400x400.png",
   },
   {
     id: 82,
@@ -2963,16 +2963,6 @@ const projects: Project[] = [
     website: "https://cashmere.exchange/",
     tags: ["DEX", "Bridge"],
     logo: "https://pbs.twimg.com/profile_images/2011016394050060288/woFx8M5-_400x400.jpg",
-  },
-  {
-    id: 281,
-    name: "Equilibria",
-    description: "First yield booster on top of Pendle",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://equilibria.fi/home",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/2008064087289368576/gl37Jtdb_400x400.png",
   },
 ]
 
