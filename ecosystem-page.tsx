@@ -1936,14 +1936,14 @@ const projects: Project[] = [
   },
   {
     id: 182,
-    name: "KittyPunch",
+    name: "Hypertrade",
     description:
-      "KittyPunch is a DeFi project built for consumer blockchains. Trade digital assets, earn yield, and even collect your own Kitties with KittyPunch.",
-    categories: ["Yield"],
-    status: "Coming Soon",
-    website: "https://www.kittypunch.xyz/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1701266852192866304/LyPRKoUS_400x400.jpg",
+      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
+    categories: ["DEX"],
+    status: "Live",
+    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
+    tags: ["DEX", "DEX Aggregator"],
+    logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
   },
   {
     id: 183,
@@ -2065,7 +2065,7 @@ const projects: Project[] = [
     name: "Hypersurface",
     description: "Options on HyperEVM",
     categories: ["Options"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://hypersurface.io/",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1956034564020953093/syzdswCd_400x400.jpg",
@@ -2973,17 +2973,6 @@ const projects: Project[] = [
     website: "https://equilibria.fi/home",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/2008064087289368576/gl37Jtdb_400x400.png",
-  },
-  {
-    id: 282,
-    name: "Hypertrade",
-    description:
-      "The only DEX aggregator on HyperEVM with HyperCore support. Intelligent routing with the fastest & most efficient swaps.",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
-    tags: ["DEX", "DEX Aggregator"],
-    logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
   },
 ]
 
