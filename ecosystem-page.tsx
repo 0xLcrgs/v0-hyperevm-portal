@@ -2500,14 +2500,13 @@ const projects: Project[] = [
   },
   {
     id: 236,
-    name: "HL Fund",
-    description:
-      "Decentralized hub accelerating Hyperliquid's growth with reputation, education, DAOs, directories, collabs, and investments.",
-    categories: ["Other"],
+    name: "Kintsu",
+    description: "Creators of sHYPE and sMON - A new paradigm in decentralized Liquid Staking on Hyperliquid and Monad",
+    categories: ["LST"],
     status: "Live",
-    website: "https://hl.fund/",
-    tags: ["Other"],
-    logo: "https://pbs.twimg.com/profile_images/1880969975482961921/GAC7jyiw_400x400.jpg",
+    website: "https://kintsu.xyz/",
+    tags: ["LST"],
+    logo: "https://pbs.twimg.com/profile_images/1984001421960704000/UpI70-s4_400x400.jpg",
   },
   {
     id: 237,
@@ -3201,16 +3200,6 @@ const projects: Project[] = [
     website: "https://app.deploy.finance/dashboard",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1951345586604564480/vqqFH1qZ_400x400.jpg",
-  },
-  {
-    id: 305,
-    name: "Kintsu",
-    description: "Creators of sHYPE and sMON - A new paradigm in decentralized Liquid Staking on Hyperliquid and Monad",
-    categories: ["LST"],
-    status: "Live",
-    website: "https://kintsu.xyz/",
-    tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1984001421960704000/UpI70-s4_400x400.jpg",
   },
 ]
 
