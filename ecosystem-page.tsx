@@ -2908,7 +2908,7 @@ const projects: Project[] = [
     name: "Nested",
     description: "Swap your coins with uniswap and 1inch directly on discord with the best rates.",
     categories: ["Bot"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://nestedwallet.com/",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1883122885515964416/Sv7a9JUt_400x400.jpg",
