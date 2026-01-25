@@ -1912,7 +1912,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://awaken.tax?ref=wiidqu-i",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1981076064878157824/VEllsdAH_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2011244832413650945/DDm6Y0HA_400x400.jpg",
   },
   {
     id: 180,
