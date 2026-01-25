@@ -2767,7 +2767,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://transak.com/",
     tags: ["On-Ramp"],
-    logo: "https://pbs.twimg.com/profile_images/1711650788479520768/z_DG8Nwa_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2007818664423342080/NeQM-K3d_400x400.jpg",
   },
   {
     id: 262,
