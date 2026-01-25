@@ -3061,13 +3061,13 @@ const projects: Project[] = [
   },
   {
     id: 291,
-    name: "Hypervol",
-    description: "Native Options Market for HyperEVM, Built on Hyperliquid",
-    categories: ["Options"],
+    name: "HyperBill",
+    description: "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
+    categories: ["Yield"],
     status: "Coming Soon",
-    website: "https://www.hypervol.xyz/",
-    tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1867561440548093953/tLO5Fx_L_400x400.jpg",
+    website: "https://hyperbill.io/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
   },
   {
     id: 292,
@@ -3386,16 +3386,6 @@ const projects: Project[] = [
     website: "https://www.perpalert.app/",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1942249195835994112/Bi0LWPtd_400x400.jpg",
-  },
-  {
-    id: 324,
-    name: "HyperBill",
-    description: "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
-    categories: ["Yield"],
-    status: "Coming Soon",
-    website: "https://hyperbill.io/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
   },
 ]
 
