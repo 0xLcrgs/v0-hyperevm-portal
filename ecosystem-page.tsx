@@ -568,7 +568,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://usdt0.to/",
     tags: ["Stablecoin", "Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1879546764971188224/SQISVYwX_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2013321478834409473/eD-oLIDE_400x400.jpg",
   },
   {
     id: 51,
