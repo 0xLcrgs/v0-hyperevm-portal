@@ -3011,7 +3011,7 @@ const projects: Project[] = [
     name: "Nimbus Trade",
     description: "Automate your trades on Hyperliquid",
     categories: ["Bot", "Tools"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://nimbus.trade/",
     tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1957412897279143936/ukM18KPh_400x400.jpg",
