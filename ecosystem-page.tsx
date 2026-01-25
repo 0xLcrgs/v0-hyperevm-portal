@@ -2438,14 +2438,13 @@ const projects: Project[] = [
   },
   {
     id: 230,
-    name: "Hyperterminal",
-    description:
-      "Your all-in-one analytics powerhouse designed to revolutionize your Hyperliquid trading with real-time market insights.",
-    categories: ["Tools"],
-    status: "Beta",
-    website: "https://hyperterminal.xyz/",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1856449296540762112/RWZ62v7c_400x400.jpg",
+    name: "Rarible",
+    description: "More than a marketplace.",
+    categories: ["NFT"],
+    status: "Live",
+    website: "https://rarible.com/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1981189339980693504/1iOTxPAt_400x400.jpg",
   },
   {
     id: 231,
@@ -3180,16 +3179,6 @@ const projects: Project[] = [
     website: "https://rainbow.me/",
     tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1557391177665708032/FSuv7Zpo_400x400.png",
-  },
-  {
-    id: 303,
-    name: "Rarible",
-    description: "More than a marketplace.",
-    categories: ["NFT"],
-    status: "Live",
-    website: "https://rarible.com/",
-    tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1981189339980693504/1iOTxPAt_400x400.jpg",
   },
 ]
 
