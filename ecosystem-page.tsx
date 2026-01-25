@@ -1510,7 +1510,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://otomato.xyz/",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1924474808793772032/We-q1hsM_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2003520051576516608/DPtwZOPC_400x400.jpg",
   },
   {
     id: 141,
