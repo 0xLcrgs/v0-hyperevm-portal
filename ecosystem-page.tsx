@@ -756,7 +756,7 @@ const projects: Project[] = [
     description:
       "Delivering trading edge via hyperliquid orderbook patterns, smart money moves & offchain sentiment analysis.",
     categories: ["Bot", "Tools"],
-    status: "Beta",
+    status: "Live",
     website: "https://hypersignals.ai/",
     tags: ["Bot", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1924849892314255361/a_SduLa2_400x400.png",
