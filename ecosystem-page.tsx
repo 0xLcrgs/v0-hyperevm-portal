@@ -3122,14 +3122,13 @@ const projects: Project[] = [
   },
   {
     id: 297,
-    name: "Liquid Start",
-    description:
-      "Experiment with the aim of improving the DeFi landscape we currently use. Covering Hyperliquid ecosystem",
-    categories: ["Front End"],
-    status: "Coming Soon",
-    website: "https://x.com/Liquid_Start",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1815663701854171136/saIusHTg_400x400.png",
+    name: "Tangem",
+    description: "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
+    categories: ["Mobile Wallet"],
+    status: "Live",
+    website: "https://tangem.com/en/",
+    tags: ["Mobile Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
   },
   {
     id: 298,
@@ -3417,16 +3416,6 @@ const projects: Project[] = [
     website: "https://fibrous.finance/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg",
-  },
-  {
-    id: 327,
-    name: "Tangem",
-    description: "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
-    categories: ["Mobile Wallet"],
-    status: "Live",
-    website: "https://tangem.com/en/",
-    tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
   },
 ]
 
