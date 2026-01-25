@@ -2774,7 +2774,7 @@ const projects: Project[] = [
     name: "Kiyotaka",
     description: "Crypto market intelligence platform. Currently in beta.",
     categories: ["Tools"],
-    status: "Beta",
+    status: "Live",
     website: "https://kiyotaka.ai/ref=teMkFvcksW",
     tags: ["Tools"],
     logo: "https://pbs.twimg.com/profile_images/1968642880861519872/xBDOBa-Z_400x400.png",
