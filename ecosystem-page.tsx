@@ -1954,7 +1954,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.definitive.fi/r/UJSTNJ7Q",
     tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1848873373511917568/p0-qFbVa_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1989507102352764928/AXdL2XHz_400x400.jpg",
   },
   {
     id: 184,
