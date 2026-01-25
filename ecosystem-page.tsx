@@ -2799,7 +2799,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://tatortrader.quickintel.io/",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1959469247870197760/BG-zZ7qR_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2011823469479276544/j6YrxGG-_400x400.jpg",
   },
   {
     id: 265,
