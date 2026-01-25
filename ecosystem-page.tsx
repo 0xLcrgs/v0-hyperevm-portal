@@ -122,7 +122,7 @@ const projects: Project[] = [
   {
     id: 8,
     name: "Hyena",
-    description: "loading...",
+    description: "The Internet Trading Engine with Native Rewards",
     categories: ["Front End"],
     status: "Live",
     website: "https://www.hyena.trade/",
