@@ -1961,7 +1961,7 @@ const projects: Project[] = [
       "Track and trade wallets across Solana, Ethereum, Base, Hyperliquid, Sui, Tron, and Bitcoin with a TG bot and onchain analysis.",
     categories: ["Bot", "Tools"],
     status: "Live",
-    website: "https://app.cielo.finance/",
+    website: "https://app.cielo.finance/r/xlcrgs",
     tags: ["Bot", "Tracker", "Tools"],
     logo: "https://pbs.twimg.com/profile_images/1879619205730906112/aeXN1N9a_400x400.jpg",
   },
