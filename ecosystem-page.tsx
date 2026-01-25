@@ -3153,13 +3153,14 @@ const projects: Project[] = [
   },
   {
     id: 300,
-    name: "Hyper DeFAI",
-    description: "The only DeFAI on Hyperliquid",
-    categories: ["Bot"],
-    status: "Coming Soon",
-    website: "https://www.hyperai.org/",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1869036926444904448/uuSKfWEH_400x400.jpg",
+    name: "HyperETH",
+    description:
+      "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
+    categories: ["Front End"],
+    status: "Live",
+    website: "https://hypereth.io/register?ref=HYPE",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
   },
   {
     id: 301,
@@ -3426,17 +3427,6 @@ const projects: Project[] = [
     website: "https://tangem.com/en/",
     tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
-  },
-  {
-    id: 328,
-    name: "HyperETH",
-    description:
-      "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
-    categories: ["Front End"],
-    status: "Live",
-    website: "https://hypereth.io/register?ref=HYPE",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
   },
 ]
 
