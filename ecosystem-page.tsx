@@ -2480,13 +2480,13 @@ const projects: Project[] = [
   },
   {
     id: 234,
-    name: "Deploy.Finance",
+    name: "Deploy Finance",
     description: "Earn supercharged yields on Hyperliquid",
     categories: ["Yield"],
     status: "Live",
     website: "https://app.deploy.finance/dashboard",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1951345586604564480/vqqFH1qZ_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2010848696003379200/wtyYCwnM_400x400.png",
   },
   {
     id: 235,
