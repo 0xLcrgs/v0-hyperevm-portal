@@ -1779,7 +1779,7 @@ const projects: Project[] = [
     status: "Coming Soon",
     website: "https://nunchi.trade/",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1954935759359619072/toqXGJ0O_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1991876759890071553/Lv0GO0vY_400x400.jpg",
   },
   {
     id: 167,
