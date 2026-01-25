@@ -3046,17 +3046,6 @@ const projects: Project[] = [
     tags: ["Analytics"],
     logo: "https://www.skewga.com/_next/image?url=%2Ficons%2Fdragonite.png&w=128&q=75",
   },
-  {
-    id: 290,
-    name: "BrownFi",
-    description:
-      "Innovative oracle-based AMM, high capital efficiency (~UniV3), NO out-of-range & simple LP management for average users to mitigate IL & maximize LP gains",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://brownfi.io/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1746843422454087680/Q58dTyR7_400x400.jpg",
-  },
 ]
 
 const defiLlamaSlugs: { [key: string]: string } = {
