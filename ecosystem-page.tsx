@@ -2350,7 +2350,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://drops.bot/?r=35gnSMWb60",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1946435701286817792/ztlFUyHI_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1996655708993966080/wB4zUFrd_400x400.jpg",
   },
   {
     id: 222,
