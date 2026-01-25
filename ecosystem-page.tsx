@@ -3021,13 +3021,13 @@ const projects: Project[] = [
   },
   {
     id: 287,
-    name: "USD.AI",
-    description: "The yield-bearing synthetic dollar protocol backed by real-world infrastructure assets",
-    categories: ["Stablecoin"],
-    status: "Beta",
-    website: "https://usd.ai/",
-    tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1951320192929210368/TNqvIAxs_400x400.jpg",
+    name: "Backpack",
+    description: "All-in-one crypto wallet and exchange.",
+    categories: ["Mobile Wallet", "Extension Wallet"],
+    status: "Live",
+    website: "https://backpack.app/",
+    tags: ["Mobile Wallet", "Extension Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
   },
   {
     id: 288,
@@ -3470,16 +3470,6 @@ const projects: Project[] = [
     website: "https://flipgo.xyz/",
     tags: ["SocialFi"],
     logo: "https://pbs.twimg.com/profile_images/1977184535205892096/9dn7s864_400x400.jpg",
-  },
-  {
-    id: 331,
-    name: "Backpack",
-    description: "All-in-one crypto wallet and exchange.",
-    categories: ["Mobile Wallet", "Extension Wallet"],
-    status: "Live",
-    website: "https://backpack.app/",
-    tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
   },
 ]
 
