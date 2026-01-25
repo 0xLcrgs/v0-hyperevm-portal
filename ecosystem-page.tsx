@@ -1343,7 +1343,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://web3.bitget.com/en",
     tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1985900137202532373/chOqlzmP_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2004905084405383169/Tx-a__rX_400x400.jpg",
   },
   {
     id: 125,
