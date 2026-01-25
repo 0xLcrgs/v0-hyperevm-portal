@@ -1874,14 +1874,14 @@ const projects: Project[] = [
   },
   {
     id: 176,
-    name: "HyperScan",
+    name: "HyperETH",
     description:
-      "Fork of Blockscout. With custom indexing, components, widgets, and APIs built specifically for the HyperLiquid ecosystem.",
-    categories: ["Tools"],
+      "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
+    categories: ["Front End"],
     status: "Live",
-    website: "https://beta.hyperscan.com/",
-    tags: ["Tools", "Block Explorer", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1646991609416806408/vKLEZxhh_400x400.png",
+    website: "https://hypereth.io/register?ref=HYPE",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
   },
   {
     id: 177,
@@ -3147,17 +3147,6 @@ const projects: Project[] = [
     website: "https://www.hypescreener.xyz/",
     tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1927802443921866752/-NDiORL8_400x400.jpg",
-  },
-  {
-    id: 300,
-    name: "HyperETH",
-    description:
-      "Win on every trade → The highest-paid affiliate rewards (up to 90%) + 10% automatic cashback on builder fees",
-    categories: ["Front End"],
-    status: "Live",
-    website: "https://hypereth.io/register?ref=HYPE",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
   },
 ]
 
