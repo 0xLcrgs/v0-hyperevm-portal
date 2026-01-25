@@ -247,14 +247,14 @@ const projects: Project[] = [
   },
   {
     id: 20,
-    name: "Splash",
+    name: "Dexari",
     description:
-      "Splash Wallet is a non-custodial crypto wallet that integrates DeFi protocols directly into the user interface.",
-    categories: ["Mobile Wallet"],
+      "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
+    categories: ["Mobile Wallet", "2nd Tier Airdrop"],
     status: "Live",
-    website: "https://splashwallet.xyz/",
+    website: "https://dexari.com/join/xlcrgs",
     tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1938085622725701632/n09KtLmW_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
   },
   {
     id: 21,
@@ -342,13 +342,14 @@ const projects: Project[] = [
   },
   {
     id: 29,
-    name: "LiquidScan",
-    description: "Advanced analytics and trading tools for the HyperEVM ecosystem.",
-    categories: ["Bot"],
+    name: "Splash",
+    description:
+      "Splash Wallet is a non-custodial crypto wallet that integrates DeFi protocols directly into the user interface.",
+    categories: ["Mobile Wallet"],
     status: "Live",
-    website: "https://t.me/LiquidScanTrading_Bot?start=ref_HYPERLCRGS",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
+    website: "https://splashwallet.xyz/",
+    tags: ["Mobile Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1938085622725701632/n09KtLmW_400x400.jpg",
   },
   {
     id: 30,
@@ -1410,14 +1411,13 @@ const projects: Project[] = [
   },
   {
     id: 131,
-    name: "Dexari",
-    description:
-      "Dexari is a user-friendly DeFi platform, aiming to give everyone control of digital assets with centralized platform ease.",
-    categories: ["Mobile Wallet", "2nd Tier Airdrop"],
+    name: "LiquidScan",
+    description: "Advanced analytics and trading tools for the HyperEVM ecosystem.",
+    categories: ["Bot"],
     status: "Live",
-    website: "https://dexari.com/join/xlcrgs",
-    tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1928147422313848832/GxjMV0TQ_400x400.jpg",
+    website: "https://t.me/LiquidScanTrading_Bot?start=ref_HYPERLCRGS",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1920773638317326336/5hCikU5b_400x400.jpg",
   },
   {
     id: 132,
