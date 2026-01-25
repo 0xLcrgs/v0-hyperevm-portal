@@ -1776,7 +1776,7 @@ const projects: Project[] = [
     name: "Nunchi",
     description: "Long or Short Any Yield. Perpetuals for Yield.",
     categories: ["Options"],
-    status: "Coming Soon",
+    status: "Beta",
     website: "https://nunchi.trade/",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1991876759890071553/Lv0GO0vY_400x400.jpg",
