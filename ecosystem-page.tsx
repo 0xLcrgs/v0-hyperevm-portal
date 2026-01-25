@@ -1182,13 +1182,13 @@ const projects: Project[] = [
   },
   {
     id: 109,
-    name: "Apexliquid",
-    description: " Trade & Copy Trade on Hyperliquid. Get 1,000+ Smart Wallets For Free. ",
-    categories: ["Bot"],
+    name: "Fibrous",
+    description: "One place for best execution across chains, now live on HyperEVM",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://t.me/Apexliquid_Bot?start=ref_J47G6V26",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1927626311360765952/Z1aHCoTc_400x400.jpg",
+    website: "https://fibrous.finance/",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg",
   },
   {
     id: 110,
@@ -3087,16 +3087,6 @@ const projects: Project[] = [
     website: "https://hivefi.xyz/",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1922683916919382016/8i3oDdcH_400x400.jpg",
-  },
-  {
-    id: 294,
-    name: "Fibrous",
-    description: "One place for best execution across chains, now live on HyperEVM",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://fibrous.finance/",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg",
   },
 ]
 
