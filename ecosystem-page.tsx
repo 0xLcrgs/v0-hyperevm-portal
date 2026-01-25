@@ -2527,7 +2527,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://vegas.fun?r=0XLCRGS",
     tags: ["GambleFi"],
-    logo: "https://pbs.twimg.com/profile_images/1899561765383614464/sFrQsTXk_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2002900640758951936/m83PUMMW_400x400.jpg",
   },
   {
     id: 239,
