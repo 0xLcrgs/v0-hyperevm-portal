@@ -3411,13 +3411,13 @@ const projects: Project[] = [
   },
   {
     id: 325,
-    name: "GUESS",
-    description: "Predictions Market on Hyperliquid",
+    name: "Derive.xyz",
+    description: "Derive (prev. Lyra) | The Leading Decentralized Options Platform on BTC & ETH.",
     categories: ["Options"],
-    status: "Coming Soon",
-    website: "https://www.guess.gs/",
+    status: "Live",
+    website: "https://app.derive.xyz/trade/options?symbol=HYPE",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1963672474580668416/tSuCzi1x_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
   {
     id: 326,
