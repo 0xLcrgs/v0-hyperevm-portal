@@ -1656,7 +1656,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.coinmarketman.com/hypertracker",
     tags: ["Analytics", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1921840039191076864/MQL-3EMg_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2006254294786564096/t6lpuVHg_400x400.jpg",
   },
   {
     id: 155,
