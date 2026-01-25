@@ -2618,14 +2618,13 @@ const projects: Project[] = [
   },
   {
     id: 247,
-    name: "Hippo1000",
-    description:
-      "Hippo1000 - real time tracking top 1% whales on Hyperliquid. Ape instantly with a 1-click Telegram bot. ",
-    categories: ["Bot"],
-    status: "Live",
-    website: "https://t.me/Hippo1000bot?start=Hxj3vkk",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1895318430187954176/9c65u3fd_400x400.jpg",
+    name: "StraddleFi",
+    description: "Decentralized Crypto Options DEX on HyperLiquid | Trade, Hedge & Build Strategies On-Chain ",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://www.straddlefi.xyz/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1968421456468955136/Y_QmbelA_400x400.jpg",
   },
   {
     id: 248,
@@ -3233,16 +3232,6 @@ const projects: Project[] = [
     website: "https://portalbridge.com/?targetChain=hyperevm",
     tags: ["Bridge"],
     logo: "https://pbs.twimg.com/profile_images/1952696710108442624/lx9p8q90_400x400.jpg",
-  },
-  {
-    id: 308,
-    name: "StraddleFi",
-    description: "Decentralized Crypto Options DEX on HyperLiquid | Trade, Hedge & Build Strategies On-Chain ",
-    categories: ["Yield"],
-    status: "Coming Soon",
-    website: "https://www.straddlefi.xyz/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1968421456468955136/Y_QmbelA_400x400.jpg",
   },
 ]
 
