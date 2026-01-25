@@ -2788,7 +2788,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://pro.octav.fi/",
     tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1740414989767163904/BvL1p3kK_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1988739027609010176/1c9cVkd2_400x400.jpg",
   },
   {
     id: 264,
