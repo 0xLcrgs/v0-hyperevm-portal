@@ -1440,13 +1440,13 @@ const projects: Project[] = [
   },
   {
     id: 134,
-    name: "FLIPgo",
-    description: "FLIPgo is Hyperliquid's native streaming platform",
-    categories: ["SocialFi"],
-    status: "Beta",
-    website: "https://flipgo.xyz/",
-    tags: ["SocialFi"],
-    logo: "https://pbs.twimg.com/profile_images/1977184535205892096/9dn7s864_400x400.jpg",
+    name: "Tangem",
+    description: "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
+    categories: ["Mobile Wallet"],
+    status: "Live",
+    website: "https://tangem.com/en/",
+    tags: ["Mobile Wallet"],
+    logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
   },
   {
     id: 135,
@@ -3117,16 +3117,6 @@ const projects: Project[] = [
     website: "https://hyyy.app/",
     tags: ["Stablecoin"],
     logo: "https://pbs.twimg.com/profile_images/1893890782190501888/EwZkdjXM_400x400.jpg",
-  },
-  {
-    id: 297,
-    name: "Tangem",
-    description: "A cold wallet built for you. Wear it, use it, hide it. Your crypto, your custody.",
-    categories: ["Mobile Wallet"],
-    status: "Live",
-    website: "https://tangem.com/en/",
-    tags: ["Mobile Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
   },
 ]
 
