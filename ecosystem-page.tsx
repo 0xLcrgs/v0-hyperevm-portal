@@ -3207,7 +3207,7 @@ const projects: Project[] = [
     name: "Kintsu",
     description: "Creators of sHYPE and sMON - A new paradigm in decentralized Liquid Staking on Hyperliquid and Monad",
     categories: ["LST"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://kintsu.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1984001421960704000/UpI70-s4_400x400.jpg",
