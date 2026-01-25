@@ -2490,14 +2490,13 @@ const projects: Project[] = [
   },
   {
     id: 235,
-    name: "Vapor",
-    description:
-      "Vapor lets users create and manage no-code AI agents, built on Eliza. Soon, deploy ERC20 tokens to agents on Hyperliquid EVM.",
-    categories: ["Launchpad"],
+    name: "OpenSea",
+    description: "The best place to discover, own, and trade onchain.",
+    categories: ["NFT"],
     status: "Live",
-    website: "https://www.vaporware.fun/",
-    tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1867073156072046592/dQQ6ZsRj_400x400.jpg",
+    website: "https://opensea.io/",
+    tags: ["NFT"],
+    logo: "https://pbs.twimg.com/profile_images/1988303062847647744/aN36pB1h_400x400.jpg",
   },
   {
     id: 236,
@@ -3212,16 +3211,6 @@ const projects: Project[] = [
     website: "https://kintsu.xyz/",
     tags: ["LST"],
     logo: "https://pbs.twimg.com/profile_images/1984001421960704000/UpI70-s4_400x400.jpg",
-  },
-  {
-    id: 306,
-    name: "OpenSea",
-    description: "The best place to discover, own, and trade onchain.",
-    categories: ["NFT"],
-    status: "Live",
-    website: "https://opensea.io/",
-    tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1988303062847647744/aN36pB1h_400x400.jpg",
   },
 ]
 
