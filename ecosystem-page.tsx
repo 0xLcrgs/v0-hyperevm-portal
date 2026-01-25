@@ -2885,13 +2885,13 @@ const projects: Project[] = [
   },
   {
     id: 273,
-    name: "Bedrock",
-    description: "A liquid restaking pioneer built on Babylon, Eigenlayer & DePin",
-    categories: ["LST"],
-    status: "Coming Soon",
-    website: "https://www.bedrock.technology/",
-    tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1874748314287255552/vfl-Cjat_400x400.jpg",
+    name: "Nimbus Trade",
+    description: "Automate your trades on Hyperliquid",
+    categories: ["Bot", "Tools"],
+    status: "Live",
+    website: "https://nimbus.trade/",
+    tags: ["Bot", "Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1957412897279143936/ukM18KPh_400x400.jpg",
   },
   {
     id: 274,
@@ -3005,16 +3005,6 @@ const projects: Project[] = [
     website: "https://www.rndm.io/",
     tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1818442590775119872/XjPg0i4P_400x400.jpg",
-  },
-  {
-    id: 286,
-    name: "Nimbus Trade",
-    description: "Automate your trades on Hyperliquid",
-    categories: ["Bot", "Tools"],
-    status: "Live",
-    website: "https://nimbus.trade/",
-    tags: ["Bot", "Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1957412897279143936/ukM18KPh_400x400.jpg",
   },
 ]
 
