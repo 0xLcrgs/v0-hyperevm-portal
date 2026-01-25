@@ -516,7 +516,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://wellspring.money/",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1948500291948617728/sVyotcqO_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2009351066664775680/VfhZmAFs_400x400.jpg",
   },
   {
     id: 46,
