@@ -1172,13 +1172,13 @@ const projects: Project[] = [
   },
   {
     id: 108,
-    name: "alright botty",
-    description: "Telegram bot by Alright buddy",
+    name: "HiveFi",
+    description: "Trading strategy hub on Hyperliquid",
     categories: ["Bot"],
-    status: "Live",
-    website: "https://t.me/alrightbottyhome_bot?start=ref_HTC4PZ4B",
+    status: "Coming Soon",
+    website: "https://hivefi.xyz/",
     tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1900497908559908864/JxOGs8pi_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1922683916919382016/8i3oDdcH_400x400.jpg",
   },
   {
     id: 109,
@@ -3077,16 +3077,6 @@ const projects: Project[] = [
     website: "https://app.derive.xyz/trade/options?symbol=HYPE",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
-  },
-  {
-    id: 293,
-    name: "HiveFi",
-    description: "Trading strategy hub on Hyperliquid",
-    categories: ["Bot"],
-    status: "Coming Soon",
-    website: "https://hivefi.xyz/",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1922683916919382016/8i3oDdcH_400x400.jpg",
   },
 ]
 
