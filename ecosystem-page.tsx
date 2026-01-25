@@ -211,7 +211,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.hyperlend.finance/?ref=0XLCRGS",
     tags: ["Lending", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/2003457356873539584/ItzG0Krp_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2011062303932678145/a5-fTMGC_400x400.jpg",
   },
   {
     id: 17,
