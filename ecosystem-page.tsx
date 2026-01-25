@@ -2055,7 +2055,7 @@ const projects: Project[] = [
     description: "Leverage with a onetime fee, keep the rest for yourself",
     categories: ["Front End"],
     status: "Live",
-    website: "https://app.sir.trading/",
+    website: "https://hype.sir.trading/",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1945486033337913344/NG0Axq9d_400x400.jpg",
   },
