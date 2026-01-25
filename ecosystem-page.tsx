@@ -2381,7 +2381,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://x.com/nativemarkets",
     tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1973434072392200192/lHZFBKVV_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1990923989619740672/vwd_FNLK_400x400.jpg",
   },
   {
     id: 225,
