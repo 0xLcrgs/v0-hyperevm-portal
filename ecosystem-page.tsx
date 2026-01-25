@@ -2973,7 +2973,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://equilibria.fi/home",
     tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1741669269199597568/ruIAkZfU_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2008064087289368576/gl37Jtdb_400x400.png",
   },
   {
     id: 282,
