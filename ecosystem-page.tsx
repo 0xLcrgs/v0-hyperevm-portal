@@ -1439,14 +1439,13 @@ const projects: Project[] = [
   },
   {
     id: 134,
-    name: "Glider",
-    description:
-      "Glider is a non-custodial SaaS platform for building, testing, and automating crypto trading portfolios across multiple blockchains",
-    categories: ["Bot", "Tools"],
+    name: "FLIPgo",
+    description: "FLIPgo is Hyperliquid's native streaming platform",
+    categories: ["SocialFi"],
     status: "Beta",
-    website: "https://glider.fi/?invite=qspnqxsx",
-    tags: ["Bot", "Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1907062271366647808/B5WCwf_W_400x400.jpg",
+    website: "https://flipgo.xyz/",
+    tags: ["SocialFi"],
+    logo: "https://pbs.twimg.com/profile_images/1977184535205892096/9dn7s864_400x400.jpg",
   },
   {
     id: 135,
@@ -3460,16 +3459,6 @@ const projects: Project[] = [
     website: "https://t.me/aluraHperliquid_bot?start=5736577098",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
-  },
-  {
-    id: 330,
-    name: "FLIPgo",
-    description: "FLIPgo is Hyperliquid's native streaming platform",
-    categories: ["SocialFi"],
-    status: "Beta",
-    website: "https://flipgo.xyz/",
-    tags: ["SocialFi"],
-    logo: "https://pbs.twimg.com/profile_images/1977184535205892096/9dn7s864_400x400.jpg",
   },
 ]
 
