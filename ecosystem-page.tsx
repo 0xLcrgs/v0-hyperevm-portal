@@ -1902,7 +1902,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.nansen.ai/ref?GeahssNV0Zd",
     tags: ["Analytics", "Block Explorer", "Tracker"],
-    logo: "https://pbs.twimg.com/profile_images/1971109656698433536/jwmPANed_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2008459987199401985/arIenkAw_400x400.jpg",
   },
   {
     id: 179,
