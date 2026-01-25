@@ -2707,7 +2707,7 @@ const projects: Project[] = [
     description: "The next-gen trading experience is here. Get access to our full range blockchain infrastructure.",
     categories: ["Front End"],
     status: "Beta",
-    website: "https://www.reachaltitude.xyz/waitlist?ref=JAZZ2H7VV4",
+    website: "https://trade.reachaltitude.xyz/",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1916798556809437184/CBPWnZgk_400x400.jpg",
   },
