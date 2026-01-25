@@ -243,7 +243,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.cielo.finance/r/xlcrgs",
     tags: ["Bot", "Tracker", "Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1879619205730906112/aeXN1N9a_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2005675641878740992/_-O2b_DT_400x400.png",
   },
   {
     id: 20,
