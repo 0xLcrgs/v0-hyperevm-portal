@@ -3245,14 +3245,13 @@ const projects: Project[] = [
   },
   {
     id: 309,
-    name: "Rosetta",
-    description:
-      "Rosetta is a block-level yield router for Hyperliquid — auto-allocating capital across HyperEVM and HyperCore to maximize stablecoin returns in real time.",
-    categories: ["Yield"],
+    name: "Alura",
+    description: "The Discipline Engine for Hyperliquid Perps.",
+    categories: ["Bot"],
     status: "Live",
-    website: "https://www.rosetta.sh/vaults",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1963241774467424256/uW7ky41Y_400x400.jpg",
+    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
+    tags: ["Bot"],
+    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
   },
   {
     id: 310,
@@ -3283,17 +3282,6 @@ const projects: Project[] = [
     website: "https://www.liquidfi.app/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1897688545688424448/AOUTW5iS_400x400.jpg",
-  },
-  {
-    id: 313,
-    name: "Hyperliquid Core",
-    description:
-      "The blockchain to house all finance. Trade, build apps, and launch tokens on the same hyper-performant chain. X by Hyper Foundation",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://app.hyperliquid.xyz/join/0XLCRGS",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/2001260078352285697/f5cl2Syx_400x400.jpg",
   },
   {
     id: 314,
@@ -3449,16 +3437,6 @@ const projects: Project[] = [
     website: "https://hypereth.io/register?ref=HYPE",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
-  },
-  {
-    id: 329,
-    name: "Alura",
-    description: "The Discipline Engine for Hyperliquid Perps.",
-    categories: ["Bot"],
-    status: "Live",
-    website: "https://t.me/aluraHperliquid_bot?start=5736577098",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1879379527224446976/FLX4LDFL_400x400.jpg",
   },
 ]
 
