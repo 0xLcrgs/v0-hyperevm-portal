@@ -1578,14 +1578,13 @@ const projects: Project[] = [
   },
   {
     id: 147,
-    name: "TopDog",
-    description:
-      "Code: XLCRG | TopDog is a Telegram native mini-app, built to empower ultimate Social Trading experience on Hyperliquid",
-    categories: ["Bot"],
+    name: "Hybra Finance",
+    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
+    categories: ["DEX"],
     status: "Live",
-    website: "https://topdog.gg/referrals",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1908001097299668994/UFJRO94o_400x400.jpg",
+    website: "https://www.hybra.finance?code=MBKOYM",
+    tags: ["DEX"],
+    logo: "https://pbs.twimg.com/profile_images/1960708894415839238/a_t1x1aO_400x400.jpg",
   },
   {
     id: 148,
@@ -3481,16 +3480,6 @@ const projects: Project[] = [
     website: "https://backpack.app/",
     tags: ["Mobile Wallet", "Extension Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1957829985143791616/sA2YoWNq_400x400.jpg",
-  },
-  {
-    id: 332,
-    name: "Hybra Finance",
-    description: "Public liquidity layer on Hyperliquid. Upgraded ve(3,3) flywheel. CL & intent-based gasless trades",
-    categories: ["DEX"],
-    status: "Live",
-    website: "https://www.hybra.finance?code=MBKOYM",
-    tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1960708894415839238/a_t1x1aO_400x400.jpg",
   },
 ]
 
