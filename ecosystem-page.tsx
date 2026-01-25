@@ -2421,7 +2421,7 @@ const projects: Project[] = [
     description:
       "Decentralized prop trading on HyperEVM solves trust and transparency issues of centralized trading firms.",
     categories: ["Front End"],
-    status: "Coming Soon",
+    status: "Beta",
     website: "https://hyperpnl.com/",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1986117532940431360/OhGiNmGp_400x400.png",
