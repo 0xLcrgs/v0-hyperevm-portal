@@ -2496,7 +2496,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://opensea.io/",
     tags: ["NFT"],
-    logo: "https://pbs.twimg.com/profile_images/1988303062847647744/aN36pB1h_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2014958165050507264/dvbOLNLL_400x400.jpg",
   },
   {
     id: 236,
