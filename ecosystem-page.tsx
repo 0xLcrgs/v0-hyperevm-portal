@@ -981,7 +981,7 @@ const projects: Project[] = [
     status: "Beta",
     website: "https://hyperodd.com/",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1980341315419136000/KRlG8f5t_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/1999447678669795333/bqVLdkFB_400x400.jpg",
   },
   {
     id: 90,
