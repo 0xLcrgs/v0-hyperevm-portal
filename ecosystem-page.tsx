@@ -2834,13 +2834,13 @@ const projects: Project[] = [
   },
   {
     id: 268,
-    name: "Evoq Finance",
-    description: "A P2P-based lending optimizer",
-    categories: ["Lending", "Yield"],
-    status: "Coming Soon",
-    website: "https://app.evoq.finance/?referralCode=2Dn0SQra",
-    tags: ["Lending", "Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1870006305014067200/RUidb_w7_400x400.jpg",
+    name: "Ranger",
+    description: "DeFi's command center.",
+    categories: ["Front End"],
+    status: "Live",
+    website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
+    tags: ["Front End"],
+    logo: "https://pbs.twimg.com/profile_images/1958600297263022080/SNO-rxyu_400x400.jpg",
   },
   {
     id: 269,
@@ -2984,16 +2984,6 @@ const projects: Project[] = [
     website: "https://www.ht.xyz/?referral=TCIEIODMUCGBTJLQ",
     tags: ["DEX", "DEX Aggregator"],
     logo: "https://pbs.twimg.com/profile_images/1959150262297231360/yIv3GdeG_400x400.jpg",
-  },
-  {
-    id: 283,
-    name: "Ranger",
-    description: "DeFi's command center.",
-    categories: ["Front End"],
-    status: "Live",
-    website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1958600297263022080/SNO-rxyu_400x400.jpg",
   },
 ]
 
