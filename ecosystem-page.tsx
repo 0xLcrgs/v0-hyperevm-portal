@@ -366,7 +366,7 @@ const projects: Project[] = [
     description: "The $HYPE accumulation machine.",
     categories: ["Yield"],
     status: "Live",
-    website: "https://x.com/TheHypeEngine",
+    website: "https://thehypeengine.com/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1979502579827482624/xFqCy9VQ_400x400.jpg",
   },
