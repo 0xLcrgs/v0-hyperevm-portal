@@ -2476,7 +2476,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://kryptos.io?via=niteip1995",
     tags: ["Tools", "Taxes"],
-    logo: "https://pbs.twimg.com/profile_images/1986785298064211968/HMDzyo8l_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2008281882006306816/xv5rfY63_400x400.jpg",
   },
   {
     id: 234,
