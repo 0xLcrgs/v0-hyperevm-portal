@@ -1659,13 +1659,13 @@ const projects: Project[] = [
   },
   {
     id: 155,
-    name: "Massdrop",
-    description: "A comprehensive tool suite for managing your web3 assets",
-    categories: ["Tools"],
+    name: "HypeScreener",
+    description: "Hyperliquid + HyperEVM dashboard for degens and farmers",
+    categories: ["Analytics"],
     status: "Live",
-    website: "https://massdrop-v2.vercel.app/",
-    tags: ["Tools"],
-    logo: "https://massdrop-v2.vercel.app/_next/image?url=%2Fmassdrop.png&w=32&q=75",
+    website: "https://www.hypescreener.xyz/",
+    tags: ["Analytics"],
+    logo: "https://pbs.twimg.com/profile_images/1927802443921866752/-NDiORL8_400x400.jpg",
   },
   {
     id: 156,
@@ -3137,16 +3137,6 @@ const projects: Project[] = [
     website: "https://www.flowscan.xyz/",
     tags: ["Analytics"],
     logo: "https://pbs.twimg.com/profile_images/1945479570544525312/eRDWK5ws_400x400.jpg",
-  },
-  {
-    id: 299,
-    name: "HypeScreener",
-    description: "Hyperliquid + HyperEVM dashboard for degens and farmers",
-    categories: ["Analytics"],
-    status: "Live",
-    website: "https://www.hypescreener.xyz/",
-    tags: ["Analytics"],
-    logo: "https://pbs.twimg.com/profile_images/1927802443921866752/-NDiORL8_400x400.jpg",
   },
 ]
 
