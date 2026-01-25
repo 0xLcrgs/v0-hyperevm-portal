@@ -1507,7 +1507,7 @@ const projects: Project[] = [
     description: "Building the HyperEVM assistant",
     categories: ["Bot"],
     status: "Live",
-    website: "https://app.otomato.xyz/access-code?ref=CGRCM5",
+    website: "https://otomato.xyz/",
     tags: ["Bot"],
     logo: "https://pbs.twimg.com/profile_images/1924474808793772032/We-q1hsM_400x400.jpg",
   },
