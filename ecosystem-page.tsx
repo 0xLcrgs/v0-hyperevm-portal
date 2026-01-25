@@ -1588,13 +1588,13 @@ const projects: Project[] = [
   },
   {
     id: 148,
-    name: "Reactor",
-    description: "Full crypto trading stack. Unmatched control and speed on-chain. Built for those who move fast.",
-    categories: ["Front End"],
+    name: "Flowscan",
+    description: "Hyperliquid Data Layer.",
+    categories: ["Analytics"],
     status: "Live",
-    website: "https://app.reactor.trade/dashboard?ref=OM56BHEN",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1926951271736459264/BQOdQmqr_400x400.jpg",
+    website: "https://www.flowscan.xyz/",
+    tags: ["Analytics"],
+    logo: "https://pbs.twimg.com/profile_images/1945479570544525312/eRDWK5ws_400x400.jpg",
   },
   {
     id: 149,
@@ -3127,16 +3127,6 @@ const projects: Project[] = [
     website: "https://tangem.com/en/",
     tags: ["Mobile Wallet"],
     logo: "https://pbs.twimg.com/profile_images/1813600365394141184/L4woOdd6_400x400.jpg",
-  },
-  {
-    id: 298,
-    name: "Flowscan",
-    description: "Hyperliquid Data Layer.",
-    categories: ["Analytics"],
-    status: "Live",
-    website: "https://www.flowscan.xyz/",
-    tags: ["Analytics"],
-    logo: "https://pbs.twimg.com/profile_images/1945479570544525312/eRDWK5ws_400x400.jpg",
   },
 ]
 
