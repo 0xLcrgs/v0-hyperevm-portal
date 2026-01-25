@@ -2741,7 +2741,7 @@ const projects: Project[] = [
   {
     id: 259,
     name: "USDHL-M Bridge",
-    description: "Trade all tokens, across all chains — with Polaris, the Token Portal. Now live in beta.",
+    description: "Trade all tokens, across all chains — with Polaris, the Token Portal.",
     categories: ["Bridge"],
     status: "Live",
     website: "https://usdhl-bridge.vercel.app/",
@@ -2772,7 +2772,7 @@ const projects: Project[] = [
   {
     id: 262,
     name: "Kiyotaka",
-    description: "Crypto market intelligence platform. Currently in beta.",
+    description: "Crypto market intelligence platform.",
     categories: ["Tools"],
     status: "Live",
     website: "https://kiyotaka.ai/ref=teMkFvcksW",
