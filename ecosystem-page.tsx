@@ -763,13 +763,13 @@ const projects: Project[] = [
   },
   {
     id: 69,
-    name: "Coinpilot",
-    description: "Save 10% off fees with code: 82246a | Copy winning traders on Hyperliquid today.",
-    categories: ["Bot"],
-    status: "Beta",
-    website: "https://apps.apple.com/hk/app/coinpilot/id6747697788",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1930155502790721536/obB_vr3H_400x400.jpg",
+    name: "HyperBill",
+    description: "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
+    categories: ["Yield"],
+    status: "Coming Soon",
+    website: "https://hyperbill.io/",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
   },
   {
     id: 70,
@@ -3056,16 +3056,6 @@ const projects: Project[] = [
     website: "https://brownfi.io/",
     tags: ["DEX"],
     logo: "https://pbs.twimg.com/profile_images/1746843422454087680/Q58dTyR7_400x400.jpg",
-  },
-  {
-    id: 291,
-    name: "HyperBill",
-    description: "AI-driven yield engine for stablecoins. Launching soon on Hyperliquid",
-    categories: ["Yield"],
-    status: "Coming Soon",
-    website: "https://hyperbill.io/",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
   },
 ]
 
