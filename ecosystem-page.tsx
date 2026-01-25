@@ -2184,7 +2184,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://pro.whales.market/?r=046949",
     tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1970832036119433217/pm_Xem0V_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2003885385554821120/W40hXofz_400x400.jpg",
   },
   {
     id: 206,
