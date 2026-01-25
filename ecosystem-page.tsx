@@ -1214,10 +1214,10 @@ const projects: Project[] = [
     name: "HyperZap",
     description:
       "Discover new & trending launches, buy HyperEVM tokens, and execute trades on Hyperliquid through our simple Telegram bot.",
-    categories: ["Bot"],
+    categories: ["Front End", "Bot"],
     status: "Live",
     website: "https://hyperzap.io/referrals?ref=ref0r9kyjof",
-    tags: ["Bot"],
+    tags: ["Front End",  "Bot"],
     logo: "https://pbs.twimg.com/profile_images/1948012631404564481/SsVTB08L_400x400.jpg",
   },
   {
