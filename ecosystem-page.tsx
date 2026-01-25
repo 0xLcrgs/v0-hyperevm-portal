@@ -2963,7 +2963,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://cashmere.exchange/",
     tags: ["DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1551945866793164802/KmcIMByo_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2011016394050060288/woFx8M5-_400x400.jpg",
   },
   {
     id: 281,
