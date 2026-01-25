@@ -1605,7 +1605,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://cypherhq.io/card/?ref=0XLCRGS",
     tags: ["Mobile Wallet", "Extension Wallet"],
-    logo: "https://pbs.twimg.com/profile_images/1975234913638223873/J3fd5DZs_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2009517638347862016/k_0a5iua_400x400.jpg",
   },
   {
     id: 150,
