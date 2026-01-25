@@ -3071,13 +3071,13 @@ const projects: Project[] = [
   },
   {
     id: 292,
-    name: "HyperSpartan",
-    description: "Hyperliquid Telegram Bot",
-    categories: ["Bot"],
+    name: "Derive.xyz",
+    description: "Derive (prev. Lyra) | The Leading Decentralized Options Platform on BTC & ETH.",
+    categories: ["Options"],
     status: "Live",
-    website: "https://www.hyperspartan.xyz/",
-    tags: ["Bot"],
-    logo: "https://pbs.twimg.com/profile_images/1891738991382163456/PUKVVK-M_400x400.jpg",
+    website: "https://app.derive.xyz/trade/options?symbol=HYPE",
+    tags: ["Options"],
+    logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
   {
     id: 293,
@@ -3396,16 +3396,6 @@ const projects: Project[] = [
     website: "https://hyperbill.io/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1955619871141801984/1-Yz1j8E_400x400.jpg",
-  },
-  {
-    id: 325,
-    name: "Derive.xyz",
-    description: "Derive (prev. Lyra) | The Leading Decentralized Options Platform on BTC & ETH.",
-    categories: ["Options"],
-    status: "Live",
-    website: "https://app.derive.xyz/trade/options?symbol=HYPE",
-    tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1828234675325976576/UVYEVWhP_400x400.jpg",
   },
 ]
 
