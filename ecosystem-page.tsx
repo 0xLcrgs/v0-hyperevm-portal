@@ -968,7 +968,7 @@ const projects: Project[] = [
     name: "Liquid Terminal",
     description: "The terminal to house all Hyperliquid",
     categories: ["Front End"],
-    status: "Beta",
+    status: "Live",
     website: "https://liquidterminal.xyz/?ref=HyperLcrgs",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/2005026397450883072/0hWTTjyq_400x400.jpg",
