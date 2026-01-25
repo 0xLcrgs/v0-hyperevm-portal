@@ -978,7 +978,7 @@ const projects: Project[] = [
     name: "HyperOdd",
     description: "Trade any event, anywhere with leverage on Hyperliquid",
     categories: ["Options"],
-    status: "Coming Soon",
+    status: "Beta",
     website: "https://hyperodd.com/",
     tags: ["Options"],
     logo: "https://pbs.twimg.com/profile_images/1980341315419136000/KRlG8f5t_400x400.jpg",
