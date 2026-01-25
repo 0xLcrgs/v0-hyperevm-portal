@@ -1167,7 +1167,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.across.to/bridge",
     tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1983984117092859904/0LvQEcB__400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2013300935758376960/Q_2CYFRP_400x400.jpg",
   },
   {
     id: 108,
