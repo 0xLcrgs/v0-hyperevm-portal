@@ -1748,7 +1748,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://www.gondi.xyz/",
     tags: ["NFT", "veNFT"],
-    logo: "https://pbs.twimg.com/profile_images/1976314337363951616/7K2hoVot_400x400.png",
+    logo: "https://pbs.twimg.com/profile_images/1987895230259965952/UgbY_4L9_400x400.jpg",
   },
   {
     id: 164,
