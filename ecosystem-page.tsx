@@ -2166,13 +2166,14 @@ const projects: Project[] = [
   },
   {
     id: 204,
-    name: "Thunderhead",
-    description: "The premiere liquid-staking solution for the Hyperliquid network.",
-    categories: ["LST"],
+    name: "Avail Nexus",
+    description:
+      "Avail Nexus streamlines asset deposits into Hyperliquid by enabling transfers from 9 different blockchains",
+    categories: ["Tools"],
     status: "Live",
-    website: "https://thunderhead.xyz/",
-    tags: ["LST"],
-    logo: "https://pbs.twimg.com/profile_images/1520908569482309633/5VebUnTk_400x400.jpg",
+    website: "https://chromewebstore.google.com/detail/avail-nexus-sdk-injector/pckfgdpbgkdehabcapdbhlphaoajdlea",
+    tags: ["Tools"],
+    logo: "https://pbs.twimg.com/profile_images/1981315109080219648/roJu5dHT_400x400.jpg",
   },
   {
     id: 205,
@@ -3157,17 +3158,6 @@ const projects: Project[] = [
     website: "https://hypereth.io/register?ref=HYPE",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1960231576291422208/DIc0qy5G_400x400.jpg",
-  },
-  {
-    id: 301,
-    name: "Avail Nexus",
-    description:
-      "Avail Nexus streamlines asset deposits into Hyperliquid by enabling transfers from 9 different blockchains",
-    categories: ["Tools"],
-    status: "Live",
-    website: "https://chromewebstore.google.com/detail/avail-nexus-sdk-injector/pckfgdpbgkdehabcapdbhlphaoajdlea",
-    tags: ["Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1981315109080219648/roJu5dHT_400x400.jpg",
   },
 ]
 
