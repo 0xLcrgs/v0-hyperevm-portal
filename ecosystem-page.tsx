@@ -2410,7 +2410,7 @@ const projects: Project[] = [
     description:
       "Hana is a hyper-casual, mobile crypto exchange on Hyperliquid, offering no-KYC on/off ramps, casual trading, and farming for all users",
     categories: ["Bridge", "On-Ramp"],
-    status: "Beta",
+    status: "Live",
     website: "https://gateway.hana.network/",
     tags: ["Bridge", "On-Ramp"],
     logo: "https://pbs.twimg.com/profile_images/1826923623556562944/LhUmaR37_400x400.jpg",
