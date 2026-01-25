@@ -660,7 +660,7 @@ const projects: Project[] = [
     description:
       "HyperStrategy is the first fully onchain protocol on HyperEVM designed to mirror the strategy of MicroStrategy",
     categories: ["Yield"],
-    status: "Beta",
+    status: "Live",
     website: "https://www.hyperstrategy.com/",
     tags: ["Yield"],
     logo: "https://pbs.twimg.com/profile_images/1931801104070651904/Q8v7xcFd_400x400.jpg",
