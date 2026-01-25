@@ -1399,13 +1399,14 @@ const projects: Project[] = [
   },
   {
     id: 130,
-    name: "Zigg",
-    description: "Emerging performant markets",
-    categories: ["Front End"],
+    name: "HYYY",
+    description:
+      "Developing $USDhy, a next-generation stablecoin on HyperEVM, utilizing delta-neutral strategies and AI-optimized position management on HyperLiquid",
+    categories: ["Stablecoin"],
     status: "Coming Soon",
-    website: "https://x.com/ZiggsOnChain",
-    tags: ["Front End"],
-    logo: "https://pbs.twimg.com/profile_images/1679611494109937664/iBuz9THB_400x400.jpg",
+    website: "https://hyyy.app/",
+    tags: ["Stablecoin"],
+    logo: "https://pbs.twimg.com/profile_images/1893890782190501888/EwZkdjXM_400x400.jpg",
   },
   {
     id: 131,
@@ -3106,17 +3107,6 @@ const projects: Project[] = [
     website: "https://www.rndm.io/",
     tags: ["Launchpad"],
     logo: "https://pbs.twimg.com/profile_images/1818442590775119872/XjPg0i4P_400x400.jpg",
-  },
-  {
-    id: 296,
-    name: "HYYY",
-    description:
-      "Developing $USDhy, a next-generation stablecoin on HyperEVM, utilizing delta-neutral strategies and AI-optimized position management on HyperLiquid",
-    categories: ["Stablecoin"],
-    status: "Coming Soon",
-    website: "https://hyyy.app/",
-    tags: ["Stablecoin"],
-    logo: "https://pbs.twimg.com/profile_images/1893890782190501888/EwZkdjXM_400x400.jpg",
   },
 ]
 
