@@ -2533,13 +2533,14 @@ const projects: Project[] = [
   },
   {
     id: 239,
-    name: "HyperMoon.Fun",
-    description: "Meme. Mint. Moon. Hyperliquid's Token Launch Platform for memecoins",
-    categories: ["Launchpad"],
+    name: "Wormhole",
+    description:
+      "Wormhole is the leading interoperability platform connecting traditional finance and the internet economy.",
+    categories: ["Bridge"],
     status: "Live",
-    website: "https://hypermoon.fun/",
-    tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1931777052270604289/ju1nkE_R_400x400.png",
+    website: "https://portalbridge.com/?targetChain=hyperevm",
+    tags: ["Bridge"],
+    logo: "https://pbs.twimg.com/profile_images/1952696710108442624/lx9p8q90_400x400.jpg",
   },
   {
     id: 240,
@@ -3221,17 +3222,6 @@ const projects: Project[] = [
     website: "https://opensea.io/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1988303062847647744/aN36pB1h_400x400.jpg",
-  },
-  {
-    id: 307,
-    name: "Wormhole",
-    description:
-      "Wormhole is the leading interoperability platform connecting traditional finance and the internet economy.",
-    categories: ["Bridge"],
-    status: "Live",
-    website: "https://portalbridge.com/?targetChain=hyperevm",
-    tags: ["Bridge"],
-    logo: "https://pbs.twimg.com/profile_images/1952696710108442624/lx9p8q90_400x400.jpg",
   },
 ]
 
