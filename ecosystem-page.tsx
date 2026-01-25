@@ -1427,7 +1427,7 @@ const projects: Project[] = [
     status: "Live",
     website: "https://app.defi.app/join/8fYUku",
     tags: ["Front End", "DEX"],
-    logo: "https://pbs.twimg.com/profile_images/1807464255249334272/CKuGD7ZW_400x400.jpg",
+    logo: "https://pbs.twimg.com/profile_images/2012150119899262976/Qu02fpaI_400x400.jpg",
   },
   {
     id: 133,
