@@ -2480,13 +2480,13 @@ const projects: Project[] = [
   },
   {
     id: 234,
-    name: "Racks",
-    description: "Ultra-gamified, fast-paced, high volatility trading on Hyperliquid",
-    categories: ["Options"],
+    name: "Deploy.Finance",
+    description: "Earn supercharged yields on Hyperliquid",
+    categories: ["Yield"],
     status: "Live",
-    website: "https://racks.win/",
-    tags: ["Options"],
-    logo: "https://pbs.twimg.com/profile_images/1969947403835830272/OcvIGMor_400x400.jpg",
+    website: "https://app.deploy.finance/dashboard",
+    tags: ["Yield"],
+    logo: "https://pbs.twimg.com/profile_images/1951345586604564480/vqqFH1qZ_400x400.jpg",
   },
   {
     id: 235,
@@ -3190,16 +3190,6 @@ const projects: Project[] = [
     website: "https://rarible.com/",
     tags: ["NFT"],
     logo: "https://pbs.twimg.com/profile_images/1981189339980693504/1iOTxPAt_400x400.jpg",
-  },
-  {
-    id: 304,
-    name: "Deploy.Finance",
-    description: "Earn supercharged yields on Hyperliquid",
-    categories: ["Yield"],
-    status: "Live",
-    website: "https://app.deploy.finance/dashboard",
-    tags: ["Yield"],
-    logo: "https://pbs.twimg.com/profile_images/1951345586604564480/vqqFH1qZ_400x400.jpg",
   },
 ]
 
