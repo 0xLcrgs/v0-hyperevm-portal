@@ -2864,14 +2864,13 @@ const projects: Project[] = [
   },
   {
     id: 271,
-    name: "Metrix Finance",
-    description:
-      "Find profitable pools, backtest results, calculate APR, and track performance, all with accurate data across top DEXs.",
-    categories: ["Yield", "Tools"],
-    status: "Coming Soon",
-    website: "https://metrix.finance/",
-    tags: ["Yield", "Tools"],
-    logo: "https://pbs.twimg.com/profile_images/1947423779816083457/TELlRRhz_400x400.jpg",
+    name: "RNDM",
+    description: "Disrupt DeFi with AI agents! Generate liquidity, solve with agents!",
+    categories: ["Launchpad"],
+    status: "Live",
+    website: "https://www.rndm.io/",
+    tags: ["Launchpad"],
+    logo: "https://pbs.twimg.com/profile_images/1818442590775119872/XjPg0i4P_400x400.jpg",
   },
   {
     id: 272,
@@ -2995,16 +2994,6 @@ const projects: Project[] = [
     website: "https://www.app.ranger.finance?ref_code=769181c3036541ec8d939d3ec721628c",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1958600297263022080/SNO-rxyu_400x400.jpg",
-  },
-  {
-    id: 285,
-    name: "RNDM",
-    description: "Disrupt DeFi with AI agents! Generate liquidity, solve with agents!",
-    categories: ["Launchpad"],
-    status: "Live",
-    website: "https://www.rndm.io/",
-    tags: ["Launchpad"],
-    logo: "https://pbs.twimg.com/profile_images/1818442590775119872/XjPg0i4P_400x400.jpg",
   },
 ]
 
