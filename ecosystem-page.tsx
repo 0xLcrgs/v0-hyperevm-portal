@@ -2140,7 +2140,7 @@ const projects: Project[] = [
     description:
       "Derps is a fun, easy-to-use mobile app for on-chain perpetuals (no KYC, zero gas fees) powered by HyperLiquid, MoonPay & dexorgexchange",
     categories: ["Front End"],
-    status: "Coming Soon",
+    status: "Live",
     website: "https://dex.org/",
     tags: ["Front End"],
     logo: "https://pbs.twimg.com/profile_images/1921876531015471104/_4trkTZO_400x400.jpg",
