@@ -1052,7 +1052,7 @@ const projects: Project[] = [
     description: "The most trusted swap in crypto for any chain. Transparent where it counts. Private when it matters.",
     categories: ["Bridge", "DEX"],
     status: "Live",
-    website: "https://houdiniswap.com/",
+    website: "https://app.houdiniswap.com/pointless/signup?referral_code=xlcrgs",
     tags: ["Bridge", "DEX"],
     logo: "https://pbs.twimg.com/profile_images/1747364391110979584/GJxP5GVU_400x400.jpg",
   },
